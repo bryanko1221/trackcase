@@ -1,7 +1,7 @@
 {
   "lastVerified":"2026-09-01",
   "lastUpdated":"2026-09-01 12:35",
-  "note":"本次更新：文化勳章591在售頁重新核實為4筆，4筆刊登的案件直連已加入；依樓層、坪數、格局、價格等資料判斷為同一戶的多個591刊登，因此網站合併為同一案件並保留4個原始591直連。新巨蛋來源已加入中信房屋。",
+  "note":"本次更新：文化勳章591在售頁重新核實為4筆；樂居社區頁顯示待售2筆；樂屋公開社區頁核實2筆高樓層4房車案件刊登版本。網站優先顯示個別案件直連，若來源只能取得社區／搜尋頁則標示為來源頁，不冒充案件直連。新巨蛋來源已加入中信房屋。",
   "communities":{
     "板橋新巨蛋":{
       "591":{"status":"available","listedCount":43,"communityListedCount":25,"url":"https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4","latestSaleUrl":"https://market.591.com.tw/29267/sale"},
@@ -13,8 +13,8 @@
     },
     "板橋文化勳章":{
       "591":{"status":"available","listedCount":4,"url":"https://market.591.com.tw/11622/sale","latestSaleUrl":"https://market.591.com.tw/11622/sale"},
-      "樂居":{"status":"available","listedCount":2,"url":"https://www.leju.com.tw/community/L9d81985383086?mode=buy","note":"樂居目前顯示待售母數2筆，但個別物件直連尚未可靠取得"},
-      "樂屋":{"status":"available","listedCount":2,"url":"https://www.rakuya.com.tw/sell/community?landmark=%E6%96%87%E5%8C%96%E8%B7%AF&search=route&zipcode=220"},
+      "樂居":{"status":"available","listedCount":2,"url":"https://www.leju.com.tw/community/L9d81985383086?mode=buy","note":"樂居目前顯示待售母數2筆；個別物件直連尚未可靠取得"},
+      "樂屋":{"status":"available","listedCount":2,"url":"https://community.rakuya.com.tw/24481/sell"},
       "永慶":{"status":"available","url":"https://community.yungching.com.tw/building/8804"},
       "信義":{"status":"available","listedCount":0,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/0002763"},
       "中信":{"status":"not_yet_verified","url":"https://buy.cthouse.com.tw/"}
