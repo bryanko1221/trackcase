@@ -1,9 +1,10 @@
 {
   "lastVerified":"2026-09-01",
+  "note":"本次重新核對新巨蛋來源。591目前社區在售頁顯示43筆，其中社區自身在售物件區塊顯示25筆；樂居新埔生活圈頁目前顯示新巨蛋19戶。不同頁面的母數口徑不同，不直接相加；網站只將可逐筆核實的案件寫入 listings.json。",
   "communities":{
     "板橋新巨蛋":{
-      "591":{"status":"community_sale_page","listedCount":42,"url":"https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4","note":"社區在售頁目前可見約42筆；個別案件需逐筆取得直連後才能納入同案比對"},
-      "樂居":{"status":"community_list","listedCount":24,"url":"https://www.leju.com.tw/community_list?area=F220&city=F&oid=L4b336969ab4e5","note":"樂居建案找房頁目前顯示24戶；指定社區 mode=buy 頁目前顯示0戶，兩者資料層級不同，暫以24戶作為待售母數，不把0戶誤判為無案"},
+      "591":{"status":"available","listedCount":43,"communityListedCount":25,"url":"https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4","latestSaleUrl":"https://market.591.com.tw/29267/sale"},
+      "樂居":{"status":"available","listedCount":19,"url":"https://www.leju.com.tw/community/L4b336969ab4e5?mode=buy","latestComparableUrl":"https://www.leju.com.tw/community_list?area=F220&city=F&sid=10959"},
       "信義":{"status":"available","listedCount":7,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000036"},
       "樂屋":{"status":"available","url":"https://community.rakuya.com.tw/2276/sell/info?from=communitySearchSell"},
       "永慶":{"status":"available","url":"https://buy.yungching.com.tw/"},
