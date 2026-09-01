@@ -1,7 +1,7 @@
 {
   "lastVerified":"2026-09-01",
-  "lastUpdated":"2026-09-01 12:30",
-  "note":"新巨蛋來源已加入中信房屋。591目前社區在售頁顯示43筆，其中社區自身在售物件區塊顯示25筆；樂居新埔生活圈頁目前顯示新巨蛋19戶。不同頁面的母數口徑不同，不直接相加；網站只將可逐筆核實的案件寫入 listings.json。中信社區頁目前顯示新巨蛋待售4筆，但公開頁面未提供4筆完整直連清單，因此先記錄母數，不把未核實物件硬寫成案件。",
+  "lastUpdated":"2026-09-01 12:35",
+  "note":"本次更新：文化勳章591在售頁重新核實為4筆，4筆刊登的案件直連已加入；依樓層、坪數、格局、價格等資料判斷為同一戶的多個591刊登，因此網站合併為同一案件並保留4個原始591直連。新巨蛋來源已加入中信房屋。",
   "communities":{
     "板橋新巨蛋":{
       "591":{"status":"available","listedCount":43,"communityListedCount":25,"url":"https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4","latestSaleUrl":"https://market.591.com.tw/29267/sale"},
@@ -12,8 +12,12 @@
       "中信":{"status":"available","listedCount":4,"url":"https://buy.cthouse.com.tw/area/%E6%96%B0%E5%8C%97%E5%B8%82-city/%E6%9D%BF%E6%A9%8B%E5%8D%80-town/%E6%96%B0%E5%B7%A8%E8%9B%8B-keyword/","communityUrl":"https://buy.cthouse.com.tw/community/20190219131513246.html","note":"中信社區頁目前顯示待售4筆；逐筆案件直連尚待核實"}
     },
     "板橋文化勳章":{
-      "591":{"status":"available","listedCount":4,"url":"https://market.591.com.tw/11622/sale"},
-      "信義":{"status":"available","listedCount":0,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/0002763"}
+      "591":{"status":"available","listedCount":4,"url":"https://market.591.com.tw/11622/sale","latestSaleUrl":"https://market.591.com.tw/11622/sale"},
+      "樂居":{"status":"available","listedCount":2,"url":"https://www.leju.com.tw/community/L9d81985383086?mode=buy","note":"樂居目前顯示待售母數2筆，但個別物件直連尚未可靠取得"},
+      "樂屋":{"status":"available","listedCount":2,"url":"https://www.rakuya.com.tw/sell/community?landmark=%E6%96%87%E5%8C%96%E8%B7%AF&search=route&zipcode=220"},
+      "永慶":{"status":"available","url":"https://community.yungching.com.tw/building/8804"},
+      "信義":{"status":"available","listedCount":0,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/0002763"},
+      "中信":{"status":"not_yet_verified","url":"https://buy.cthouse.com.tw/"}
     },
     "板橋公園世紀 B區":{
       "591":{"status":"available","listedCount":24,"url":"https://market.591.com.tw/29134"},
