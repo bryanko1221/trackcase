@@ -1,0 +1,20 @@
+{
+  "lastVerified":"2026-09-01",
+  "note":"以下為本次公開頁面核實到的社區級來源狀態；不同平台更新時間可能不同，因此網站不把平台筆數直接視為完全相同的即時總量。",
+  "communities":{
+    "板橋新巨蛋":{
+      "591":{"status":"available","listedCount":40,"url":"https://market.591.com.tw/29267/price?trans_type=1"},
+      "信義":{"status":"available","listedCount":7,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000036"}
+    },
+    "板橋文化勳章":{
+      "591":{"status":"available","listedCount":4,"url":"https://market.591.com.tw/11622/sale"},
+      "信義":{"status":"available","listedCount":0,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/0002763"}
+    },
+    "板橋公園世紀 B區":{
+      "591":{"status":"available","listedCount":24,"url":"https://market.591.com.tw/29134"},
+      "信義":{"status":"available","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031"}
+    },
+    "板橋公園世紀 A區":{"591":{"status":"community_found","listedCount":null,"url":"https://market.591.com.tw/"},"信義":{"status":"community_found","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031"}},
+    "板橋公園世紀 C區":{"591":{"status":"community_found","listedCount":null,"url":"https://market.591.com.tw/29134"},"信義":{"status":"community_found","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031"}}
+  }
+}
