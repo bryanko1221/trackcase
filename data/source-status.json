@@ -1,29 +1,36 @@
 {
   "lastVerified":"2026-09-01",
-  "lastUpdated":"2026-09-01 12:35",
-  "note":"本次更新：文化勳章591在售頁重新核實為4筆；樂居社區頁顯示待售2筆；樂屋公開社區頁核實2筆高樓層4房車案件刊登版本。網站優先顯示個別案件直連，若來源只能取得社區／搜尋頁則標示為來源頁，不冒充案件直連。新巨蛋來源已加入中信房屋。",
+  "lastUpdated":"2026-09-01 13:35",
+  "note":"本次最新核實：新巨蛋591社區在售母數目前42筆；樂居新巨蛋目前可核實19戶；信義新巨蛋目前7件。文化勳章591目前4筆在售。同步保留各平台個別案件直連；無法取得單一案件直連時不以首頁冒充。新巨蛋中信仍以其搜尋／社區頁作為來源，逐筆直連待核實。",
   "communities":{
     "板橋新巨蛋":{
-      "591":{"status":"available","listedCount":43,"communityListedCount":25,"url":"https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4","latestSaleUrl":"https://market.591.com.tw/29267/sale"},
-      "樂居":{"status":"available","listedCount":19,"url":"https://www.leju.com.tw/community/L4b336969ab4e5?mode=buy","latestComparableUrl":"https://www.leju.com.tw/community_list?area=F220&city=F&sid=10959"},
-      "信義":{"status":"available","listedCount":7,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000036"},
-      "樂屋":{"status":"available","url":"https://community.rakuya.com.tw/2276/sell/info?from=communitySearchSell"},
-      "永慶":{"status":"available","url":"https://buy.yungching.com.tw/"},
-      "中信":{"status":"available","listedCount":4,"url":"https://buy.cthouse.com.tw/area/%E6%96%B0%E5%8C%97%E5%B8%82-city/%E6%9D%BF%E6%A9%8B%E5%8D%80-town/%E6%96%B0%E5%B7%A8%E8%9B%8B-keyword/","communityUrl":"https://buy.cthouse.com.tw/community/20190219131513246.html","note":"中信社區頁目前顯示待售4筆；逐筆案件直連尚待核實"}
+      "591":{"status":"available","listedCount":42,"communityListedCount":null,"url":"https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4","latestSaleUrl":"https://market.591.com.tw/29267/sale","lastChecked":"2026-09-01"},
+      "樂居":{"status":"available","listedCount":19,"url":"https://www.leju.com.tw/community/L4b336969ab4e5?mode=buy","latestComparableUrl":"https://www.leju.com.tw/community_list?area=F220&city=F&sid=10959","lastChecked":"2026-09-01"},
+      "信義":{"status":"available","listedCount":7,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000036","lastChecked":"2026-09-01"},
+      "樂屋":{"status":"available","url":"https://community.rakuya.com.tw/2276/sell/info?from=communitySearchSell","lastChecked":"2026-09-01"},
+      "永慶":{"status":"available","url":"https://shop.yungching.com.tw/0233169908_0167/list?pg=1","lastChecked":"2026-09-01"},
+      "中信":{"status":"available","listedCount":4,"url":"https://buy.cthouse.com.tw/area/%E6%96%B0%E5%8C%97%E5%B8%82-city/%E6%9D%BF%E6%A9%8B%E5%8D%80-town/%E6%96%B0%E5%B7%A8%E8%9B%8B-keyword/","communityUrl":"https://buy.cthouse.com.tw/community/20190219131513246.html","note":"中信社區／搜尋頁可確認待售母數；逐筆案件直連仍逐案核實","lastChecked":"2026-09-01"}
     },
     "板橋文化勳章":{
-      "591":{"status":"available","listedCount":4,"url":"https://market.591.com.tw/11622/sale","latestSaleUrl":"https://market.591.com.tw/11622/sale"},
-      "樂居":{"status":"available","listedCount":2,"url":"https://www.leju.com.tw/community/L9d81985383086?mode=buy","note":"樂居目前顯示待售母數2筆；個別物件直連尚未可靠取得"},
-      "樂屋":{"status":"available","listedCount":2,"url":"https://community.rakuya.com.tw/24481/sell"},
-      "永慶":{"status":"available","url":"https://community.yungching.com.tw/building/8804"},
-      "信義":{"status":"available","listedCount":0,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/0002763"},
-      "中信":{"status":"not_yet_verified","url":"https://buy.cthouse.com.tw/"}
+      "591":{"status":"available","listedCount":4,"url":"https://market.591.com.tw/11622/sale","latestSaleUrl":"https://market.591.com.tw/11622/sale","lastChecked":"2026-09-01"},
+      "樂居":{"status":"available","listedCount":2,"url":"https://www.leju.com.tw/community/L9d81985383086?mode=buy","lastChecked":"2026-09-01"},
+      "樂屋":{"status":"available","listedCount":2,"url":"https://community.rakuya.com.tw/24481/sell","lastChecked":"2026-09-01"},
+      "永慶":{"status":"available","url":"https://community.yungching.com.tw/building/8804","lastChecked":"2026-09-01"},
+      "信義":{"status":"available","listedCount":0,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/0002763","lastChecked":"2026-09-01"},
+      "中信":{"status":"not_yet_verified","url":"https://buy.cthouse.com.tw/","lastChecked":"2026-09-01"}
     },
     "板橋公園世紀 B區":{
-      "591":{"status":"available","listedCount":24,"url":"https://market.591.com.tw/29134"},
-      "信義":{"status":"available","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031"}
+      "591":{"status":"available","listedCount":24,"url":"https://market.591.com.tw/29134","lastChecked":"2026-09-01"},
+      "信義":{"status":"available","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031","lastChecked":"2026-09-01"}
     },
-    "板橋公園世紀 A區":{"591":{"status":"community_found","listedCount":null,"url":"https://market.591.com.tw/"},"信義":{"status":"community_found","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031"}},
-    "板橋公園世紀 C區":{"591":{"status":"community_found","listedCount":null,"url":"https://market.591.com.tw/29134"},"信義":{"status":"community_found","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031"}}
+    "板橋公園世紀 A區":{
+      "591":{"status":"community_found","listedCount":null,"url":"https://market.591.com.tw/29120","lastChecked":"2026-09-01"},
+      "信義":{"status":"community_found","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031","lastChecked":"2026-09-01"},
+      "永慶":{"status":"available","url":"https://community.yungching.com.tw/building/90225","lastChecked":"2026-09-01"}
+    },
+    "板橋公園世紀 C區":{
+      "591":{"status":"community_found","listedCount":null,"url":"https://market.591.com.tw/29134","lastChecked":"2026-09-01"},
+      "信義":{"status":"community_found","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031","lastChecked":"2026-09-01"}
+    }
   }
 }
