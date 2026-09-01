@@ -1,6 +1,7 @@
 {
   "lastVerified":"2026-09-01",
-  "note":"本次重新核對新巨蛋來源。591目前社區在售頁顯示43筆，其中社區自身在售物件區塊顯示25筆；樂居新埔生活圈頁目前顯示新巨蛋19戶。不同頁面的母數口徑不同，不直接相加；網站只將可逐筆核實的案件寫入 listings.json。",
+  "lastUpdated":"2026-09-01 12:30",
+  "note":"新巨蛋來源已加入中信房屋。591目前社區在售頁顯示43筆，其中社區自身在售物件區塊顯示25筆；樂居新埔生活圈頁目前顯示新巨蛋19戶。不同頁面的母數口徑不同，不直接相加；網站只將可逐筆核實的案件寫入 listings.json。中信社區頁目前顯示新巨蛋待售4筆，但公開頁面未提供4筆完整直連清單，因此先記錄母數，不把未核實物件硬寫成案件。",
   "communities":{
     "板橋新巨蛋":{
       "591":{"status":"available","listedCount":43,"communityListedCount":25,"url":"https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4","latestSaleUrl":"https://market.591.com.tw/29267/sale"},
@@ -8,7 +9,7 @@
       "信義":{"status":"available","listedCount":7,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000036"},
       "樂屋":{"status":"available","url":"https://community.rakuya.com.tw/2276/sell/info?from=communitySearchSell"},
       "永慶":{"status":"available","url":"https://buy.yungching.com.tw/"},
-      "中信":{"status":"not_yet_verified","url":"https://www.cthouse.com.tw/"}
+      "中信":{"status":"available","listedCount":4,"url":"https://buy.cthouse.com.tw/area/%E6%96%B0%E5%8C%97%E5%B8%82-city/%E6%9D%BF%E6%A9%8B%E5%8D%80-town/%E6%96%B0%E5%B7%A8%E8%9B%8B-keyword/","communityUrl":"https://buy.cthouse.com.tw/community/20190219131513246.html","note":"中信社區頁目前顯示待售4筆；逐筆案件直連尚待核實"}
     },
     "板橋文化勳章":{
       "591":{"status":"available","listedCount":4,"url":"https://market.591.com.tw/11622/sale"},
