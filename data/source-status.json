@@ -1,7 +1,7 @@
 {
   "lastVerified":"2026-09-01",
   "lastUpdated":"2026-09-01 13:35",
-  "note":"本次最新核實：新巨蛋591社區在售母數目前42筆；樂居新巨蛋目前可核實19戶；信義新巨蛋目前7件。文化勳章591目前4筆在售。同步保留各平台個別案件直連；無法取得單一案件直連時不以首頁冒充。新巨蛋中信仍以其搜尋／社區頁作為來源，逐筆直連待核實。",
+  "note":"最新核實版本：新巨蛋保留591／樂居／信義／樂屋／永慶／中信六平台來源；新增可核實的591物件20804507。文化勳章3920萬案件已確認原始591物件不存在／已關閉，標記為下架不列有效在售；3480萬兩個18樓刊登版本已合併；591物件20531352保留為待核實案件。所有已取得的個別案件網址均保留直連，無法取得直連時不以首頁冒充。",
   "communities":{
     "板橋新巨蛋":{
       "591":{"status":"available","listedCount":42,"communityListedCount":null,"url":"https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4","latestSaleUrl":"https://market.591.com.tw/29267/sale","lastChecked":"2026-09-01"},
@@ -9,7 +9,7 @@
       "信義":{"status":"available","listedCount":7,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000036","lastChecked":"2026-09-01"},
       "樂屋":{"status":"available","url":"https://community.rakuya.com.tw/2276/sell/info?from=communitySearchSell","lastChecked":"2026-09-01"},
       "永慶":{"status":"available","url":"https://shop.yungching.com.tw/0233169908_0167/list?pg=1","lastChecked":"2026-09-01"},
-      "中信":{"status":"available","listedCount":4,"url":"https://buy.cthouse.com.tw/area/%E6%96%B0%E5%8C%97%E5%B8%82-city/%E6%9D%BF%E6%A9%8B%E5%8D%80-town/%E6%96%B0%E5%B7%A8%E8%9B%8B-keyword/","communityUrl":"https://buy.cthouse.com.tw/community/20190219131513246.html","note":"中信社區／搜尋頁可確認待售母數；逐筆案件直連仍逐案核實","lastChecked":"2026-09-01"}
+      "中信":{"status":"available","listedCount":4,"url":"https://buy.cthouse.com.tw/area/%E6%96%B0%E5%8C%97%E5%B8%82-city/%E6%9D%BF%E6%A9%8B%E5%8D%80-town/%E6%96%B0%E5%B7%A8%E8%9B%8B-keyword/","communityUrl":"https://buy.cthouse.com.tw/community/20190219131513246.html","note":"中信社區頁目前仍顯示待售4筆；逐筆直連仍需逐案核實","lastChecked":"2026-09-01"}
     },
     "板橋文化勳章":{
       "591":{"status":"available","listedCount":4,"url":"https://market.591.com.tw/11622/sale","latestSaleUrl":"https://market.591.com.tw/11622/sale","lastChecked":"2026-09-01"},
