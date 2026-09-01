@@ -1,9 +1,9 @@
-name: Morning batch listing scan
+name: Batch listing scan
 
 on:
   schedule:
-    # 08:15 Asia/Taipei = 00:15 UTC
-    - cron: '15 0 * * *'
+    # Every 3 hours. GitHub Actions cron uses UTC.
+    - cron: '0 */3 * * *'
   workflow_dispatch:
 
 permissions:
