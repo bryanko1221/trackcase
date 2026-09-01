@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-09-01",
+  "purpose": "案件級跨平台比對設定",
+  "platforms": ["591", "樂居", "信義", "樂屋", "中信", "永慶"],
+  "identityPriority": ["物件編號", "門牌", "棟別+樓層+坪數+格局+車位", "價格+樓層+坪數"],
+  "communities": {
+    "板橋新巨蛋": {
+      "591": "https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4",
+      "樂居": "https://www.leju.com.tw/community/L4b336969ab4e5?mode=buy"
+    },
+    "板橋文化勳章": {},
+    "板橋公園世紀 A區": {},
+    "板橋公園世紀 B區": {},
+    "板橋公園世紀 C區": {}
+  },
+  "rules": {
+    "sameCase": "優先依平台物件編號；沒有編號時，以地址/棟別/樓層/坪數/格局/車位/價格等多欄位交叉判斷。無法確認時標記疑似同案，不強制合併。",
+    "display": "同一案件只顯示一筆，案件下方列出所有已核實刊登平台與各自的直接物件網址。",
+    "yungching": "永慶必須參與跨平台比對；永慶已確認有刊登時，全部案件仍顯示，但開發頁排除。"
+  }
+}
