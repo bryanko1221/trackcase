@@ -1,11 +1,13 @@
 {
   "lastVerified":"2026-09-01",
-  "note":"新巨蛋 591 社區頁目前顯示在售物件 42 筆；樂居目前待售篩選頁顯示 0 戶符合篩選。平台筆數僅作來源狀態參考，不直接等同於本網站去重後的實際案件數。",
   "communities":{
     "板橋新巨蛋":{
-      "591":{"status":"available","listedCount":42,"url":"https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4"},
-      "樂居":{"status":"available_but_zero_matching_current_filter","listedCount":0,"url":"https://www.leju.com.tw/community/L4b336969ab4e5?mode=buy"},
-      "信義":{"status":"available","listedCount":7,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000036"}
+      "591":{"status":"community_sale_page","listedCount":42,"url":"https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4","note":"社區在售頁目前可見約42筆；個別案件需逐筆取得直連後才能納入同案比對"},
+      "樂居":{"status":"community_list","listedCount":24,"url":"https://www.leju.com.tw/community_list?area=F220&city=F&oid=L4b336969ab4e5","note":"樂居建案找房頁目前顯示24戶；指定社區 mode=buy 頁目前顯示0戶，兩者資料層級不同，暫以24戶作為待售母數，不把0戶誤判為無案"},
+      "信義":{"status":"available","listedCount":7,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000036"},
+      "樂屋":{"status":"available","url":"https://community.rakuya.com.tw/2276/sell/info?from=communitySearchSell"},
+      "永慶":{"status":"available","url":"https://buy.yungching.com.tw/"},
+      "中信":{"status":"not_yet_verified","url":"https://www.cthouse.com.tw/"}
     },
     "板橋文化勳章":{
       "591":{"status":"available","listedCount":4,"url":"https://market.591.com.tw/11622/sale"},
@@ -15,7 +17,7 @@
       "591":{"status":"available","listedCount":24,"url":"https://market.591.com.tw/29134"},
       "信義":{"status":"available","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031"}
     },
-    "板橋公園世紀 A區":{"591":{"status":"community_found","listedCount":null,"url":"https://market.591.com.tw/","sourceNote":"尚未取得可靠的社區在售總數"},"信義":{"status":"community_found","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031"}},
-    "板橋公園世紀 C區":{"591":{"status":"community_found","listedCount":null,"url":"https://market.591.com.tw/29134","sourceNote":"尚未取得可靠的社區在售總數"},"信義":{"status":"community_found","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031"}}
+    "板橋公園世紀 A區":{"591":{"status":"community_found","listedCount":null,"url":"https://market.591.com.tw/"},"信義":{"status":"community_found","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031"}},
+    "板橋公園世紀 C區":{"591":{"status":"community_found","listedCount":null,"url":"https://market.591.com.tw/29134"},"信義":{"status":"community_found","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031"}}
   }
 }
