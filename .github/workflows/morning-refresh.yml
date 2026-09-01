@@ -1,4 +1,4 @@
-name: Morning data refresh check
+name: Morning batch listing scan
 
 on:
   schedule:
@@ -10,38 +10,45 @@ permissions:
   contents: write
 
 jobs:
-  refresh-check:
+  batch-scan:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate JSON data
-        run: python - <<'PY'
+      - name: Batch scan public listing indexes
+        run: python scripts/batch_sync.py
+
+      - name: Validate data
+        run: |
+          python - <<'PY'
           import json
           from pathlib import Path
-          for path in [Path('data/listings.json'), Path('data/source-status.json')]:
+          for path in [Path('data/listings.json'), Path('data/source-status.json'), Path('data/batch-sources.json'), Path('data/batch-scan-report.json')]:
               json.loads(path.read_text(encoding='utf-8'))
               print(f'OK: {path}')
           PY
 
-      - name: Write daily refresh timestamp
+      - name: Write Taiwan update timestamp
         run: |
           python - <<'PY'
           import json
-          from datetime import datetime, timezone
+          from datetime import datetime, timezone, timedelta
           from pathlib import Path
           p = Path('data/source-status.json')
           data = json.loads(p.read_text(encoding='utf-8'))
-          data['lastScheduledCheck'] = datetime.now(timezone.utc).isoformat()
+          now = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=8)))
+          data['lastUpdated'] = now.strftime('%Y-%m-%d %H:%M')
+          data['lastScheduledCheck'] = now.isoformat()
+          data['batchScanReport'] = 'data/batch-scan-report.json'
           p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
-      - name: Commit refresh status
+      - name: Commit scan report and timestamp
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/source-status.json
+          git add data/batch-scan-report.json data/source-status.json
           git diff --cached --quiet && exit 0
-          git commit -m 'chore: morning source refresh check'
+          git commit -m 'chore: batch scan listing sources'
           git push
