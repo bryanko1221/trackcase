@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-01T18:10:11.813958+00:00",
+  "updatedAt": "2026-09-01T23:03:04.228693+00:00",
   "sources": [
     {
       "source": "591",
       "indexUrl": "https://market.591.com.tw/29267",
-      "checkedAt": "2026-09-01T18:09:48.722813+00:00",
+      "checkedAt": "2026-09-01T23:02:43.193719+00:00",
       "httpOk": false,
       "httpStatus": null,
       "error": "HTTP Error 403: Forbidden",
@@ -14,7 +14,7 @@
     {
       "source": "樂居",
       "indexUrl": "https://www.leju.com.tw/community/L4b336969ab4e5?mode=buy",
-      "checkedAt": "2026-09-01T18:09:51.119890+00:00",
+      "checkedAt": "2026-09-01T23:02:45.316318+00:00",
       "httpOk": false,
       "httpStatus": null,
       "error": "HTTP Error 403: Forbidden",
@@ -24,7 +24,7 @@
     {
       "source": "信義",
       "indexUrl": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000036",
-      "checkedAt": "2026-09-01T18:09:53.501918+00:00",
+      "checkedAt": "2026-09-01T23:02:47.733389+00:00",
       "httpOk": true,
       "listingUrls": [
         "https://www.sinyi.com.tw/buy/house/7855FZ",
@@ -77,7 +77,7 @@
     {
       "source": "樂屋",
       "indexUrl": "https://community.rakuya.com.tw/2276/sell/info?from=communitySearchSell",
-      "checkedAt": "2026-09-01T18:10:02.016443+00:00",
+      "checkedAt": "2026-09-01T23:02:54.063936+00:00",
       "httpOk": false,
       "httpStatus": null,
       "error": "HTTP Error 404: Not Found",
@@ -87,7 +87,7 @@
     {
       "source": "中信",
       "indexUrl": "https://buy.cthouse.com.tw/area/%E6%96%B0%E5%8C%97%E5%B8%82-city/%E6%9D%BF%E6%A9%8B%E5%8D%80-town/%E6%96%B0%E5%B7%A8%E8%9B%8B-keyword/",
-      "checkedAt": "2026-09-01T18:10:04.542703+00:00",
+      "checkedAt": "2026-09-01T23:02:56.573643+00:00",
       "httpOk": true,
       "listingUrls": [],
       "jsonLdRecords": [],
@@ -108,7 +108,7 @@
     {
       "source": "永慶",
       "indexUrl": "https://shop.yungching.com.tw/0233169908_0167/list?pg=1",
-      "checkedAt": "2026-09-01T18:10:07.455465+00:00",
+      "checkedAt": "2026-09-01T23:03:00.207044+00:00",
       "httpOk": true,
       "listingUrls": [
         "https://buy.yungching.com.tw/house/6680641",
