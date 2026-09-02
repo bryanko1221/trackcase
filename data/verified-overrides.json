@@ -29,6 +29,9 @@
       "parkingArea": 10.19,
       "parkingPrice": 300,
       "yq": null,
+      "links": {
+        "永慶": null
+      },
       "updated": "2026-09-02",
       "sourceVerified": "2026-09-02重新核實：B32 5,900萬與B13 6,800萬分開；永慶6499628不屬於本案，移除該錯誤連結"
     },
