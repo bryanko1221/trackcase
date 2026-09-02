@@ -1,0 +1,50 @@
+{
+  "板橋新巨蛋": {
+    "ng-1315": {
+      "price": 1290,
+      "unit": 105.56,
+      "area": 12.41,
+      "layout": "1房1廳1衛",
+      "floor": 32,
+      "totalFloor": 40,
+      "parking": false,
+      "owner": true,
+      "status": "price_drop",
+      "updated": "2026-09-02",
+      "sourceVerified": "2026-09-02重新核實：原1315萬資料修正為1,290萬；32/40F、12.41坪、屋主李先生"
+    },
+    "ng-1200": {
+      "status": "gone_pending",
+      "updated": "2026-09-02",
+      "sourceVerified": "2026-09-02重新核實：原1,200萬資料無法證明為目前有效在售，移出目前有效案件"
+    },
+    "ng-b32-5900": {
+      "block": "B區",
+      "floor": 32,
+      "totalFloor": 46,
+      "area": 76.77,
+      "price": 5900,
+      "unit": 84.11,
+      "parking": true,
+      "parkingArea": 10.19,
+      "parkingPrice": 300,
+      "yq": null,
+      "updated": "2026-09-02",
+      "sourceVerified": "2026-09-02重新核實：B32 5,900萬與B13 6,800萬分開；永慶6499628不屬於本案，移除該錯誤連結"
+    },
+    "ng-4998": {
+      "yq": true,
+      "links": {
+        "永慶": "https://buy.yungching.com.tw/house/6364266"
+      },
+      "updated": "2026-09-02",
+      "sourceVerified": "2026-09-02重新核實：永慶正確案件為YC1217697"
+    },
+    "ng-b38-5800": {
+      "status": "sold_pending",
+      "yq": false,
+      "updated": "2026-09-02",
+      "sourceVerified": "2026-09-02重新核實：文化路一段362號38樓之1為已成交資料，不列目前有效在售"
+    }
+  }
+}
