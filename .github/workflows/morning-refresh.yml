@@ -19,6 +19,9 @@ jobs:
       - name: Batch scan public listing indexes
         run: python scripts/batch_sync.py
 
+      - name: Reconcile known direct listing pages
+        run: python scripts/reconcile_listings.py
+
       - name: Validate data
         run: |
           python - <<'PY'
@@ -41,14 +44,15 @@ jobs:
           data['lastUpdated'] = now.strftime('%Y-%m-%d %H:%M')
           data['lastScheduledCheck'] = now.isoformat()
           data['batchScanReport'] = 'data/batch-scan-report.json'
+          data['automation'] = {'enabled': True, 'interval': 'every 3 hours', 'timezone': 'Asia/Taipei'}
           p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
-      - name: Commit scan report and timestamp
+      - name: Commit scan data and timestamp
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/batch-scan-report.json data/source-status.json
+          git add data/listings.json data/batch-scan-report.json data/source-status.json
           git diff --cached --quiet && exit 0
-          git commit -m 'chore: batch scan listing sources'
+          git commit -m 'chore: automatic listing validation and refresh'
           git push
