@@ -28,12 +28,15 @@ jobs:
       - name: Reconcile known direct listing pages
         run: python scripts/reconcile_listings.py
 
+      - name: Apply manually verified listing corrections
+        run: python scripts/apply_verified_overrides.py
+
       - name: Validate data
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          for path in [Path('data/listings.json'), Path('data/source-status.json'), Path('data/batch-sources.json'), Path('data/batch-scan-report.json')]:
+          for path in [Path('data/listings.json'), Path('data/source-status.json'), Path('data/batch-sources.json'), Path('data/batch-scan-report.json'), Path('data/verified-overrides.json')]:
               json.loads(path.read_text(encoding='utf-8'))
               print(f'OK: {path}')
           PY
