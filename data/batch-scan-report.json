@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T10:11:37.936658+08:00",
+  "updatedAt": "2026-09-02T10:41:03.823368+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -227,24 +227,6 @@
     }
   ],
   "changed": [
-    {
-      "id": "ng-1880",
-      "source": "樂屋",
-      "change": "link-invalid",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "pc-b-3698",
-      "source": "樂屋",
-      "change": "link-invalid",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "pc-b-2280",
-      "source": "樂屋",
-      "change": "link-invalid",
-      "date": "2026-09-02"
-    },
     {
       "id": "pc-b-2280",
       "change": "all-known-links-gone",
