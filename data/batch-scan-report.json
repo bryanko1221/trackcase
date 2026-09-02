@@ -1,164 +1,254 @@
 {
-  "updatedAt": "2026-09-01T23:03:04.228693+00:00",
-  "sources": [
+  "updatedAt": "2026-09-02T10:11:37.936658+08:00",
+  "checked": [
     {
-      "source": "591",
-      "indexUrl": "https://market.591.com.tw/29267",
-      "checkedAt": "2026-09-01T23:02:43.193719+00:00",
-      "httpOk": false,
-      "httpStatus": null,
-      "error": "HTTP Error 403: Forbidden",
-      "listingUrls": [],
-      "jsonLdRecords": []
-    },
-    {
-      "source": "樂居",
-      "indexUrl": "https://www.leju.com.tw/community/L4b336969ab4e5?mode=buy",
-      "checkedAt": "2026-09-01T23:02:45.316318+00:00",
-      "httpOk": false,
-      "httpStatus": null,
-      "error": "HTTP Error 403: Forbidden",
-      "listingUrls": [],
-      "jsonLdRecords": []
-    },
-    {
+      "id": "ng-4998",
       "source": "信義",
-      "indexUrl": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000036",
-      "checkedAt": "2026-09-01T23:02:47.733389+00:00",
-      "httpOk": true,
-      "listingUrls": [
-        "https://www.sinyi.com.tw/buy/house/7855FZ",
-        "https://www.sinyi.com.tw/buy/house/0815TR",
-        "https://www.sinyi.com.tw/buy/house/3117HX",
-        "https://www.sinyi.com.tw/buy/house/7680JW",
-        "https://www.sinyi.com.tw/buy/house/9524XN",
-        "https://www.sinyi.com.tw/buy/house/4813PN",
-        "https://www.sinyi.com.tw/buy/house/1359QV",
-        "https://www.sinyi.com.tw/buy/house/3508VZ"
-      ],
-      "jsonLdRecords": [
-        {
-          "@type": "Apartment",
-          "name": "新巨蛋",
-          "address": {
-            "@type": "PostalAddress",
-            "addressCountry": "TW",
-            "addressRegion": "新北市",
-            "addressLocality": "板橋區",
-            "streetAddress": "文化路一段３６０號"
-          }
-        }
-      ],
-      "meta": {
-        "viewport": "initial-scale=1.0, width=device-width, minimum-scale=1.0, maximum-scale=2.0",
-        "version": "sinyitw-ap-yyyymmdd.b00000",
-        "description": "新巨蛋大樓房價/價格/實價登錄查詢，近三個月平均單價91.1萬起，新北市板橋區周邊大樓社區/商辦最新實價登錄、降價宅、買屋賣屋租屋物件資訊，新北市板橋區找房首選信義房屋，全省直營提供完整安心仲介服務。",
-        "author": "信義房屋",
-        "copyright": "信義房屋股份有限公司",
-        "application-name": "信義房屋|Sinyi Realty Inc.",
-        "og:type": "website",
-        "og:title": "新巨蛋｜近三個月平均單價91.1萬/坪 - 信義房屋",
-        "og:description": "新巨蛋大樓房價/價格/實價登錄查詢，近三個月平均單價91.1萬起，新北市板橋區周邊大樓社區/商辦最新實價登錄、降價宅、買屋賣屋租屋物件資訊，新北市板橋區找房首選信義房屋，全省直營提供完整安心仲介服務。",
-        "og:url": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000036",
-        "og:site_name": "信義房屋股份有限公司",
-        "og:image": "https://res.sinyi.com.tw/community/G0000036/bigimg/A1.JPG",
-        "og:image:type": "../image/jpg",
-        "og:image:width": "1400",
-        "og:image:height": "770",
-        "twitter:card": "summary_large_image",
-        "twitter:url": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000036",
-        "twitter:title": "新巨蛋｜近三個月平均單價91.1萬/坪 - 信義房屋",
-        "twitter:description": "新巨蛋大樓房價/價格/實價登錄查詢，近三個月平均單價91.1萬起，新北市板橋區周邊大樓社區/商辦最新實價登錄、降價宅、買屋賣屋租屋物件資訊，新北市板橋區找房首選信義房屋，全省直營提供完整安心仲介服務。",
-        "twitter:image": "https://res.sinyi.com.tw/community/G0000036/bigimg/A1.JPG",
-        "next-head-count": "25"
-      },
-      "httpStatus": 200
+      "url": "https://www.sinyi.com.tw/buy/house/7855FZ",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
     },
     {
+      "id": "ng-4998",
       "source": "樂屋",
-      "indexUrl": "https://community.rakuya.com.tw/2276/sell/info?from=communitySearchSell",
-      "checkedAt": "2026-09-01T23:02:54.063936+00:00",
-      "httpOk": false,
-      "httpStatus": null,
-      "error": "HTTP Error 404: Not Found",
-      "listingUrls": [],
-      "jsonLdRecords": []
+      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08949033888949f&from=communitySearchSell",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
     },
     {
-      "source": "中信",
-      "indexUrl": "https://buy.cthouse.com.tw/area/%E6%96%B0%E5%8C%97%E5%B8%82-city/%E6%9D%BF%E6%A9%8B%E5%8D%80-town/%E6%96%B0%E5%B7%A8%E8%9B%8B-keyword/",
-      "checkedAt": "2026-09-01T23:02:56.573643+00:00",
-      "httpOk": true,
-      "listingUrls": [],
-      "jsonLdRecords": [],
-      "meta": {
-        "google-site-verification": "a1R5wRcPlc817eE4CTb0gXkQpBOB-IU0K5SjbmMqvVs",
-        "viewport": "width=device-width,initial-scale=1.0",
-        "og:type": "website",
-        "og:site_name": "中信房屋",
-        "description": "新北市板橋區買屋,購屋,買房子 中信房屋網提供最新新北市板橋區房屋買賣訊息,專營新北市板橋區買房賣屋服務,請找中信房屋仲介",
-        "keywords": "新北市板橋區買屋,新北市板橋區購屋,新北市板橋區買房子,新北市板橋區房屋,新北市板橋區房地產,新北市板橋區房屋網 ",
-        "og:title": "新北市板橋區買屋,購屋,買房子-在地房地產專家-中信房屋網",
-        "og:description": "新北市板橋區買屋,購屋,買房子 中信房屋網提供最新新北市板橋區房屋買賣訊息,專營新北市板橋區買房賣屋服務,請找中信房屋仲介",
-        "og:url": "http://buy.cthouse.com.tw/area/新北市-city/板橋區-town/新巨蛋-keyword/",
-        "og:image": "https://www.cthouse.com.tw/images/fb_share02_search.jpg"
-      },
-      "httpStatus": 200
-    },
-    {
+      "id": "ng-4998",
       "source": "永慶",
-      "indexUrl": "https://shop.yungching.com.tw/0233169908_0167/list?pg=1",
-      "checkedAt": "2026-09-01T23:03:00.207044+00:00",
-      "httpOk": true,
-      "listingUrls": [
-        "https://buy.yungching.com.tw/house/6680641",
-        "https://buy.yungching.com.tw/house/6961978",
-        "https://buy.yungching.com.tw/house/7441302",
-        "https://buy.yungching.com.tw/house/6892646",
-        "https://buy.yungching.com.tw/house/7439722",
-        "https://buy.yungching.com.tw/house/7280883",
-        "https://buy.yungching.com.tw/house/7423870",
-        "https://buy.yungching.com.tw/house/6730596",
-        "https://buy.yungching.com.tw/house/6896565",
-        "https://buy.yungching.com.tw/house/7427743",
-        "https://buy.yungching.com.tw/house/7490719",
-        "https://buy.yungching.com.tw/house/7489029",
-        "https://buy.yungching.com.tw/house/7461631",
-        "https://buy.yungching.com.tw/house/7444431",
-        "https://buy.yungching.com.tw/house/7294619",
-        "https://buy.yungching.com.tw/house/7477927",
-        "https://buy.yungching.com.tw/house/7491179",
-        "https://buy.yungching.com.tw/house/7405147",
-        "https://buy.yungching.com.tw/house/7482552",
-        "https://buy.yungching.com.tw/house/7386714",
-        "https://buy.yungching.com.tw/house/6359408",
-        "https://buy.yungching.com.tw/house/7332422",
-        "https://buy.yungching.com.tw/house/7246400",
-        "https://buy.yungching.com.tw/house/7217539",
-        "https://buy.yungching.com.tw/house/6364266",
-        "https://buy.yungching.com.tw/house/6572663",
-        "https://buy.yungching.com.tw/house/7497909",
-        "https://buy.yungching.com.tw/house/6499628",
-        "https://buy.yungching.com.tw/house/6666073",
-        "https://buy.yungching.com.tw/house/7287861"
-      ],
-      "jsonLdRecords": [],
-      "meta": {
-        "description": "新北市板橋區買屋、新北市板橋區賣屋，請找永慶房屋板橋新巨蛋直營店，我們提供您買屋、賣屋、租屋、出租等不動產相關服務，新北市板橋區文化路二段6號1樓，02-77040257 - 永慶房仲網。",
-        "fb:app_id": "320559141361882",
-        "og:locale": "zh_TW",
-        "og:title": "新北市板橋區 買屋、購屋、買房子、找房屋 | 永慶房屋板橋新巨蛋直營店",
-        "og:description": "新北市板橋區買屋、新北市板橋區賣屋，請找永慶房屋板橋新巨蛋直營店，我們提供您買屋、賣屋、租屋、出租等不動產相關服務，新北市板橋區文化路二段6號1樓，02-77040257 - 永慶房仲網。",
-        "og:url": "https://shop.yungching.com.tw/0233169908_0167/list?pg=1",
-        "og:image": "https://pic.yungching.com.tw/res/drawimage/showpic/0/140/hf00/960209tx543kehn.jpg?t=20260902",
-        "og:site_name": "永慶房仲網",
-        "viewport": "width=device-width",
-        "format-detection": "telephone=no",
-        "SKYPE_TOOLBAR": "SKYPE_TOOLBAR_PARSER_COMPATIBLE"
-      },
-      "httpStatus": 200
+      "url": "https://buy.yungching.com.tw/house/6499628",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-1945",
+      "source": "信義",
+      "url": "https://www.sinyi.com.tw/buy/house/3117HX",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-1945",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=03d58b346244938&from=communitySearchSell",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-1945",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/7423870",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-6800",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20576106.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-6800",
+      "source": "信義",
+      "url": "https://www.sinyi.com.tw/buy/house/7680JW",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-6800",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-6800",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/6499628",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-6600",
+      "source": "信義",
+      "url": "https://www.sinyi.com.tw/buy/house/9524XN",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-6600",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08d32d300679720&from=communitySearchSell",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-6600",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/6892646",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-1368",
+      "source": "信義",
+      "url": "https://www.sinyi.com.tw/buy/house/4813PN",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-1368",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0a558427248637f&from=communitySearchSell",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-1728",
+      "source": "信義",
+      "url": "https://www.sinyi.com.tw/buy/house/1359QV",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-1728",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0eed31338337495&from=communitySearchSell",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-1728",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/6680641",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-1638",
+      "source": "信義",
+      "url": "https://www.sinyi.com.tw/buy/house/3508VZ",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-1638",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=089270299156338&from=communitySearchSell",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-1880",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/19784014.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-1880",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=09906e35200994e&from=realpriceH&from_id=6a8abdd5b7577",
+      "state": "gone",
+      "httpStatus": 404,
+      "reason": "not-found"
+    },
+    {
+      "id": "ng-1315",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "pc-b-3698",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=0cf068350043419&from=list_regular",
+      "state": "gone",
+      "httpStatus": 404,
+      "reason": "not-found"
+    },
+    {
+      "id": "pc-b-3698",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/7252089",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "pc-b-4888",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=05de8016638408e&from=list_regular",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "pc-b-2280",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=03dcc434923102c&from=list_regular",
+      "state": "gone",
+      "httpStatus": 404,
+      "reason": "not-found"
+    },
+    {
+      "id": "pc-b-3758",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=074b7734209118b&from=list_regular",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
     }
   ],
-  "totalListingUrlsFound": 38,
-  "safeToReplaceListings": true
+  "changed": [
+    {
+      "id": "ng-1880",
+      "source": "樂屋",
+      "change": "link-invalid",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "pc-b-3698",
+      "source": "樂屋",
+      "change": "link-invalid",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "pc-b-2280",
+      "source": "樂屋",
+      "change": "link-invalid",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "pc-b-2280",
+      "change": "all-known-links-gone",
+      "date": "2026-09-02"
+    }
+  ]
 }

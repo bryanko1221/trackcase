@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-09-01",
-  "lastUpdated": "2026-09-02 07:03",
+  "lastUpdated": "2026-09-02 10:12",
   "note": "本次資料庫人工核實更新時間。網站最後更新時間應與本次資料實際更新同步，不再沿用舊的13:35時間。新巨蛋保留591／樂居／信義／樂屋／永慶／中信六平台來源；文化勳章3920萬失效案件不列有效在售；3480萬兩個18樓刊登版本合併；591物件20531352保留。所有已取得個別案件網址均保留直連。",
   "communities": {
     "板橋新巨蛋": {
@@ -128,6 +128,13 @@
       }
     }
   },
-  "lastScheduledCheck": "2026-09-02T07:03:04.321898+08:00",
-  "batchScanReport": "data/batch-scan-report.json"
+  "lastScheduledCheck": "2026-09-02T10:12:02.014413+08:00",
+  "batchScanReport": "data/batch-scan-report.json",
+  "lastValidated": "2026-09-02 10:11",
+  "validationReport": "data/batch-scan-report.json",
+  "automation": {
+    "enabled": true,
+    "interval": "every 3 hours",
+    "timezone": "Asia/Taipei"
+  }
 }
