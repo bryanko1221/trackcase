@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T04:33:46.087687+08:00",
+  "updatedAt": "2026-09-03T07:00:01.502580+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -165,9 +165,9 @@
       "id": "ng-1880",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/19784014.html",
-      "state": "gone",
-      "httpStatus": 404,
-      "reason": "not-found"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-1880",
@@ -181,9 +181,9 @@
       "id": "ng-1315",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/",
-      "state": "gone",
-      "httpStatus": 404,
-      "reason": "not-found"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "pc-b-3698",
@@ -227,16 +227,6 @@
     }
   ],
   "changed": [
-    {
-      "id": "ng-1880",
-      "change": "all-known-links-gone",
-      "date": "2026-09-03"
-    },
-    {
-      "id": "ng-1315",
-      "change": "all-known-links-gone",
-      "date": "2026-09-03"
-    },
     {
       "id": "pc-b-2280",
       "change": "all-known-links-gone",
