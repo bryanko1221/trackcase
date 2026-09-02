@@ -36,6 +36,24 @@
       "community": "板橋新巨蛋",
       "url": "https://shop.yungching.com.tw/0233169908_0167/list?pg=1",
       "listingPattern": "(?:buy|shop)\\.yungching\\.com\\.tw/house/"
+    },
+    {
+      "name": "住商",
+      "community": "板橋新巨蛋",
+      "url": "https://www.hbhousing.com.tw/web/A264/",
+      "listingPattern": "(?:www\\.)?hbhousing\\.com\\.tw/"
+    },
+    {
+      "name": "台灣房屋",
+      "community": "板橋新巨蛋",
+      "url": "https://www.twhg.com.tw/",
+      "listingPattern": "(?:www\\.)?twhg\\.com\\.tw/"
+    },
+    {
+      "name": "好房網",
+      "community": "板橋新巨蛋",
+      "url": "https://buy.housefun.com.tw/Building/building_map.aspx?bid=10240",
+      "listingPattern": "buy\\.housefun\\.com\\.tw/"
     }
   ]
 }
