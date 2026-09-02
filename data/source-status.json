@@ -1,7 +1,7 @@
 {
-  "lastVerified": "2026-09-01",
-  "lastUpdated": "2026-09-02 10:12",
-  "note": "本次資料庫人工核實更新時間。網站最後更新時間應與本次資料實際更新同步，不再沿用舊的13:35時間。新巨蛋保留591／樂居／信義／樂屋／永慶／中信六平台來源；文化勳章3920萬失效案件不列有效在售；3480萬兩個18樓刊登版本合併；591物件20531352保留。所有已取得個別案件網址均保留直連。",
+  "lastVerified": "2026-09-02",
+  "lastUpdated": "2026-09-02 10:25",
+  "note": "新巨蛋來源擴充至591／樂居／信義／樂屋／永慶／中信／住商／台灣房屋／好房網。今日以可取得的社區頁、個別物件頁及仲介搜尋頁交叉核實；單一物件頁失聯不直接判售出。網站資料仍以可直接驗證的案件為準，無法取得直連者標示待核實。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
@@ -10,131 +10,85 @@
         "communityListedCount": null,
         "url": "https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4",
         "latestSaleUrl": "https://market.591.com.tw/29267/sale",
-        "lastChecked": "2026-09-01"
+        "lastChecked": "2026-09-02"
       },
       "樂居": {
         "status": "available",
-        "listedCount": 19,
+        "listedCount": null,
         "url": "https://www.leju.com.tw/community/L4b336969ab4e5?mode=buy",
-        "latestComparableUrl": "https://www.leju.com.tw/community_list?area=F220&city=F&sid=10959",
-        "lastChecked": "2026-09-01"
+        "lastChecked": "2026-09-02"
       },
       "信義": {
         "status": "available",
         "listedCount": 7,
         "url": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000036",
-        "lastChecked": "2026-09-01"
+        "lastChecked": "2026-09-02"
       },
       "樂屋": {
         "status": "available",
-        "url": "https://community.rakuya.com.tw/2276/sell/info?from=communitySearchSell",
-        "lastChecked": "2026-09-01"
+        "listedCount": 10,
+        "url": "https://community.rakuya.com.tw/2276/sell",
+        "lastChecked": "2026-09-02"
       },
       "永慶": {
         "status": "available",
-        "url": "https://shop.yungching.com.tw/0233169908_0167/list?pg=1",
-        "lastChecked": "2026-09-01"
+        "listedCount": 12,
+        "url": "https://buy.yungching.com.tw/list/%E6%96%B0%E5%8C%97%E5%B8%82-_c/%E6%96%B0%E5%B7%A8%E8%9B%8B_kw",
+        "storeUrl": "https://shop.yungching.com.tw/0233169908_0167/list?pg=1",
+        "lastChecked": "2026-09-02"
       },
       "中信": {
         "status": "available",
-        "listedCount": 4,
+        "listedCount": null,
         "url": "https://buy.cthouse.com.tw/area/%E6%96%B0%E5%8C%97%E5%B8%82-city/%E6%9D%BF%E6%A9%8B%E5%8D%80-town/%E6%96%B0%E5%B7%A8%E8%9B%8B-keyword/",
-        "communityUrl": "https://buy.cthouse.com.tw/community/20190219131513246.html",
-        "lastChecked": "2026-09-01"
+        "lastChecked": "2026-09-02"
+      },
+      "住商": {
+        "status": "available",
+        "listedCount": null,
+        "url": "https://www.hbhousing.com.tw/web/A264/",
+        "lastChecked": "2026-09-02",
+        "note": "官方店頁可查詢板橋海山加盟店待售物件；本次未取得可確認為新巨蛋的直接案件頁"
+      },
+      "台灣房屋": {
+        "status": "available",
+        "listedCount": null,
+        "url": "https://www.twhg.com.tw/",
+        "lastChecked": "2026-09-02",
+        "note": "591案件20576106之刊登經紀為台灣房屋板橋特許加盟店；官方新巨蛋直接案件頁尚待取得"
+      },
+      "好房網": {
+        "status": "available",
+        "listedCount": 11,
+        "url": "https://buy.housefun.com.tw/Building/building_map.aspx?bid=10240",
+        "lastChecked": "2026-09-02"
       }
     },
     "板橋文化勳章": {
-      "591": {
-        "status": "available",
-        "listedCount": 4,
-        "url": "https://market.591.com.tw/11622/sale",
-        "latestSaleUrl": "https://market.591.com.tw/11622/sale",
-        "lastChecked": "2026-09-01"
-      },
-      "樂居": {
-        "status": "available",
-        "listedCount": 2,
-        "url": "https://www.leju.com.tw/community/L9d81985383086?mode=buy",
-        "lastChecked": "2026-09-01"
-      },
-      "樂屋": {
-        "status": "available",
-        "listedCount": 2,
-        "url": "https://community.rakuya.com.tw/24481/sell",
-        "lastChecked": "2026-09-01"
-      },
-      "永慶": {
-        "status": "available",
-        "url": "https://community.yungching.com.tw/building/8804",
-        "lastChecked": "2026-09-01"
-      },
-      "信義": {
-        "status": "available",
-        "listedCount": 0,
-        "url": "https://www.sinyi.com.tw/communitylist/communityinfo/0002763",
-        "lastChecked": "2026-09-01"
-      },
-      "中信": {
-        "status": "not_yet_verified",
-        "url": "https://buy.cthouse.com.tw/",
-        "lastChecked": "2026-09-01"
-      }
+      "591":{"status":"available","listedCount":4,"url":"https://market.591.com.tw/11622/sale","lastChecked":"2026-09-01"},
+      "樂居":{"status":"available","listedCount":2,"url":"https://www.leju.com.tw/community/L9d81985383086?mode=buy","lastChecked":"2026-09-01"},
+      "樂屋":{"status":"available","listedCount":2,"url":"https://community.rakuya.com.tw/24481/sell","lastChecked":"2026-09-01"},
+      "永慶":{"status":"available","url":"https://community.yungching.com.tw/building/8804","lastChecked":"2026-09-01"},
+      "信義":{"status":"available","listedCount":0,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/0002763","lastChecked":"2026-09-01"},
+      "中信":{"status":"not_yet_verified","url":"https://buy.cthouse.com.tw/","lastChecked":"2026-09-01"}
     },
     "板橋公園世紀 B區": {
-      "591": {
-        "status": "available",
-        "listedCount": 24,
-        "url": "https://market.591.com.tw/29134",
-        "lastChecked": "2026-09-01"
-      },
-      "信義": {
-        "status": "available",
-        "listedCount": null,
-        "url": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000031",
-        "lastChecked": "2026-09-01"
-      }
+      "591":{"status":"available","listedCount":24,"url":"https://market.591.com.tw/29134","lastChecked":"2026-09-01"},
+      "信義":{"status":"available","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031","lastChecked":"2026-09-01"}
     },
     "板橋公園世紀 A區": {
-      "591": {
-        "status": "community_found",
-        "listedCount": null,
-        "url": "https://market.591.com.tw/29120",
-        "lastChecked": "2026-09-01"
-      },
-      "信義": {
-        "status": "community_found",
-        "listedCount": null,
-        "url": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000031",
-        "lastChecked": "2026-09-01"
-      },
-      "永慶": {
-        "status": "available",
-        "url": "https://community.yungching.com.tw/building/90225",
-        "lastChecked": "2026-09-01"
-      }
+      "591":{"status":"community_found","listedCount":null,"url":"https://market.591.com.tw/29120","lastChecked":"2026-09-01"},
+      "信義":{"status":"community_found","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031","lastChecked":"2026-09-01"},
+      "永慶":{"status":"available","url":"https://community.yungching.com.tw/building/90225","lastChecked":"2026-09-01"}
     },
     "板橋公園世紀 C區": {
-      "591": {
-        "status": "community_found",
-        "listedCount": null,
-        "url": "https://market.591.com.tw/29134",
-        "lastChecked": "2026-09-01"
-      },
-      "信義": {
-        "status": "community_found",
-        "listedCount": null,
-        "url": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000031",
-        "lastChecked": "2026-09-01"
-      }
+      "591":{"status":"community_found","listedCount":null,"url":"https://market.591.com.tw/29134","lastChecked":"2026-09-01"},
+      "信義":{"status":"community_found","listedCount":null,"url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000031","lastChecked":"2026-09-01"}
     }
   },
-  "lastScheduledCheck": "2026-09-02T10:12:02.014413+08:00",
-  "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-02 10:11",
-  "validationReport": "data/batch-scan-report.json",
-  "automation": {
-    "enabled": true,
-    "interval": "every 3 hours",
-    "timezone": "Asia/Taipei"
-  }
+  "lastScheduledCheck":"2026-09-02T10:12:02.014413+08:00",
+  "batchScanReport":"data/batch-scan-report.json",
+  "lastValidated":"2026-09-02 10:11",
+  "validationReport":"data/batch-scan-report.json",
+  "automation":{"enabled":true,"interval":"every 3 hours","timezone":"Asia/Taipei"}
 }
