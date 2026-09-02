@@ -61,4 +61,5 @@ jobs:
           git add data/listings.json data/batch-scan-report.json data/source-status.json
           git diff --cached --quiet && exit 0
           git commit -m 'chore: automatic listing validation and refresh'
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
