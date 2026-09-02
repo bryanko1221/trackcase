@@ -1,6 +1,12 @@
 name: Batch listing scan
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'data/batch-sources.json'
+      - '.github/workflows/morning-refresh.yml'
   schedule:
     # Every 3 hours. GitHub Actions cron uses UTC.
     - cron: '0 */3 * * *'
