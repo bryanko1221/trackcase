@@ -29,17 +29,13 @@
       "parkingArea": 10.19,
       "parkingPrice": 300,
       "yq": null,
-      "links": {
-        "永慶": null
-      },
+      "links": {"永慶": null},
       "updated": "2026-09-02",
       "sourceVerified": "2026-09-02重新核實：B32 5,900萬與B13 6,800萬分開；永慶6499628不屬於本案，移除該錯誤連結"
     },
     "ng-4998": {
       "yq": true,
-      "links": {
-        "永慶": "https://buy.yungching.com.tw/house/6364266"
-      },
+      "links": {"永慶": "https://buy.yungching.com.tw/house/6364266"},
       "updated": "2026-09-02",
       "sourceVerified": "2026-09-02重新核實：永慶正確案件為YC1217697"
     },
@@ -48,6 +44,146 @@
       "yq": false,
       "updated": "2026-09-02",
       "sourceVerified": "2026-09-02重新核實：文化路一段362號38樓之1為已成交資料，不列目前有效在售"
+    }
+  },
+  "板橋文化勳章": {
+    "wh-culture-5088": {
+      "community": "板橋文化勳章",
+      "block": "主棟",
+      "floor": 15,
+      "totalFloor": 25,
+      "area": 76.06,
+      "layout": "4房2廳2衛",
+      "price": 5088,
+      "unit": 75.88,
+      "parking": true,
+      "parkingArea": 12.3,
+      "owner": false,
+      "yq": false,
+      "status": "active",
+      "updated": "2026-09-02",
+      "sourceVerified": "2026-09-02重新核實：文化勳章15F、約76.06坪、4房2廳2衛、含平面車位，目前公開頁面仍在售；未確認永慶目前掛售",
+      "sources": {"591": true, "信義": false, "樂居": false, "樂屋": false, "中信": false, "永慶": false, "住商": false, "台灣房屋": false, "好房網": true},
+      "links": {"591": "https://market.591.com.tw/11622/sale", "好房網": "https://buy.housefun.com.tw/mrt/%E6%96%B0%E5%9F%94%E7%AB%99_s/%E9%9B%BB%E6%A2%AF%E5%A4%A7%E6%A8%93_type/%E4%BD%8F%E5%AE%85_use", "東森房屋": "https://store.etwarm.com.tw/A1340/houses/buy/768663"}
+    },
+    "wh-culture-3480-18": {
+      "community": "板橋文化勳章",
+      "block": "主棟",
+      "floor": 18,
+      "totalFloor": 25,
+      "area": 55.23,
+      "layout": "4房2廳2衛",
+      "price": 3480,
+      "unit": 63.01,
+      "parking": true,
+      "parkingArea": 10.42,
+      "owner": false,
+      "yq": null,
+      "status": "active",
+      "updated": "2026-09-02",
+      "sourceVerified": "2026-09-02重新核實：文化勳章18F同一案件於台慶、樂屋等平台刊登；不同平台坪數顯示54.88/55.23坪，先視為同案並保留差異，不自行猜測",
+      "sources": {"591": false, "信義": false, "樂居": false, "樂屋": true, "中信": false, "永慶": null, "住商": false, "台灣房屋": true, "好房網": true},
+      "links": {"樂屋": "https://community.rakuya.com.tw/38922/sell", "好房網": "https://buy.housefun.com.tw/mrt/%E6%96%B0%E5%9F%94%E7%AB%99_s/%E9%99%8D%E5%83%B9_tag"}
+    }
+  },
+  "板橋公園世紀A區": {
+    "ps-a-2588": {
+      "community": "板橋公園世紀A區",
+      "block": "A區",
+      "floor": 1,
+      "totalFloor": 14,
+      "area": 29.58,
+      "layout": "3房2廳2衛",
+      "price": 2588,
+      "unit": 87.49,
+      "parking": false,
+      "owner": false,
+      "yq": true,
+      "status": "active",
+      "updated": "2026-09-02",
+      "sourceVerified": "2026-09-02重新核實：永慶YC1288091與樂屋目前均可確認1F、29.58坪、3房、2,588萬；591社區頁目前顯示0筆，故以直接在售來源優先",
+      "sources": {"591": false, "信義": false, "樂居": false, "樂屋": true, "中信": false, "永慶": true, "住商": false, "台灣房屋": false, "好房網": true},
+      "links": {"永慶": "https://shop.yungching.com.tw/0233169908_0167/list/%E6%96%B0%E5%8C%97%E5%B8%82-_c?od=41", "樂屋": "https://www.rakuya.com.tw/sell/result?city=2&keyword=%E5%85%AC%E5%9C%92%E4%B8%96%E7%B4%80", "好房網": "https://buy.housefun.com.tw/mrt/%E6%96%B0%E5%9F%94%E7%AB%99_s/%E9%9B%BB%E6%A2%AF%E5%A4%A7%E6%A8%93_type/%E4%BD%8F%E5%AE%85_use"}
+    }
+  },
+  "板橋公園世紀B、C區": {
+    "ps-bc-2280": {
+      "community": "板橋公園世紀B、C區",
+      "block": "B/C區",
+      "floor": 10,
+      "totalFloor": 12,
+      "area": 28.14,
+      "layout": "2房2廳1衛",
+      "price": 2280,
+      "unit": 81.02,
+      "parking": false,
+      "owner": false,
+      "yq": true,
+      "status": "active",
+      "updated": "2026-09-02",
+      "sourceVerified": "2026-09-02重新核實：B、C區10F、28.14坪、2房、2,280萬，永慶與樂屋目前均有刊登",
+      "sources": {"591": false, "信義": false, "樂居": false, "樂屋": true, "中信": false, "永慶": true, "住商": true, "台灣房屋": false, "好房網": true},
+      "links": {"永慶": "https://community.yungching.com.tw/building/90225", "樂屋": "https://community.rakuya.com.tw/38979/sell", "好房網": "https://buy.housefun.com.tw/Buy/Building/7233"}
+    },
+    "ps-bc-3698": {
+      "community": "板橋公園世紀B、C區",
+      "block": "B區",
+      "floor": 5,
+      "totalFloor": 12,
+      "area": 58.44,
+      "layout": "3房2廳2衛",
+      "price": 3698,
+      "unit": null,
+      "parking": true,
+      "parkingArea": null,
+      "parkingPrice": 250,
+      "owner": false,
+      "yq": true,
+      "status": "active",
+      "updated": "2026-09-02",
+      "sourceVerified": "2026-09-02重新核實：B區5F、58.44坪、3房車、3,698萬；永慶、信義、樂屋均有目前刊登",
+      "sources": {"591": false, "信義": true, "樂居": false, "樂屋": true, "中信": false, "永慶": true, "住商": false, "台灣房屋": false, "好房網": true},
+      "links": {"信義": "https://www.sinyi.com.tw/buy/house/8999JD", "樂屋": "https://community.rakuya.com.tw/38979/sell", "永慶": "https://community.yungching.com.tw/building/90225", "好房網": "https://buy.housefun.com.tw/Buy/Building/7233"}
+    },
+    "ps-bc-3758": {
+      "community": "板橋公園世紀B、C區",
+      "block": "B/C區",
+      "floor": 4,
+      "totalFloor": 12,
+      "area": 60.34,
+      "layout": "4房2廳2衛",
+      "price": 3758,
+      "unit": null,
+      "parking": true,
+      "parkingArea": null,
+      "parkingPrice": null,
+      "owner": false,
+      "yq": null,
+      "status": "active",
+      "updated": "2026-09-02",
+      "sourceVerified": "2026-09-02重新核實：B/C區4F、60.34坪、4房車、原3,800萬降至3,758萬；信義與樂屋目前可見",
+      "sources": {"591": false, "信義": true, "樂居": false, "樂屋": true, "中信": false, "永慶": null, "住商": false, "台灣房屋": false, "好房網": true},
+      "links": {"信義": "https://www.sinyi.com.tw/buy/mrt/Taipei-Y-mrtline-mrtline/14-mrt/default-desc/1", "樂屋": "https://community.rakuya.com.tw/38979/sell", "好房網": "https://buy.housefun.com.tw/Buy/Building/7233"}
+    },
+    "ps-bc-4888": {
+      "community": "板橋公園世紀B、C區",
+      "block": "B/C區",
+      "floor": 7,
+      "totalFloor": 12,
+      "area": 74.33,
+      "layout": "4房2廳2衛",
+      "price": 4888,
+      "unit": 65.76,
+      "parking": true,
+      "parkingArea": null,
+      "parkingPrice": 310,
+      "owner": false,
+      "yq": true,
+      "status": "active",
+      "updated": "2026-09-02",
+      "sourceVerified": "2026-09-02重新核實：B/C區7F、74.33坪、4房車、4,888萬，永慶直接頁目前有效",
+      "sources": {"591": false, "信義": false, "樂居": false, "樂屋": true, "中信": false, "永慶": true, "住商": false, "台灣房屋": false, "好房網": true},
+      "links": {"永慶": "https://buy.yungching.com.tw/house/6572663", "樂屋": "https://community.rakuya.com.tw/38979/sell", "好房網": "https://buy.housefun.com.tw/Buy/Building/7233"}
     }
   }
 }
