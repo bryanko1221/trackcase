@@ -1,0 +1,82 @@
+{
+  "ng-b38-5800": {
+    "status": "sold_pending",
+    "yq": false,
+    "updated": "2026-09-03",
+    "changeNote": "2026-09-03重新核實：文化路一段362號38樓之1已有實價成交資料，不列目前有效在售。",
+    "sourceVerified": "2026-09-03重新核實：B棟38F移出目前現售清單"
+  },
+  "ng-b32-5900": {
+    "yq": null,
+    "updated": "2026-09-03",
+    "sourceVerified": "2026-09-03重新核實：B棟32F 5,900萬與B棟13F 6,800萬為不同案件；目前不確認永慶掛售"
+  },
+  "ng-20804507": {
+    "community": "板橋新巨蛋",
+    "block": "待確認",
+    "floor": null,
+    "totalFloor": null,
+    "price": null,
+    "area": null,
+    "layout": "2房車｜詳細欄位待核實",
+    "parking": true,
+    "new": true,
+    "status": "active",
+    "updated": "2026-09-03",
+    "photoStatus": "照片待比對，不猜測",
+    "sourceVerified": "591物件20804507目前可確認有效；詳細欄位尚待可靠取得",
+    "sources": {"591": true, "信義": false, "樂居": false, "樂屋": false, "中信": false, "永慶": null, "住商": false, "台灣房屋": false, "好房網": false},
+    "links": {"591": "https://sale.591.com.tw/home/house/detail/2/20804507.html"}
+  },
+  "ng-1315": {
+    "price": 1290,
+    "unit": 105.56,
+    "area": 12.41,
+    "layout": "1房1廳1衛",
+    "floor": 32,
+    "totalFloor": 40,
+    "parking": false,
+    "owner": true,
+    "status": "price_drop",
+    "updated": "2026-09-03",
+    "sourceVerified": "2026-09-03重新核實：A棟32F、12.41坪、屋主自售，1,315萬修正為1,290萬"
+  },
+  "ng-1638": {
+    "price": 1638,
+    "status": "price_drop",
+    "updated": "2026-09-03",
+    "changeNote": "1,798萬降至1,638萬",
+    "sourceVerified": "2026-09-03重新核實：A棟6F 1,638萬仍在售"
+  },
+  "ng-1368": {
+    "price": 1368,
+    "status": "price_drop",
+    "updated": "2026-09-03",
+    "changeNote": "1,780萬降至1,368萬",
+    "sourceVerified": "2026-09-03重新核實：A棟6F 1,368萬與1,638萬為不同案件"
+  },
+  "ng-1728": {
+    "price": 1728,
+    "status": "price_drop",
+    "updated": "2026-09-03",
+    "changeNote": "1,898萬降至1,728萬"
+  },
+  "ng-6600": {
+    "price": 6600,
+    "status": "price_drop",
+    "updated": "2026-09-03",
+    "changeNote": "6,800萬降至6,600萬"
+  },
+  "ng-1945": {
+    "price": 1945,
+    "status": "price_drop",
+    "updated": "2026-09-03",
+    "changeNote": "1,968萬降至1,945萬"
+  },
+  "ng-4998": {
+    "price": 4998,
+    "status": "price_drop",
+    "updated": "2026-09-03",
+    "changeNote": "5,388萬降至4,998萬"
+  }
+}
