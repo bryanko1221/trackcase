@@ -3,6 +3,7 @@ from pathlib import Path
 
 DATA = Path('data/listings.json')
 OVERRIDES = Path('data/verified-overrides.json')
+SEED = Path('data/community-seed.json')
 
 listings = json.loads(DATA.read_text(encoding='utf-8'))
 overrides = json.loads(OVERRIDES.read_text(encoding='utf-8'))
@@ -30,5 +31,28 @@ for item in listings:
     if before != after:
         changed += 1
 
+# Add/refresh manually verified cases for the newer monitored communities.
+# These are intentionally separate from the New Giant Egg overrides so that
+# future scans cannot accidentally overwrite them when an index is blocked.
+if SEED.exists():
+    seeds = json.loads(SEED.read_text(encoding='utf-8'))
+    by_id = {str(x.get('id')): x for x in listings if x.get('id')}
+    for community, items in seeds.items():
+        for seed in items:
+            sid = str(seed.get('id'))
+            if not sid:
+                continue
+            existing = by_id.get(sid)
+            if existing is None:
+                listings.append(seed)
+                by_id[sid] = seed
+                changed += 1
+            else:
+                before = json.dumps(existing, ensure_ascii=False, sort_keys=True)
+                existing.update(seed)
+                after = json.dumps(existing, ensure_ascii=False, sort_keys=True)
+                if before != after:
+                    changed += 1
+
 DATA.write_text(json.dumps(listings, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-print(f'Applied verified overrides to {changed} listing(s).')
+print(f'Applied verified overrides/seeds to {changed} listing(s).')
