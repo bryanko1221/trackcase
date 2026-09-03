@@ -1,185 +1,41 @@
 {
   "delaySeconds": 2,
   "sources": [
-    {
-      "name": "591",
-      "community": "板橋新巨蛋",
-      "url": "https://market.591.com.tw/29267",
-      "listingPattern": "sale\\.591\\.com\\.tw/home/house/detail/"
-    },
-    {
-      "name": "樂居",
-      "community": "板橋新巨蛋",
-      "url": "https://www.leju.com.tw/community/L4b336969ab4e5?mode=buy",
-      "listingPattern": "www\\.leju\\.com\\.tw/(?:house|buy|community)"
-    },
-    {
-      "name": "信義",
-      "community": "板橋新巨蛋",
-      "url": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000036",
-      "listingPattern": "www\\.sinyi\\.com\\.tw/buy/house/"
-    },
-    {
-      "name": "樂屋",
-      "community": "板橋新巨蛋",
-      "url": "https://community.rakuya.com.tw/2276/sell",
-      "listingPattern": "community\\.rakuya\\.com\\.tw/2276/sell/info"
-    },
-    {
-      "name": "中信",
-      "community": "板橋新巨蛋",
-      "url": "https://buy.cthouse.com.tw/area/%E6%96%B0%E5%8C%97%E5%B8%82-city/%E6%9D%BF%E6%A9%8B%E5%8D%80-town/%E6%96%B0%E5%B7%A8%E8%9B%8B-keyword/",
-      "listingPattern": "buy\\.cthouse\\.com\\.tw/house/"
-    },
-    {
-      "name": "永慶",
-      "community": "板橋新巨蛋",
-      "url": "https://shop.yungching.com.tw/0233169908_0167/list?pg=1",
-      "listingPattern": "(?:buy|shop)\\.yungching\\.com\\.tw/house/"
-    },
-    {
-      "name": "住商",
-      "community": "板橋新巨蛋",
-      "url": "https://www.hbhousing.com.tw/web/A264/",
-      "listingPattern": "(?:www\\.)?hbhousing\\.com\\.tw/"
-    },
-    {
-      "name": "台灣房屋",
-      "community": "板橋新巨蛋",
-      "url": "https://www.twhg.com.tw/",
-      "listingPattern": "(?:www\\.)?twhg\\.com\\.tw/"
-    },
-    {
-      "name": "好房網",
-      "community": "板橋新巨蛋",
-      "url": "https://buy.housefun.com.tw/Building/building_map.aspx?bid=10240",
-      "listingPattern": "buy\\.housefun\\.com\\.tw/"
-    },
-    {
-      "name": "591",
-      "community": "板橋欣璞綻",
-      "url": "https://market.591.com.tw/101334/sale",
-      "listingPattern": "sale\\.591\\.com\\.tw/home/house/detail/"
-    },
-    {
-      "name": "樂居",
-      "community": "板橋欣璞綻",
-      "url": "https://www.leju.com.tw/community/Le2a110419dc202?mode=buy",
-      "listingPattern": "www\\.leju\\.com\\.tw/(?:house|buy|community)"
-    },
-    {
-      "name": "樂屋",
-      "community": "板橋欣璞綻",
-      "url": "https://community.rakuya.com.tw/38961/sell",
-      "listingPattern": "community\\.rakuya\\.com\\.tw/38961/sell/info"
-    },
-    {
-      "name": "永慶",
-      "community": "板橋欣璞綻",
-      "url": "https://community.yungching.com.tw/building/57470",
-      "listingPattern": "buy\\.yungching\\.com\\.tw/house/"
-    },
-    {
-      "name": "591",
-      "community": "板橋綠如意",
-      "url": "https://market.591.com.tw/29100",
-      "listingPattern": "sale\\.591\\.com\\.tw/home/house/detail/"
-    },
-    {
-      "name": "樂居",
-      "community": "板橋綠如意",
-      "url": "https://www.leju.com.tw/community/L9e0453146cfc1?mode=buy",
-      "listingPattern": "www\\.leju\\.com\\.tw/(?:house|buy|community)"
-    },
-    {
-      "name": "永慶",
-      "community": "板橋綠如意",
-      "url": "https://community.yungching.com.tw/building/9084",
-      "listingPattern": "buy\\.yungching\\.com\\.tw/house/"
-    },
-    {
-      "name": "591",
-      "community": "板橋榮耀交響曲",
-      "url": "https://market.591.com.tw/26730",
-      "listingPattern": "sale\\.591\\.com\\.tw/home/house/detail/"
-    },
-    {
-      "name": "樂居",
-      "community": "板橋榮耀交響曲",
-      "url": "https://www.leju.com.tw/community/La0d3353367903?mode=buy",
-      "listingPattern": "www\\.leju\\.com\\.tw/(?:house|buy|community)"
-    },
-    {
-      "name": "永慶",
-      "community": "板橋榮耀交響曲",
-      "url": "https://community.yungching.com.tw/building/10250",
-      "listingPattern": "buy\\.yungching\\.com\\.tw/house/"
-    },
-    {
-      "name": "591",
-      "community": "板橋千禧園",
-      "url": "https://market.591.com.tw/29223",
-      "listingPattern": "sale\\.591\\.com\\.tw/home/house/detail/"
-    },
-    {
-      "name": "樂居",
-      "community": "板橋千禧園",
-      "url": "https://www.leju.com.tw/community/Ldc7118222c2b2?mode=buy",
-      "listingPattern": "www\\.leju\\.com\\.tw/(?:house|buy|community)"
-    },
-    {
-      "name": "永慶",
-      "community": "板橋千禧園",
-      "url": "https://community.yungching.com.tw/building/10113",
-      "listingPattern": "buy\\.yungching\\.com\\.tw/house/"
-    },
-    {
-      "name": "591",
-      "community": "板橋佳元植",
-      "url": "https://newhouse.591.com.tw/131508",
-      "listingPattern": "(?:sale|newhouse)\\.591\\.com\\.tw/"
-    },
-    {
-      "name": "樂居",
-      "community": "板橋佳元植",
-      "url": "https://www.leju.com.tw/community/La5a1360984769a?mode=buy",
-      "listingPattern": "www\\.leju\\.com\\.tw/(?:house|buy|community)"
-    },
-    {
-      "name": "文化興",
-      "community": "板橋文化興",
-      "url": "https://market.591.com.tw/36029",
-      "listingPattern": "sale\\.591\\.com\\.tw/home/house/detail/"
-    },
-    {
-      "name": "樂居",
-      "community": "板橋文化興",
-      "url": "https://www.leju.com.tw/community/L73a1103062aa0b0?mode=buy",
-      "listingPattern": "www\\.leju\\.com\\.tw/(?:house|buy|community)"
-    },
-    {
-      "name": "永慶",
-      "community": "板橋文化興",
-      "url": "https://community.yungching.com.tw/building/51580",
-      "listingPattern": "buy\\.yungching\\.com\\.tw/house/"
-    },
-    {
-      "name": "板橋吉祥花園廣場",
-      "community": "板橋吉祥花園廣場",
-      "url": "https://www.leju.com.tw/community/L17046264c4594?mode=buy",
-      "listingPattern": "www\\.leju\\.com\\.tw/(?:house|buy|community)"
-    },
-    {
-      "name": "樂居",
-      "community": "板橋吉祥花園廣場",
-      "url": "https://www.leju.com.tw/community/L17046264c4594?mode=buy",
-      "listingPattern": "www\\.leju\\.com\\.tw/(?:house|buy|community)"
-    },
-    {
-      "name": "永慶",
-      "community": "板橋吉祥花園廣場",
-      "url": "https://community.yungching.com.tw/building/27487",
-      "listingPattern": "buy\\.yungching\\.com\\.tw/house/"
-    }
+    {"name":"591","community":"板橋新巨蛋","url":"https://market.591.com.tw/29267","listingPattern":"sale\\.591\\.com\\.tw/home/house/detail/"},
+    {"name":"樂居","community":"板橋新巨蛋","url":"https://www.leju.com.tw/community/L4b336969ab4e5?mode=buy","listingPattern":"www\\.leju\\.com\\.tw/(?:house|buy|community)"},
+    {"name":"信義","community":"板橋新巨蛋","url":"https://www.sinyi.com.tw/communitylist/communityinfo/G0000036","listingPattern":"www\\.sinyi\\.com\\.tw/buy/house/"},
+    {"name":"樂屋","community":"板橋新巨蛋","url":"https://community.rakuya.com.tw/2276/sell","listingPattern":"community\\.rakuya\\.com\\.tw/2276/sell/info"},
+    {"name":"中信","community":"板橋新巨蛋","url":"https://buy.cthouse.com.tw/area/%E6%96%B0%E5%8C%97%E5%B8%82-city/%E6%9D%BF%E6%A9%8B%E5%8D%80-town/%E6%96%B0%E5%B7%A8%E8%9B%8B-keyword/","listingPattern":"buy\\.cthouse\\.com\\.tw/house/"},
+    {"name":"永慶","community":"板橋新巨蛋","url":"https://shop.yungching.com.tw/0233169908_0167/list?pg=1","listingPattern":"(?:buy|shop)\\.yungching\\.com\\.tw/house/"},
+    {"name":"住商","community":"板橋新巨蛋","url":"https://www.hbhousing.com.tw/web/A264/","listingPattern":"(?:www\\.)?hbhousing\\.com\\.tw/"},
+    {"name":"台灣房屋","community":"板橋新巨蛋","url":"https://www.twhg.com.tw/","listingPattern":"(?:www\\.)?twhg\\.com\\.tw/"},
+    {"name":"好房網","community":"板橋新巨蛋","url":"https://buy.housefun.com.tw/Building/building_map.aspx?bid=10240","listingPattern":"buy\\.housefun\\.com\\.tw/"},
+
+    {"name":"591","community":"板橋欣璞綻","url":"https://market.591.com.tw/101334/sale","listingPattern":"sale\\.591\\.com\\.tw/home/house/detail/"},
+    {"name":"樂居","community":"板橋欣璞綻","url":"https://www.leju.com.tw/community/Le2a110419dc202?mode=buy","listingPattern":"www\\.leju\\.com\\.tw/(?:house|buy|community)"},
+    {"name":"樂屋","community":"板橋欣璞綻","url":"https://community.rakuya.com.tw/38961/sell","listingPattern":"community\\.rakuya\\.com\\.tw/38961/sell/info"},
+    {"name":"永慶","community":"板橋欣璞綻","url":"https://community.yungching.com.tw/building/57470","listingPattern":"buy\\.yungching\\.com\\.tw/house/"},
+
+    {"name":"591","community":"板橋綠如意","url":"https://market.591.com.tw/29100","listingPattern":"sale\\.591\\.com\\.tw/home/house/detail/"},
+    {"name":"樂居","community":"板橋綠如意","url":"https://www.leju.com.tw/community/L9e0453146cfc1?mode=buy","listingPattern":"www\\.leju\\.com\\.tw/(?:house|buy|community)"},
+    {"name":"永慶","community":"板橋綠如意","url":"https://community.yungching.com.tw/building/9084","listingPattern":"buy\\.yungching\\.com\\.tw/house/"},
+
+    {"name":"591","community":"板橋榮耀交響曲","url":"https://market.591.com.tw/26730","listingPattern":"sale\\.591\\.com\\.tw/home/house/detail/"},
+    {"name":"樂居","community":"板橋榮耀交響曲","url":"https://www.leju.com.tw/community/La0d3353367903?mode=buy","listingPattern":"www\\.leju\\.com\\.tw/(?:house|buy|community)"},
+    {"name":"永慶","community":"板橋榮耀交響曲","url":"https://community.yungching.com.tw/building/10250","listingPattern":"buy\\.yungching\\.com\\.tw/house/"},
+
+    {"name":"591","community":"板橋千禧園","url":"https://market.591.com.tw/29223","listingPattern":"sale\\.591\\.com\\.tw/home/house/detail/"},
+    {"name":"樂居","community":"板橋千禧園","url":"https://www.leju.com.tw/community/Ldc7118222c2b2?mode=buy","listingPattern":"www\\.leju\\.com\\.tw/(?:house|buy|community)"},
+    {"name":"永慶","community":"板橋千禧園","url":"https://community.yungching.com.tw/building/10113","listingPattern":"buy\\.yungching\\.com\\.tw/house/"},
+
+    {"name":"591","community":"板橋佳元植","url":"https://newhouse.591.com.tw/131508","listingPattern":"(?:sale|newhouse)\\.591\\.com\\.tw/"},
+    {"name":"樂居","community":"板橋佳元植","url":"https://www.leju.com.tw/community/La5a1360984769a?mode=buy","listingPattern":"www\\.leju\\.com\\.tw/(?:house|buy|community)"},
+
+    {"name":"591","community":"板橋文化興","url":"https://market.591.com.tw/36029","listingPattern":"sale\\.591\\.com\\.tw/home/house/detail/"},
+    {"name":"樂居","community":"板橋文化興","url":"https://www.leju.com.tw/community/L73a1103062aa0b0?mode=buy","listingPattern":"www\\.leju\\.com\\.tw/(?:house|buy|community)"},
+    {"name":"永慶","community":"板橋文化興","url":"https://community.yungching.com.tw/building/51580","listingPattern":"buy\\.yungching\\.com\\.tw/house/"},
+
+    {"name":"樂居","community":"板橋吉祥花園廣場","url":"https://www.leju.com.tw/community/L17046264c4594?mode=buy","listingPattern":"www\\.leju\\.com\\.tw/(?:house|buy|community)"},
+    {"name":"永慶","community":"板橋吉祥花園廣場","url":"https://community.yungching.com.tw/building/27487","listingPattern":"buy\\.yungching\\.com\\.tw/house/"}
   ]
 }
