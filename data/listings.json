@@ -35,21 +35,21 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/7855FZ"
       },
       "樂屋": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08949033888949f&from=communitySearchSell"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://buy.yungching.com.tw/house/6364266"
       }
     }
@@ -69,7 +69,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "信義房屋＋樂屋網＋永慶房屋交叉核實",
     "sources": {
       "591": false,
@@ -90,21 +90,21 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/3117HX"
       },
       "樂屋": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=03d58b346244938&from=communitySearchSell"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://buy.yungching.com.tw/house/7423870"
       }
     }
@@ -152,31 +152,31 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20576106.html"
       },
       "信義": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/7680JW"
       },
       "樂屋": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://buy.yungching.com.tw/house/6499628"
       }
     },
@@ -198,7 +198,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "信義房屋＋樂屋網＋永慶房屋交叉核實",
     "sources": {
       "591": false,
@@ -219,21 +219,21 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/9524XN"
       },
       "樂屋": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08d32d300679720&from=communitySearchSell"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://buy.yungching.com.tw/house/6892646"
       }
     }
@@ -253,7 +253,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "信義房屋＋樂屋網交叉核實；永慶尚未確認",
     "sources": {
       "591": false,
@@ -273,14 +273,14 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/4813PN"
       },
       "樂屋": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0a558427248637f&from=communitySearchSell"
       }
     }
@@ -300,7 +300,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "信義房屋＋樂屋網＋永慶房屋交叉核實",
     "sources": {
       "591": false,
@@ -321,21 +321,21 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/1359QV"
       },
       "樂屋": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0eed31338337495&from=communitySearchSell"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://buy.yungching.com.tw/house/6680641"
       }
     }
@@ -355,7 +355,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "信義房屋＋樂屋網交叉核實；永慶尚未確認",
     "sources": {
       "591": false,
@@ -375,14 +375,14 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/3508VZ"
       },
       "樂屋": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=089270299156338&from=communitySearchSell"
       }
     }
@@ -402,7 +402,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "591＋樂屋網交叉核實；永慶尚未確認",
     "sources": {
       "591": false,
@@ -419,22 +419,22 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "state": "gone",
+        "httpStatus": 404,
+        "reason": "not-found",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/19784014.html"
       },
       "樂屋": {
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=09906e35200994e&from=realpriceH&from_id=6a8abdd5b7577"
       }
     },
     "status": "gone_pending",
-    "lastStatusChange": "2026-09-03"
+    "lastStatusChange": "2026-09-04"
   },
   {
     "id": "ng-1315",
@@ -472,10 +472,10 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20446447.html"
       }
     },
@@ -532,7 +532,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "591公開搜尋結果（尚未取得案件直連）；未與其他平台確認為同戶",
     "sources": {
       "591": true,
@@ -561,7 +561,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "永慶房屋社區待售頁交叉核實；本戶案件直連尚未取得",
     "sources": {
       "591": false,
@@ -590,7 +590,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "樂屋網＋永慶房屋交叉核實",
     "sources": {
       "591": false,
@@ -610,14 +610,14 @@
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=0cf068350043419&from=list_regular"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://buy.yungching.com.tw/house/7252089"
       }
     }
@@ -637,7 +637,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "樂屋網＋永慶房屋交叉核實；永慶本戶直連尚未取得",
     "sources": {
       "591": false,
@@ -656,7 +656,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=05de8016638408e&from=list_regular"
       }
     }
@@ -676,7 +676,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "樂屋網＋永慶房屋交叉核實；永慶本戶直連尚未取得",
     "sources": {
       "591": false,
@@ -695,12 +695,12 @@
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=03dcc434923102c&from=list_regular"
       }
     },
     "status": "gone_pending",
-    "lastStatusChange": "2026-09-03"
+    "lastStatusChange": "2026-09-04"
   },
   {
     "id": "pc-b-3758",
@@ -717,7 +717,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "樂屋網交叉核實；永慶尚未確認本戶",
     "sources": {
       "591": false,
@@ -736,7 +736,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-09-03T23:52:41.474855+08:00",
+        "checkedAt": "2026-09-04T00:37:03.499412+08:00",
         "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=074b7734209118b&from=list_regular"
       }
     }
@@ -756,7 +756,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "sourceVerified": "樂屋網＋永慶房屋／好房網交叉核實；永慶本戶直連尚未取得",
     "sources": {
       "591": false,
@@ -769,5 +769,149 @@
     "history": [],
     "links": {},
     "sourceValidation": {}
+  },
+  {
+    "id": "xpd-4535-18f",
+    "groupId": "xpd-4535-18f",
+    "community": "板橋欣璞綻",
+    "block": "待確認",
+    "floor": 18,
+    "totalFloor": 25,
+    "area": 49.42,
+    "layout": "3房2廳2衛",
+    "price": 4535,
+    "unit": 91.76,
+    "parking": true,
+    "parkingArea": null,
+    "parkingPrice": 280,
+    "owner": false,
+    "yq": true,
+    "new": false,
+    "status": "active",
+    "updated": "2026-09-04",
+    "sourceVerified": "2026-09-04：永慶社區頁與樂屋網交叉核實",
+    "sources": {
+      "591": true,
+      "樂居": true,
+      "樂屋": true,
+      "永慶": true
+    },
+    "links": {
+      "樂屋": "https://community.rakuya.com.tw/38961/sell",
+      "永慶": "https://community.yungching.com.tw/building/57470"
+    },
+    "history": []
+  },
+  {
+    "id": "xpd-4680-6f",
+    "groupId": "xpd-4680-6f",
+    "community": "板橋欣璞綻",
+    "block": "待確認",
+    "floor": 6,
+    "totalFloor": 25,
+    "area": 49.42,
+    "layout": "3房2廳2衛",
+    "price": 4680,
+    "unit": null,
+    "parking": true,
+    "parkingArea": null,
+    "parkingPrice": 280,
+    "owner": false,
+    "yq": true,
+    "new": false,
+    "status": "active",
+    "updated": "2026-09-04",
+    "sourceVerified": "2026-09-04：永慶社區頁核實",
+    "sources": {
+      "591": true,
+      "樂居": true,
+      "樂屋": false,
+      "永慶": true
+    },
+    "links": {
+      "樂居": "https://www.leju.com.tw/community/Le2a110419dc202?mode=buy",
+      "永慶": "https://community.yungching.com.tw/building/57470"
+    },
+    "history": []
+  },
+  {
+    "id": "ryxq-5068-2f",
+    "groupId": "ryxq-5068-2f",
+    "community": "板橋榮耀交響曲",
+    "block": "待確認",
+    "floor": 2,
+    "totalFloor": 15,
+    "area": 75.76,
+    "layout": "4房2廳2衛",
+    "price": 5068,
+    "unit": 87.4,
+    "parking": true,
+    "parkingArea": 24.64,
+    "parkingPrice": 600,
+    "owner": false,
+    "yq": true,
+    "new": false,
+    "status": "active",
+    "updated": "2026-09-04",
+    "sourceVerified": "2026-09-04：永慶案件 YC1255301",
+    "sources": {
+      "永慶": true
+    },
+    "links": {
+      "永慶": "https://buy.yungching.com.tw/house/7217539"
+    },
+    "history": []
+  },
+  {
+    "id": "jyz-2688",
+    "groupId": "jyz-2688",
+    "community": "板橋佳元植",
+    "block": "待確認",
+    "floor": null,
+    "totalFloor": null,
+    "area": null,
+    "layout": "2房",
+    "price": 2688,
+    "unit": null,
+    "parking": null,
+    "owner": false,
+    "yq": null,
+    "new": false,
+    "status": "active",
+    "updated": "2026-09-04",
+    "sourceVerified": "2026-09-04：樂居目前待售1筆",
+    "sources": {
+      "樂居": true
+    },
+    "links": {
+      "樂居": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a"
+    },
+    "history": []
+  },
+  {
+    "id": "lry-2540",
+    "groupId": "lry-2540",
+    "community": "板橋綠如意",
+    "block": "待確認",
+    "floor": null,
+    "totalFloor": 16,
+    "area": null,
+    "layout": "2房",
+    "price": 2540,
+    "unit": null,
+    "parking": null,
+    "owner": false,
+    "yq": null,
+    "new": false,
+    "status": "active",
+    "updated": "2026-09-04",
+    "sourceVerified": "2026-09-04：591社區頁目前可見在售案例；戶別/樓層待直接案件頁確認",
+    "sources": {
+      "591": true
+    },
+    "links": {
+      "591": "https://market.591.com.tw/29100"
+    },
+    "history": []
   }
 ]
