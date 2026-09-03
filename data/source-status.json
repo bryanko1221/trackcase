@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-09-02",
-  "lastUpdated": "2026-09-03 22:26",
+  "lastUpdated": "2026-09-03 22:46",
   "note": "新巨蛋來源擴充至591／樂居／信義／樂屋／永慶／中信／住商／台灣房屋／好房網。今日以可取得的社區頁、個別物件頁及仲介搜尋頁交叉核實；單一物件頁失聯不直接判售出。網站資料仍以可直接驗證的案件為準，無法取得直連者標示待核實。",
   "communities": {
     "板橋新巨蛋": {
@@ -148,9 +148,9 @@
       }
     }
   },
-  "lastScheduledCheck": "2026-09-03T22:26:15.114123+08:00",
+  "lastScheduledCheck": "2026-09-03T22:46:09.020175+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-03 22:25",
+  "lastValidated": "2026-09-03 22:45",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
