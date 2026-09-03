@@ -8,14 +8,12 @@ on:
       - 'data/batch-sources.json'
       - '.github/workflows/morning-refresh.yml'
   schedule:
-    # Every 3 hours. GitHub Actions cron uses UTC.
     - cron: '0 */3 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
-# Prevent overlapping runs from racing while writing the generated data files.
 concurrency:
   group: batch-listing-scan-main
   cancel-in-progress: false
@@ -38,14 +36,20 @@ jobs:
       - name: Apply manually verified listing corrections
         run: python scripts/apply_verified_overrides.py
 
+      - name: Inject community catalog into website
+        run: python scripts/inject_community_catalog.py
+
       - name: Validate data
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          for path in [Path('data/listings.json'), Path('data/source-status.json'), Path('data/batch-sources.json'), Path('data/batch-scan-report.json'), Path('data/verified-overrides.json')]:
+          for path in [Path('data/listings.json'), Path('data/source-status.json'), Path('data/batch-sources.json'), Path('data/batch-scan-report.json'), Path('data/verified-overrides.json'), Path('data/community-seed.json')]:
               json.loads(path.read_text(encoding='utf-8'))
               print(f'OK: {path}')
+          html = Path('index.html').read_text(encoding='utf-8')
+          assert '<!-- COMMUNITY_CATALOG_V1 -->' in html
+          print('OK: index.html community catalog')
           PY
 
       - name: Write Taiwan update timestamp
@@ -69,14 +73,9 @@ jobs:
           set -e
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/listings.json data/batch-scan-report.json data/source-status.json
+          git add data/listings.json data/batch-scan-report.json data/source-status.json index.html
           git diff --cached --quiet && exit 0
           git commit -m 'chore: automatic listing validation and refresh'
-
-          # Do not rebase generated scan commits. Rebase can conflict whenever
-          # another scheduled/manual run has updated the same generated files.
-          # Merge the latest main instead, preferring this run's freshly scanned
-          # generated files on conflicts while retaining unrelated remote changes.
           for attempt in 1 2 3 4 5; do
             git fetch origin main
             if git merge --no-edit -X ours origin/main; then
@@ -89,5 +88,5 @@ jobs:
             echo "Push attempt $attempt failed; retrying..."
             sleep 5
           done
-          echo 'Unable to publish scan data after 5 attempts.'
+          echo 'Unable to push after 5 attempts.'
           exit 1
