@@ -22,4 +22,24 @@ async function json(u,d){try{var r=await fetch(u+'?v='+Date.now());return r.ok?a
 async function init(){var a=await json('data/listings.json',[]),m=await json('data/manual-updates.json',[]),o=await json('data/verified-overrides.json',{}),meta=await json('data/source-status.json',{});var map=new Map(a.map(function(x){return [x.id,x]}));m.forEach(function(x){map.set(x.id,Object.assign({},map.get(x.id)||{},x))});Object.keys(o).forEach(function(g){Object.keys(o[g]||{}).forEach(function(id){var x=o[g][id],old=map.get(id);if(old)map.set(id,Object.assign({},old,x,{sources:Object.assign({},old.sources||{},x.sources||{}),links:Object.assign({},old.links||{},x.links||{})}));else if(x.community)map.set(id,Object.assign({id:id},x))})});listings=dedupe(Array.from(map.values()));meta=meta||{};$('#lastUpdated').textContent='最後更新：'+(meta.lastUpdated||meta.lastVerified||'2026-09-03');fill('#buildingFilter',listings.map(function(x){return community(x.community)}));fill('#blockFilter',listings.map(function(x){return x.block}));render();changes();develop()}
 ['#keyword','#buildingFilter','#blockFilter','#statusFilter','#priceFilter','#areaFilter','#layoutFilter','#parkingFilter','#sortFilter'].forEach(function(s){$(s).addEventListener('input',render)});$('#resetFilters').onclick=function(){$('#keyword').value='';['#buildingFilter','#blockFilter','#statusFilter','#priceFilter','#areaFilter','#layoutFilter','#parkingFilter','#sortFilter'].forEach(function(s){$(s).value='all'});render()};$('#developFilter').onchange=develop;$('#dialogClose').onclick=function(){$('#detailDialog').close()};all('.tab').forEach(function(t){t.onclick=function(){all('.tab').forEach(function(x){x.classList.remove('active')});t.classList.add('active');all('.view').forEach(function(x){x.classList.remove('active')});$('#view-'+t.dataset.view).classList.add('active');if(t.dataset.view==='changes')changes();if(t.dataset.view==='develop')develop()}});init();
 })();
-</script></body></html>
+</script>
+<div id="communityCatalog" class="card" style="margin:18px 0"><div style="font-weight:800;margin-bottom:10px">監控大樓總覽</div><div style="display:flex;flex-wrap:wrap;gap:8px"><button type="button" data-community="板橋新巨蛋">板橋新巨蛋</button><button type="button" data-community="板橋文化勳章">板橋文化勳章</button><button type="button" data-community="板橋公園世紀">板橋公園世紀</button><button type="button" data-community="板橋欣璞綻">板橋欣璞綻</button><button type="button" data-community="板橋綠如意">板橋綠如意</button><button type="button" data-community="板橋榮耀交響曲">板橋榮耀交響曲</button><button type="button" data-community="板橋千禧園">板橋千禧園</button><button type="button" data-community="板橋佳元植">板橋佳元植</button><button type="button" data-community="板橋文化興">板橋文化興</button><button type="button" data-community="板橋吉祥花園廣場">板橋吉祥花園廣場</button></div><div id="communityCatalogHint" style="margin-top:10px;font-size:13px;opacity:.72">點選大樓即可快速篩選；若目前沒有可確認在售案件，仍會保留在總覽。</div></div>
+<script>
+(function(){
+  var box=document.getElementById('communityCatalog');
+  if(!box)return;
+  function bind(){
+    document.querySelectorAll('#communityCatalog button[data-community]').forEach(function(b){
+      if(b.dataset.bound)return; b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var sel=document.getElementById('buildingFilter');
+        if(sel){ sel.value=b.dataset.community; sel.dispatchEvent(new Event('change',{bubbles:true})); }
+        window.scrollTo({top:0,behavior:'smooth'});
+      });
+    });
+  }
+  bind();
+})();
+</script>
+<!-- COMMUNITY_CATALOG_V1 -->
+</body></html>
