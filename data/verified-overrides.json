@@ -10,8 +10,10 @@
       "parking": false,
       "owner": true,
       "status": "price_drop",
-      "updated": "2026-09-02",
-      "sourceVerified": "2026-09-02重新核實：原1315萬資料修正為1,290萬；32/40F、12.41坪、屋主李先生"
+      "updated": "2026-09-03",
+      "sources": {"591": true},
+      "links": {"591": "https://sale.591.com.tw/home/house/detail/2/20446447.html", "好房網": null},
+      "sourceVerified": "2026-09-03重新核實：32/40F、12.41坪、1,290萬、屋主李先生；591直接案件為20446447，改用591直接頁，不再使用錯誤的好房網連結"
     },
     "ng-1200": {
       "status": "gone_pending",
@@ -32,6 +34,21 @@
       "links": {"永慶": null},
       "updated": "2026-09-02",
       "sourceVerified": "2026-09-02重新核實：B32 5,900萬與B13 6,800萬分開；永慶6499628不屬於本案，移除該錯誤連結"
+    },
+    "ng-6800": {
+      "block": "B區",
+      "floor": 13,
+      "totalFloor": 46,
+      "area": 76.74,
+      "layout": "4房2廳3衛1室",
+      "price": 6800,
+      "parking": true,
+      "parkingArea": 10.19,
+      "parkingPrice": 300,
+      "unit": 97.67,
+      "yq": true,
+      "updated": "2026-09-03",
+      "sourceVerified": "2026-09-03重新核實：B13正確開價為6,800萬；原資料誤套用B32的5,900萬，現已分開修正。永慶案件為YC1221715。"
     },
     "ng-4998": {
       "yq": true,
