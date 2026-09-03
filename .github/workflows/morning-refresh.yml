@@ -15,12 +15,19 @@ on:
 permissions:
   contents: write
 
+# Prevent overlapping runs from racing while writing the generated data files.
+concurrency:
+  group: batch-listing-scan-main
+  cancel-in-progress: false
+
 jobs:
   batch-scan:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Batch scan public listing indexes
         run: python scripts/batch_sync.py
@@ -59,10 +66,28 @@ jobs:
 
       - name: Commit scan data and timestamp
         run: |
+          set -e
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/listings.json data/batch-scan-report.json data/source-status.json
           git diff --cached --quiet && exit 0
           git commit -m 'chore: automatic listing validation and refresh'
-          git pull --rebase origin main
-          git push origin HEAD:main
+
+          # Do not rebase generated scan commits. Rebase can conflict whenever
+          # another scheduled/manual run has updated the same generated files.
+          # Merge the latest main instead, preferring this run's freshly scanned
+          # generated files on conflicts while retaining unrelated remote changes.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if git merge --no-edit -X ours origin/main; then
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+            else
+              git merge --abort || true
+            fi
+            echo "Push attempt $attempt failed; retrying..."
+            sleep 5
+          done
+          echo 'Unable to publish scan data after 5 attempts.'
+          exit 1
