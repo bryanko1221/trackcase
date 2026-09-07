@@ -7,6 +7,7 @@
     const price=card.querySelector('.price')?.textContent||'';
     return norm(title)+'|'+norm(sub)+'|'+norm(price);
   };
+  const activePlatforms=card=>new Set([...card.querySelectorAll('.platforms .platform:not(.off)')].map(p=>norm(p.textContent).replace(/[●○]$/,'')));
   function mergeDuplicates(){
     const grid=document.getElementById(gridId); if(!grid)return;
     const cards=[...grid.querySelectorAll('.listing-card')];
@@ -16,6 +17,8 @@
       if(!key)continue;
       const prior=seen.get(key);
       if(!prior){seen.set(key,card);continue;}
+      const shared=[...activePlatforms(prior)].some(p=>activePlatforms(card).has(p));
+      if(!shared)continue;
       const priorLinks=prior.querySelector('.source-direct');
       const links=card.querySelector('.source-direct');
       if(priorLinks&&links){
