@@ -1,0 +1,33 @@
+{
+  "updated": "2026-09-07",
+  "status": "partial",
+  "note": "本次重新掃描13個指定社區的最新公開出售訊號；只寫入可直接由近期公開來源核實的案件，不以社區聚合筆數冒充完整逐案清單。主站完整資料仍需逐平台逐案核實後再覆蓋。",
+  "communities": {
+    "板橋新巨蛋": {
+      "platform_count_591": 43,
+      "verified_current_examples": [
+        {"floor": 32,"totalFloor":46,"area":76.78,"layout":"4房2廳2衛","price":5900,"unit":84.11,"parking":true,"source":"永慶/591","url":"https://sale.591.com.tw/home/house/detail/2/20576106.html"},
+        {"floor": 33,"totalFloor":43,"area":46.04,"layout":"3房2廳2衛","price":4288,"unit":107.48,"parking":true,"source":"永慶","url":"https://buy.yungching.com.tw/house/7280883"},
+        {"floor": 24,"totalFloor":43,"area":45.99,"layout":"1房2廳1.5衛","price":3998,"unit":99.84,"parking":true,"source":"永慶","url":"https://buy.yungching.com.tw/house/7294619"},
+        {"floor": 11,"totalFloor":43,"area":62.94,"layout":"4房","price":4998,"unit":87.62,"parking":true,"source":"永慶/信義/樂屋","url":"https://buy.yungching.com.tw/house/6364266"},
+        {"floor": 22,"totalFloor":43,"area":26.57,"layout":"1房","price":1945,"unit":73.2,"parking":true,"source":"永慶/信義/樂屋","url":"https://buy.yungching.com.tw/house/7423870"},
+        {"floor": 8,"totalFloor":43,"area":35.46,"layout":"2房2廳2衛(含加蓋1房)","price":2950,"unit":83.19,"parking":true,"source":"永慶","url":"https://buy.yungching.com.tw/house/7489029"},
+        {"floor": 7,"totalFloor":46,"area":84.05,"layout":"4房(含加蓋)","price":6600,"unit":90.17,"parking":true,"source":"永慶/信義/樂屋","url":"https://buy.yungching.com.tw/house/6892646"},
+        {"floor": 13,"totalFloor":46,"area":76.74,"layout":"4房2廳3衛1室","price":6800,"unit":97.67,"parking":true,"source":"永慶/信義/樂屋","url":"https://buy.yungching.com.tw/house/6499628"}
+      ],
+      "known_gap": "使用者回報24F/3房/4168萬目前仍未找到可靠原始案件直連，暫不捏造。"
+    },
+    "板橋文化勳章": {"platform_count_hint":4,"status":"partial","note":"591近期公開資料顯示4筆在售；目前尚未逐筆取得所有直接案件頁。"},
+    "板橋公園世紀": {"status":"partial","verified_current_examples":[{"floor":5,"totalFloor":12,"area":58.44,"layout":"3房2廳2衛","price":3698,"unit":63.27,"parking":true,"source":"永慶/樂屋"},{"floor":10,"totalFloor":12,"area":28.14,"layout":"2房2廳1衛","price":2280,"unit":81.02,"parking":false,"source":"樂屋"},{"floor":7,"totalFloor":12,"area":74.34,"layout":"4房2廳2衛","price":4888,"unit":65.75,"parking":true,"source":"樂屋"}]},
+    "欣璞綻": {"status":"partial","verified_current_examples":[{"layout":"2房","unit":109.8,"source":"591"},{"layout":"3房+平面車位","unit":103.5,"source":"591"},{"layout":"2+1房","unit":109.8,"source":"591"},{"layout":"2房","unit":117.4,"source":"591"}]},
+    "綠如意": {"status":"partial","verified_current_examples":[{"layout":"2房","unit":75.2,"source":"591"},{"layout":"2房","unit":79.6,"source":"591"}],"note":"591公開頁顯示24筆同社區在售，但未逐案核實，故不把24筆當成完整已驗證數。"},
+    "鑑築": {"status":"partial","verified_current_examples":[{"floor":14,"totalFloor":14,"area":89.73,"layout":"4房2廳3衛","price":5688,"unit":63.39,"parking":true,"source":"永慶/樂屋/好房網","url":"https://community.rakuya.com.tw/2378/sell"}]},
+    "榮耀交響曲": {"status":"partial","verified_current_examples":[{"floor":2,"totalFloor":15,"area":75.76,"layout":"4房2廳2衛","price":5068,"parking":true,"source":"永慶/好房網","url":"https://buy.housefun.com.tw/Building/building_map.aspx?bid=10250"}]},
+    "佳元植": {"status":"partial","note":"樂屋近期社區頁目前顯示無符合待售房屋；其他平台仍需逐案核實，不能以0筆判定全平台無案。"},
+    "板橋千禧園": {"status":"partial","note":"本次公開搜尋不足以確認完整現售戶數，保留待逐平台核實。"},
+    "板橋吉祥花園": {"status":"partial","note":"本次公開搜尋不足以確認完整現售戶數，保留待逐平台核實。"},
+    "雙喜臨門": {"status":"partial","note":"本次公開搜尋不足以確認完整現售戶數，保留待逐平台核實。"},
+    "板橋晴": {"status":"partial","verified_current_examples":[{"floor":7,"totalFloor":12,"area":44.15,"layout":"2房2廳1衛","price":2360,"unit":81.02,"source":"樂屋"},{"floor":7,"totalFloor":12,"area":34.48,"layout":"2房2廳1衛","price":2185,"unit":80.81,"source":"樂屋/中信"}]},
+    "永康芬揚": {"status":"partial","platform_count_hint":10,"verified_current_examples":[{"floor":12,"totalFloor":14,"area":21.84,"layout":"2房2廳1衛","price":1980,"unit":90.66,"source":"樂屋/591"},{"floor":14,"totalFloor":14,"area":34.65,"layout":"3房2廳2衛","price":2980,"unit":86.01,"source":"樂屋"},{"floor":12,"totalFloor":14,"area":31.83,"layout":"3房2廳2衛","price":2800,"unit":87.98,"source":"樂屋"},{"floor":13,"totalFloor":14,"area":31.82,"layout":"3房2廳2衛","price":2800,"unit":88.0,"source":"樂屋/住商"}]}
+  }
+}
