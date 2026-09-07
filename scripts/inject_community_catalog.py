@@ -3,7 +3,8 @@ from pathlib import Path
 p = Path('index.html')
 s = p.read_text(encoding='utf-8')
 if '<!-- COMMUNITY_CATALOG_V2 -->' in s or '<!-- COMMUNITY_CATALOG_V1 -->' in s or 'id="communityCatalog"' in s:
-    raise SystemExit('community catalog already injected')
+    print('Community catalog already present; nothing to inject.')
+    raise SystemExit(0)
 
 communities = [
     '板橋新巨蛋', '板橋文化勳章', '板橋公園世紀', '欣璞綻', '綠如意',
