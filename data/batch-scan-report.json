@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T01:20:36.803639+08:00",
+  "updatedAt": "2026-09-08T05:11:03.114173+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -173,9 +173,9 @@
       "id": "ng-1315",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20446447.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "pc-b-3698",
@@ -269,9 +269,9 @@
       "id": "lry-2540",
       "source": "591",
       "url": "https://market.591.com.tw/29100",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-b32-5900-s20576106",
