@@ -1,0 +1,50 @@
+{
+  "auditDate": "2026-09-07",
+  "scope": "website frontend, data pipeline, deduplication, monitored-community catalog and source validation",
+  "status": "partial",
+  "findings": [
+    {
+      "severity": "high",
+      "area": "data completeness",
+      "finding": "data/listings.json was previously reduced to a small manually reconstructed set; historical/base records need to be rebuilt from the earlier commit and reconciled with the latest scan before claiming full coverage.",
+      "action": "keep the latest scan and verified overrides authoritative for current cases; restore missing historical/base records through a controlled reconciliation rather than deleting them."
+    },
+    {
+      "severity": "high",
+      "area": "deduplication",
+      "finding": "the old UI cleanup merged cards solely by visible fingerprint, which could merge two different units with identical floor/area/layout/price.",
+      "action": "UI cleanup now requires at least one shared active source platform in addition to the same visible fingerprint."
+    },
+    {
+      "severity": "high",
+      "area": "community catalog",
+      "finding": "the catalog injection script listed outdated communities and had a filter event mismatch.",
+      "action": "catalog updated to the 13 monitored communities and now dispatches the input event used by the main filter."
+    },
+    {
+      "severity": "medium",
+      "area": "source freshness",
+      "finding": "source-status.json and batch-scan-report.json still contain earlier verification timestamps until the next scheduled scan completes.",
+      "action": "next GitHub Actions scan should refresh source validation timestamps and reports."
+    },
+    {
+      "severity": "medium",
+      "area": "direct links",
+      "finding": "some stored links are community/search pages rather than true individual listing pages.",
+      "action": "keep them out of the direct-link UI when URL validation rejects them; replace them only after an actual listing URL is obtained."
+    },
+    {
+      "severity": "medium",
+      "area": "coverage",
+      "finding": "the current scan ledger correctly reports partial coverage and must not claim 100% completeness when platform aggregate counts exceed verified records.",
+      "action": "retain the yellow partial-completion state until every source can be checked listing-by-listing."
+    }
+  ],
+  "hardRules": [
+    "Never guess floor, block, area, parking or direct URL.",
+    "Never merge distinct units merely because floor/area/layout are similar.",
+    "Never treat historical actual-registration data as an active listing.",
+    "Never claim complete scanning when only aggregate platform counts are known.",
+    "Never treat 403/429/timeout as proof that a listing is sold or removed."
+  ]
+}
