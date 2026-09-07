@@ -1,0 +1,32 @@
+{
+  "scan_date": "2026-09-07",
+  "community": "板橋新巨蛋",
+  "coverage_status": "partial",
+  "listings": [
+    {
+      "id": "ng-c24-4168-user-report",
+      "community": "板橋新巨蛋",
+      "block": "待確認",
+      "floor": 24,
+      "totalFloor": 43,
+      "area": null,
+      "layout": "3房｜坪數待核實",
+      "price": 4168,
+      "unit": null,
+      "parking": null,
+      "owner": false,
+      "yq": null,
+      "new": true,
+      "status": "active",
+      "updated": "2026-09-07",
+      "sourceVerified": "使用者回報新出現案件；公開搜尋目前尚未取得可直接驗證的原始案件頁，先建立漏案回歸測試資料，不猜測棟別、坪數、車位與平台。",
+      "verificationNote": "24樓／3房／4,168萬；棟別、坪數、車位、物件編號及平台待直接案件頁核實。",
+      "sources": {"591":false,"信義":false,"樂屋":false,"樂居":false,"永慶":false,"中信":false,"住商":false,"台灣房屋":false,"好房網":false},
+      "links": {}
+    }
+  ],
+  "notes": [
+    "此案件是本次流程升級的漏案回歸測試案例。",
+    "下一次掃描必須驗證它是否能從平台逐案清單中被重新找到。"
+  ]
+}
