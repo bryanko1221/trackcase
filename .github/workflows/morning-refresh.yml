@@ -27,6 +27,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Recover full listing base
+        run: python scripts/recover_base_listings.py
+
       - name: Batch scan public listing indexes
         run: python scripts/batch_sync.py
 
@@ -44,11 +47,11 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          for path in [Path('data/listings.json'), Path('data/source-status.json'), Path('data/batch-sources.json'), Path('data/batch-scan-report.json'), Path('data/verified-overrides.json'), Path('data/community-seed.json')]:
+          for path in [Path('data/listings.json'), Path('data/source-status.json'), Path('data/batch-sources.json'), Path('data/batch-scan-report.json'), Path('data/verified-overrides.json'), Path('data/community-seed.json'), Path('data/scan-ledger.json')]:
               json.loads(path.read_text(encoding='utf-8'))
               print(f'OK: {path}')
           html = Path('index.html').read_text(encoding='utf-8')
-          assert '<!-- COMMUNITY_CATALOG_V1 -->' in html
+          assert '<!-- COMMUNITY_CATALOG_V2 -->' in html or 'id="communityCatalog"' in html
           print('OK: index.html community catalog')
           PY
 
