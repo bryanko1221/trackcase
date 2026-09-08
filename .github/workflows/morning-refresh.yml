@@ -64,11 +64,19 @@ jobs:
           p = Path('data/source-status.json')
           data = json.loads(p.read_text(encoding='utf-8'))
           now = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=8)))
-          data['lastUpdated'] = now.strftime('%Y-%m-%d %H:%M')
+          stamp = now.strftime('%Y-%m-%d %H:%M')
+          data['lastUpdated'] = stamp
           data['lastScheduledCheck'] = now.isoformat()
           data['batchScanReport'] = 'data/batch-scan-report.json'
           data['automation'] = {'enabled': True, 'interval': 'every 3 hours', 'timezone': 'Asia/Taipei'}
           p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          html = Path('index.html').read_text(encoding='utf-8')
+          marker = 'id="lastUpdated">'
+          if marker in html:
+              start = html.index(marker) + len(marker)
+              end = html.index('</span>', start)
+              html = html[:start] + stamp + html[end:]
+              Path('index.html').write_text(html, encoding='utf-8')
           PY
 
       - name: Commit scan data and timestamp
