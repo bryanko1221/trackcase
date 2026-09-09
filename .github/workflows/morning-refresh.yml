@@ -76,7 +76,12 @@ jobs:
               start = html.index(marker) + len(marker)
               end = html.index('</span>', start)
               html = html[:start] + stamp + html[end:]
-              Path('index.html').write_text(html, encoding='utf-8')
+          # Cache-bust versioned assets on every scan so iPhone/Safari cannot keep a stale JS bundle.
+          import re
+          html = re.sub(r'app\\.js\\?v=[^"\\']+', 'app.js?v=' + now.strftime('%Y%m%d-%H%M%S'), html)
+          html = re.sub(r'dedupe-ui\\.js\\?v=[^"\\']+', 'dedupe-ui.js?v=' + now.strftime('%Y%m%d-%H%M%S'), html)
+          html = re.sub(r'style\\.css\\?v=[^"\\']+', 'style.css?v=' + now.strftime('%Y%m%d-%H%M%S'), html)
+          Path('index.html').write_text(html, encoding='utf-8')
           PY
 
       - name: Commit scan data and timestamp
