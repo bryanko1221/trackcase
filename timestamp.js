@@ -15,6 +15,10 @@
     .then(data => {
       const stamp = formatTaiwan(data.lastScheduledCheck || data.lastUpdated);
       if (stamp) el.textContent = stamp;
+      showCompleteness(data);
     })
-    .catch(() => {});
+    .catch(() => {
+      const box = document.getElementById('scanCompleteness');
+      if (box) box.textContent = '🟡 無法取得最新掃描狀態';
+    });
 })();
