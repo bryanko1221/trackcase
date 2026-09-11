@@ -8,7 +8,7 @@ on:
       - 'data/batch-sources.json'
       - '.github/workflows/morning-refresh.yml'
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 1 * * *'
   workflow_dispatch:
 
 permissions:
@@ -30,7 +30,7 @@ jobs:
       - name: Recover full listing base
         run: python scripts/recover_base_listings.py
 
-      - name: Batch scan public listing indexes
+      - name: Batch scan indexes, pagination and every discovered direct listing
         run: python scripts/batch_sync.py
 
       - name: Reconcile known direct listing pages
@@ -51,66 +51,56 @@ jobs:
               json.loads(path.read_text(encoding='utf-8'))
               print(f'OK: {path}')
           html = Path('index.html').read_text(encoding='utf-8')
-          assert '<!-- COMMUNITY_CATALOG_V2 -->' in html or 'id="communityCatalog"' in html
+          assert 'id="communityCatalog"' in html
           print('OK: index.html community catalog')
           PY
+
+      - name: Run strict 100 percent completeness gate
+        run: python scripts/completeness_gate.py
 
       - name: Write Taiwan update timestamp
         run: |
           python - <<'PY'
-          import json
+          import json, re
           from datetime import datetime, timezone, timedelta
           from pathlib import Path
-          import re
-
-          p = Path('data/source-status.json')
-          data = json.loads(p.read_text(encoding='utf-8'))
-          now = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=8)))
-          stamp = now.strftime('%Y-%m-%d %H:%M')
-          iso = now.isoformat()
-          data['lastUpdated'] = stamp
-          data['lastScheduledCheck'] = iso
-          data['batchScanReport'] = 'data/batch-scan-report.json'
-          data['automation'] = {'enabled': True, 'interval': 'every 3 hours', 'timezone': 'Asia/Taipei'}
-          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-          # Keep the server-rendered timestamp, but also add a runtime updater that
-          # always reads the newest source-status.json with cache disabled. This
-          # prevents Safari/iOS from displaying an old timestamp after deployment.
-          runtime = """(() => {\n  const el = document.getElementById('lastUpdated');\n  if (!el) return;\n  const formatTaiwan = (value) => {\n    if (!value) return null;\n    const d = new Date(value);\n    if (Number.isNaN(d.getTime())) return String(value).slice(0, 16).replace('T', ' ');\n    return new Intl.DateTimeFormat('zh-TW', {\n      timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',\n      hour: '2-digit', minute: '2-digit', hour12: false\n    }).format(d).replaceAll('/', '-');\n  };\n  fetch('data/source-status.json?ts=' + Date.now(), { cache: 'no-store', credentials: 'same-origin' })\n    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })\n    .then(data => {\n      const stamp = formatTaiwan(data.lastScheduledCheck || data.lastUpdated);\n      if (stamp) el.textContent = stamp;\n    })\n    .catch(() => {});\n})();\n"""
-          Path('timestamp.js').write_text(runtime, encoding='utf-8')
-
-          html = Path('index.html').read_text(encoding='utf-8')
-          marker = 'id="lastUpdated">'
+          p=Path('data/source-status.json')
+          data=json.loads(p.read_text(encoding='utf-8'))
+          now=datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=8)))
+          stamp=now.strftime('%Y-%m-%d %H:%M')
+          data['lastUpdated']=stamp
+          data['lastScheduledCheck']=now.isoformat()
+          data['batchScanReport']='data/batch-scan-report.json'
+          data['automation']={'enabled':True,'interval':'daily 09:00','timezone':'Asia/Taipei'}
+          p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          # Keep every asset URL versioned so GitHub Pages/Safari cannot keep an old JS/CSS artifact.
+          html=Path('index.html').read_text(encoding='utf-8')
+          marker='id="lastUpdated">'
           if marker in html:
-              start = html.index(marker) + len(marker)
-              end = html.index('</span>', start)
-              html = html[:start] + stamp + html[end:]
-          if 'timestamp.js?v=' not in html:
-              html = html.replace('</body>', '<script src="timestamp.js?v=' + now.strftime('%Y%m%d-%H%M%S') + '"></script></body>')
-          else:
-              html = re.sub(r'timestamp\.js\?v=[^"\']+', 'timestamp.js?v=' + now.strftime('%Y%m%d-%H%M%S'), html)
-          html = re.sub(r'app\.js\?v=[^"\']+', 'app.js?v=' + now.strftime('%Y%m%d-%H%M%S'), html)
-          html = re.sub(r'dedupe-ui\.js\?v=[^"\']+', 'dedupe-ui.js?v=' + now.strftime('%Y%m%d-%H%M%S'), html)
-          html = re.sub(r'style\.css\?v=[^"\']+', 'style.css?v=' + now.strftime('%Y%m%d-%H%M%S'), html)
-          Path('index.html').write_text(html, encoding='utf-8')
-          print('Taiwan update timestamp:', stamp)
+              start=html.index(marker)+len(marker); end=html.index('</span>',start)
+              html=html[:start]+stamp+html[end:]
+          v=now.strftime('%Y%m%d-%H%M%S')
+          html=re.sub(r'(timestamp\.js)\?v=[^"\']+',r'\1?v='+v,html)
+          html=re.sub(r'(app\.js)\?v=[^"\']+',r'\1?v='+v,html)
+          html=re.sub(r'(dedupe-ui\.js)\?v=[^"\']+',r'\1?v='+v,html)
+          html=re.sub(r'(style\.css)\?v=[^"\']+',r'\1?v='+v,html)
+          Path('index.html').write_text(html,encoding='utf-8')
+          print('Taiwan update timestamp:',stamp)
+          print('Completeness:',data.get('scanCompleteness',{}).get('label'))
           PY
 
-      - name: Commit scan data and timestamp
+      - name: Commit scan data and website status
         run: |
           set -e
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/listings.json data/batch-scan-report.json data/source-status.json index.html timestamp.js
           git diff --cached --quiet && exit 0
-          git commit -m 'chore: automatic listing validation and refresh'
+          git commit -m 'chore: strict daily listing scan and website status'
           for attempt in 1 2 3 4 5; do
             git fetch origin main
             if git merge --no-edit -X ours origin/main; then
-              if git push origin HEAD:main; then
-                exit 0
-              fi
+              if git push origin HEAD:main; then exit 0; fi
             else
               git merge --abort || true
             fi
@@ -119,5 +109,3 @@ jobs:
           done
           echo 'Unable to push after 5 attempts.'
           exit 1
-
-# manual refresh: 2026-09-09 user-requested test scan
