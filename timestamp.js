@@ -10,14 +10,7 @@
       hour: '2-digit', minute: '2-digit', hour12: false
     }).format(d).replaceAll('/', '-');
   };
-  // Always read the live status file with cache-busting. The live scan timestamp
-  // is authoritative; the timestamp embedded in index.html is only a fallback.
-  const url = 'data/source-status.json?ts=' + Date.now() + '&v=' + Math.random();
-  fetch(url, {
-    cache: 'no-store',
-    credentials: 'same-origin',
-    headers: { 'Cache-Control': 'no-cache' }
-  })
+  fetch('data/source-status.json?ts=' + Date.now(), { cache: 'no-store', credentials: 'same-origin' })
     .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(data => {
       const stamp = formatTaiwan(data.lastScheduledCheck || data.lastUpdated);
