@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-09-11",
-  "lastUpdated": "2026-09-12 13:27",
+  "lastUpdated": "2026-09-13 10:04",
   "note": "新巨蛋來源擴充至591／樂居／信義／樂屋／永慶／中信／住商／台灣房屋／好房網。網站顯示時間以本檔案的 lastScheduledCheck 為唯一權威來源；舊版日期不得覆蓋最新掃描時間。今日資料完整度依平台逐案核實結果判定，未完成的平台標示部分完成。",
   "communities": {
     "板橋新巨蛋": {
@@ -148,9 +148,9 @@
       }
     }
   },
-  "lastScheduledCheck": "2026-09-12T13:27:59.695990+08:00",
+  "lastScheduledCheck": "2026-09-13T10:04:28.277039+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-12 13:27",
+  "lastValidated": "2026-09-13 10:04",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -160,23 +160,12 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-09-12T13:27:59.653771+08:00",
-    "sourceCount": 0,
+    "checkedAt": "2026-09-13T10:04:28.232603+08:00",
+    "sourceCount": 5,
     "communityCount": 13,
     "reasons": [
-      "板橋新巨蛋: 未配置來源",
-      "板橋文化勳章: 未配置來源",
-      "板橋公園世紀: 未配置來源",
-      "欣璞綻: 未配置來源",
-      "綠如意: 未配置來源",
-      "鑑築: 未配置來源",
-      "榮耀交響曲: 未配置來源",
-      "佳元植: 未配置來源",
-      "板橋千禧園: 未配置來源",
-      "板橋吉祥花園: 未配置來源",
-      "雙喜臨門: 未配置來源",
-      "板橋晴: 未配置來源",
-      "永康芬揚: 未配置來源"
+      "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
+      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
     ]
   }
 }
