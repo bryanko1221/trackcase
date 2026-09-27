@@ -1,7 +1,7 @@
 {
   "lastVerified": "2026-09-11",
-  "lastUpdated": "2026-09-27 14:17",
-  "note": "新巨蛋來源擴充至591／樂居／信義／樂屋／永慶／中信／住商／台灣房屋／好房網。網站顯示時間以本檔案的 lastScheduledCheck 為唯一權威來源；舊版日期不得覆蓋最新掃描時間。今日資料完整度依平台逐案核實結果判定，未完成的平台標示部分完成。",
+  "lastUpdated": "2026-09-27 19:15",
+  "note": "2026-09-27 19:15 已以新安裝 Exa 進行第二路徑補掃；新增/修正案件僅在取得直接案件頁或明確強識別時寫入。無法取得直接案件頁者保留待確認，不以社區摘要冒充完整。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
@@ -148,9 +148,9 @@
       }
     }
   },
-  "lastScheduledCheck": "2026-09-27T14:17:32.884486+08:00",
+  "lastScheduledCheck": "2026-09-27T19:15:00+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-27 14:17",
+  "lastValidated": "2026-09-27 19:15",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -160,12 +160,29 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-09-27T14:17:32.833146+08:00",
+    "checkedAt": "2026-09-27T19:15:00+08:00",
     "sourceCount": 5,
     "communityCount": 13,
     "reasons": [
       "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
       "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
     ]
+  },
+  "exaSecondPass": {
+    "checkedAt": "2026-09-27T19:15:00+08:00",
+    "method": "Exa第二路徑搜尋＋直接案件頁讀取",
+    "communities": 13,
+    "newlyVerified": [
+      "板橋鑑築",
+      "板橋綠如意",
+      "板橋佳元植",
+      "永康芬揚"
+    ],
+    "priceOrStatusChanges": [
+      "板橋欣璞綻 6F 25.39坪 2,980萬（與既有2,988萬資料待強識別確認）",
+      "板橋鑑築 14F 5,688萬（5,988萬→5,688萬）",
+      "永康芬揚 3F 21.76坪 1,738萬（原1,768萬）"
+    ],
+    "gaps": "部分平台仍有403/無直接案件頁，因此維持🟡部分完成"
   }
 }
