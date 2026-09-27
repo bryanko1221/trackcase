@@ -623,7 +623,10 @@
       "樂屋": false,
       "永慶": false
     },
-    "links": {}
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20726936.html"
+    },
+    "sourceVerified": "591 20726936 與樂居43F/85坪/6,588萬資料對應"
   },
   {
     "id": "ng-match-02",
@@ -649,7 +652,10 @@
       "樂屋": false,
       "永慶": false
     },
-    "links": {}
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20831851.html"
+    },
+    "sourceVerified": "591 20831851 與樂居32F/76.77坪/5,900萬資料對應"
   },
   {
     "id": "ng-match-03",
@@ -674,7 +680,10 @@
       "樂屋": false,
       "永慶": false
     },
-    "links": {}
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20922725.html"
+    },
+    "sourceVerified": "591 20922725 與樂居38F/75.5坪/5,599萬資料對應"
   },
   {
     "id": "ng-match-04",
@@ -727,7 +736,10 @@
       "樂屋": false,
       "永慶": false
     },
-    "links": {}
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20915461.html"
+    },
+    "sourceVerified": "591 20915461 與樂居25F/16.38坪/1,880萬資料對應"
   },
   {
     "id": "ng-match-06",
@@ -753,7 +765,10 @@
       "樂屋": false,
       "永慶": false
     },
-    "links": {}
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20963768.html"
+    },
+    "sourceVerified": "591 20963768 與樂居23F/13.59坪/1,600萬資料對應"
   },
   {
     "id": "ng-match-07",
@@ -779,7 +794,10 @@
       "樂屋": false,
       "永慶": false
     },
-    "links": {}
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20903931.html"
+    },
+    "sourceVerified": "591 20903931 為11F/43F、47.48坪、3房2廳＋車案件群識別之一"
   },
   {
     "id": "ng-match-08",
@@ -806,8 +824,10 @@
       "永慶": false
     },
     "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20671886.html",
       "信義": "https://sinyi.com.tw/buy/house/4336YB"
-    }
+    },
+    "sourceVerified": "591 20671886 與信義4336YB及樂居8F/35.46坪/2,950萬資料對應"
   },
   {
     "id": "ng-match-09",
@@ -862,8 +882,10 @@
       "永慶": false
     },
     "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20495890.html",
       "信義": "https://sinyi.com.tw/buy/house/4813PN"
-    }
+    },
+    "sourceVerified": "591 20495890 與信義4813PN及樂居6F/12.85坪/1,368萬資料對應"
   },
   {
     "id": "ng-match-11",
@@ -918,8 +940,10 @@
       "永慶": false
     },
     "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20844812.html",
       "信義": "https://sinyi.com.tw/buy/house/7680JW"
-    }
+    },
+    "sourceVerified": "591 20844812 與信義7680JW及樂居13F/76.74坪/6,800萬資料對應"
   },
   {
     "id": "ng-match-13",
@@ -947,8 +971,10 @@
       "永慶": false
     },
     "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20543014.html",
       "信義": "https://sinyi.com.tw/buy/house/3117HX"
-    }
+    },
+    "sourceVerified": "591 20543014 與信義3117HX及樂居22F/26.57坪/1,945萬資料對應"
   },
   {
     "id": "ng-match-14",
@@ -1027,6 +1053,9 @@
       "樂屋": false,
       "永慶": false
     },
-    "links": {}
+    "links": {
+      "住商": "https://www.mysweethome.com.tw/sell_item/A725-YS201935"
+    },
+    "sourceVerified": "住商 YS201935 與5F/43F、33.88坪、2,268萬案件完全對應；頁面另載坡道平面車位"
   }
 ]
