@@ -1,28 +1,28 @@
 {
   "lastVerified": "2026-09-11",
-  "lastUpdated": "2026-09-27 19:15",
+  "lastUpdated": "2026-09-27 19:30",
   "note": "2026-09-27 19:15 已以新安裝 Exa 進行第二路徑補掃；新增/修正案件僅在取得直接案件頁或明確強識別時寫入。無法取得直接案件頁者保留待確認，不以社區摘要冒充完整。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
         "status": "available",
-        "listedCount": 42,
+        "listedCount": 44,
         "communityListedCount": null,
         "url": "https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4",
         "latestSaleUrl": "https://market.591.com.tw/29267/sale",
-        "lastChecked": "2026-09-02"
+        "lastChecked": "2026-09-27"
       },
       "樂居": {
         "status": "available",
-        "listedCount": null,
+        "listedCount": 19,
         "url": "https://www.leju.com.tw/community/L4b336969ab4e5?mode=buy",
-        "lastChecked": "2026-09-02"
+        "lastChecked": "2026-09-27"
       },
       "信義": {
         "status": "available",
-        "listedCount": 7,
+        "listedCount": 9,
         "url": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000036",
-        "lastChecked": "2026-09-02"
+        "lastChecked": "2026-09-27"
       },
       "樂屋": {
         "status": "available",
@@ -148,9 +148,9 @@
       }
     }
   },
-  "lastScheduledCheck": "2026-09-27T19:15:00+08:00",
+  "lastScheduledCheck": "2026-09-27T19:30:00+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-27 19:15",
+  "lastValidated": "2026-09-27 19:30",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -160,12 +160,12 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-09-27T19:15:00+08:00",
-    "sourceCount": 5,
-    "communityCount": 13,
+    "checkedAt": "2026-09-27T19:30:00+08:00",
+    "sourceCount": 3,
+    "communityCount": 1,
     "reasons": [
-      "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
-      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
+      "新巨蛋已完成591/樂居/信義的第一輪跨平台戶別比對；部分案件仍為高度疑似或待確認，尚未完成所有來源的逐案件強識別。",
+      "591目前社區頁顯示44筆在售；平台頁不同索引可能出現不同筆數，故網站不將平台筆數直接視為實際戶數。"
     ]
   },
   "exaSecondPass": {
@@ -184,5 +184,10 @@
       "永康芬揚 3F 21.76坪 1,738萬（原1,768萬）"
     ],
     "gaps": "部分平台仍有403/無直接案件頁，因此維持🟡部分完成"
+  },
+  "newGiantEggCrossCheck": {
+    "checkedAt": "2026-09-27T19:30:00+08:00",
+    "verifiedGroups": 16,
+    "note": "依最新對話完成第一輪跨平台逐戶比對；🔴為高度吻合/同戶群，🟠為疑似，🟡為待確認。"
   }
 }
