@@ -650,10 +650,11 @@
       "樂居": true,
       "信義": false,
       "樂屋": false,
-      "永慶": false
+      "永慶": true
     },
     "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/20831851.html"
+      "591": "https://sale.591.com.tw/home/house/detail/2/20831851.html",
+      "永慶": "https://buy.yungching.com.tw/house/6364266"
     },
     "sourceVerified": "591 20831851 與樂居32F/76.77坪/5,900萬資料對應"
   },
@@ -706,10 +707,11 @@
       "樂居": true,
       "信義": true,
       "樂屋": false,
-      "永慶": false
+      "永慶": true
     },
     "links": {
-      "信義": "https://sinyi.com.tw/buy/house/9465BS"
+      "信義": "https://sinyi.com.tw/buy/house/9465BS",
+      "永慶": "https://buy.yungching.com.tw/house/7294619"
     }
   },
   {
@@ -821,11 +823,12 @@
       "樂居": true,
       "信義": true,
       "樂屋": false,
-      "永慶": false
+      "永慶": true
     },
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/20671886.html",
-      "信義": "https://sinyi.com.tw/buy/house/4336YB"
+      "信義": "https://sinyi.com.tw/buy/house/4336YB",
+      "永慶": "https://buy.yungching.com.tw/house/7489029"
     },
     "sourceVerified": "591 20671886 與信義4336YB及樂居8F/35.46坪/2,950萬資料對應"
   },
@@ -851,10 +854,11 @@
       "樂居": true,
       "信義": true,
       "樂屋": false,
-      "永慶": false
+      "永慶": true
     },
     "links": {
-      "信義": "https://sinyi.com.tw/buy/house/9524XN"
+      "信義": "https://sinyi.com.tw/buy/house/9524XN",
+      "永慶": "https://buy.yungching.com.tw/house/6892646"
     }
   },
   {
@@ -968,11 +972,12 @@
       "樂居": true,
       "信義": true,
       "樂屋": false,
-      "永慶": false
+      "永慶": true
     },
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/20543014.html",
-      "信義": "https://sinyi.com.tw/buy/house/3117HX"
+      "信義": "https://sinyi.com.tw/buy/house/3117HX",
+      "永慶": "https://buy.yungching.com.tw/house/7423870"
     },
     "sourceVerified": "591 20543014 與信義3117HX及樂居22F/26.57坪/1,945萬資料對應"
   },
@@ -997,9 +1002,11 @@
       "樂居": true,
       "信義": false,
       "樂屋": false,
-      "永慶": false
+      "永慶": true
     },
-    "links": {}
+    "links": {
+      "永慶": "https://buy.yungching.com.tw/house/7386714"
+    }
   },
   {
     "id": "ng-match-15",
