@@ -888,35 +888,29 @@
     "groupId": "jyz-2688",
     "community": "板橋佳元植",
     "block": "待確認",
-    "floor": null,
-    "totalFloor": null,
-    "area": null,
-    "layout": "2房",
+    "floor": 16,
+    "totalFloor": 22,
+    "area": 29.27,
+    "layout": "2房2廳2衛",
     "price": 2688,
     "unit": null,
-    "parking": null,
+    "parking": true,
     "owner": false,
-    "yq": null,
+    "yq": false,
     "new": false,
     "status": "active",
-    "updated": "2026-09-04",
-    "sourceVerified": "2026-09-04：樂居目前待售1筆",
+    "updated": "2026-09-27",
+    "sourceVerified": "Exa二次掃描：R.TUBE直接案件頁；16F/22F、29.27坪、2房2廳2衛、2,688萬。",
     "sources": {
-      "樂居": true
+      "樂居": true,
+      "R.TUBE": true
     },
     "links": {
-      "樂居": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a"
+      "樂居": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a",
+      "R.TUBE": "https://www.rtube.com.tw/real-estates/RE1784778988550654"
     },
     "history": [],
-    "sourceValidation": {
-      "樂居": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-27T14:17:01.863593+08:00",
-        "url": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a"
-      }
-    }
+    "sourceValidation": {}
   },
   {
     "id": "lry-2540",
@@ -1144,5 +1138,185 @@
     },
     "links": {},
     "sourceValidation": {}
+  },
+  {
+    "id": "xpd-2980-6f",
+    "groupId": "xpd-2980-6f",
+    "community": "板橋欣璞綻",
+    "block": "待確認",
+    "floor": 6,
+    "totalFloor": 25,
+    "area": 25.39,
+    "layout": "2房2廳1衛",
+    "price": 2980,
+    "unit": 117.37,
+    "parking": false,
+    "owner": false,
+    "yq": false,
+    "new": true,
+    "status": "price_drop",
+    "changeNote": "信義直接案件目前開價2,980萬；原監控同類6樓資料為2,988萬，待強識別確認是否同戶",
+    "sources": {
+      "591": true,
+      "信義": true,
+      "樂屋": true,
+      "樂居": false,
+      "永慶": false
+    },
+    "links": {
+      "信義": "https://www.sinyi.com.tw/buy/house/8318ZT"
+    },
+    "sourceValidation": {
+      "信義": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-27T19:15:00+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/8318ZT"
+      }
+    },
+    "sourceVerified": "Exa二次掃描：信義直接案件頁；6樓、25.39坪、2房、2,980萬；與既有6樓2,988萬疑似同戶，因缺強識別未強制合併。"
+  },
+  {
+    "id": "kz-5688-14f",
+    "groupId": "kz-5688-14f",
+    "community": "板橋鑑築",
+    "block": "待確認",
+    "floor": 14,
+    "totalFloor": 14,
+    "area": 89.73,
+    "layout": "4房2廳3衛",
+    "price": 5688,
+    "unit": 81.2,
+    "parking": true,
+    "parkingArea": 25.83,
+    "parkingPrice": 500,
+    "owner": false,
+    "yq": false,
+    "new": true,
+    "status": "price_drop",
+    "changeNote": "5,988萬降至5,688萬",
+    "sources": {
+      "591": false,
+      "中信": true,
+      "信義": false,
+      "樂屋": false,
+      "樂居": false,
+      "永慶": false
+    },
+    "links": {
+      "中信": "https://buy.cthouse.com.tw/house/2004451.html"
+    },
+    "sourceValidation": {
+      "中信": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-27T19:15:00+08:00",
+        "url": "https://buy.cthouse.com.tw/house/2004451.html"
+      }
+    },
+    "sourceVerified": "Exa二次掃描：中信直接案件頁，物件編號2004451。"
+  },
+  {
+    "id": "kz-4500-2f",
+    "groupId": "kz-4500-2f",
+    "community": "板橋鑑築",
+    "block": "待確認",
+    "floor": 2,
+    "totalFloor": 14,
+    "area": 60.54,
+    "layout": "3房2廳2衛1室",
+    "price": 4500,
+    "unit": null,
+    "parking": true,
+    "parkingPrice": 250,
+    "owner": false,
+    "yq": false,
+    "new": true,
+    "status": "active",
+    "sources": {
+      "信義": true
+    },
+    "links": {
+      "信義": "https://www.sinyi.com.tw/buy/house/0939DZ"
+    },
+    "sourceValidation": {
+      "信義": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-27T19:15:00+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/0939DZ"
+      }
+    },
+    "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號0939DZ。"
+  },
+  {
+    "id": "lry-2850-16f",
+    "groupId": "lry-2850-16f",
+    "community": "板橋綠如意",
+    "block": "待確認",
+    "floor": 16,
+    "totalFloor": 16,
+    "area": 43.76,
+    "layout": "3房1廳2衛1室",
+    "price": 2850,
+    "unit": 81.45,
+    "parking": true,
+    "parkingPrice": 250,
+    "owner": false,
+    "yq": false,
+    "new": true,
+    "status": "active",
+    "sources": {
+      "信義": true
+    },
+    "links": {
+      "信義": "https://www.sinyi.com.tw/buy/house/7012JW"
+    },
+    "sourceValidation": {
+      "信義": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-27T19:15:00+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/7012JW"
+      }
+    },
+    "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號7012JW。"
+  },
+  {
+    "id": "ykf-1738-3f",
+    "groupId": "ykf-1738-3f",
+    "community": "永康芬揚",
+    "block": "待確認",
+    "floor": 3,
+    "totalFloor": 14,
+    "area": 21.76,
+    "layout": "2房1廳1衛",
+    "price": 1738,
+    "unit": 79.87,
+    "parking": false,
+    "owner": false,
+    "yq": false,
+    "new": true,
+    "status": "active",
+    "sources": {
+      "我家網": true
+    },
+    "links": {
+      "我家網": "https://www.myhomes.com.tw/objects/o/1388064"
+    },
+    "sourceValidation": {
+      "我家網": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-27T19:15:00+08:00",
+        "url": "https://www.myhomes.com.tw/objects/o/1388064"
+      }
+    },
+    "sourceVerified": "Exa二次掃描：我家網直接案件頁；原價1,768萬、目前1,738萬。"
   }
 ]
