@@ -1,7 +1,7 @@
 {
   "lastVerified": "2026-09-11",
-  "lastUpdated": "2026-09-28 12:00",
-  "note": "2026-09-28 TinyFish重新核實新巨蛋；591/信義/永慶住宅資料維持🟡部分完成。另實際搜尋永慶「板橋新巨蛋」單獨車位，結果為暫無符合物件，因此原B7純車位已改為下架歷史紀錄，不列目前在售。",
+  "lastUpdated": "2026-09-28 12:15",
+  "note": "2026-09-28 TinyFish完成新巨蛋591直接案件頁逐案核實，補充建物坪數明細、車位坪數與591頁面單價；單價口徑與建物坪數分開保存，無法核實者不猜。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
@@ -148,9 +148,9 @@
       }
     }
   },
-  "lastScheduledCheck": "2026-09-28T12:00:00+08:00",
+  "lastScheduledCheck": "2026-09-28T12:15:00+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-28 12:00",
+  "lastValidated": "2026-09-28 12:15",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -160,7 +160,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-09-28T12:00:00+08:00",
+    "checkedAt": "2026-09-28T12:15:00+08:00",
     "sourceCount": 3,
     "communityCount": 1,
     "reasons": [
@@ -198,6 +198,12 @@
       "query": "新北市板橋區／型態：車位／關鍵字：板橋新巨蛋",
       "result": "暫無符合物件",
       "note": "不將附帶車位的住宅案件計為單獨車位。"
+    },
+    "buildingAreaUnitPriceCheck": {
+      "checkedAt": "2026-09-28T12:15:00+08:00",
+      "platform": "591",
+      "verifiedListings": 14,
+      "note": "14筆指定591案件直接開頁核實；補充buildingAreaDetail、parkingArea、unitPrice與unitPriceBasis。591頁面單價保留原平台口徑，不與純建物坪單價混為一談。"
     }
   }
 }
