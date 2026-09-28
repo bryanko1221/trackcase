@@ -1143,8 +1143,8 @@
     "groupId": "ng-b7-parking",
     "community": "板橋新巨蛋",
     "new": false,
-    "status": "active",
-    "updated": "2026-09-28T10:27:00+08:00",
+    "status": "gone",
+    "updated": "2026-09-28T12:00:00+08:00",
     "block": "B區",
     "floor": -7,
     "totalFloor": 46,
@@ -1166,6 +1166,18 @@
       "永慶": "https://buy.yungching.com.tw/house/4800353"
     },
     "matchStatus": "已核實",
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：永慶實際搜尋「新北市板橋區／型態車位／板橋新巨蛋」，結果為暫無符合物件。",
+    "active": false,
+    "lastStatusChange": "2026-09-28",
+    "statusNote": "TinyFish 2026-09-28 實際搜尋：永慶「板橋區＋型態車位＋板橋新巨蛋」顯示暫無符合物件；因此不再視為目前在售純車位。",
+    "sourceValidation": {
+      "永慶": {
+        "state": "not_found",
+        "httpStatus": 200,
+        "reason": "no_matching_single_parking_listing",
+        "checkedAt": "2026-09-28T12:00:00+08:00",
+        "url": "https://buy.yungching.com.tw/"
+      }
+    }
   }
 ]
