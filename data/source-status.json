@@ -1,7 +1,7 @@
 {
   "lastVerified": "2026-09-11",
-  "lastUpdated": "2026-09-28 10:27",
-  "note": "2026-09-28 TinyFish 實際瀏覽完成永慶新巨蛋案件核實，並與既有591、信義資料重新交叉整理。591/信義/永慶皆仍有未完成全案強識別的部分，故維持🟡部分完成。",
+  "lastUpdated": "2026-09-28 12:00",
+  "note": "2026-09-28 TinyFish重新核實新巨蛋；591/信義/永慶住宅資料維持🟡部分完成。另實際搜尋永慶「板橋新巨蛋」單獨車位，結果為暫無符合物件，因此原B7純車位已改為下架歷史紀錄，不列目前在售。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
@@ -148,9 +148,9 @@
       }
     }
   },
-  "lastScheduledCheck": "2026-09-28T10:27:00+08:00",
+  "lastScheduledCheck": "2026-09-28T12:00:00+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-28 10:27",
+  "lastValidated": "2026-09-28 12:00",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -160,7 +160,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-09-28T10:27:00+08:00",
+    "checkedAt": "2026-09-28T12:00:00+08:00",
     "sourceCount": 3,
     "communityCount": 1,
     "reasons": [
@@ -190,6 +190,14 @@
     "verifiedGroups": 18,
     "note": "本次以TinyFish目前已取得的591、信義、永慶資料重新整理；確定／高度吻合與疑似案件分開保留。",
     "yungchingVerifiedGroups": 10,
-    "yungchingNote": "TinyFish本次永慶核實10筆在售資料，含10筆住宅/車位案件；可與既有跨平台群組強識別者已補入，無法強識別者不硬合併。"
+    "yungchingNote": "TinyFish本次永慶核實10筆在售資料，含10筆住宅/車位案件；可與既有跨平台群組強識別者已補入，無法強識別者不硬合併。",
+    "singleParkingCheck": {
+      "checkedAt": "2026-09-28T12:00:00+08:00",
+      "platform": "永慶",
+      "status": "not_found",
+      "query": "新北市板橋區／型態：車位／關鍵字：板橋新巨蛋",
+      "result": "暫無符合物件",
+      "note": "不將附帶車位的住宅案件計為單獨車位。"
+    }
   }
 }
