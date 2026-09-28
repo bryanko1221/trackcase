@@ -1,16 +1,16 @@
 {
   "lastVerified": "2026-09-11",
-  "lastUpdated": "2026-09-27 19:30",
-  "note": "2026-09-27 19:30 已完成新巨蛋第一輪跨平台戶別比對；本次再補上可由案件編號強識別的直接案件連結。無法取得直接案件頁或識別不足者保留空白，不以社區摘要冒充完整。；2026-09-27 永慶新巨蛋頁面重新核對，已補入可強識別的永慶直接案件頁。",
+  "lastUpdated": "2026-09-28 10:27",
+  "note": "2026-09-28 TinyFish 實際瀏覽完成永慶新巨蛋案件核實，並與既有591、信義資料重新交叉整理。591/信義/永慶皆仍有未完成全案強識別的部分，故維持🟡部分完成。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
         "status": "available",
-        "listedCount": 44,
+        "listedCount": 46,
         "communityListedCount": null,
         "url": "https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4",
         "latestSaleUrl": "https://market.591.com.tw/29267/sale",
-        "lastChecked": "2026-09-27"
+        "lastChecked": "2026-09-28"
       },
       "樂居": {
         "status": "available",
@@ -22,7 +22,7 @@
         "status": "available",
         "listedCount": 9,
         "url": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000036",
-        "lastChecked": "2026-09-27"
+        "lastChecked": "2026-09-28"
       },
       "樂屋": {
         "status": "available",
@@ -32,10 +32,10 @@
       },
       "永慶": {
         "status": "available",
-        "listedCount": 12,
+        "listedCount": 10,
         "url": "https://buy.yungching.com.tw/list/%E6%96%B0%E5%8C%97%E5%B8%82-_c/%E6%96%B0%E5%B7%A8%E8%9B%8B_kw",
         "storeUrl": "https://shop.yungching.com.tw/0233169908_0167/list?pg=1",
-        "lastChecked": "2026-09-02"
+        "lastChecked": "2026-09-28"
       },
       "中信": {
         "status": "available",
@@ -148,9 +148,9 @@
       }
     }
   },
-  "lastScheduledCheck": "2026-09-27T19:30:00+08:00",
+  "lastScheduledCheck": "2026-09-28T10:27:00+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-27 19:30",
+  "lastValidated": "2026-09-28 10:27",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -160,12 +160,12 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-09-27T19:30:00+08:00",
+    "checkedAt": "2026-09-28T10:27:00+08:00",
     "sourceCount": 3,
     "communityCount": 1,
     "reasons": [
-      "新巨蛋已完成591/樂居/信義的第一輪跨平台戶別比對；部分案件仍為高度疑似或待確認，尚未完成所有來源的逐案件強識別。",
-      "591目前社區頁顯示44筆在售；平台頁不同索引可能出現不同筆數，故網站不將平台筆數直接視為實際戶數。"
+      "591已抓到46筆、信義9筆、永慶10筆；跨平台已整理但部分案件仍為疑似或待確認，不能視為全部強識別完成。",
+      "591／信義／永慶目前均有逐案資料，但平台筆數與實際不同戶數不可直接相加。"
     ]
   },
   "exaSecondPass": {
@@ -186,13 +186,10 @@
     "gaps": "部分平台仍有403/無直接案件頁，因此維持🟡部分完成"
   },
   "newGiantEggCrossCheck": {
-    "checkedAt": "2026-09-27T19:30:00+08:00",
-    "verifiedGroups": 16,
-    "note": "依最新對話完成第一輪跨平台逐戶比對；🔴為高度吻合/同戶群，🟠為疑似，🟡為待確認。",
-    "linkUpdateAt": "2026-09-27T19:30:00+08:00",
-    "linkUpdateNote": "已補上11筆可強識別案件直連；其餘案件已有信義直連者保留，無法確認的39F/14.24坪案件未硬配直連。",
-    "yungchingLinkUpdateAt": "2026-09-27T19:30:00+08:00",
-    "yungchingVerifiedGroups": 6,
-    "yungchingNote": "已確認並補入6筆永慶直接案件頁：32F 76.78坪、24F 45.99坪、8F 35.46坪、7F 84.05坪、22F 26.57坪、39F 14.24坪；其餘永慶搜尋結果待與網站案件強識別後再補。"
+    "checkedAt": "2026-09-28T10:27:00+08:00",
+    "verifiedGroups": 18,
+    "note": "本次以TinyFish目前已取得的591、信義、永慶資料重新整理；確定／高度吻合與疑似案件分開保留。",
+    "yungchingVerifiedGroups": 10,
+    "yungchingNote": "TinyFish本次永慶核實10筆在售資料，含10筆住宅/車位案件；可與既有跨平台群組強識別者已補入，無法強識別者不硬合併。"
   }
 }
