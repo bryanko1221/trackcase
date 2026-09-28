@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-09-11",
-  "lastUpdated": "2026-09-28 13:10",
+  "lastUpdated": "2026-09-28 14:23",
   "note": "2026-09-28 TinyFish完成新巨蛋591直接案件頁逐案核實，補充建物坪數明細、車位坪數與591頁面單價；單價口徑與建物坪數分開保存，無法核實者不猜。",
   "communities": {
     "板橋新巨蛋": {
@@ -148,9 +148,9 @@
       }
     }
   },
-  "lastScheduledCheck": "2026-09-28T12:55:00+08:00",
+  "lastScheduledCheck": "2026-09-28T14:23:39.022027+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-28 13:10",
+  "lastValidated": "2026-09-28 14:23",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -160,14 +160,12 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-09-28T13:10:00+08:00",
-    "sourceCount": 3,
-    "communityCount": 1,
+    "checkedAt": "2026-09-28T14:23:38.976861+08:00",
+    "sourceCount": 9,
+    "communityCount": 13,
     "reasons": [
-      "591已抓到46筆、信義9筆、永慶10筆；跨平台已整理但部分案件仍為疑似或待確認，不能視為全部強識別完成。",
-      "591／信義／永慶目前均有逐案資料，但平台筆數與實際不同戶數不可直接相加。",
-      "2026-09-28 12:55 TinyFish嘗試掃描新巨蛋以外12個社區，但591出售搜尋介面在第一個社區「板橋文化勳章」即發生搜尋頁籤跳轉/無法精確匹配問題，未取得可逐案核實的出售清單，因此本次沒有把未核實結果寫入案件資料。",
-      "公園世紀跨平台TinyFish核實：樂居A區1筆但詳細頁受Cloudflare限制；信義0筆；永慶0筆。尚未完成樂居B/C區與其他平台，因此維持🟡部分完成。"
+      "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
+      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
     ]
   },
   "exaSecondPass": {

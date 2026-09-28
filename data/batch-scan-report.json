@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-27T14:17:01.863593+08:00",
+  "updatedAt": "2026-09-28T14:22:40.992045+08:00",
   "checked": [
     {
       "id": "ng-4998",
       "source": "信義",
-      "url": "https://www.sinyi.com.tw/buy/house/7855FZ",
+      "url": "https://sinyi.com.tw/buy/house/7855FZ",
       "state": "active",
       "httpStatus": 200,
       "reason": "ok"
@@ -18,17 +18,17 @@
       "reason": "access-blocked-or-server-error"
     },
     {
-      "id": "ng-4998",
-      "source": "樂屋",
-      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08949033888949f&from=communitySearchSell",
+      "id": "ng-1945",
+      "source": "信義",
+      "url": "https://www.sinyi.com.tw/buy/house/3117HX",
       "state": "active",
       "httpStatus": 200,
       "reason": "ok"
     },
     {
       "id": "ng-1945",
-      "source": "信義",
-      "url": "https://www.sinyi.com.tw/buy/house/3117HX",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=03d58b346244938&from=communitySearchSell",
       "state": "active",
       "httpStatus": 200,
       "reason": "ok"
@@ -42,17 +42,25 @@
       "reason": "access-blocked-or-server-error"
     },
     {
-      "id": "ng-1945",
-      "source": "樂屋",
-      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=03d58b346244938&from=communitySearchSell",
+      "id": "ng-6800",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20576106.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-6800",
+      "source": "信義",
+      "url": "https://www.sinyi.com.tw/buy/house/7680JW",
       "state": "active",
       "httpStatus": 200,
       "reason": "ok"
     },
     {
       "id": "ng-6800",
-      "source": "信義",
-      "url": "https://www.sinyi.com.tw/buy/house/7680JW",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell",
       "state": "active",
       "httpStatus": 200,
       "reason": "ok"
@@ -66,17 +74,17 @@
       "reason": "access-blocked-or-server-error"
     },
     {
-      "id": "ng-6800",
-      "source": "樂屋",
-      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell",
+      "id": "ng-6600",
+      "source": "信義",
+      "url": "https://www.sinyi.com.tw/buy/house/9524XN",
       "state": "active",
       "httpStatus": 200,
       "reason": "ok"
     },
     {
       "id": "ng-6600",
-      "source": "信義",
-      "url": "https://www.sinyi.com.tw/buy/house/9524XN",
+      "source": "樂屋",
+      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08d32d300679720&from=communitySearchSell",
       "state": "active",
       "httpStatus": 200,
       "reason": "ok"
@@ -88,14 +96,6 @@
       "state": "unknown",
       "httpStatus": 403,
       "reason": "access-blocked-or-server-error"
-    },
-    {
-      "id": "ng-6600",
-      "source": "樂屋",
-      "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08d32d300679720&from=communitySearchSell",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
     },
     {
       "id": "ng-1368",
@@ -266,6 +266,14 @@
       "reason": "access-blocked-or-server-error"
     },
     {
+      "id": "jyz-2688",
+      "source": "R.TUBE",
+      "url": "https://www.rtube.com.tw/real-estates/RE1784778988550654",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
       "id": "lry-2540",
       "source": "591",
       "url": "https://market.591.com.tw/29100",
@@ -274,23 +282,87 @@
       "reason": "access-blocked-or-server-error"
     },
     {
-      "id": "ng-b32-5900-s20576106",
+      "id": "xpd-2980-6f",
+      "source": "信義",
+      "url": "https://www.sinyi.com.tw/buy/house/8318ZT",
+      "state": "gone",
+      "httpStatus": 404,
+      "reason": "not-found"
+    },
+    {
+      "id": "kz-5688-14f",
+      "source": "中信",
+      "url": "https://buy.cthouse.com.tw/house/2004451.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "kz-4500-2f",
+      "source": "信義",
+      "url": "https://www.sinyi.com.tw/buy/house/0939DZ",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "lry-2850-16f",
+      "source": "信義",
+      "url": "https://www.sinyi.com.tw/buy/house/7012JW",
+      "state": "gone",
+      "httpStatus": 404,
+      "reason": "not-found"
+    },
+    {
+      "id": "ykf-1738-3f",
+      "source": "我家網",
+      "url": "https://www.myhomes.com.tw/objects/o/1388064",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-match-01",
       "source": "591",
-      "url": "https://sale.591.com.tw/home/house/detail/2/20576106.html",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20726936.html",
       "state": "unknown",
       "httpStatus": 403,
       "reason": "access-blocked-or-server-error"
     },
     {
-      "id": "ng-c33-4288",
-      "source": "永慶",
-      "url": "https://buy.yungching.com.tw/house/7280883",
+      "id": "ng-match-02",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20831851.html",
       "state": "unknown",
       "httpStatus": 403,
       "reason": "access-blocked-or-server-error"
     },
     {
-      "id": "ng-c24-3998",
+      "id": "ng-match-03",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20922725.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-04",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20256798.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-04",
+      "source": "信義",
+      "url": "https://sinyi.com.tw/buy/house/9465BS",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-match-04",
       "source": "永慶",
       "url": "https://buy.yungching.com.tw/house/7294619",
       "state": "unknown",
@@ -298,9 +370,193 @@
       "reason": "access-blocked-or-server-error"
     },
     {
-      "id": "ng-c8-2950",
+      "id": "ng-match-05",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20915461.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-05",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/6666073",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-06",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20963768.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-07",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20903931.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-08",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20671886.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-08",
+      "source": "信義",
+      "url": "https://sinyi.com.tw/buy/house/4336YB",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-match-08",
       "source": "永慶",
       "url": "https://buy.yungching.com.tw/house/7489029",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-09",
+      "source": "信義",
+      "url": "https://sinyi.com.tw/buy/house/9524XN",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-match-09",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/6892646",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-10",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20495890.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-10",
+      "source": "信義",
+      "url": "https://sinyi.com.tw/buy/house/4813PN",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-match-11",
+      "source": "信義",
+      "url": "https://sinyi.com.tw/buy/house/3508VZ",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-match-12",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20844812.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-12",
+      "source": "信義",
+      "url": "https://sinyi.com.tw/buy/house/7680JW",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-match-12",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/6499628",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-13",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20543014.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-13",
+      "source": "信義",
+      "url": "https://sinyi.com.tw/buy/house/3117HX",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-match-13",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/7423870",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-14",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/7386714",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-15",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20446447.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-16",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20804507.html",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-match-16",
+      "source": "住商",
+      "url": "https://www.mysweethome.com.tw/sell_item/A725-YS201935",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-4288",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/7280883",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
+      "id": "ng-b7-parking",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/4800353",
       "state": "unknown",
       "httpStatus": 403,
       "reason": "access-blocked-or-server-error"
@@ -308,9 +564,43 @@
   ],
   "changed": [
     {
+      "id": "ng-1728",
+      "source": "信義",
+      "change": "link-invalid",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "ng-1728",
+      "source": "樂屋",
+      "change": "link-invalid",
+      "date": "2026-09-28"
+    },
+    {
       "id": "pc-b-2280",
       "change": "all-known-links-gone",
-      "date": "2026-09-27"
+      "date": "2026-09-28"
+    },
+    {
+      "id": "xpd-2980-6f",
+      "source": "信義",
+      "change": "link-invalid",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "xpd-2980-6f",
+      "change": "all-known-links-gone",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "lry-2850-16f",
+      "source": "信義",
+      "change": "link-invalid",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "lry-2850-16f",
+      "change": "all-known-links-gone",
+      "date": "2026-09-28"
     }
   ]
 }
