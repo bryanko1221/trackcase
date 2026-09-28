@@ -626,7 +626,14 @@
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/20726936.html"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": "41.94坪主建物 + 7.19坪附屬 + 18.36坪共同",
+    "parkingArea": 17.51,
+    "unitPrice": 77.51,
+    "unitPriceBasis": "591案件頁每坪單價；總坪數85坪含車位",
+    "totalPrice": 6588,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-match-02",
@@ -655,7 +662,14 @@
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/20831851.html"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": "41.23坪主建物 + 7.19坪附屬 + 18.17坪共同",
+    "parkingArea": 10.19,
+    "unitPrice": 84.1,
+    "unitPriceBasis": "591案件頁每坪單價；總坪數76.78坪",
+    "totalPrice": 5900,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-match-03",
@@ -683,7 +697,14 @@
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/20922725.html"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": "33.92坪",
+    "parkingArea": 20.38,
+    "unitPrice": 74.16,
+    "unitPriceBasis": "591案件頁每坪單價；總坪數75.5坪含車位",
+    "totalPrice": 5599,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-match-04",
@@ -714,7 +735,14 @@
       "永慶": "https://buy.yungching.com.tw/house/7294619"
     },
     "unit": 99.84,
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": "21.9坪",
+    "parkingArea": 8.75,
+    "unitPrice": 86.91,
+    "unitPriceBasis": "591案件頁每坪單價；總坪數46坪含車位",
+    "totalPrice": 3998,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-match-05",
@@ -744,7 +772,14 @@
       "591": "https://sale.591.com.tw/home/house/detail/2/20915461.html",
       "永慶": "https://buy.yungching.com.tw/house/6666073"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": "10坪",
+    "parkingArea": null,
+    "unitPrice": 109.89,
+    "unitPriceBasis": "591案件頁每坪單價；無車位",
+    "totalPrice": 1800,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-match-06",
@@ -773,7 +808,14 @@
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/20963768.html"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": null,
+    "parkingArea": null,
+    "unitPrice": 117.73,
+    "unitPriceBasis": "591案件頁每坪單價；無車位",
+    "totalPrice": 1600,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-match-07",
@@ -802,7 +844,14 @@
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/20903931.html"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": "21.9坪",
+    "parkingArea": 10.19,
+    "unitPrice": 99.44,
+    "unitPriceBasis": "591案件頁每坪單價；總坪數47.48坪含車位",
+    "totalPrice": 3988,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-match-08",
@@ -833,7 +882,14 @@
       "信義": "https://sinyi.com.tw/buy/house/4336YB",
       "永慶": "https://buy.yungching.com.tw/house/7489029"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": null,
+    "parkingArea": 10.19,
+    "unitPrice": 106.45,
+    "unitPriceBasis": "591案件頁每坪單價；總坪數35.46坪含車位",
+    "totalPrice": 2950,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-match-09",
@@ -893,7 +949,14 @@
       "591": "https://sale.591.com.tw/home/house/detail/2/20495890.html",
       "信義": "https://sinyi.com.tw/buy/house/4813PN"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": "6.94坪",
+    "parkingArea": null,
+    "unitPrice": 106.46,
+    "unitPriceBasis": "591案件頁每坪單價；無車位",
+    "totalPrice": 1368,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-match-11",
@@ -953,7 +1016,14 @@
       "信義": "https://sinyi.com.tw/buy/house/7680JW",
       "永慶": "https://buy.yungching.com.tw/house/6499628"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": null,
+    "parkingArea": 10.19,
+    "unitPrice": 88.61,
+    "unitPriceBasis": "591案件頁每坪單價；總坪數76.74坪含車位",
+    "totalPrice": 6800,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-match-13",
@@ -985,7 +1055,14 @@
       "信義": "https://sinyi.com.tw/buy/house/3117HX",
       "永慶": "https://buy.yungching.com.tw/house/7423870"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": "10坪",
+    "parkingArea": 10.19,
+    "unitPrice": 73.23,
+    "unitPriceBasis": "591案件頁每坪單價；總坪數26.56坪含車位",
+    "totalPrice": 1945,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-match-14",
@@ -1044,7 +1121,14 @@
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/20446447.html"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。"
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": "6.94坪",
+    "parkingArea": null,
+    "unitPrice": 103.86,
+    "unitPriceBasis": "591案件頁每坪單價；無車位",
+    "totalPrice": 1290,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-match-16",
@@ -1075,7 +1159,14 @@
       "住商": "https://www.mysweethome.com.tw/sell_item/A725-YS201935"
     },
     "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
-    "unit": 66.94
+    "unit": 66.94,
+    "buildingAreaDetail": "15.47坪",
+    "parkingArea": 10.19,
+    "unitPrice": 107.59,
+    "unitPriceBasis": "591案件頁每坪單價；總坪數35.47坪含車位",
+    "totalPrice": 2950,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00"
   },
   {
     "id": "ng-4998",
