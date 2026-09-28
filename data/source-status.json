@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-09-11",
-  "lastUpdated": "2026-09-28 12:55",
+  "lastUpdated": "2026-09-28 13:10",
   "note": "2026-09-28 TinyFish完成新巨蛋591直接案件頁逐案核實，補充建物坪數明細、車位坪數與591頁面單價；單價口徑與建物坪數分開保存，無法核實者不猜。",
   "communities": {
     "板橋新巨蛋": {
@@ -150,7 +150,7 @@
   },
   "lastScheduledCheck": "2026-09-28T12:55:00+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-28 12:55",
+  "lastValidated": "2026-09-28 13:10",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -160,13 +160,14 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-09-28T12:55:00+08:00",
+    "checkedAt": "2026-09-28T13:10:00+08:00",
     "sourceCount": 3,
     "communityCount": 1,
     "reasons": [
       "591已抓到46筆、信義9筆、永慶10筆；跨平台已整理但部分案件仍為疑似或待確認，不能視為全部強識別完成。",
       "591／信義／永慶目前均有逐案資料，但平台筆數與實際不同戶數不可直接相加。",
-      "2026-09-28 12:55 TinyFish嘗試掃描新巨蛋以外12個社區，但591出售搜尋介面在第一個社區「板橋文化勳章」即發生搜尋頁籤跳轉/無法精確匹配問題，未取得可逐案核實的出售清單，因此本次沒有把未核實結果寫入案件資料。"
+      "2026-09-28 12:55 TinyFish嘗試掃描新巨蛋以外12個社區，但591出售搜尋介面在第一個社區「板橋文化勳章」即發生搜尋頁籤跳轉/無法精確匹配問題，未取得可逐案核實的出售清單，因此本次沒有把未核實結果寫入案件資料。",
+      "公園世紀跨平台TinyFish核實：樂居A區1筆但詳細頁受Cloudflare限制；信義0筆；永慶0筆。尚未完成樂居B/C區與其他平台，因此維持🟡部分完成。"
     ]
   },
   "exaSecondPass": {
@@ -226,6 +227,31 @@
     ],
     "status": "blocked_before_listing_extraction",
     "verifiedCommunities": 0,
-    "note": "TinyFish實際瀏覽；第一個社區即遇591搜尋介面無法穩定維持出售/中古屋頁籤且社區名稱無法精確匹配，未將搜尋摘要或租屋結果當作出售案件。"
+    "note": "TinyFish實際瀏覽；第一個社區即遇591搜尋介面無法穩定維持出售/中古屋頁籤且社區名稱無法精確匹配，未將搜尋摘要或租屋結果當作出售案件。",
+    "parkCenturyCrossPlatform": {
+      "checkedAt": "2026-09-28T13:10:00+08:00",
+      "region": "北部/新北市/板橋區",
+      "platforms": {
+        "樂居": {
+          "listedCount": 1,
+          "verifiedCount": 1,
+          "status": "partial",
+          "note": "公園世紀A區，2F，40.34坪，2380萬；Cloudflare阻擋詳細頁，建物坪數/車位/單價未核實。B區/C區本次未完成。"
+        },
+        "信義房屋": {
+          "listedCount": 0,
+          "verifiedCount": 0,
+          "status": "not_found",
+          "note": "多次於新北市板橋區搜尋及直接社區頁查找，回傳404/不存在，未找到在售案件。"
+        },
+        "永慶房屋": {
+          "listedCount": 0,
+          "verifiedCount": 0,
+          "status": "not_found",
+          "note": "已確認地區為新北市板橋區，出售搜尋結果0筆。"
+        }
+      },
+      "note": "三平台均由TinyFish實際瀏覽核實；未將其他平台或搜尋摘要推定為案件。"
+    }
   }
 }
