@@ -33,36 +33,5 @@
       "591-4": "https://sale.591.com.tw/home/house/detail/2/19819144.html",
       "永慶": "https://community.yungching.com.tw/building/8804"
     }
-  },
-  {
-    "id": "wh-591-20531352",
-    "groupId": "wh-591-20531352",
-    "community": "板橋文化勳章",
-    "block": "待確認",
-    "floor": null,
-    "totalFloor": 25,
-    "area": null,
-    "layout": "待核實",
-    "price": null,
-    "unit": null,
-    "parking": null,
-    "owner": false,
-    "yq": null,
-    "new": true,
-    "updated": "2026-09-01",
-    "sourceVerified": "使用者提供的591個別案件網址；目前詳細欄位待核實，先保留避免漏案",
-    "sources": {
-      "591": true,
-      "信義": false,
-      "樂居": false,
-      "樂屋": false,
-      "中信": false,
-      "永慶": null
-    },
-    "history": [],
-    "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/20531352.html"
-    },
-    "sourceListing": "591物件20531352｜文化勳章｜詳細資料待核實"
   }
 ]
