@@ -290,29 +290,41 @@
     "verifiedCommunities": 0,
     "note": "TinyFish實際瀏覽；第一個社區即遇591搜尋介面無法穩定維持出售/中古屋頁籤且社區名稱無法精確匹配，未將搜尋摘要或租屋結果當作出售案件。",
     "parkCenturyCrossPlatform": {
-      "checkedAt": "2026-09-28T13:10:00+08:00",
+      "checkedAt": "2026-09-29T15:10:00+08:00",
       "region": "北部/新北市/板橋區",
       "platforms": {
-        "樂居": {
-          "listedCount": 1,
-          "verifiedCount": 1,
+        "樂屋網": {
+          "listedCount": 5,
+          "verifiedCount": 5,
           "status": "partial",
-          "note": "公園世紀A區，2F，40.34坪，2380萬；Cloudflare阻擋詳細頁，建物坪數/車位/單價未核實。B區/C區本次未完成。"
-        },
-        "信義房屋": {
-          "listedCount": 0,
-          "verifiedCount": 0,
-          "status": "not_found",
-          "note": "多次於新北市板橋區搜尋及直接社區頁查找，回傳404/不存在，未找到在售案件。"
+          "note": "社區銷售頁目前可見5個唯一戶型：1F 2,588萬、10F 2,280萬、4F 3,758萬、5F 3,698萬、7F 4,888萬；原部分個別網址已失效，改以目前社區銷售頁＋其他平台直接案件頁交叉核實。"
         },
         "永慶房屋": {
-          "listedCount": 0,
-          "verifiedCount": 0,
-          "status": "not_found",
-          "note": "已確認地區為新北市板橋區，出售搜尋結果0筆。"
+          "listedCount": 4,
+          "verifiedCount": 4,
+          "status": "partial",
+          "note": "直接案件頁可確認10F 2,280萬、7F 4,888萬；5F 3,698萬由店舖清單確認；原舊URL 7252089解析到無關案件，不再採用。A區1F本輪由台慶/住商直接頁確認。"
+        },
+        "信義房屋": {
+          "listedCount": 2,
+          "verifiedCount": 2,
+          "status": "available",
+          "note": "10F 2,280萬與4F 3,758萬有直接案件頁。"
+        },
+        "台慶不動產": {
+          "listedCount": 1,
+          "verifiedCount": 1,
+          "status": "available",
+          "note": "A區1F 2,588萬直接案件頁。"
+        },
+        "住商不動產": {
+          "listedCount": 1,
+          "verifiedCount": 1,
+          "status": "available",
+          "note": "A區1F 2,588萬直接案件頁。"
         }
       },
-      "note": "三平台均由TinyFish實際瀏覽核實；未將其他平台或搜尋摘要推定為案件。"
+      "note": "2026-09-29重新核對公園世紀：資料層已由10筆別名去重為5戶；已逐筆檢查已存在的案件URL，404/錯誤案件URL不再當作有效直連。"
     }
   },
   "latestFreeFirstScan": {
@@ -387,11 +399,11 @@
     "note": "正式資料已同步至data/listings.json；11社區canonicalCurrentListings共14筆唯一現售集合。平台原始筆數與唯一戶數分開保存，未核實案件不列入正式現售。"
   },
   "latestDeduplication": {
-    "checkedAt": "2026-09-29",
+    "checkedAt": "2026-09-29T15:10:00+08:00",
     "scope": "目前網站 data/listings.json 全部案件",
-    "beforeCount": 46,
-    "afterCount": 54,
-    "removedCount": 6,
+    "beforeCount": 54,
+    "afterCount": 49,
+    "removedCount": 11,
     "method": "案件編號／原始網址／社區＋棟別＋樓層＋坪數＋格局＋價格等強識別條件；不以單純相似價格或坪數硬合併",
     "removedDuplicates": [
       {
@@ -423,6 +435,31 @@
         "removed": "ng-1880",
         "kept": "ng-match-05",
         "reason": "C區25F、16.38坪同戶；保留目前1,800萬active版本"
+      },
+      {
+        "removed": "ps-a-2588",
+        "kept": "pc-a-2588",
+        "reason": "公園世紀A區1F、29.58坪、3房，同一戶不同資料別名"
+      },
+      {
+        "removed": "ps-bc-2280",
+        "kept": "pc-b-2280",
+        "reason": "公園世紀B區10F、28.14坪、2房，同一戶不同資料別名"
+      },
+      {
+        "removed": "ps-bc-3698",
+        "kept": "pc-b-3698",
+        "reason": "公園世紀B區5F、58.44坪、3房、3,698萬，同一戶不同資料別名"
+      },
+      {
+        "removed": "ps-bc-3758",
+        "kept": "pc-b-3758",
+        "reason": "公園世紀B區4F、60.34坪、4房、3,758萬，同一戶不同資料別名"
+      },
+      {
+        "removed": "ps-bc-4888",
+        "kept": "pc-b-4888",
+        "reason": "公園世紀B區7F、74.33/74.34坪、4房、4,888萬，同一戶不同資料別名"
       }
     ],
     "pendingNotMerged": [
@@ -430,7 +467,7 @@
       "新巨蛋A區6F 12.85坪 1,368萬與1,638萬：價格不同且現有資料標示可能為不同戶，暫不合併",
       "跨平台僅有相似價格／坪數但缺乏強識別的案件，維持分開"
     ],
-    "note": "2026-09-29修復正式資料同步：11社區現售canonical集合已寫入listings.json；前端改為以canonicalCurrentListings取代舊11社區現售資料。"
+    "note": "2026-09-29修復正式資料同步；另完成公園世紀5組重複別名去重，正式現售集合保留5戶。"
   },
   "latestUrlAudit": {
     "checkedAt": "2026-09-29",
@@ -442,8 +479,8 @@
     "communityCounts": {
       "板橋新巨蛋": "591目前社區頁可見在售，需依指定門牌再去重",
       "板橋文化勳章": 2,
-      "板橋公園世紀A區": "本次保留既有已核實案件；591社區頁可見多筆",
-      "板橋公園世紀B區": 1,
+      "板橋公園世紀A區": 1,
+      "板橋公園世紀B區": 4,
       "欣璞綻": 6,
       "綠如意": 6,
       "鑑築": 2,
@@ -462,5 +499,13 @@
       "永康芬揚": "591 18筆平台筆數，不等於18戶；目前先核實代表戶。"
     },
     "databaseActiveCount": 29
+  },
+  "parkCenturyUrlAudit": {
+    "checkedAt": "2026-09-29T15:10:00+08:00",
+    "uniqueCurrentListings": 5,
+    "duplicateAliasesRemoved": 5,
+    "activeDirectUrls": 6,
+    "deadOrWrongDirectUrls": 3,
+    "note": "直接網址審核：10F永慶＋信義有效；7F永慶有效；4F信義有效；1F台慶＋住商有效；5F目前以永慶店舖清單＋樂屋社區頁確認，原個別URL失效/錯誤。"
   }
 }
