@@ -67,14 +67,14 @@ async function init(){
       getJson('data/scan-ledger.json',{}),
       getJson('data/scan-2026-09-07.json',{listings:[]})
     ]);
-    const map=new Map(listings.map(x=>[x.id,x]));
+    // 11社區的 canonicalCurrentListings 是本輪已整理完成的正式現售集合；避免掃描結果寫入 current-update 卻未同步前台。\n    const canonicalCurrent=Array.isArray(curr?.canonicalCurrentListings)?curr.canonicalCurrentListings:[];\n    const canonicalCommunities=new Set(canonicalCurrent.map(x=>communityKey(x.community)));\n    const map=new Map(listings.map(x=>[x.id,x]));
     (Array.isArray(m)?m:[]).forEach(x=>map.set(x.id,{...(map.get(x.id)||{}),...x,sources:{...(map.get(x.id)?.sources||{}),...(x.sources||{})},links:{...(map.get(x.id)?.links||{}),...(x.links||{})}}));
     Object.values(o||{}).forEach(group=>Object.entries(group||{}).forEach(([id,x])=>{
       const cur=map.get(id);
       if(cur) map.set(id,{...cur,...x,sources:{...(cur.sources||{}),...(x.sources||{})},links:{...(cur.links||{}),...(x.links||{})}});
       else if(x?.community) map.set(id,{id,...x});
     }));
-    const merged=[...map.values()];
+    // 對有 canonical 集合的11社區，以本輪正式現售集合取代舊主資料；其他社區維持原資料。\n    if(canonicalCurrent.length){ for(const k of canonicalCommunities){ for(const id of [...map.keys()]){ if(communityKey(map.get(id)?.community)===k) map.delete(id); } } for(const x of canonicalCurrent){ map.set(x.id,x); } }\n    const merged=[...map.values()];
     try{ listings=dedupe(merged); window.__TRACKCASE_DIAG__.dedupe='ok'; }catch(e){ console.error('去重失敗，保留原始案件資料',e); listings=merged; window.__TRACKCASE_DIAG__.dedupe='error'; window.__TRACKCASE_DIAG__.error=String(e); }
     window.listings=listings;
     window.__TRACKCASE_DIAG__.merge='ok';
