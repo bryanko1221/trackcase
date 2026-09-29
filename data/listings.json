@@ -820,7 +820,8 @@
     "sourceValidation": {},
     "status": "gone_pending",
     "lastStatusChange": "2026-09-29",
-    "changeNote": "2026-09-29重新掃描591文化勳章目前2筆，未見原9F/3920萬版本。"
+    "changeNote": "2026-09-29重新掃描591文化勳章目前2筆，未見原9F/3920萬版本。",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "xpd-4535-18f",
@@ -839,8 +840,8 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "status": "active",
-    "updated": "2026-09-04",
+    "status": "gone_pending",
+    "updated": "2026-09-29",
     "sourceVerified": "2026-09-04：永慶社區頁與樂屋網交叉核實",
     "sources": {
       "591": true,
@@ -870,7 +871,8 @@
       }
     },
     "lastStatusChange": "2026-09-29",
-    "changeNote": "2026-09-29重新掃描591：原4535萬18F版本已不在目前在售清單。"
+    "changeNote": "2026-09-29重新核對欣璞綻591目前在售清單：原4,535萬18F版本未出現在今日591在售清單；移出目前在售，待重新取得有效直接案件頁。",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "xpd-4680-6f",
@@ -889,8 +891,8 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "status": "active",
-    "updated": "2026-09-04",
+    "status": "gone_pending",
+    "updated": "2026-09-29",
     "sourceVerified": "2026-09-04：永慶社區頁核實",
     "sources": {
       "591": true,
@@ -920,7 +922,8 @@
       }
     },
     "lastStatusChange": "2026-09-29",
-    "changeNote": "2026-09-29重新掃描591：原4680萬6F版本已不在目前在售清單。"
+    "changeNote": "2026-09-29重新核對欣璞綻591目前在售清單：原4,680萬6F版本未出現在今日591在售清單；移出目前在售，待重新取得有效直接案件頁。",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "ryxq-5068-2f",
@@ -939,8 +942,8 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "status": "active",
-    "updated": "2026-09-04",
+    "status": "gone_pending",
+    "updated": "2026-09-29",
     "sourceVerified": "2026-09-04：永慶案件 YC1255301",
     "sources": {
       "永慶": true
@@ -959,7 +962,8 @@
       }
     },
     "lastStatusChange": "2026-09-29",
-    "changeNote": "2026-09-29重新核對：591榮耀交響曲社區在售0筆；樂居仍顯示5,068萬，但該頁資料抓取時間較早，永慶直接頁目前回403，無法以今日直接頁確認仍在售，因此移出目前在售，待重新取得有效直接案件頁。"
+    "changeNote": "2026-09-29重新核對榮耀交響曲：591目前社區在售0筆，台灣成家網銷售中0筆；永慶直接頁目前403，無法以今日直接頁確認仍在售，移出目前在售。",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "jyz-2688",
@@ -976,8 +980,8 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "status": "active",
-    "updated": "2026-09-04",
+    "status": "gone_pending",
+    "updated": "2026-09-29",
     "sourceVerified": "2026-09-04：樂居目前待售1筆",
     "sources": {
       "樂居": true
@@ -999,7 +1003,10 @@
         "checkedAt": "2026-09-29T14:38:45.132341+08:00",
         "url": "https://www.leju.com.tw/community_list?area=F220&city=F&road=2046"
       }
-    }
+    },
+    "lastStatusChange": "2026-09-29",
+    "changeNote": "2026-09-29重新核對佳元植：591今日社區在售1筆，Exa搜尋到現售2,358萬21世紀直接案件；原2,688萬候選無今日直接案件證據，移出目前在售，待重新取得有效直接頁。",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "lry-2540",
@@ -1016,8 +1023,8 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "status": "active",
-    "updated": "2026-09-04",
+    "status": "gone_pending",
+    "updated": "2026-09-29",
     "sourceVerified": "2026-09-04：591社區頁目前可見在售案例；戶別/樓層待直接案件頁確認",
     "sources": {
       "591": true
@@ -1036,7 +1043,8 @@
       }
     },
     "lastStatusChange": "2026-09-29",
-    "changeNote": "2026-09-29重新掃描591：原2,540萬案件未出現在目前4筆在售清單，移出目前在售。"
+    "changeNote": "2026-09-29重新核對綠如意：原2,540萬案件未出現在今日591目前6筆在售清單，移出目前在售。",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "ps-a-2588",
@@ -1195,7 +1203,8 @@
         "checkedAt": "2026-09-29T14:38:45.132341+08:00",
         "url": "https://community.rakuya.com.tw/38922/sell"
       }
-    }
+    },
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "wh-culture-5088-15f",
@@ -1230,7 +1239,8 @@
         "checkedAt": "2026-09-29T14:38:45.132341+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20912237.html"
       }
-    }
+    },
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "ng-match-01",
@@ -1877,7 +1887,8 @@
         "checkedAt": "2026-09-29T14:38:45.132341+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20939780.html"
       }
-    }
+    },
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "xpd-2788-16f",
@@ -1916,7 +1927,8 @@
       "S20754147"
     ],
     "listingCountOn591": 4,
-    "sourceVerified": "2026-09-29 Firecrawl：591目前在售，多個案件均為16F/25.39坪/2,788萬同戶不同刊登版本，合併為1戶。"
+    "sourceVerified": "2026-09-29 Firecrawl：591目前在售，多個案件均為16F/25.39坪/2,788萬同戶不同刊登版本，合併為1戶。",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "xpd-2320-11f",
@@ -1948,7 +1960,8 @@
         "url": "https://sale.591.com.tw/home/house/detail/2/20875770.html"
       }
     },
-    "sourceVerified": "2026-09-29 Firecrawl直接核實591：11F/25F、23.23坪、2房1廳1衛1陽台、2,320萬，有效期至2026-11-08。"
+    "sourceVerified": "2026-09-29 Firecrawl直接核實591：11F/25F、23.23坪、2房1廳1衛1陽台、2,320萬，有效期至2026-11-08。",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "xpd-2980-6f",
@@ -1984,7 +1997,8 @@
     },
     "sourceVerified": "2026-09-29 Firecrawl直接核實591：6F/25F、25.39坪、2房1廳1衛1陽台、2,980萬，有效期至2026-10-10。",
     "lastStatusChange": "2026-09-28",
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "lry-2850-16f",
@@ -2020,7 +2034,8 @@
     },
     "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號7012JW。",
     "lastStatusChange": "2026-09-29",
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "lry-3080-2f",
@@ -2060,7 +2075,8 @@
       "S20454970"
     ],
     "listingCountOn591": 4,
-    "sourceVerified": "2026-09-29 Firecrawl：591目前4筆均為2F/16F、50.5坪、約3,080萬同戶不同刊登版本，合併為1戶。"
+    "sourceVerified": "2026-09-29 Firecrawl：591目前4筆均為2F/16F、50.5坪、約3,080萬同戶不同刊登版本，合併為1戶。",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "kz-5688-14f",
@@ -2107,7 +2123,8 @@
       }
     },
     "sourceVerified": "Exa二次掃描：中信直接案件頁，物件編號2004451。",
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "kz-4500-2f",
@@ -2147,7 +2164,8 @@
       }
     },
     "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號0939DZ。",
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
     "id": "ykf-1738-3f",
@@ -2181,6 +2199,35 @@
       }
     },
     "sourceVerified": "2026-09-29：591社區頁目前18筆在售；我家網直接案件仍顯示1,738萬、3F/14F、21.76坪，因此保留作為已核實個案。",
-    "updated": "2026-09-29"
+    "updated": "2026-09-29",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
+  },
+  {
+    "id": "jyz-2358-2f",
+    "groupId": "jyz-2358-2f",
+    "community": "板橋佳元植",
+    "block": "待確認",
+    "floor": 2,
+    "totalFloor": 22,
+    "area": 32.96,
+    "layout": "2房2廳2衛",
+    "price": 2358,
+    "unit": null,
+    "parking": true,
+    "owner": false,
+    "yq": false,
+    "new": true,
+    "status": "active",
+    "updated": "2026-09-29",
+    "sources": {
+      "591": true,
+      "21世紀": true
+    },
+    "links": {
+      "591": "https://market.591.com.tw/5890269/sale",
+      "21世紀": "https://century21.com.tw/store/j326/buy/7614917"
+    },
+    "sourceVerified": "2026-09-29：591社區在售1筆；21世紀直接案件頁核實2,358萬、32.96坪、2F/22F、2房2廳2衛、含車位。",
+    "lastChecked": "2026-09-29T14:31:00+08:00"
   }
 ]
