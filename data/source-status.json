@@ -480,7 +480,7 @@
       "板橋新巨蛋": "591目前社區頁可見在售，需依指定門牌再去重",
       "板橋文化勳章": 2,
       "板橋公園世紀A區": 1,
-      "板橋公園世紀B區": 4,
+      "板橋公園世紀B區": 2,
       "欣璞綻": 6,
       "綠如意": 6,
       "鑑築": 2,
@@ -501,11 +501,11 @@
     "databaseActiveCount": 29
   },
   "parkCenturyUrlAudit": {
-    "checkedAt": "2026-09-29T15:20:00+08:00",
-    "uniqueCurrentListings": 5,
+    "checkedAt": "2026-09-29T15:25:00+08:00",
+    "uniqueCurrentListings": 3,
     "duplicateAliasesRemoved": 5,
     "activeDirectUrls": 6,
-    "deadOrWrongDirectUrls": 3,
+    "deadOrWrongDirectUrls": 5,
     "note": "直接網址審核：10F永慶＋信義有效；7F永慶有效；4F信義有效；1F台慶＋住商有效；5F目前以永慶店舖清單＋樂屋社區頁確認，原個別URL失效/錯誤。",
     "10F-2280": {
       "status": "gone_pending",
@@ -513,6 +513,11 @@
       "yungching": "https://buy.yungching.com.tw/house/7460515",
       "sinyi": "https://www.sinyi.com.tw/buy/house/8301KR",
       "note": "搜尋引擎仍可顯示舊頁內容，不視為目前直連有效。"
+    },
+    "5F-3698": {
+      "status": "gone_pending",
+      "reason": "user-confirmed-not-found-on-Yungching; Rakuya direct URL 404",
+      "note": "社區頁仍有聚合/舊資料不能視為本戶現售。"
     }
   }
 }
