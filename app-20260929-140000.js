@@ -199,7 +199,7 @@ async function init(){
     window.listings=listings;
     window.__TRACKCASE_DIAG__.merge='ok';
     sourceMeta=meta||{};
-    transactionData=Array.isArray(tx?.transactions)?tx.transactions:[];
+    transactionData=Array.isArray(tx?.records)?tx.records:(Array.isArray(tx?.transactions)?tx.transactions:[]);
     scanMeta={...ledger,...scan};
   }catch(e){
     console.error('輔助資料處理失敗，保留主案件資料',e);
