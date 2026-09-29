@@ -603,15 +603,15 @@
     "floor": 1,
     "totalFloor": 14,
     "area": 29.58,
-    "layout": "3房",
+    "layout": "3房2廳2衛",
     "price": 2588,
-    "unit": null,
+    "unit": 87.49,
     "parking": false,
     "owner": false,
     "yq": true,
     "new": false,
     "updated": "2026-09-29",
-    "sourceVerified": "永慶房屋社區待售頁交叉核實；本戶案件直連尚未取得",
+    "sourceVerified": "2026-09-29：樂屋社區頁、台慶不動產與住商不動產直接案件頁均可見本戶；多筆不同刊登版本判定為同一戶。",
     "sources": {
       "591": false,
       "信義": false,
@@ -621,8 +621,34 @@
       "永慶": true
     },
     "history": [],
-    "links": {},
-    "sourceValidation": {}
+    "links": {
+      "台慶不動產": "https://buy.taiching.com.tw/house/7509130",
+      "住商不動產": "https://www.hbhousing.com.tw/detail?sn=KS197260"
+    },
+    "sourceValidation": {
+      "台慶不動產": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "current-direct-listing",
+        "checkedAt": "2026-09-29",
+        "url": "https://buy.taiching.com.tw/house/7509130"
+      },
+      "住商不動產": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "current-direct-listing",
+        "checkedAt": "2026-09-29",
+        "url": "https://www.hbhousing.com.tw/detail?sn=KS197260"
+      }
+    },
+    "dedupAt": "2026-09-29",
+    "dedupRemovedIds": [
+      "ps-a-2588"
+    ],
+    "dedupNote": "同一戶：A區1F、29.58坪、3房；移除重複別名 ps-a-2588。另發現同戶平台有2,380萬與2,588萬價格版本，未硬合併成不同戶。",
+    "listingIds": [
+      "ps-a-2588"
+    ]
   },
   {
     "id": "pc-b-3698",
@@ -640,7 +666,7 @@
     "yq": true,
     "new": false,
     "updated": "2026-09-29",
-    "sourceVerified": "樂屋網＋永慶房屋交叉核實",
+    "sourceVerified": "2026-09-29：永慶店舖清單與樂屋社區銷售頁均顯示本戶目前在售；原樂屋個別網址已404，原永慶網址則解析到無關案件，因此不再保留為有效個案直連。",
     "sources": {
       "591": false,
       "信義": false,
@@ -651,25 +677,47 @@
     },
     "history": [],
     "links": {
-      "樂屋": "https://community.rakuya.com.tw/38979/sell/info?ehid=0cf068350043419&from=list_regular",
-      "永慶": "https://buy.yungching.com.tw/house/7252089"
+      "永慶社區/店舖清單": "https://shop.yungching.com.tw/0233169908_0167/list/%E6%96%B0%E5%8C%97%E5%B8%82-_c?od=41&pg=2",
+      "樂屋社區銷售頁": "https://community.rakuya.com.tw/38979/sell?display=community"
     },
     "sourceValidation": {
-      "樂屋": {
+      "樂屋個別網址": {
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-09-29T14:38:45.132341+08:00",
+        "checkedAt": "2026-09-29",
         "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=0cf068350043419&from=list_regular"
       },
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-29T14:38:45.132341+08:00",
+      "永慶原個別網址": {
+        "state": "wrong-listing",
+        "httpStatus": 200,
+        "reason": "url-resolves-to-unrelated-listing",
+        "checkedAt": "2026-09-29",
         "url": "https://buy.yungching.com.tw/house/7252089"
+      },
+      "永慶店舖清單": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "current-community-listing-shows-YC1231972",
+        "checkedAt": "2026-09-29",
+        "url": "https://shop.yungching.com.tw/0233169908_0167/list/%E6%96%B0%E5%8C%97%E5%B8%82-_c?od=41&pg=2"
+      },
+      "樂屋社區銷售頁": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "current-community-listing",
+        "checkedAt": "2026-09-29",
+        "url": "https://community.rakuya.com.tw/38979/sell?display=community"
       }
-    }
+    },
+    "dedupAt": "2026-09-29",
+    "dedupRemovedIds": [
+      "ps-bc-3698"
+    ],
+    "dedupNote": "同一戶：B區5F、58.44坪、3房、3,698萬；移除重複別名 ps-bc-3698。",
+    "listingIds": [
+      "ps-bc-3698"
+    ]
   },
   {
     "id": "pc-b-4888",
@@ -687,7 +735,7 @@
     "yq": true,
     "new": false,
     "updated": "2026-09-29",
-    "sourceVerified": "樂屋網＋永慶房屋交叉核實；永慶本戶直連尚未取得",
+    "sourceVerified": "2026-09-29：樂屋社區銷售頁＋永慶直接案件頁交叉核實。",
     "sources": {
       "591": false,
       "信義": false,
@@ -698,17 +746,33 @@
     },
     "history": [],
     "links": {
-      "樂屋": "https://community.rakuya.com.tw/38979/sell/info?ehid=05de8016638408e&from=list_regular"
+      "永慶": "https://buy.yungching.com.tw/house/6572663",
+      "樂屋社區銷售頁": "https://community.rakuya.com.tw/38979/sell?display=community"
     },
     "sourceValidation": {
-      "樂屋": {
+      "永慶": {
         "state": "active",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-29T14:38:45.132341+08:00",
-        "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=05de8016638408e&from=list_regular"
+        "reason": "current-direct-listing",
+        "checkedAt": "2026-09-29",
+        "url": "https://buy.yungching.com.tw/house/6572663"
+      },
+      "樂屋社區銷售頁": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "current-community-listing",
+        "checkedAt": "2026-09-29",
+        "url": "https://community.rakuya.com.tw/38979/sell?display=community"
       }
-    }
+    },
+    "dedupAt": "2026-09-29",
+    "dedupRemovedIds": [
+      "ps-bc-4888"
+    ],
+    "dedupNote": "同一戶：B區7F、74.33/74.34坪、4房、4,888萬；移除重複別名 ps-bc-4888。另有591新抓到8,884萬版本，因缺強識別未合併。",
+    "listingIds": [
+      "ps-bc-4888"
+    ]
   },
   {
     "id": "pc-b-2280",
@@ -718,7 +782,7 @@
     "floor": 10,
     "totalFloor": 12,
     "area": 28.14,
-    "layout": "2房",
+    "layout": "2房2廳1衛",
     "price": 2280,
     "unit": 81.02,
     "parking": false,
@@ -726,7 +790,7 @@
     "yq": true,
     "new": false,
     "updated": "2026-09-29",
-    "sourceVerified": "樂屋網＋永慶房屋交叉核實；永慶本戶直連尚未取得",
+    "sourceVerified": "2026-09-29：永慶與信義直接案件頁均顯示目前在售。",
     "sources": {
       "591": false,
       "信義": false,
@@ -737,19 +801,42 @@
     },
     "history": [],
     "links": {
-      "樂屋": "https://community.rakuya.com.tw/38979/sell/info?ehid=03dcc434923102c&from=list_regular"
+      "永慶": "https://buy.yungching.com.tw/house/7460515",
+      "信義": "https://www.sinyi.com.tw/buy/house/8301KR"
     },
     "sourceValidation": {
-      "樂屋": {
+      "永慶": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "current-direct-listing",
+        "checkedAt": "2026-09-29",
+        "url": "https://buy.yungching.com.tw/house/7460515"
+      },
+      "信義": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "current-direct-listing",
+        "checkedAt": "2026-09-29",
+        "url": "https://www.sinyi.com.tw/buy/house/8301KR"
+      },
+      "樂屋舊個別網址": {
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-09-29T14:38:45.132341+08:00",
+        "checkedAt": "2026-09-29",
         "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=03dcc434923102c&from=list_regular"
       }
     },
-    "status": "gone_pending",
-    "lastStatusChange": "2026-09-29"
+    "status": "active",
+    "lastStatusChange": "2026-09-29",
+    "dedupAt": "2026-09-29",
+    "dedupRemovedIds": [
+      "ps-bc-2280"
+    ],
+    "dedupNote": "同一戶：B區10F、28.14坪、2房、2,280萬；移除重複別名 ps-bc-2280。樂屋舊個別網址已失效，但目前永慶＋信義直接頁仍有效。",
+    "listingIds": [
+      "ps-bc-2280"
+    ]
   },
   {
     "id": "pc-b-3758",
@@ -759,7 +846,7 @@
     "floor": 4,
     "totalFloor": 12,
     "area": 60.34,
-    "layout": "4房",
+    "layout": "4房2廳2衛1室",
     "price": 3758,
     "unit": 70.53,
     "parking": true,
@@ -767,7 +854,7 @@
     "yq": null,
     "new": false,
     "updated": "2026-09-29",
-    "sourceVerified": "樂屋網交叉核實；永慶尚未確認本戶",
+    "sourceVerified": "2026-09-29：信義直接案件頁確認目前在售，總價3,758萬；樂屋社區銷售頁亦列出本戶。",
     "sources": {
       "591": false,
       "信義": false,
@@ -778,17 +865,33 @@
     },
     "history": [],
     "links": {
-      "樂屋": "https://community.rakuya.com.tw/38979/sell/info?ehid=074b7734209118b&from=list_regular"
+      "信義": "https://www.sinyi.com.tw/buy/house/6254VN",
+      "樂屋社區銷售頁": "https://community.rakuya.com.tw/38979/sell?display=community"
     },
     "sourceValidation": {
-      "樂屋": {
+      "信義": {
         "state": "active",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-29T14:38:45.132341+08:00",
-        "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=074b7734209118b&from=list_regular"
+        "reason": "current-direct-listing",
+        "checkedAt": "2026-09-29",
+        "url": "https://www.sinyi.com.tw/buy/house/6254VN"
+      },
+      "樂屋社區銷售頁": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "current-community-listing",
+        "checkedAt": "2026-09-29",
+        "url": "https://community.rakuya.com.tw/38979/sell?display=community"
       }
-    }
+    },
+    "dedupAt": "2026-09-29",
+    "dedupRemovedIds": [
+      "ps-bc-3758"
+    ],
+    "dedupNote": "同一戶：B區4F、60.34坪、4房、3,758萬；移除重複別名 ps-bc-3758。",
+    "listingIds": [
+      "ps-bc-3758"
+    ]
   },
   {
     "id": "wh-3920",
@@ -1045,121 +1148,6 @@
     "lastStatusChange": "2026-09-29",
     "changeNote": "2026-09-29重新核對綠如意：原2,540萬案件未出現在今日591目前6筆在售清單，移出目前在售。",
     "lastChecked": "2026-09-29T14:31:00+08:00"
-  },
-  {
-    "id": "ps-a-2588",
-    "groupId": "ps-a-2588",
-    "community": "板橋公園世紀A區",
-    "block": "待確認",
-    "floor": 1,
-    "totalFloor": 14,
-    "area": 29.58,
-    "layout": "3房2廳2衛",
-    "price": 2588,
-    "parking": false,
-    "status": "active",
-    "owner": false,
-    "yq": true,
-    "updated": "2026-09-29",
-    "new": true,
-    "sources": {
-      "已核實既有案件": true
-    },
-    "links": {},
-    "sourceVerified": "2026-09-29全掃：保留既有已核實案件；591平台筆數未直接當唯一戶數。",
-    "sourceValidation": {}
-  },
-  {
-    "id": "ps-bc-2280",
-    "groupId": "ps-bc-2280",
-    "community": "板橋公園世紀B區",
-    "block": "待確認",
-    "floor": 10,
-    "totalFloor": 12,
-    "area": 28.14,
-    "layout": "2房2廳1衛",
-    "price": 2280,
-    "parking": false,
-    "status": "active",
-    "owner": false,
-    "yq": true,
-    "updated": "2026-09-29",
-    "new": true,
-    "sources": {
-      "已核實既有案件": true
-    },
-    "links": {},
-    "sourceVerified": "2026-09-29全掃：保留既有已核實案件；591平台筆數未直接當唯一戶數。",
-    "sourceValidation": {}
-  },
-  {
-    "id": "ps-bc-4888",
-    "groupId": "ps-bc-4888",
-    "community": "板橋公園世紀B區",
-    "block": "待確認",
-    "floor": 7,
-    "totalFloor": 12,
-    "area": 74.33,
-    "layout": "4房2廳2衛",
-    "price": 4888,
-    "parking": true,
-    "status": "active",
-    "owner": false,
-    "yq": true,
-    "updated": "2026-09-29",
-    "new": true,
-    "sources": {
-      "已核實既有案件": true
-    },
-    "links": {},
-    "sourceVerified": "2026-09-29全掃：保留既有已核實案件；591平台筆數未直接當唯一戶數。",
-    "sourceValidation": {}
-  },
-  {
-    "id": "ps-bc-3698",
-    "groupId": "ps-bc-3698",
-    "community": "板橋公園世紀B區",
-    "block": "待確認",
-    "floor": 5,
-    "totalFloor": 12,
-    "area": 58.44,
-    "layout": "3房2廳2衛",
-    "price": 3698,
-    "parking": true,
-    "status": "active",
-    "owner": false,
-    "yq": true,
-    "updated": "2026-09-29",
-    "new": true,
-    "sources": {
-      "已核實既有案件": true
-    },
-    "links": {},
-    "sourceVerified": "2026-09-29全掃：保留既有已核實案件；591平台筆數未直接當唯一戶數。",
-    "sourceValidation": {}
-  },
-  {
-    "id": "ps-bc-3758",
-    "groupId": "ps-bc-3758",
-    "community": "板橋公園世紀B區",
-    "block": "待確認",
-    "floor": 4,
-    "totalFloor": 12,
-    "area": 60.34,
-    "layout": "4房2廳2衛",
-    "price": 3758,
-    "parking": true,
-    "status": "active",
-    "owner": false,
-    "yq": null,
-    "updated": "2026-09-29",
-    "new": true,
-    "sources": {
-      "已核實既有案件": true
-    },
-    "links": {},
-    "sourceVerified": "2026-09-29全掃：保留既有已核實案件；591平台筆數未直接當唯一戶數。",
-    "sourceValidation": {}
   },
   {
     "id": "wh-culture-3480-18",
