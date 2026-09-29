@@ -2035,5 +2035,57 @@
         "url": "https://buy.yungching.com.tw/house/4800353"
       }
     }
+  },
+  {
+    "id": "banqiao-qing-7f-3448",
+    "groupId": "banqiao-qing-7f-3448",
+    "community": "板橋晴",
+    "block": "主棟",
+    "floor": 7,
+    "totalFloor": 12,
+    "area": 34.48,
+    "layout": "2房2廳1衛1陽台",
+    "price": 2185,
+    "unit": 80.81,
+    "parking": true,
+    "parkingArea": 9.67,
+    "owner": false,
+    "yq": null,
+    "new": true,
+    "updated": "2026-09-29",
+    "status": "active",
+    "matchStatus": "高度疑似同戶",
+    "matchNote": "591社區頁目前11筆；逐筆Firecrawl核實後，多筆均為莒光路180巷、7F、34.48坪/44.15坪（34.48+9.67車位）、2房車，疑似同一戶不同仲介/不同刊登版本。保留11個591案件ID，不把11筆計為11戶。",
+    "priceVariants": [
+      2185,
+      2360
+    ],
+    "listingIds": [
+      "S20939780",
+      "S20866050",
+      "S20865148",
+      "S20852053",
+      "25129350",
+      "S20851872",
+      "S20841699",
+      "S20836673",
+      "S20819821",
+      "S20809213",
+      "S20698282"
+    ],
+    "listingCountOn591": 11,
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "中信": false,
+      "永慶": false
+    },
+    "sourceVerified": "2026-09-29 Firecrawl：591社區頁11筆＋11個案件詳情頁；目前僅完成591，其他平台尚未本次核實。",
+    "links": {
+      "591": "https://market.591.com.tw/104765/sale",
+      "591-主要案件": "https://sale.591.com.tw/home/house/detail/2/20939780.html"
+    }
   }
 ]
