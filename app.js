@@ -39,6 +39,10 @@ $$('.tab').forEach(t=>t.onclick=()=>{$$('.tab').forEach(x=>x.classList.remove('a
 ['#keyword','#buildingFilter','#blockFilter','#priceFilter','#areaFilter','#layoutFilter','#parkingFilter','#sortFilter','#statusFilter'].forEach(s=>$(s)?.addEventListener('input',render));
 $('#resetFilters')?.addEventListener('click',()=>{$('#keyword').value='';['#buildingFilter','#blockFilter','#priceFilter','#areaFilter','#layoutFilter','#parkingFilter','#sortFilter'].forEach(s=>$(s).value='all');$('#statusFilter').value='active';render()});
 $('#developFilter')?.addEventListener('change',renderDevelop);$('#dialogClose')?.addEventListener('click',()=>$('#detailDialog')?.close());$('#statusFilter').value='active';
+
+// ===== SAFE BOOT DIAGNOSTICS =====
+window.__TRACKCASE_DIAG__={core:"not-started",coreCount:0,merge:"not-started",dedupe:"not-started",render:"not-started",error:""};
+window.addEventListener('error',e=>{window.__TRACKCASE_DIAG__.error=String(e.message||e.error||'JS error');});
 loadSoldTracking();
 async function getJson(path,fallback){
   try{
@@ -52,7 +56,8 @@ async function init(){
   const a=await getJson('data/listings.json',[]);
   listings=Array.isArray(a)?a:[];
   window.listings=listings;
-  render();
+  window.__TRACKCASE_DIAG__.core='loaded'; window.__TRACKCASE_DIAG__.coreCount=listings.length;
+  try{render();window.__TRACKCASE_DIAG__.render='initial-ok';}catch(e){window.__TRACKCASE_DIAG__.render='initial-error';window.__TRACKCASE_DIAG__.error=String(e);}
   try{
     const [m,meta,o,curr,ledger,scan]=await Promise.all([
       getJson('data/manual-updates.json',[]),
@@ -70,8 +75,9 @@ async function init(){
       else if(x?.community) map.set(id,{id,...x});
     }));
     const merged=[...map.values()];
-    try{ listings=dedupe(merged); }catch(e){ console.error('去重失敗，保留原始案件資料',e); listings=merged; }
+    try{ listings=dedupe(merged); window.__TRACKCASE_DIAG__.dedupe='ok'; }catch(e){ console.error('去重失敗，保留原始案件資料',e); listings=merged; window.__TRACKCASE_DIAG__.dedupe='error'; window.__TRACKCASE_DIAG__.error=String(e); }
     window.listings=listings;
+    window.__TRACKCASE_DIAG__.merge='ok';
     sourceMeta=meta||{};
     scanMeta={...ledger,...scan};
   }catch(e){
@@ -86,7 +92,7 @@ async function init(){
   if($('#buildingFilter'))$('#buildingFilter').innerHTML='<option value="all">全部</option>'+MONITORED.map(x=>`<option value="${x}">${x}</option>`).join('');
   const blocks=[...new Set(listings.map(x=>x.block).filter(Boolean))];
   if($('#blockFilter'))$('#blockFilter').innerHTML='<option value="all">全部</option>'+blocks.map(x=>`<option value="${x}">${x}</option>`).join('');
-  render();renderChanges();renderSoldWait();
+  try{render();window.__TRACKCASE_DIAG__.render='final-ok';}catch(e){window.__TRACKCASE_DIAG__.render='final-error';window.__TRACKCASE_DIAG__.error=String(e);}try{renderChanges();renderSoldWait();}catch(e){console.warn(e)}
 }
 init();
 window.openSoldForm=openSoldForm;
