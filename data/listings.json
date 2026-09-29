@@ -1505,6 +1505,11 @@
       "中信": "https://buy.cthouse.com.tw/house/2004451.html"
     },
     "sourceValidation": {
+      "591": {
+        "state": "active",
+        "checkedAt": "2026-09-29",
+        "reason": "591 current community sale page has 2 listings; one is 5,688萬 version"
+      },
       "中信": {
         "state": "active",
         "httpStatus": 200,
@@ -1514,7 +1519,7 @@
       }
     },
     "sourceVerified": "Exa二次掃描：中信直接案件頁，物件編號2004451。",
-    "updated": "2026-09-28"
+    "updated": "2026-09-29"
   },
   {
     "id": "kz-4500-2f",
@@ -1540,6 +1545,11 @@
       "信義": "https://www.sinyi.com.tw/buy/house/0939DZ"
     },
     "sourceValidation": {
+      "591": {
+        "state": "active",
+        "checkedAt": "2026-09-29",
+        "reason": "591 current community sale page has 2 listings; one is the 4,500萬 version"
+      },
       "信義": {
         "state": "active",
         "httpStatus": 200,
@@ -1549,7 +1559,7 @@
       }
     },
     "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號0939DZ。",
-    "updated": "2026-09-28"
+    "updated": "2026-09-29"
   },
   {
     "id": "ryxq-5068-2f",
@@ -1568,9 +1578,9 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "status": "active",
+    "status": "gone_pending",
     "updated": "2026-09-04",
-    "sourceVerified": "2026-09-04：永慶案件 YC1255301",
+    "sourceVerified": "2026-09-29：591=0筆；樂居有5,068萬舊索引；永慶直接URL暫時403，故不再視為今日已核實在售。",
     "sources": {
       "永慶": true
     },
@@ -1586,16 +1596,18 @@
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
         "url": "https://buy.yungching.com.tw/house/7217539"
       }
-    }
+    },
+    "lastStatusChange": "2026-09-29",
+    "changeNote": "2026-09-29重新核對：591榮耀交響曲社區在售0筆；樂居仍顯示5,068萬，但該頁資料抓取時間較早，永慶直接頁目前回403，無法以今日直接頁確認仍在售，因此移出目前在售，待重新取得有效直接案件頁。"
   },
   {
     "id": "jyz-2688",
     "groupId": "jyz-2688",
     "community": "板橋佳元植",
     "block": "待確認",
-    "floor": 16,
-    "totalFloor": 22,
-    "area": 29.27,
+    "floor": null,
+    "totalFloor": null,
+    "area": 23.1,
     "layout": "2房2廳2衛",
     "price": 2688,
     "unit": null,
@@ -1605,22 +1617,25 @@
     "new": false,
     "status": "active",
     "updated": "2026-09-29",
-    "sourceVerified": "2026-09-29 R.TUBE直接案件頁核實16F/22F、29.27坪、2房2廳2衛、2,688萬；591同日社區頁0筆。",
+    "sourceVerified": "2026-09-29重新核對：591社區頁目前顯示佳元植在售0筆；樂居目前仍顯示2,688萬、2房1戶，但未提供完整樓層/坪數。原先29.27坪、16F資料來源與今日591/樂居不一致，已撤回強識別欄位，避免誤列。",
     "sources": {
-      "R.TUBE": true,
-      "樂居": false
+      "591": false,
+      "樂居": true
     },
     "links": {
-      "R.TUBE": "https://www.rtube.com.tw/real-estates/RE1784778988550654"
+      "樂居": "https://www.leju.com.tw/community_list?area=F220&city=F&road=2046"
     },
     "history": [],
     "sourceValidation": {
-      "R.TUBE": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "direct listing page",
+      "591": {
+        "state": "not-currently-listed",
         "checkedAt": "2026-09-29",
-        "url": "https://www.rtube.com.tw/real-estates/RE1784778988550654"
+        "reason": "591 current community sale page shows 0 active listings"
+      },
+      "樂居": {
+        "state": "active-but-partial",
+        "checkedAt": "2026-09-29",
+        "reason": "current indexed Leju community search shows 2,688萬 / 2房 1戶 but no complete detail"
       }
     }
   },
@@ -1670,7 +1685,7 @@
       "中信": false,
       "永慶": false
     },
-    "sourceVerified": "2026-09-29 Firecrawl：591社區頁11筆＋11個案件詳情頁；目前僅完成591，其他平台尚未本次核實。",
+    "sourceVerified": "2026-09-29：591社區頁目前11筆；已核實主要案件及多個案件頁，判斷多筆為同戶不同刊登版本，保留唯一戶代表，不把11筆算11戶。",
     "links": {
       "591": "https://market.591.com.tw/104765/sale",
       "591-主要案件": "https://sale.591.com.tw/home/house/detail/2/20939780.html"
@@ -1707,7 +1722,7 @@
         "url": "https://www.myhomes.com.tw/objects/o/1388064"
       }
     },
-    "sourceVerified": "Exa二次掃描：我家網直接案件頁；原價1,768萬、目前1,738萬。",
-    "updated": "2026-09-28"
+    "sourceVerified": "2026-09-29：591社區頁目前18筆在售；我家網直接案件仍顯示1,738萬、3F/14F、21.76坪，因此保留作為已核實個案。",
+    "updated": "2026-09-29"
   }
 ]
