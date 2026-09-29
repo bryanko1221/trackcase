@@ -39,6 +39,53 @@ $$('.tab').forEach(t=>t.onclick=()=>{$$('.tab').forEach(x=>x.classList.remove('a
 ['#keyword','#buildingFilter','#blockFilter','#priceFilter','#areaFilter','#layoutFilter','#parkingFilter','#sortFilter','#statusFilter'].forEach(s=>$(s)?.addEventListener('input',render));
 $('#resetFilters')?.addEventListener('click',()=>{$('#keyword').value='';['#buildingFilter','#blockFilter','#priceFilter','#areaFilter','#layoutFilter','#parkingFilter','#sortFilter'].forEach(s=>$(s).value='all');$('#statusFilter').value='active';render()});
 $('#developFilter')?.addEventListener('change',renderDevelop);$('#dialogClose')?.addEventListener('click',()=>$('#detailDialog')?.close());$('#statusFilter').value='active';
-loadSoldTracking();async function init(){try{const [a,m,meta,o,curr,ledger,scan]=await Promise.all([fetch('data/listings.json?'+Date.now()).then(r=>r.json()),fetch('data/manual-updates.json?'+Date.now()).then(r=>r.ok?r.json():[]),fetch('data/source-status.json?'+Date.now()).then(r=>r.json()),fetch('data/verified-overrides.json?'+Date.now()).then(r=>r.ok?r.json():{}),fetch('data/current-community-update.json?'+Date.now()).then(r=>r.ok?r.json():{listings:[]}),fetch('data/scan-ledger.json?'+Date.now()).then(r=>r.ok?r.json():{}),fetch('data/scan-2026-09-07.json?'+Date.now()).then(r=>r.ok?r.json():{listings:[]})]);const map=new Map(a.map(x=>[x.id,x]));m.forEach(x=>map.set(x.id,{...(map.get(x.id)||{}),...x,sources:{...(map.get(x.id)?.sources||{}),...(x.sources||{})},links:{...(map.get(x.id)?.links||{}),...(x.links||{})}}));Object.values(o||{}).forEach(group=>Object.entries(group||{}).forEach(([id,x])=>{const cur=map.get(id);if(cur)map.set(id,{...cur,...x,sources:{...(cur.sources||{}),...(x.sources||{})},links:{...(cur.links||{}),...(x.links||{})}});else if(x?.community)map.set(id,{id,...x})}));// current-community-update.json 與舊掃描檔只作為掃描/變化紀錄，不再回灌主案件池，避免舊案件重新產生重複卡片。listings=dedupe([...map.values()]);sourceMeta=meta;scanMeta={...ledger,...scan};if($('#lastUpdated')){const raw=sourceMeta?.lastScheduledCheck||sourceMeta?.lastUpdated;let stamp='無有效掃描時間';if(raw){const d=new Date(raw);if(!Number.isNaN(d.getTime()))stamp=new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(d).replaceAll('/','-');}$('#lastUpdated').textContent='最後更新：'+stamp+'｜掃描流程2.0｜'+(sourceMeta?.scanCompleteness?.status==='partial'||scanMeta.coverage_status==='partial'?'🟡部分完成：平台逐案核實仍需補齊':'🟢完整掃描')}}catch(e){console.error(e);if($('#listingGrid'))$('#listingGrid').innerHTML='<div class="card">資料讀取失敗，請確認 GitHub Pages 已發布。</div>';return}if($('#buildingFilter'))$('#buildingFilter').innerHTML='<option value="all">全部</option>'+MONITORED.map(x=>`<option value="${x}">${x}</option>`).join('');const blocks=[...new Set(listings.map(x=>x.block).filter(Boolean))];if($('#blockFilter'))$('#blockFilter').innerHTML='<option value="all">全部</option>'+blocks.map(x=>`<option value="${x}">${x}</option>`).join('');render();renderChanges();renderSoldWait()}init();
+loadSoldTracking();
+async function getJson(path,fallback){
+  try{
+    const r=await fetch(path+'?'+Date.now(),{cache:'no-store'});
+    if(!r.ok) throw new Error(path+' HTTP '+r.status);
+    return await r.json();
+  }catch(e){console.warn('資料讀取失敗：'+path,e);return fallback;}
+}
+async function init(){
+  try{
+    const a=await getJson('data/listings.json',[]);
+    const [m,meta,o,curr,ledger,scan]=await Promise.all([
+      getJson('data/manual-updates.json',[]),
+      getJson('data/source-status.json',{}),
+      getJson('data/verified-overrides.json',{}),
+      getJson('data/current-community-update.json',{listings:[]}),
+      getJson('data/scan-ledger.json',{}),
+      getJson('data/scan-2026-09-07.json',{listings:[]})
+    ]);
+    const map=new Map(Array.isArray(a)?a.map(x=>[x.id,x]):[]);
+    (Array.isArray(m)?m:[]).forEach(x=>map.set(x.id,{...(map.get(x.id)||{}),...x,sources:{...(map.get(x.id)?.sources||{}),...(x.sources||{})},links:{...(map.get(x.id)?.links||{}),...(x.links||{})}}));
+    Object.values(o||{}).forEach(group=>Object.entries(group||{}).forEach(([id,x])=>{
+      const cur=map.get(id);
+      if(cur) map.set(id,{...cur,...x,sources:{...(cur.sources||{}),...(x.sources||{})},links:{...(cur.links||{}),...(x.links||{})}});
+      else if(x?.community) map.set(id,{id,...x});
+    }));
+    listings=dedupe([...map.values()]);
+    window.listings=listings;
+    sourceMeta=meta;
+    scanMeta={...ledger,...scan};
+    if($('#lastUpdated')){
+      const raw=sourceMeta?.lastScheduledCheck||sourceMeta?.lastUpdated;
+      let stamp='無有效掃描時間';
+      if(raw){const dt=new Date(raw);if(!Number.isNaN(dt.getTime()))stamp=new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(dt).replaceAll('/','-');}
+      $('#lastUpdated').textContent='最後更新：'+stamp+'｜掃描流程2.0｜'+(sourceMeta?.scanCompleteness?.status==='partial'||scanMeta.coverage_status==='partial'?'🟡部分完成：平台逐案核實仍需補齊':'🟢完整掃描');
+    }
+  }catch(e){
+    console.error('主資料載入失敗',e);
+    listings=[];
+    window.listings=listings;
+    if($('#listingGrid'))$('#listingGrid').innerHTML='<div class="card">主資料載入失敗，請稍後重新整理。</div>';
+  }
+  if($('#buildingFilter'))$('#buildingFilter').innerHTML='<option value="all">全部</option>'+MONITORED.map(x=>`<option value="${x}">${x}</option>`).join('');
+  const blocks=[...new Set(listings.map(x=>x.block).filter(Boolean))];
+  if($('#blockFilter'))$('#blockFilter').innerHTML='<option value="all">全部</option>'+blocks.map(x=>`<option value="${x}">${x}</option>`).join('');
+  render();renderChanges();renderSoldWait();
+}
+init();
 window.openSoldForm=openSoldForm;
 document.addEventListener('DOMContentLoaded',()=>{const f=$('#soldForm');if(f)f.addEventListener('submit',e=>{e.preventDefault();const id=$('#soldTrackingId').value; soldTracking[id]={sold:true,knownPrice:$('#soldKnownPrice').value?Number($('#soldKnownPrice').value):null,soldDate:$('#soldDate').value,regStatus:$('#soldRegStatus').value,regPrice:$('#soldRegPrice').value?Number($('#soldRegPrice').value):null,regDate:$('#soldRegDate').value,regAddress:$('#soldRegAddress').value,note:$('#soldNote').value};saveSoldTracking();$('#soldDialog').close();render();renderChanges();renderSoldWait()});$('#soldCancel')?.addEventListener('click',()=>$('#soldDialog').close());});
