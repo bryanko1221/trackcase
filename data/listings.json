@@ -1074,9 +1074,9 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "status": "gone_pending",
+    "status": "active",
     "updated": "2026-09-29",
-    "sourceVerified": "2026-09-04：永慶案件 YC1255301",
+    "sourceVerified": "2026-09-29：重新以永慶目前公開案件頁核實 YC1255301，5,068萬、75.76坪、2F/15F、4房2廳2衛、含車位。此前403不再視為下架；403屬存取限制，不能作為下架證據。",
     "sources": {
       "永慶": true
     },
@@ -1086,15 +1086,15 @@
     "history": [],
     "sourceValidation": {
       "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-29T14:38:45.132341+08:00",
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "current-direct-listing-verified-by-web",
+        "checkedAt": "2026-09-29",
         "url": "https://buy.yungching.com.tw/house/7217539"
       }
     },
     "lastStatusChange": "2026-09-29",
-    "changeNote": "2026-09-29重新核對榮耀交響曲：591目前社區在售0筆，台灣成家網銷售中0筆；永慶直接頁目前403，無法以今日直接頁確認仍在售，移出目前在售。",
+    "changeNote": "2026-09-29重新核實永慶目前公開案件頁，恢復列入目前在售。",
     "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
@@ -2222,14 +2222,14 @@
   {
     "id": "jyz-2358-2f",
     "groupId": "jyz-2358-2f",
-    "community": "板橋佳元植",
+    "community": "佳元植",
     "block": "待確認",
     "floor": 2,
     "totalFloor": 22,
     "area": 32.96,
     "layout": "2房2廳2衛",
     "price": 2358,
-    "unit": null,
+    "unit": 71.55,
     "parking": true,
     "owner": false,
     "yq": false,
@@ -2241,11 +2241,26 @@
       "21世紀": true
     },
     "links": {
-      "591": "https://market.591.com.tw/5890269/sale",
       "21世紀": "https://century21.com.tw/store/j326/buy/7614917"
     },
-    "sourceVerified": "2026-09-29：591社區在售1筆；21世紀直接案件頁核實2,358萬、32.96坪、2F/22F、2房2廳2衛、含車位。",
-    "lastChecked": "2026-09-29T14:31:00+08:00"
+    "sourceVerified": "2026-09-29：591佳元植社區頁顯示同社區在售1筆；21世紀不動產直接案件頁核實2,358萬、32.96坪、2F/22F、2房2廳2衛、含車位。",
+    "lastChecked": "2026-09-29T14:31:00+08:00",
+    "sourceValidation": {
+      "21世紀": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "current-direct-listing",
+        "checkedAt": "2026-09-29",
+        "url": "https://century21.com.tw/store/j326/buy/7614917"
+      },
+      "591社區頁": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "community-current-count-1",
+        "checkedAt": "2026-09-29",
+        "url": "https://market.591.com.tw/5890269"
+      }
+    }
   },
   {
     "id": "yongkang-2115",
