@@ -1900,7 +1900,7 @@
   {
     "id": "xpd-2788-16f",
     "groupId": "xpd-2788-16f",
-    "community": "板橋欣璞綻",
+    "community": "欣璞綻",
     "block": "待確認",
     "floor": 16,
     "totalFloor": 25,
@@ -1940,7 +1940,7 @@
   {
     "id": "xpd-2320-11f",
     "groupId": "xpd-2320-11f",
-    "community": "板橋欣璞綻",
+    "community": "欣璞綻",
     "block": "待確認",
     "floor": 11,
     "totalFloor": 25,
@@ -1973,7 +1973,7 @@
   {
     "id": "xpd-2980-6f",
     "groupId": "xpd-2980-6f",
-    "community": "板橋欣璞綻",
+    "community": "欣璞綻",
     "block": "待確認",
     "floor": 6,
     "totalFloor": 25,
@@ -2212,14 +2212,14 @@
   {
     "id": "jyz-2358-2f",
     "groupId": "jyz-2358-2f",
-    "community": "板橋佳元植",
+    "community": "佳元植",
     "block": "待確認",
     "floor": 2,
     "totalFloor": 22,
     "area": 32.96,
     "layout": "2房2廳2衛",
     "price": 2358,
-    "unit": null,
+    "unit": 71.54,
     "parking": true,
     "owner": false,
     "yq": false,
