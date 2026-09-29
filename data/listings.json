@@ -790,7 +790,7 @@
     "yq": true,
     "new": false,
     "updated": "2026-09-29",
-    "sourceVerified": "2026-09-29：永慶與信義直接案件頁均顯示目前在售。",
+    "sourceVerified": "2026-09-29：使用者實際點擊10樓案件網址後回報頁面顯示「案件已下架或被搶先」；因此撤銷原本的「有效直連」判定。搜尋引擎仍可見舊頁內容，不能作為目前在售直連證據。",
     "sources": {
       "591": false,
       "信義": false,
@@ -800,10 +800,7 @@
       "永慶": true
     },
     "history": [],
-    "links": {
-      "永慶": "https://buy.yungching.com.tw/house/7460515",
-      "信義": "https://www.sinyi.com.tw/buy/house/8301KR"
-    },
+    "links": {},
     "sourceValidation": {
       "永慶": {
         "state": "active",
@@ -825,9 +822,23 @@
         "reason": "not-found",
         "checkedAt": "2026-09-29",
         "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=03dcc434923102c&from=list_regular"
+      },
+      "永慶舊/目前直連": {
+        "state": "user-reported-gone",
+        "httpStatus": null,
+        "reason": "user-clicked-page-reports-delisted-or-sold",
+        "checkedAt": "2026-09-29",
+        "url": "https://buy.yungching.com.tw/house/7460515"
+      },
+      "信義直連": {
+        "state": "unverified",
+        "httpStatus": null,
+        "reason": "direct-current-status-not-independently-confirmed; do-not-treat-search-cache-as-live",
+        "checkedAt": "2026-09-29",
+        "url": "https://www.sinyi.com.tw/buy/house/8301KR"
       }
     },
-    "status": "active",
+    "status": "gone_pending",
     "lastStatusChange": "2026-09-29",
     "dedupAt": "2026-09-29",
     "dedupRemovedIds": [
@@ -836,7 +847,8 @@
     "dedupNote": "同一戶：B區10F、28.14坪、2房、2,280萬；移除重複別名 ps-bc-2280。樂屋舊個別網址已失效，但目前永慶＋信義直接頁仍有效。",
     "listingIds": [
       "ps-bc-2280"
-    ]
+    ],
+    "note": "10F/28.14坪/2,280萬：案件資料暫保留於狀態歷史，但不列為已驗證現售直連；待重新取得可正常開啟的現售案件網址後再恢復active。"
   },
   {
     "id": "pc-b-3758",
