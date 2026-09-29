@@ -1,542 +1,37 @@
 [
   {
-    "id": "ng-4998",
-    "groupId": "ng-4998",
-    "community": "板橋新巨蛋",
-    "new": false,
+    "id": "ykf-1738-3f",
+    "groupId": "ykf-1738-3f",
+    "community": "永康芬揚",
+    "block": "待確認",
+    "floor": 3,
+    "totalFloor": 14,
+    "area": 21.76,
+    "layout": "2房1廳1衛",
+    "price": 1738,
+    "unit": 79.87,
+    "parking": false,
+    "owner": false,
+    "yq": false,
+    "new": true,
     "status": "active",
-    "updated": "2026-09-02",
-    "block": "C區",
-    "floor": 11,
-    "totalFloor": 43,
-    "area": 62.94,
-    "layout": "4房2廳2衛",
-    "price": 4998,
-    "unit": 87.62,
-    "parking": true,
-    "yq": true,
     "sources": {
-      "591": false,
-      "信義": true,
-      "樂居": false,
-      "樂屋": true,
-      "中信": false,
-      "永慶": true
+      "我家網": true
     },
     "links": {
-      "信義": "https://sinyi.com.tw/buy/house/7855FZ",
-      "永慶": "https://buy.yungching.com.tw/house/6364266"
-    },
-    "matchStatus": "已核實",
-    "sourceVerified": "2026-09-02重新核實：永慶正確案件為YC1217697",
-    "sourceValidation": {
-      "信義": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sinyi.com.tw/buy/house/7855FZ"
-      },
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/6364266"
-      }
-    }
-  },
-  {
-    "id": "ng-1945",
-    "groupId": "ng-1945",
-    "community": "板橋新巨蛋",
-    "block": "C區",
-    "floor": 22,
-    "totalFloor": 43,
-    "area": 26.57,
-    "layout": "1房",
-    "price": 1945,
-    "unit": 73.2,
-    "parking": true,
-    "owner": false,
-    "yq": true,
-    "new": false,
-    "updated": "2026-09-28",
-    "sourceVerified": "信義房屋＋樂屋網＋永慶房屋交叉核實",
-    "sources": {
-      "591": false,
-      "信義": true,
-      "樂居": false,
-      "樂屋": true,
-      "中信": false,
-      "永慶": true
-    },
-    "history": [],
-    "links": {
-      "信義": "https://www.sinyi.com.tw/buy/house/3117HX",
-      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=03d58b346244938&from=communitySearchSell",
-      "永慶": "https://buy.yungching.com.tw/house/7423870"
+      "我家網": "https://www.myhomes.com.tw/objects/o/1388064"
     },
     "sourceValidation": {
-      "信義": {
+      "我家網": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/3117HX"
-      },
-      "樂屋": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=03d58b346244938&from=communitySearchSell"
-      },
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/7423870"
-      }
-    }
-  },
-  {
-    "id": "ng-6800",
-    "groupId": "ng-6800",
-    "community": "板橋新巨蛋",
-    "block": "B區",
-    "floor": 13,
-    "totalFloor": 46,
-    "area": 76.74,
-    "layout": "4房2廳3衛1室",
-    "price": 6800,
-    "unit": 97.67,
-    "parking": true,
-    "owner": false,
-    "yq": true,
-    "new": false,
-    "updated": "2026-09-03",
-    "sourceVerified": "2026-09-03重新核實：B13正確開價為6,800萬；原資料誤套用B32的5,900萬，現已分開修正。永慶案件為YC1221715。",
-    "sources": {
-      "591": true,
-      "信義": true,
-      "樂居": false,
-      "樂屋": true,
-      "中信": true,
-      "永慶": true
-    },
-    "history": [
-      {
-        "date": "2026-09-01",
-        "price": 5900
-      },
-      {
-        "date": "2026-08-31",
-        "price": 6800
-      }
-    ],
-    "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/20576106.html",
-      "信義": "https://www.sinyi.com.tw/buy/house/7680JW",
-      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell",
-      "永慶": "https://buy.yungching.com.tw/house/6499628"
-    },
-    "sourceValidation": {
-      "591": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20576106.html"
-      },
-      "信義": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/7680JW"
-      },
-      "樂屋": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell"
-      },
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/6499628"
+        "url": "https://www.myhomes.com.tw/objects/o/1388064"
       }
     },
-    "parkingArea": 10.19,
-    "parkingPrice": 300
-  },
-  {
-    "id": "ng-6600",
-    "groupId": "ng-6600",
-    "community": "板橋新巨蛋",
-    "block": "B區",
-    "floor": 7,
-    "totalFloor": 46,
-    "area": 84.05,
-    "layout": "4房(含加蓋)",
-    "price": 6600,
-    "unit": 90.17,
-    "parking": true,
-    "owner": false,
-    "yq": true,
-    "new": false,
-    "updated": "2026-09-28",
-    "sourceVerified": "信義房屋＋樂屋網＋永慶房屋交叉核實",
-    "sources": {
-      "591": false,
-      "信義": true,
-      "樂居": false,
-      "樂屋": true,
-      "中信": false,
-      "永慶": true
-    },
-    "history": [],
-    "links": {
-      "信義": "https://www.sinyi.com.tw/buy/house/9524XN",
-      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=08d32d300679720&from=communitySearchSell",
-      "永慶": "https://buy.yungching.com.tw/house/6892646"
-    },
-    "sourceValidation": {
-      "信義": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/9524XN"
-      },
-      "樂屋": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08d32d300679720&from=communitySearchSell"
-      },
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/6892646"
-      }
-    }
-  },
-  {
-    "id": "ng-1368",
-    "groupId": "ng-1368",
-    "community": "板橋新巨蛋",
-    "block": "A區",
-    "floor": 6,
-    "totalFloor": 40,
-    "area": 12.85,
-    "layout": "2房(含加蓋1房)",
-    "price": 1368,
-    "unit": 106.46,
-    "parking": false,
-    "owner": false,
-    "yq": null,
-    "new": false,
-    "updated": "2026-09-28",
-    "sourceVerified": "信義房屋＋樂屋網交叉核實；永慶尚未確認",
-    "sources": {
-      "591": false,
-      "信義": true,
-      "樂居": false,
-      "樂屋": true,
-      "中信": false,
-      "永慶": null
-    },
-    "history": [],
-    "links": {
-      "信義": "https://www.sinyi.com.tw/buy/house/4813PN",
-      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=0a558427248637f&from=communitySearchSell"
-    },
-    "sourceValidation": {
-      "信義": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/4813PN"
-      },
-      "樂屋": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0a558427248637f&from=communitySearchSell"
-      }
-    }
-  },
-  {
-    "id": "ng-1728",
-    "groupId": "ng-1728",
-    "community": "板橋新巨蛋",
-    "block": "A區",
-    "floor": 4,
-    "totalFloor": 40,
-    "area": 16.63,
-    "layout": "1房(含加蓋1房)",
-    "price": 1728,
-    "unit": 103.91,
-    "parking": false,
-    "owner": false,
-    "yq": true,
-    "new": false,
-    "updated": "2026-09-28",
-    "sourceVerified": "信義房屋＋樂屋網＋永慶房屋交叉核實",
-    "sources": {
-      "591": false,
-      "信義": false,
-      "樂居": false,
-      "樂屋": false,
-      "中信": false,
-      "永慶": true
-    },
-    "history": [],
-    "links": {
-      "信義": "https://www.sinyi.com.tw/buy/house/1359QV",
-      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=0eed31338337495&from=communitySearchSell",
-      "永慶": "https://buy.yungching.com.tw/house/6680641"
-    },
-    "sourceValidation": {
-      "信義": {
-        "state": "gone",
-        "httpStatus": 404,
-        "reason": "not-found",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/1359QV"
-      },
-      "樂屋": {
-        "state": "gone",
-        "httpStatus": 404,
-        "reason": "not-found",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0eed31338337495&from=communitySearchSell"
-      },
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/6680641"
-      }
-    }
-  },
-  {
-    "id": "ng-1638",
-    "groupId": "ng-1638",
-    "community": "板橋新巨蛋",
-    "block": "A區",
-    "floor": 6,
-    "totalFloor": 40,
-    "area": 12.85,
-    "layout": "1房",
-    "price": 1638,
-    "unit": 127.47,
-    "parking": false,
-    "owner": false,
-    "yq": null,
-    "new": false,
-    "updated": "2026-09-28",
-    "sourceVerified": "信義房屋＋樂屋網交叉核實；永慶尚未確認",
-    "sources": {
-      "591": false,
-      "信義": true,
-      "樂居": false,
-      "樂屋": true,
-      "中信": false,
-      "永慶": null
-    },
-    "history": [],
-    "links": {
-      "信義": "https://www.sinyi.com.tw/buy/house/3508VZ",
-      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=089270299156338&from=communitySearchSell"
-    },
-    "sourceValidation": {
-      "信義": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/3508VZ"
-      },
-      "樂屋": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=089270299156338&from=communitySearchSell"
-      }
-    }
-  },
-  {
-    "id": "ng-1880",
-    "groupId": "ng-1880",
-    "community": "板橋新巨蛋",
-    "block": "C區",
-    "floor": 25,
-    "totalFloor": 43,
-    "area": 16.38,
-    "layout": "3房(含加蓋)",
-    "price": 1880,
-    "unit": 114.77,
-    "parking": false,
-    "owner": false,
-    "yq": null,
-    "new": false,
-    "updated": "2026-09-28",
-    "sourceVerified": "591＋樂屋網交叉核實；永慶尚未確認",
-    "sources": {
-      "591": false,
-      "信義": false,
-      "樂居": false,
-      "樂屋": false,
-      "中信": false,
-      "永慶": null
-    },
-    "history": [],
-    "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/19784014.html",
-      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=09906e35200994e&from=realpriceH&from_id=6a8abdd5b7577"
-    },
-    "sourceValidation": {
-      "591": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/19784014.html"
-      },
-      "樂屋": {
-        "state": "gone",
-        "httpStatus": 404,
-        "reason": "not-found",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=09906e35200994e&from=realpriceH&from_id=6a8abdd5b7577"
-      }
-    },
-    "status": "gone_pending",
-    "lastStatusChange": "2026-09-04"
-  },
-  {
-    "id": "ng-1315",
-    "groupId": "ng-1315",
-    "community": "板橋新巨蛋",
-    "block": "待確認",
-    "floor": 32,
-    "totalFloor": 40,
-    "area": 12.41,
-    "layout": "1房1廳1衛",
-    "price": 1290,
-    "unit": 105.56,
-    "parking": false,
-    "owner": true,
-    "yq": null,
-    "new": true,
-    "updated": "2026-09-03",
-    "sourceVerified": "2026-09-03重新核實：32/40F、12.41坪、1,290萬、屋主李先生；591直接案件為20446447，改用591直接頁，不再使用錯誤的好房網連結",
-    "sources": {
-      "591": true,
-      "信義": false,
-      "樂居": false,
-      "樂屋": false,
-      "中信": false,
-      "永慶": null
-    },
-    "history": [
-      {
-        "date": "2026-09-01",
-        "price": 1315
-      }
-    ],
-    "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/20446447.html"
-    },
-    "sourceValidation": {
-      "591": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20446447.html"
-      }
-    },
-    "status": "price_drop",
-    "lastStatusChange": "2026-09-03"
-  },
-  {
-    "id": "ng-1200",
-    "groupId": "ng-1200",
-    "community": "板橋新巨蛋",
-    "block": "待確認",
-    "floor": null,
-    "totalFloor": 43,
-    "area": 17.74,
-    "layout": "1房",
-    "price": 1200,
-    "unit": 67.64,
-    "parking": false,
-    "owner": false,
-    "yq": null,
-    "new": true,
-    "updated": "2026-09-02",
-    "sourceVerified": "2026-09-02重新核實：原1,200萬資料無法證明為目前有效在售，移出目前有效案件",
-    "sources": {
-      "591": true,
-      "信義": false,
-      "樂居": false,
-      "樂屋": false,
-      "中信": true,
-      "永慶": null
-    },
-    "history": [
-      {
-        "date": "2026-09-01",
-        "price": 1200
-      }
-    ],
-    "links": {},
-    "sourceValidation": {},
-    "status": "gone_pending"
-  },
-  {
-    "id": "ng-1398",
-    "groupId": "ng-1398",
-    "community": "板橋新巨蛋",
-    "block": "待確認",
-    "floor": null,
-    "totalFloor": 43,
-    "area": 12.85,
-    "layout": "1房",
-    "price": 1398,
-    "unit": 108.79,
-    "parking": false,
-    "owner": false,
-    "yq": null,
-    "new": false,
-    "updated": "2026-09-28",
-    "sourceVerified": "591公開搜尋結果（尚未取得案件直連）；未與其他平台確認為同戶",
-    "sources": {
-      "591": true,
-      "信義": false,
-      "樂居": false,
-      "樂屋": false,
-      "中信": false,
-      "永慶": null
-    },
-    "history": [],
-    "links": {},
-    "sourceValidation": {}
+    "sourceVerified": "Exa二次掃描：我家網直接案件頁；原價1,768萬、目前1,738萬。",
+    "updated": "2026-09-28"
   },
   {
     "id": "pc-a-2588",
@@ -566,6 +61,86 @@
     "history": [],
     "links": {},
     "sourceValidation": {}
+  },
+  {
+    "id": "pc-b-2280",
+    "groupId": "pc-b-2280",
+    "community": "板橋公園世紀 B區",
+    "block": "B區",
+    "floor": 10,
+    "totalFloor": 12,
+    "area": 28.14,
+    "layout": "2房",
+    "price": 2280,
+    "unit": 81.02,
+    "parking": false,
+    "owner": false,
+    "yq": true,
+    "new": false,
+    "updated": "2026-09-28",
+    "sourceVerified": "樂屋網＋永慶房屋交叉核實；永慶本戶直連尚未取得",
+    "sources": {
+      "591": false,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "中信": false,
+      "永慶": true
+    },
+    "history": [],
+    "links": {
+      "樂屋": "https://community.rakuya.com.tw/38979/sell/info?ehid=03dcc434923102c&from=list_regular"
+    },
+    "sourceValidation": {
+      "樂屋": {
+        "state": "gone",
+        "httpStatus": 404,
+        "reason": "not-found",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=03dcc434923102c&from=list_regular"
+      }
+    },
+    "status": "gone_pending",
+    "lastStatusChange": "2026-09-28"
+  },
+  {
+    "id": "pc-b-4888",
+    "groupId": "pc-b-4888",
+    "community": "板橋公園世紀 B區",
+    "block": "B區",
+    "floor": 7,
+    "totalFloor": 12,
+    "area": 74.34,
+    "layout": "4房",
+    "price": 4888,
+    "unit": 65.75,
+    "parking": true,
+    "owner": false,
+    "yq": true,
+    "new": false,
+    "updated": "2026-09-28",
+    "sourceVerified": "樂屋網＋永慶房屋交叉核實；永慶本戶直連尚未取得",
+    "sources": {
+      "591": false,
+      "信義": false,
+      "樂居": false,
+      "樂屋": true,
+      "中信": false,
+      "永慶": true
+    },
+    "history": [],
+    "links": {
+      "樂屋": "https://community.rakuya.com.tw/38979/sell/info?ehid=05de8016638408e&from=list_regular"
+    },
+    "sourceValidation": {
+      "樂屋": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=05de8016638408e&from=list_regular"
+      }
+    }
   },
   {
     "id": "pc-b-3698",
@@ -613,86 +188,6 @@
         "url": "https://buy.yungching.com.tw/house/7252089"
       }
     }
-  },
-  {
-    "id": "pc-b-4888",
-    "groupId": "pc-b-4888",
-    "community": "板橋公園世紀 B區",
-    "block": "B區",
-    "floor": 7,
-    "totalFloor": 12,
-    "area": 74.34,
-    "layout": "4房",
-    "price": 4888,
-    "unit": 65.75,
-    "parking": true,
-    "owner": false,
-    "yq": true,
-    "new": false,
-    "updated": "2026-09-28",
-    "sourceVerified": "樂屋網＋永慶房屋交叉核實；永慶本戶直連尚未取得",
-    "sources": {
-      "591": false,
-      "信義": false,
-      "樂居": false,
-      "樂屋": true,
-      "中信": false,
-      "永慶": true
-    },
-    "history": [],
-    "links": {
-      "樂屋": "https://community.rakuya.com.tw/38979/sell/info?ehid=05de8016638408e&from=list_regular"
-    },
-    "sourceValidation": {
-      "樂屋": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=05de8016638408e&from=list_regular"
-      }
-    }
-  },
-  {
-    "id": "pc-b-2280",
-    "groupId": "pc-b-2280",
-    "community": "板橋公園世紀 B區",
-    "block": "B區",
-    "floor": 10,
-    "totalFloor": 12,
-    "area": 28.14,
-    "layout": "2房",
-    "price": 2280,
-    "unit": 81.02,
-    "parking": false,
-    "owner": false,
-    "yq": true,
-    "new": false,
-    "updated": "2026-09-28",
-    "sourceVerified": "樂屋網＋永慶房屋交叉核實；永慶本戶直連尚未取得",
-    "sources": {
-      "591": false,
-      "信義": false,
-      "樂居": false,
-      "樂屋": false,
-      "中信": false,
-      "永慶": true
-    },
-    "history": [],
-    "links": {
-      "樂屋": "https://community.rakuya.com.tw/38979/sell/info?ehid=03dcc434923102c&from=list_regular"
-    },
-    "sourceValidation": {
-      "樂屋": {
-        "state": "gone",
-        "httpStatus": 404,
-        "reason": "not-found",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://community.rakuya.com.tw/38979/sell/info?ehid=03dcc434923102c&from=list_regular"
-      }
-    },
-    "status": "gone_pending",
-    "lastStatusChange": "2026-09-28"
   },
   {
     "id": "pc-b-3758",
@@ -761,6 +256,48 @@
     "history": [],
     "links": {},
     "sourceValidation": {}
+  },
+  {
+    "id": "jyz-2688",
+    "groupId": "jyz-2688",
+    "community": "板橋佳元植",
+    "block": "待確認",
+    "floor": null,
+    "totalFloor": null,
+    "area": null,
+    "layout": "2房",
+    "price": 2688,
+    "unit": null,
+    "parking": null,
+    "owner": false,
+    "yq": null,
+    "new": false,
+    "status": "active",
+    "updated": "2026-09-04",
+    "sourceVerified": "2026-09-04：樂居目前待售1筆",
+    "sources": {
+      "樂居": true
+    },
+    "links": {
+      "樂居": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a"
+    },
+    "history": [],
+    "sourceValidation": {
+      "樂居": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a"
+      },
+      "R.TUBE": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://www.rtube.com.tw/real-estates/RE1784778988550654"
+      }
+    }
   },
   {
     "id": "xpd-4535-18f",
@@ -859,120 +396,6 @@
     }
   },
   {
-    "id": "ryxq-5068-2f",
-    "groupId": "ryxq-5068-2f",
-    "community": "板橋榮耀交響曲",
-    "block": "待確認",
-    "floor": 2,
-    "totalFloor": 15,
-    "area": 75.76,
-    "layout": "4房2廳2衛",
-    "price": 5068,
-    "unit": 87.4,
-    "parking": true,
-    "parkingArea": 24.64,
-    "parkingPrice": 600,
-    "owner": false,
-    "yq": true,
-    "new": false,
-    "status": "active",
-    "updated": "2026-09-04",
-    "sourceVerified": "2026-09-04：永慶案件 YC1255301",
-    "sources": {
-      "永慶": true
-    },
-    "links": {
-      "永慶": "https://buy.yungching.com.tw/house/7217539"
-    },
-    "history": [],
-    "sourceValidation": {
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/7217539"
-      }
-    }
-  },
-  {
-    "id": "jyz-2688",
-    "groupId": "jyz-2688",
-    "community": "板橋佳元植",
-    "block": "待確認",
-    "floor": null,
-    "totalFloor": null,
-    "area": null,
-    "layout": "2房",
-    "price": 2688,
-    "unit": null,
-    "parking": null,
-    "owner": false,
-    "yq": null,
-    "new": false,
-    "status": "active",
-    "updated": "2026-09-04",
-    "sourceVerified": "2026-09-04：樂居目前待售1筆",
-    "sources": {
-      "樂居": true
-    },
-    "links": {
-      "樂居": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a"
-    },
-    "history": [],
-    "sourceValidation": {
-      "樂居": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a"
-      },
-      "R.TUBE": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://www.rtube.com.tw/real-estates/RE1784778988550654"
-      }
-    }
-  },
-  {
-    "id": "lry-2540",
-    "groupId": "lry-2540",
-    "community": "板橋綠如意",
-    "block": "待確認",
-    "floor": null,
-    "totalFloor": 16,
-    "area": null,
-    "layout": "2房",
-    "price": 2540,
-    "unit": null,
-    "parking": null,
-    "owner": false,
-    "yq": null,
-    "new": false,
-    "status": "active",
-    "updated": "2026-09-04",
-    "sourceVerified": "2026-09-04：591社區頁目前可見在售案例；戶別/樓層待直接案件頁確認",
-    "sources": {
-      "591": true
-    },
-    "links": {
-      "591": "https://market.591.com.tw/29100"
-    },
-    "history": [],
-    "sourceValidation": {
-      "591": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://market.591.com.tw/29100"
-      }
-    }
-  },
-  {
     "id": "xpd-2980-6f",
     "groupId": "xpd-2980-6f",
     "community": "板橋欣璞綻",
@@ -1013,69 +436,287 @@
     "updated": "2026-09-28"
   },
   {
-    "id": "kz-5688-14f",
-    "groupId": "kz-5688-14f",
-    "community": "板橋鑑築",
-    "block": "待確認",
-    "floor": 14,
-    "totalFloor": 14,
-    "area": 89.73,
-    "layout": "4房2廳3衛",
-    "price": 5688,
-    "unit": 81.2,
+    "id": "banqiao-qing-7f-3448",
+    "groupId": "banqiao-qing-7f-3448",
+    "community": "板橋晴",
+    "block": "主棟",
+    "floor": 7,
+    "totalFloor": 12,
+    "area": 34.48,
+    "layout": "2房2廳1衛1陽台",
+    "price": 2185,
+    "unit": 80.81,
     "parking": true,
-    "parkingArea": 25.83,
-    "parkingPrice": 500,
+    "parkingArea": 9.67,
     "owner": false,
-    "yq": false,
+    "yq": null,
     "new": true,
-    "status": "price_drop",
-    "changeNote": "5,988萬降至5,688萬",
+    "updated": "2026-09-29",
+    "status": "active",
+    "matchStatus": "高度疑似同戶",
+    "matchNote": "591社區頁目前11筆；逐筆Firecrawl核實後，多筆均為莒光路180巷、7F、34.48坪/44.15坪（34.48+9.67車位）、2房車，疑似同一戶不同仲介/不同刊登版本。保留11個591案件ID，不把11筆計為11戶。",
+    "priceVariants": [
+      2185,
+      2360
+    ],
+    "listingIds": [
+      "S20939780",
+      "S20866050",
+      "S20865148",
+      "S20852053",
+      "25129350",
+      "S20851872",
+      "S20841699",
+      "S20836673",
+      "S20819821",
+      "S20809213",
+      "S20698282"
+    ],
+    "listingCountOn591": 11,
     "sources": {
-      "591": false,
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "中信": false,
+      "永慶": false
+    },
+    "sourceVerified": "2026-09-29 Firecrawl：591社區頁11筆＋11個案件詳情頁；目前僅完成591，其他平台尚未本次核實。",
+    "links": {
+      "591": "https://market.591.com.tw/104765/sale",
+      "591-主要案件": "https://sale.591.com.tw/home/house/detail/2/20939780.html"
+    }
+  },
+  {
+    "id": "ng-1315",
+    "groupId": "ng-1315",
+    "community": "板橋新巨蛋",
+    "block": "待確認",
+    "floor": 32,
+    "totalFloor": 40,
+    "area": 12.41,
+    "layout": "1房1廳1衛",
+    "price": 1290,
+    "unit": 105.56,
+    "parking": false,
+    "owner": true,
+    "yq": null,
+    "new": true,
+    "updated": "2026-09-03",
+    "sourceVerified": "2026-09-03重新核實：32/40F、12.41坪、1,290萬、屋主李先生；591直接案件為20446447，改用591直接頁，不再使用錯誤的好房網連結",
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "中信": false,
+      "永慶": null
+    },
+    "history": [
+      {
+        "date": "2026-09-01",
+        "price": 1315
+      }
+    ],
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20446447.html"
+    },
+    "sourceValidation": {
+      "591": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20446447.html"
+      }
+    },
+    "status": "price_drop",
+    "lastStatusChange": "2026-09-03",
+    "dedupAt": "2026-09-29",
+    "dedupRemovedIds": [
+      "ng-match-15"
+    ],
+    "dedupNote": "高度同戶：A區32F、12.41坪、1,290萬，保留主案件 ng-1315",
+    "listingIds": [
+      "ng-match-15"
+    ]
+  },
+  {
+    "id": "ng-1200",
+    "groupId": "ng-1200",
+    "community": "板橋新巨蛋",
+    "block": "待確認",
+    "floor": null,
+    "totalFloor": 43,
+    "area": 17.74,
+    "layout": "1房",
+    "price": 1200,
+    "unit": 67.64,
+    "parking": false,
+    "owner": false,
+    "yq": null,
+    "new": true,
+    "updated": "2026-09-02",
+    "sourceVerified": "2026-09-02重新核實：原1,200萬資料無法證明為目前有效在售，移出目前有效案件",
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
       "中信": true,
+      "永慶": null
+    },
+    "history": [
+      {
+        "date": "2026-09-01",
+        "price": 1200
+      }
+    ],
+    "links": {},
+    "sourceValidation": {},
+    "status": "gone_pending"
+  },
+  {
+    "id": "ng-1398",
+    "groupId": "ng-1398",
+    "community": "板橋新巨蛋",
+    "block": "待確認",
+    "floor": null,
+    "totalFloor": 43,
+    "area": 12.85,
+    "layout": "1房",
+    "price": 1398,
+    "unit": 108.79,
+    "parking": false,
+    "owner": false,
+    "yq": null,
+    "new": false,
+    "updated": "2026-09-28",
+    "sourceVerified": "591公開搜尋結果（尚未取得案件直連）；未與其他平台確認為同戶",
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "中信": false,
+      "永慶": null
+    },
+    "history": [],
+    "links": {},
+    "sourceValidation": {}
+  },
+  {
+    "id": "ng-match-14",
+    "groupId": "ng-match-14",
+    "community": "板橋新巨蛋",
+    "block": "A區",
+    "floor": 39,
+    "totalFloor": 40,
+    "area": 14.24,
+    "layout": "1房1廳1衛",
+    "price": 1488,
+    "parking": false,
+    "new": true,
+    "updated": "2026-09-28",
+    "status": "active",
+    "matchStatus": "待確認",
+    "matchNote": "樂居1,488萬＋591待配對",
+    "sources": {
+      "591": true,
+      "樂居": true,
       "信義": false,
       "樂屋": false,
-      "樂居": false,
+      "永慶": true
+    },
+    "links": {
+      "永慶": "https://buy.yungching.com.tw/house/7386714"
+    },
+    "unit": 104.49,
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "sourceValidation": {
+      "永慶": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://buy.yungching.com.tw/house/7386714"
+      }
+    }
+  },
+  {
+    "id": "ng-match-06",
+    "groupId": "ng-match-06",
+    "community": "板橋新巨蛋",
+    "block": "A區",
+    "floor": 23,
+    "totalFloor": 40,
+    "area": 13.59,
+    "layout": "1房1廳",
+    "price": 1600,
+    "unit": 117.8,
+    "parking": false,
+    "new": true,
+    "updated": "2026-09-28",
+    "status": "active",
+    "matchStatus": "高度同戶",
+    "matchNote": "591 20963768、20962147＋樂居23F 1,600萬",
+    "sources": {
+      "591": true,
+      "樂居": true,
+      "信義": false,
+      "樂屋": false,
       "永慶": false
     },
     "links": {
-      "中信": "https://buy.cthouse.com.tw/house/2004451.html"
+      "591": "https://sale.591.com.tw/home/house/detail/2/20963768.html"
     },
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": null,
+    "parkingArea": null,
+    "unitPrice": 117.73,
+    "unitPriceBasis": "591案件頁每坪單價；無車位",
+    "totalPrice": 1600,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00",
     "sourceValidation": {
-      "中信": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
+      "591": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.cthouse.com.tw/house/2004451.html"
+        "url": "https://sale.591.com.tw/home/house/detail/2/20963768.html"
       }
-    },
-    "sourceVerified": "Exa二次掃描：中信直接案件頁，物件編號2004451。",
-    "updated": "2026-09-28"
+    }
   },
   {
-    "id": "kz-4500-2f",
-    "groupId": "kz-4500-2f",
-    "community": "板橋鑑築",
-    "block": "待確認",
-    "floor": 2,
-    "totalFloor": 14,
-    "area": 60.54,
-    "layout": "3房2廳2衛1室",
-    "price": 4500,
-    "unit": null,
-    "parking": true,
-    "parkingPrice": 250,
+    "id": "ng-1368",
+    "groupId": "ng-1368",
+    "community": "板橋新巨蛋",
+    "block": "A區",
+    "floor": 6,
+    "totalFloor": 40,
+    "area": 12.85,
+    "layout": "2房(含加蓋1房)",
+    "price": 1368,
+    "unit": 106.46,
+    "parking": false,
     "owner": false,
-    "yq": false,
-    "new": true,
-    "status": "active",
+    "yq": null,
+    "new": false,
+    "updated": "2026-09-28",
+    "sourceVerified": "信義房屋＋樂屋網交叉核實；永慶尚未確認",
     "sources": {
-      "信義": true
+      "591": false,
+      "信義": true,
+      "樂居": false,
+      "樂屋": true,
+      "中信": false,
+      "永慶": null
     },
+    "history": [],
     "links": {
-      "信義": "https://www.sinyi.com.tw/buy/house/0939DZ"
+      "信義": "https://www.sinyi.com.tw/buy/house/4813PN",
+      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=0a558427248637f&from=communitySearchSell"
     },
     "sourceValidation": {
       "信義": {
@@ -1083,34 +724,140 @@
         "httpStatus": 200,
         "reason": "ok",
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/0939DZ"
+        "url": "https://www.sinyi.com.tw/buy/house/4813PN"
+      },
+      "樂屋": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0a558427248637f&from=communitySearchSell"
       }
     },
-    "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號0939DZ。",
-    "updated": "2026-09-28"
+    "dedupAt": "2026-09-29",
+    "dedupRemovedIds": [
+      "ng-match-10"
+    ],
+    "dedupNote": "高度同戶：A區6F、12.85坪、1,368萬，保留主案件 ng-1368",
+    "listingIds": [
+      "ng-match-10"
+    ]
   },
   {
-    "id": "lry-2850-16f",
-    "groupId": "lry-2850-16f",
-    "community": "板橋綠如意",
-    "block": "待確認",
-    "floor": 16,
-    "totalFloor": 16,
-    "area": 43.76,
-    "layout": "3房1廳2衛1室",
-    "price": 2850,
-    "unit": 81.45,
-    "parking": true,
-    "parkingPrice": 250,
+    "id": "ng-1638",
+    "groupId": "ng-1638",
+    "community": "板橋新巨蛋",
+    "block": "A區",
+    "floor": 6,
+    "totalFloor": 40,
+    "area": 12.85,
+    "layout": "1房",
+    "price": 1638,
+    "unit": 127.47,
+    "parking": false,
     "owner": false,
-    "yq": false,
-    "new": true,
-    "status": "gone_pending",
+    "yq": null,
+    "new": false,
+    "updated": "2026-09-28",
+    "sourceVerified": "信義房屋＋樂屋網交叉核實；永慶尚未確認",
     "sources": {
-      "信義": false
+      "591": false,
+      "信義": true,
+      "樂居": false,
+      "樂屋": true,
+      "中信": false,
+      "永慶": null
+    },
+    "history": [],
+    "links": {
+      "信義": "https://www.sinyi.com.tw/buy/house/3508VZ",
+      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=089270299156338&from=communitySearchSell"
+    },
+    "sourceValidation": {
+      "信義": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/3508VZ"
+      },
+      "樂屋": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=089270299156338&from=communitySearchSell"
+      }
+    }
+  },
+  {
+    "id": "ng-match-11",
+    "groupId": "ng-match-11",
+    "community": "板橋新巨蛋",
+    "block": "A區",
+    "floor": 6,
+    "totalFloor": 40,
+    "area": 12.85,
+    "layout": "1房1廳1衛",
+    "price": 1638,
+    "unit": 127.5,
+    "parking": false,
+    "new": true,
+    "updated": "2026-09-28",
+    "status": "active",
+    "matchStatus": "可能是另一戶",
+    "matchNote": "樂居＋信義3508VZ；與6F 1368萬戶尚未強識別",
+    "sources": {
+      "591": false,
+      "樂居": true,
+      "信義": true,
+      "樂屋": false,
+      "永慶": false
     },
     "links": {
-      "信義": "https://www.sinyi.com.tw/buy/house/7012JW"
+      "信義": "https://sinyi.com.tw/buy/house/3508VZ"
+    },
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "sourceValidation": {
+      "信義": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://sinyi.com.tw/buy/house/3508VZ"
+      }
+    }
+  },
+  {
+    "id": "ng-1728",
+    "groupId": "ng-1728",
+    "community": "板橋新巨蛋",
+    "block": "A區",
+    "floor": 4,
+    "totalFloor": 40,
+    "area": 16.63,
+    "layout": "1房(含加蓋1房)",
+    "price": 1728,
+    "unit": 103.91,
+    "parking": false,
+    "owner": false,
+    "yq": true,
+    "new": false,
+    "updated": "2026-09-28",
+    "sourceVerified": "信義房屋＋樂屋網＋永慶房屋交叉核實",
+    "sources": {
+      "591": false,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "中信": false,
+      "永慶": true
+    },
+    "history": [],
+    "links": {
+      "信義": "https://www.sinyi.com.tw/buy/house/1359QV",
+      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=0eed31338337495&from=communitySearchSell",
+      "永慶": "https://buy.yungching.com.tw/house/6680641"
     },
     "sourceValidation": {
       "信義": {
@@ -1118,46 +865,23 @@
         "httpStatus": 404,
         "reason": "not-found",
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/7012JW"
-      }
-    },
-    "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號7012JW。",
-    "lastStatusChange": "2026-09-28",
-    "updated": "2026-09-28"
-  },
-  {
-    "id": "ykf-1738-3f",
-    "groupId": "ykf-1738-3f",
-    "community": "永康芬揚",
-    "block": "待確認",
-    "floor": 3,
-    "totalFloor": 14,
-    "area": 21.76,
-    "layout": "2房1廳1衛",
-    "price": 1738,
-    "unit": 79.87,
-    "parking": false,
-    "owner": false,
-    "yq": false,
-    "new": true,
-    "status": "active",
-    "sources": {
-      "我家網": true
-    },
-    "links": {
-      "我家網": "https://www.myhomes.com.tw/objects/o/1388064"
-    },
-    "sourceValidation": {
-      "我家網": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
+        "url": "https://www.sinyi.com.tw/buy/house/1359QV"
+      },
+      "樂屋": {
+        "state": "gone",
+        "httpStatus": 404,
+        "reason": "not-found",
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://www.myhomes.com.tw/objects/o/1388064"
+        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0eed31338337495&from=communitySearchSell"
+      },
+      "永慶": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://buy.yungching.com.tw/house/6680641"
       }
-    },
-    "sourceVerified": "Exa二次掃描：我家網直接案件頁；原價1,768萬、目前1,738萬。",
-    "updated": "2026-09-28"
+    }
   },
   {
     "id": "ng-match-01",
@@ -1200,6 +924,50 @@
         "reason": "access-blocked-or-server-error",
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20726936.html"
+      }
+    }
+  },
+  {
+    "id": "ng-match-03",
+    "groupId": "ng-match-03",
+    "community": "板橋新巨蛋",
+    "block": "B區",
+    "floor": 38,
+    "totalFloor": 46,
+    "area": 75.5,
+    "layout": "4房＋雙車",
+    "price": 5599,
+    "parking": true,
+    "new": true,
+    "updated": "2026-09-28",
+    "status": "active",
+    "matchStatus": "高度疑似同戶",
+    "matchNote": "591 20922725、20709568＋樂居75.5坪38F 5,599萬",
+    "sources": {
+      "591": true,
+      "樂居": true,
+      "信義": false,
+      "樂屋": false,
+      "永慶": false
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20922725.html"
+    },
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "buildingAreaDetail": "33.92坪",
+    "parkingArea": 20.38,
+    "unitPrice": 74.16,
+    "unitPriceBasis": "591案件頁每坪單價；總坪數75.5坪含車位",
+    "totalPrice": 5599,
+    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "priceVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "sourceValidation": {
+      "591": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20922725.html"
       }
     }
   },
@@ -1249,37 +1017,265 @@
     }
   },
   {
-    "id": "ng-match-03",
-    "groupId": "ng-match-03",
+    "id": "ng-6800",
+    "groupId": "ng-6800",
     "community": "板橋新巨蛋",
     "block": "B區",
-    "floor": 38,
+    "floor": 13,
     "totalFloor": 46,
-    "area": 75.5,
-    "layout": "4房＋雙車",
-    "price": 5599,
+    "area": 76.74,
+    "layout": "4房2廳3衛1室",
+    "price": 6800,
+    "unit": 97.67,
     "parking": true,
+    "owner": false,
+    "yq": true,
+    "new": false,
+    "updated": "2026-09-03",
+    "sourceVerified": "2026-09-03重新核實：B13正確開價為6,800萬；原資料誤套用B32的5,900萬，現已分開修正。永慶案件為YC1221715。",
+    "sources": {
+      "591": true,
+      "信義": true,
+      "樂居": false,
+      "樂屋": true,
+      "中信": true,
+      "永慶": true
+    },
+    "history": [
+      {
+        "date": "2026-09-01",
+        "price": 5900
+      },
+      {
+        "date": "2026-08-31",
+        "price": 6800
+      }
+    ],
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20576106.html",
+      "信義": "https://www.sinyi.com.tw/buy/house/7680JW",
+      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell",
+      "永慶": "https://buy.yungching.com.tw/house/6499628"
+    },
+    "sourceValidation": {
+      "591": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20576106.html"
+      },
+      "信義": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/7680JW"
+      },
+      "樂屋": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell"
+      },
+      "永慶": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://buy.yungching.com.tw/house/6499628"
+      }
+    },
+    "parkingArea": 10.19,
+    "parkingPrice": 300,
+    "dedupAt": "2026-09-29",
+    "dedupRemovedIds": [
+      "ng-match-12"
+    ],
+    "dedupNote": "同一戶：B區13F、76.74坪、4房、6,800萬，保留主案件 ng-6800",
+    "listingIds": [
+      "ng-match-12"
+    ]
+  },
+  {
+    "id": "ng-6600",
+    "groupId": "ng-6600",
+    "community": "板橋新巨蛋",
+    "block": "B區",
+    "floor": 7,
+    "totalFloor": 46,
+    "area": 84.05,
+    "layout": "4房(含加蓋)",
+    "price": 6600,
+    "unit": 90.17,
+    "parking": true,
+    "owner": false,
+    "yq": true,
+    "new": false,
+    "updated": "2026-09-28",
+    "sourceVerified": "信義房屋＋樂屋網＋永慶房屋交叉核實",
+    "sources": {
+      "591": false,
+      "信義": true,
+      "樂居": false,
+      "樂屋": true,
+      "中信": false,
+      "永慶": true
+    },
+    "history": [],
+    "links": {
+      "信義": "https://www.sinyi.com.tw/buy/house/9524XN",
+      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=08d32d300679720&from=communitySearchSell",
+      "永慶": "https://buy.yungching.com.tw/house/6892646"
+    },
+    "sourceValidation": {
+      "信義": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/9524XN"
+      },
+      "樂屋": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08d32d300679720&from=communitySearchSell"
+      },
+      "永慶": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://buy.yungching.com.tw/house/6892646"
+      }
+    },
+    "dedupAt": "2026-09-29",
+    "dedupRemovedIds": [
+      "ng-match-09"
+    ],
+    "dedupNote": "同一戶：B區7F、84.05坪、6,600萬，保留主案件 ng-6600",
+    "listingIds": [
+      "ng-match-09"
+    ]
+  },
+  {
+    "id": "ng-b7-parking",
+    "groupId": "ng-b7-parking",
+    "community": "板橋新巨蛋",
+    "new": false,
+    "status": "gone",
+    "updated": "2026-09-28",
+    "block": "B區",
+    "floor": -7,
+    "totalFloor": 46,
+    "area": 8.75,
+    "layout": "車位",
+    "price": 210,
+    "unit": 24,
+    "parking": true,
+    "yq": true,
+    "sources": {
+      "591": false,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "中信": false,
+      "永慶": true
+    },
+    "links": {
+      "永慶": "https://buy.yungching.com.tw/house/4800353"
+    },
+    "matchStatus": "已核實",
+    "sourceVerified": "2026-09-28 TinyFish：永慶實際搜尋「新北市板橋區／型態車位／板橋新巨蛋」，結果為暫無符合物件。",
+    "active": false,
+    "lastStatusChange": "2026-09-28",
+    "statusNote": "TinyFish 2026-09-28 實際搜尋：永慶「板橋區＋型態車位＋板橋新巨蛋」顯示暫無符合物件；因此不再視為目前在售純車位。",
+    "sourceValidation": {
+      "永慶": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://buy.yungching.com.tw/house/4800353"
+      }
+    }
+  },
+  {
+    "id": "ng-4288",
+    "groupId": "ng-4288",
+    "community": "板橋新巨蛋",
+    "new": false,
+    "status": "active",
+    "updated": "2026-09-28",
+    "block": "C區",
+    "floor": 33,
+    "totalFloor": 43,
+    "area": 46.04,
+    "layout": "3房2廳2衛",
+    "price": 4288,
+    "unit": 107.48,
+    "parking": true,
+    "yq": true,
+    "sources": {
+      "591": false,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "中信": false,
+      "永慶": true
+    },
+    "links": {
+      "永慶": "https://buy.yungching.com.tw/house/7280883"
+    },
+    "matchStatus": "已核實",
+    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "sourceValidation": {
+      "永慶": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://buy.yungching.com.tw/house/7280883"
+      }
+    }
+  },
+  {
+    "id": "ng-match-05",
+    "groupId": "ng-match-05",
+    "community": "板橋新巨蛋",
+    "block": "C區",
+    "floor": 25,
+    "totalFloor": 43,
+    "area": 16.38,
+    "layout": "1房/特殊挑高格局",
+    "price": 1800,
+    "unit": 109.9,
+    "parking": false,
     "new": true,
     "updated": "2026-09-28",
     "status": "active",
-    "matchStatus": "高度疑似同戶",
-    "matchNote": "591 20922725、20709568＋樂居75.5坪38F 5,599萬",
+    "matchStatus": "高度同戶",
+    "matchNote": "591 20915461、20884530＋樂居",
     "sources": {
       "591": true,
       "樂居": true,
       "信義": false,
       "樂屋": false,
-      "永慶": false
+      "永慶": true
     },
     "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/20922725.html"
+      "591": "https://sale.591.com.tw/home/house/detail/2/20915461.html",
+      "永慶": "https://buy.yungching.com.tw/house/6666073"
     },
     "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
-    "buildingAreaDetail": "33.92坪",
-    "parkingArea": 20.38,
-    "unitPrice": 74.16,
-    "unitPriceBasis": "591案件頁每坪單價；總坪數75.5坪含車位",
-    "totalPrice": 5599,
+    "buildingAreaDetail": "10坪",
+    "parkingArea": null,
+    "unitPrice": 109.89,
+    "unitPriceBasis": "591案件頁每坪單價；無車位",
+    "totalPrice": 1800,
     "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
     "priceVerifiedAt": "2026-09-28T12:00:00+08:00",
     "sourceValidation": {
@@ -1288,9 +1284,24 @@
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20922725.html"
+        "url": "https://sale.591.com.tw/home/house/detail/2/20915461.html"
+      },
+      "永慶": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://buy.yungching.com.tw/house/6666073"
       }
-    }
+    },
+    "dedupAt": "2026-09-29",
+    "dedupRemovedIds": [
+      "ng-1880"
+    ],
+    "dedupNote": "同戶：C區25F、16.38坪；目前以 1,800萬 active 案件為最新版本，移除舊 1,880萬 gone_pending 案件",
+    "listingIds": [
+      "ng-1880"
+    ]
   },
   {
     "id": "ng-match-04",
@@ -1354,100 +1365,112 @@
     }
   },
   {
-    "id": "ng-match-05",
-    "groupId": "ng-match-05",
+    "id": "ng-1945",
+    "groupId": "ng-1945",
     "community": "板橋新巨蛋",
     "block": "C區",
-    "floor": 25,
+    "floor": 22,
     "totalFloor": 43,
-    "area": 16.38,
-    "layout": "1房/特殊挑高格局",
-    "price": 1800,
-    "unit": 109.9,
-    "parking": false,
-    "new": true,
+    "area": 26.57,
+    "layout": "1房",
+    "price": 1945,
+    "unit": 73.2,
+    "parking": true,
+    "owner": false,
+    "yq": true,
+    "new": false,
     "updated": "2026-09-28",
-    "status": "active",
-    "matchStatus": "高度同戶",
-    "matchNote": "591 20915461、20884530＋樂居",
+    "sourceVerified": "信義房屋＋樂屋網＋永慶房屋交叉核實",
     "sources": {
-      "591": true,
-      "樂居": true,
-      "信義": false,
-      "樂屋": false,
+      "591": false,
+      "信義": true,
+      "樂居": false,
+      "樂屋": true,
+      "中信": false,
       "永慶": true
     },
+    "history": [],
     "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/20915461.html",
-      "永慶": "https://buy.yungching.com.tw/house/6666073"
+      "信義": "https://www.sinyi.com.tw/buy/house/3117HX",
+      "樂屋": "https://community.rakuya.com.tw/2276/sell/info?ehid=03d58b346244938&from=communitySearchSell",
+      "永慶": "https://buy.yungching.com.tw/house/7423870"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
-    "buildingAreaDetail": "10坪",
-    "parkingArea": null,
-    "unitPrice": 109.89,
-    "unitPriceBasis": "591案件頁每坪單價；無車位",
-    "totalPrice": 1800,
-    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
-    "priceVerifiedAt": "2026-09-28T12:00:00+08:00",
     "sourceValidation": {
-      "591": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
+      "信義": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20915461.html"
+        "url": "https://www.sinyi.com.tw/buy/house/3117HX"
+      },
+      "樂屋": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=03d58b346244938&from=communitySearchSell"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/6666073"
+        "url": "https://buy.yungching.com.tw/house/7423870"
       }
-    }
+    },
+    "dedupAt": "2026-09-29",
+    "dedupRemovedIds": [
+      "ng-match-13"
+    ],
+    "dedupNote": "高度同戶：C區22F、26.57坪、1,945萬，保留主案件 ng-1945",
+    "listingIds": [
+      "ng-match-13"
+    ]
   },
   {
-    "id": "ng-match-06",
-    "groupId": "ng-match-06",
+    "id": "ng-4998",
+    "groupId": "ng-4998",
     "community": "板橋新巨蛋",
-    "block": "A區",
-    "floor": 23,
-    "totalFloor": 40,
-    "area": 13.59,
-    "layout": "1房1廳",
-    "price": 1600,
-    "unit": 117.8,
-    "parking": false,
-    "new": true,
-    "updated": "2026-09-28",
+    "new": false,
     "status": "active",
-    "matchStatus": "高度同戶",
-    "matchNote": "591 20963768、20962147＋樂居23F 1,600萬",
+    "updated": "2026-09-02",
+    "block": "C區",
+    "floor": 11,
+    "totalFloor": 43,
+    "area": 62.94,
+    "layout": "4房2廳2衛",
+    "price": 4998,
+    "unit": 87.62,
+    "parking": true,
+    "yq": true,
     "sources": {
-      "591": true,
-      "樂居": true,
-      "信義": false,
-      "樂屋": false,
-      "永慶": false
+      "591": false,
+      "信義": true,
+      "樂居": false,
+      "樂屋": true,
+      "中信": false,
+      "永慶": true
     },
     "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/20963768.html"
+      "信義": "https://sinyi.com.tw/buy/house/7855FZ",
+      "永慶": "https://buy.yungching.com.tw/house/6364266"
     },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
-    "buildingAreaDetail": null,
-    "parkingArea": null,
-    "unitPrice": 117.73,
-    "unitPriceBasis": "591案件頁每坪單價；無車位",
-    "totalPrice": 1600,
-    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
-    "priceVerifiedAt": "2026-09-28T12:00:00+08:00",
+    "matchStatus": "已核實",
+    "sourceVerified": "2026-09-02重新核實：永慶正確案件為YC1217697",
     "sourceValidation": {
-      "591": {
+      "信義": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://sinyi.com.tw/buy/house/7855FZ"
+      },
+      "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20963768.html"
+        "url": "https://buy.yungching.com.tw/house/6364266"
       }
     }
   },
@@ -1558,350 +1581,6 @@
     }
   },
   {
-    "id": "ng-match-09",
-    "groupId": "ng-match-09",
-    "community": "板橋新巨蛋",
-    "block": "B區",
-    "floor": 7,
-    "totalFloor": 46,
-    "area": 84.05,
-    "layout": "4房2廳3衛",
-    "price": 6600,
-    "unit": 90.17,
-    "parking": true,
-    "new": true,
-    "updated": "2026-09-28",
-    "status": "active",
-    "matchStatus": "同戶",
-    "matchNote": "樂居兩筆＋信義9524XN",
-    "sources": {
-      "591": false,
-      "樂居": true,
-      "信義": true,
-      "樂屋": false,
-      "永慶": true
-    },
-    "links": {
-      "信義": "https://sinyi.com.tw/buy/house/9524XN",
-      "永慶": "https://buy.yungching.com.tw/house/6892646"
-    },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
-    "sourceValidation": {
-      "信義": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sinyi.com.tw/buy/house/9524XN"
-      },
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/6892646"
-      }
-    }
-  },
-  {
-    "id": "ng-match-10",
-    "groupId": "ng-match-10",
-    "community": "板橋新巨蛋",
-    "block": "A區",
-    "floor": 6,
-    "totalFloor": 40,
-    "area": 12.85,
-    "layout": "1房1廳1衛",
-    "price": 1368,
-    "unit": 106.5,
-    "parking": false,
-    "new": true,
-    "updated": "2026-09-28",
-    "status": "active",
-    "matchStatus": "疑似同戶",
-    "matchNote": "591 20495890＋樂居＋信義4813PN",
-    "sources": {
-      "591": true,
-      "樂居": true,
-      "信義": true,
-      "樂屋": false,
-      "永慶": false
-    },
-    "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/20495890.html",
-      "信義": "https://sinyi.com.tw/buy/house/4813PN"
-    },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
-    "buildingAreaDetail": "6.94坪",
-    "parkingArea": null,
-    "unitPrice": 106.46,
-    "unitPriceBasis": "591案件頁每坪單價；無車位",
-    "totalPrice": 1368,
-    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
-    "priceVerifiedAt": "2026-09-28T12:00:00+08:00",
-    "sourceValidation": {
-      "591": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20495890.html"
-      },
-      "信義": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sinyi.com.tw/buy/house/4813PN"
-      }
-    }
-  },
-  {
-    "id": "ng-match-11",
-    "groupId": "ng-match-11",
-    "community": "板橋新巨蛋",
-    "block": "A區",
-    "floor": 6,
-    "totalFloor": 40,
-    "area": 12.85,
-    "layout": "1房1廳1衛",
-    "price": 1638,
-    "unit": 127.5,
-    "parking": false,
-    "new": true,
-    "updated": "2026-09-28",
-    "status": "active",
-    "matchStatus": "可能是另一戶",
-    "matchNote": "樂居＋信義3508VZ；與6F 1368萬戶尚未強識別",
-    "sources": {
-      "591": false,
-      "樂居": true,
-      "信義": true,
-      "樂屋": false,
-      "永慶": false
-    },
-    "links": {
-      "信義": "https://sinyi.com.tw/buy/house/3508VZ"
-    },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
-    "sourceValidation": {
-      "信義": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sinyi.com.tw/buy/house/3508VZ"
-      }
-    }
-  },
-  {
-    "id": "ng-match-12",
-    "groupId": "ng-match-12",
-    "community": "板橋新巨蛋",
-    "block": "B區",
-    "floor": 13,
-    "totalFloor": 46,
-    "area": 76.74,
-    "layout": "4房2廳3衛1室",
-    "price": 6800,
-    "unit": 97.67,
-    "parking": true,
-    "new": true,
-    "updated": "2026-09-28",
-    "status": "active",
-    "matchStatus": "高度疑似同戶",
-    "matchNote": "591 20844812/25108485疑似＋樂居＋信義7680JW",
-    "sources": {
-      "591": true,
-      "樂居": true,
-      "信義": true,
-      "樂屋": false,
-      "永慶": true
-    },
-    "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/20844812.html",
-      "信義": "https://sinyi.com.tw/buy/house/7680JW",
-      "永慶": "https://buy.yungching.com.tw/house/6499628"
-    },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
-    "buildingAreaDetail": null,
-    "parkingArea": 10.19,
-    "unitPrice": 88.61,
-    "unitPriceBasis": "591案件頁每坪單價；總坪數76.74坪含車位",
-    "totalPrice": 6800,
-    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
-    "priceVerifiedAt": "2026-09-28T12:00:00+08:00",
-    "sourceValidation": {
-      "591": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20844812.html"
-      },
-      "信義": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sinyi.com.tw/buy/house/7680JW"
-      },
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/6499628"
-      }
-    }
-  },
-  {
-    "id": "ng-match-13",
-    "groupId": "ng-match-13",
-    "community": "板橋新巨蛋",
-    "block": "C區",
-    "floor": 22,
-    "totalFloor": 43,
-    "area": 26.57,
-    "layout": "1房1廳1衛",
-    "price": 1945,
-    "unit": 73.2,
-    "parking": true,
-    "new": true,
-    "updated": "2026-09-28",
-    "status": "price_drop",
-    "changeNote": "1,968萬→1,945萬",
-    "matchStatus": "高度疑似同戶",
-    "matchNote": "樂居＋信義3117HX＋591疑似20543014",
-    "sources": {
-      "591": true,
-      "樂居": true,
-      "信義": true,
-      "樂屋": false,
-      "永慶": true
-    },
-    "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/20543014.html",
-      "信義": "https://sinyi.com.tw/buy/house/3117HX",
-      "永慶": "https://buy.yungching.com.tw/house/7423870"
-    },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
-    "buildingAreaDetail": "10坪",
-    "parkingArea": 10.19,
-    "unitPrice": 73.23,
-    "unitPriceBasis": "591案件頁每坪單價；總坪數26.56坪含車位",
-    "totalPrice": 1945,
-    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
-    "priceVerifiedAt": "2026-09-28T12:00:00+08:00",
-    "sourceValidation": {
-      "591": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20543014.html"
-      },
-      "信義": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sinyi.com.tw/buy/house/3117HX"
-      },
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/7423870"
-      }
-    }
-  },
-  {
-    "id": "ng-match-14",
-    "groupId": "ng-match-14",
-    "community": "板橋新巨蛋",
-    "block": "A區",
-    "floor": 39,
-    "totalFloor": 40,
-    "area": 14.24,
-    "layout": "1房1廳1衛",
-    "price": 1488,
-    "parking": false,
-    "new": true,
-    "updated": "2026-09-28",
-    "status": "active",
-    "matchStatus": "待確認",
-    "matchNote": "樂居1,488萬＋591待配對",
-    "sources": {
-      "591": true,
-      "樂居": true,
-      "信義": false,
-      "樂屋": false,
-      "永慶": true
-    },
-    "links": {
-      "永慶": "https://buy.yungching.com.tw/house/7386714"
-    },
-    "unit": 104.49,
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
-    "sourceValidation": {
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/7386714"
-      }
-    }
-  },
-  {
-    "id": "ng-match-15",
-    "groupId": "ng-match-15",
-    "community": "板橋新巨蛋",
-    "block": "A區",
-    "floor": 32,
-    "totalFloor": 40,
-    "area": 12.41,
-    "layout": "1房1廳1衛",
-    "price": 1290,
-    "unit": 103.8,
-    "parking": false,
-    "owner": true,
-    "new": true,
-    "updated": "2026-09-28",
-    "status": "active",
-    "matchStatus": "高度疑似同戶",
-    "matchNote": "591 20446447＋樂居1,290萬；屋主刊登",
-    "sources": {
-      "591": true,
-      "樂居": true,
-      "信義": false,
-      "樂屋": false,
-      "永慶": false
-    },
-    "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/20446447.html"
-    },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
-    "buildingAreaDetail": "6.94坪",
-    "parkingArea": null,
-    "unitPrice": 103.86,
-    "unitPriceBasis": "591案件頁每坪單價；無車位",
-    "totalPrice": 1290,
-    "buildingAreaVerifiedAt": "2026-09-28T12:00:00+08:00",
-    "priceVerifiedAt": "2026-09-28T12:00:00+08:00",
-    "sourceValidation": {
-      "591": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20446447.html"
-      }
-    }
-  },
-  {
     "id": "ng-match-16",
     "groupId": "ng-match-16",
     "community": "板橋新巨蛋",
@@ -1956,136 +1635,188 @@
     }
   },
   {
-    "id": "ng-4288",
-    "groupId": "ng-4288",
-    "community": "板橋新巨蛋",
+    "id": "ryxq-5068-2f",
+    "groupId": "ryxq-5068-2f",
+    "community": "板橋榮耀交響曲",
+    "block": "待確認",
+    "floor": 2,
+    "totalFloor": 15,
+    "area": 75.76,
+    "layout": "4房2廳2衛",
+    "price": 5068,
+    "unit": 87.4,
+    "parking": true,
+    "parkingArea": 24.64,
+    "parkingPrice": 600,
+    "owner": false,
+    "yq": true,
     "new": false,
     "status": "active",
-    "updated": "2026-09-28",
-    "block": "C區",
-    "floor": 33,
-    "totalFloor": 43,
-    "area": 46.04,
-    "layout": "3房2廳2衛",
-    "price": 4288,
-    "unit": 107.48,
-    "parking": true,
-    "yq": true,
+    "updated": "2026-09-04",
+    "sourceVerified": "2026-09-04：永慶案件 YC1255301",
     "sources": {
-      "591": false,
-      "信義": false,
-      "樂居": false,
-      "樂屋": false,
-      "中信": false,
       "永慶": true
     },
     "links": {
-      "永慶": "https://buy.yungching.com.tw/house/7280883"
+      "永慶": "https://buy.yungching.com.tw/house/7217539"
     },
-    "matchStatus": "已核實",
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
+    "history": [],
     "sourceValidation": {
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/7280883"
+        "url": "https://buy.yungching.com.tw/house/7217539"
       }
     }
   },
   {
-    "id": "ng-b7-parking",
-    "groupId": "ng-b7-parking",
-    "community": "板橋新巨蛋",
-    "new": false,
-    "status": "gone",
-    "updated": "2026-09-28",
-    "block": "B區",
-    "floor": -7,
-    "totalFloor": 46,
-    "area": 8.75,
-    "layout": "車位",
-    "price": 210,
-    "unit": 24,
+    "id": "lry-2850-16f",
+    "groupId": "lry-2850-16f",
+    "community": "板橋綠如意",
+    "block": "待確認",
+    "floor": 16,
+    "totalFloor": 16,
+    "area": 43.76,
+    "layout": "3房1廳2衛1室",
+    "price": 2850,
+    "unit": 81.45,
     "parking": true,
-    "yq": true,
+    "parkingPrice": 250,
+    "owner": false,
+    "yq": false,
+    "new": true,
+    "status": "gone_pending",
     "sources": {
-      "591": false,
-      "信義": false,
-      "樂居": false,
-      "樂屋": false,
-      "中信": false,
-      "永慶": true
+      "信義": false
     },
     "links": {
-      "永慶": "https://buy.yungching.com.tw/house/4800353"
+      "信義": "https://www.sinyi.com.tw/buy/house/7012JW"
     },
-    "matchStatus": "已核實",
-    "sourceVerified": "2026-09-28 TinyFish：永慶實際搜尋「新北市板橋區／型態車位／板橋新巨蛋」，結果為暫無符合物件。",
-    "active": false,
+    "sourceValidation": {
+      "信義": {
+        "state": "gone",
+        "httpStatus": 404,
+        "reason": "not-found",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/7012JW"
+      }
+    },
+    "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號7012JW。",
     "lastStatusChange": "2026-09-28",
-    "statusNote": "TinyFish 2026-09-28 實際搜尋：永慶「板橋區＋型態車位＋板橋新巨蛋」顯示暫無符合物件；因此不再視為目前在售純車位。",
-    "sourceValidation": {
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/4800353"
-      }
-    }
+    "updated": "2026-09-28"
   },
   {
-    "id": "banqiao-qing-7f-3448",
-    "groupId": "banqiao-qing-7f-3448",
-    "community": "板橋晴",
-    "block": "主棟",
-    "floor": 7,
-    "totalFloor": 12,
-    "area": 34.48,
-    "layout": "2房2廳1衛1陽台",
-    "price": 2185,
-    "unit": 80.81,
-    "parking": true,
-    "parkingArea": 9.67,
+    "id": "lry-2540",
+    "groupId": "lry-2540",
+    "community": "板橋綠如意",
+    "block": "待確認",
+    "floor": null,
+    "totalFloor": 16,
+    "area": null,
+    "layout": "2房",
+    "price": 2540,
+    "unit": null,
+    "parking": null,
     "owner": false,
     "yq": null,
-    "new": true,
-    "updated": "2026-09-29",
+    "new": false,
     "status": "active",
-    "matchStatus": "高度疑似同戶",
-    "matchNote": "591社區頁目前11筆；逐筆Firecrawl核實後，多筆均為莒光路180巷、7F、34.48坪/44.15坪（34.48+9.67車位）、2房車，疑似同一戶不同仲介/不同刊登版本。保留11個591案件ID，不把11筆計為11戶。",
-    "priceVariants": [
-      2185,
-      2360
-    ],
-    "listingIds": [
-      "S20939780",
-      "S20866050",
-      "S20865148",
-      "S20852053",
-      "25129350",
-      "S20851872",
-      "S20841699",
-      "S20836673",
-      "S20819821",
-      "S20809213",
-      "S20698282"
-    ],
-    "listingCountOn591": 11,
+    "updated": "2026-09-04",
+    "sourceVerified": "2026-09-04：591社區頁目前可見在售案例；戶別/樓層待直接案件頁確認",
     "sources": {
-      "591": true,
+      "591": true
+    },
+    "links": {
+      "591": "https://market.591.com.tw/29100"
+    },
+    "history": [],
+    "sourceValidation": {
+      "591": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://market.591.com.tw/29100"
+      }
+    }
+  },
+  {
+    "id": "kz-5688-14f",
+    "groupId": "kz-5688-14f",
+    "community": "板橋鑑築",
+    "block": "待確認",
+    "floor": 14,
+    "totalFloor": 14,
+    "area": 89.73,
+    "layout": "4房2廳3衛",
+    "price": 5688,
+    "unit": 81.2,
+    "parking": true,
+    "parkingArea": 25.83,
+    "parkingPrice": 500,
+    "owner": false,
+    "yq": false,
+    "new": true,
+    "status": "price_drop",
+    "changeNote": "5,988萬降至5,688萬",
+    "sources": {
+      "591": false,
+      "中信": true,
       "信義": false,
-      "樂居": false,
       "樂屋": false,
-      "中信": false,
+      "樂居": false,
       "永慶": false
     },
-    "sourceVerified": "2026-09-29 Firecrawl：591社區頁11筆＋11個案件詳情頁；目前僅完成591，其他平台尚未本次核實。",
     "links": {
-      "591": "https://market.591.com.tw/104765/sale",
-      "591-主要案件": "https://sale.591.com.tw/home/house/detail/2/20939780.html"
-    }
+      "中信": "https://buy.cthouse.com.tw/house/2004451.html"
+    },
+    "sourceValidation": {
+      "中信": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://buy.cthouse.com.tw/house/2004451.html"
+      }
+    },
+    "sourceVerified": "Exa二次掃描：中信直接案件頁，物件編號2004451。",
+    "updated": "2026-09-28"
+  },
+  {
+    "id": "kz-4500-2f",
+    "groupId": "kz-4500-2f",
+    "community": "板橋鑑築",
+    "block": "待確認",
+    "floor": 2,
+    "totalFloor": 14,
+    "area": 60.54,
+    "layout": "3房2廳2衛1室",
+    "price": 4500,
+    "unit": null,
+    "parking": true,
+    "parkingPrice": 250,
+    "owner": false,
+    "yq": false,
+    "new": true,
+    "status": "active",
+    "sources": {
+      "信義": true
+    },
+    "links": {
+      "信義": "https://www.sinyi.com.tw/buy/house/0939DZ"
+    },
+    "sourceValidation": {
+      "信義": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/0939DZ"
+      }
+    },
+    "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號0939DZ。",
+    "updated": "2026-09-28"
   }
 ]
