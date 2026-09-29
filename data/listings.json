@@ -611,7 +611,7 @@
     "yq": true,
     "new": false,
     "updated": "2026-09-28",
-    "sourceVerified": "信義房屋＋樂屋網＋永慶房屋交叉核實",
+    "sourceVerified": "2026-09-29網址存活／目前在售核驗：信義、永慶今日社區／店舖在售清單均未出現本案；原個別頁屬舊快取，因此移出目前在售，保留為下架待確認。",
     "sources": {
       "591": false,
       "信義": false,
@@ -647,6 +647,23 @@
         "reason": "access-blocked-or-server-error",
         "checkedAt": "2026-09-28T14:22:40.992045+08:00",
         "url": "https://buy.yungching.com.tw/house/6680641"
+      }
+    },
+    "status": "gone_pending",
+    "lastStatusChange": "2026-09-29",
+    "urlAuditAt": "2026-09-29",
+    "urlAudit": {
+      "信義": {
+        "state": "not-currently-listed",
+        "evidence": "今日信義新巨蛋社區在售清單未出現；原始個別頁為舊快取"
+      },
+      "永慶": {
+        "state": "not-currently-listed",
+        "evidence": "今日永慶板橋新巨蛋直營店在售清單未出現；原始個別頁為舊快取"
+      },
+      "樂屋": {
+        "state": "unverified",
+        "evidence": "個別網址目前工具無法取得，不能單憑此判定下架"
       }
     }
   },
