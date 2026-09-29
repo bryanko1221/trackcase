@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "communities": [
     "板橋新巨蛋",
     "板橋文化勳章",
@@ -29,7 +29,7 @@
     "板橋千禧園": "本次公開搜尋不足以確認完整現售戶數，不以0筆判定。",
     "板橋吉祥花園": "本次未取得足夠可靠的現售直接案件，不以0筆判定。",
     "雙喜臨門": "本次未取得足夠可靠的現售直接案件，不以0筆判定。",
-    "板橋晴": "591 S20685439目前可確認：2房、機械車位9.67坪、管理費2,981元/月、有效至2026-10-05。",
+    "板橋晴": "2026-09-29 Firecrawl已完成591社區頁＋11個591案件詳情頁核實。591社區頁顯示11筆在售，但多筆均為7F、34.48坪/44.15坪（加第二車位）、2房車等高度相似刊登，先以「高度疑似同戶」合併為1戶群組，不把11筆當11戶。已保留全部11個591案件ID與2185/2360萬價格版本。其他平台本次尚未核實，因此🟡部分完成。",
     "永康芬揚": "591社區頁顯示10筆在售；目前可核實2房約1,920～2,115萬、3房約2,800萬等案件；永慶YC1282388為11/14F、25.36坪、2,115萬。"
   },
   "listings": [
@@ -342,39 +342,6 @@
       },
       "links": {},
       "sourceVerified": "樂居顯示待售2,688萬；使用者指定住商有售，住商直接案件網址待補，不猜測"
-    },
-    {
-      "id": "banqiao-qing-s20685439",
-      "community": "板橋晴",
-      "block": "主棟",
-      "floor": null,
-      "totalFloor": null,
-      "area": null,
-      "layout": "2房",
-      "price": null,
-      "unit": null,
-      "parking": true,
-      "parkingArea": 9.67,
-      "owner": false,
-      "yq": null,
-      "status": "active",
-      "updated": "2026-09-07",
-      "agent": "中信房屋板橋江子翠捷運三店｜呂凱平",
-      "sourceVerified": "591 S20685439；機械車位9.67坪、管理費2,981元/月、有效至2026-10-05；價格與完整坪數待核實",
-      "sources": {
-        "591": true,
-        "信義": false,
-        "樂居": false,
-        "樂屋": false,
-        "中信": true,
-        "永慶": null,
-        "住商": false,
-        "台灣房屋": false,
-        "好房網": false
-      },
-      "links": {
-        "591": "https://sale.591.com.tw/home/house/detail/2/20685439.html"
-      }
     },
     {
       "id": "yongkang-1920",
@@ -1063,6 +1030,58 @@
       "active": false,
       "lastStatusChange": "2026-09-28",
       "statusNote": "TinyFish 2026-09-28：永慶目前無符合「板橋新巨蛋＋單獨車位」的在售案件。"
+    },
+    {
+      "id": "banqiao-qing-7f-3448",
+      "groupId": "banqiao-qing-7f-3448",
+      "community": "板橋晴",
+      "block": "主棟",
+      "floor": 7,
+      "totalFloor": 12,
+      "area": 34.48,
+      "layout": "2房2廳1衛1陽台",
+      "price": 2185,
+      "unit": 80.81,
+      "parking": true,
+      "parkingArea": 9.67,
+      "owner": false,
+      "yq": null,
+      "new": true,
+      "updated": "2026-09-29",
+      "status": "active",
+      "matchStatus": "高度疑似同戶",
+      "matchNote": "591社區頁目前11筆；逐筆Firecrawl核實後，多筆均為莒光路180巷、7F、34.48坪/44.15坪（34.48+9.67車位）、2房車，疑似同一戶不同仲介/不同刊登版本。保留11個591案件ID，不把11筆計為11戶。",
+      "priceVariants": [
+        2185,
+        2360
+      ],
+      "listingIds": [
+        "S20939780",
+        "S20866050",
+        "S20865148",
+        "S20852053",
+        "25129350",
+        "S20851872",
+        "S20841699",
+        "S20836673",
+        "S20819821",
+        "S20809213",
+        "S20698282"
+      ],
+      "listingCountOn591": 11,
+      "sources": {
+        "591": true,
+        "信義": false,
+        "樂居": false,
+        "樂屋": false,
+        "中信": false,
+        "永慶": false
+      },
+      "sourceVerified": "2026-09-29 Firecrawl：591社區頁11筆＋11個案件詳情頁；目前僅完成591，其他平台尚未本次核實。",
+      "links": {
+        "591": "https://market.591.com.tw/104765/sale",
+        "591-主要案件": "https://sale.591.com.tw/home/house/detail/2/20939780.html"
+      }
     }
   ],
   "updatedAt": "2026-09-28T13:10:00+08:00",
