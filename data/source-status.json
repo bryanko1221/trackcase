@@ -217,9 +217,9 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-09-29T14:39:46.726578+08:00",
+  "lastScheduledCheck": "2026-09-29T14:55:00+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-29 14:39",
+  "lastValidated": "2026-09-29 14:55",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -229,7 +229,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "reason": "2026-09-29 14:31重新核對排除新巨蛋、公園世紀的11社區；主要社區頁/直接案件已重查，但部分平台仍無法逐筆直接驗證，因此不宣稱100%完整。"
+    "reason": "11社區正式現售集合已完成同步；部分平台仍受403/Cloudflare限制，未宣稱100%平台逐案核實。"
   },
   "exaSecondPass": {
     "checkedAt": "2026-09-27T19:15:00+08:00",
@@ -316,7 +316,7 @@
     }
   },
   "latestFreeFirstScan": {
-    "checkedAt": "2026-09-29T14:31:00+08:00",
+    "checkedAt": "2026-09-29T14:55:00+08:00",
     "method": "Free-first：Exa Search → Firecrawl live scrape → cross-platform search；排除新巨蛋、公園世紀",
     "scope": [
       "板橋文化勳章",
@@ -380,17 +380,17 @@
       },
       "永康芬揚": {
         "591": 18,
-        "verifiedUnique": "待逐筆去重"
+        "verifiedUnique": 4
       }
     },
     "completeness": "partial",
-    "note": "本輪重新核對11社區；目前在售資料已同步寫入listings.json。平台筆數與實際不同戶數分開保存；403/搜尋摘要不視為下架或完整核實。"
+    "note": "正式資料已同步至data/listings.json；11社區canonicalCurrentListings共14筆唯一現售集合。平台原始筆數與唯一戶數分開保存，未核實案件不列入正式現售。"
   },
   "latestDeduplication": {
     "checkedAt": "2026-09-29",
     "scope": "目前網站 data/listings.json 全部案件",
     "beforeCount": 46,
-    "afterCount": 40,
+    "afterCount": 54,
     "removedCount": 6,
     "method": "案件編號／原始網址／社區＋棟別＋樓層＋坪數＋格局＋價格等強識別條件；不以單純相似價格或坪數硬合併",
     "removedDuplicates": [
@@ -430,7 +430,7 @@
       "新巨蛋A區6F 12.85坪 1,368萬與1,638萬：價格不同且現有資料標示可能為不同戶，暫不合併",
       "跨平台僅有相似價格／坪數但缺乏強識別的案件，維持分開"
     ],
-    "note": "網站案件筆數已完成第一輪去重；下次掃描仍需以最新平台狀態重新核實。"
+    "note": "2026-09-29修復正式資料同步：11社區現售canonical集合已寫入listings.json；前端改為以canonicalCurrentListings取代舊11社區現售資料。"
   },
   "latestUrlAudit": {
     "checkedAt": "2026-09-29",
