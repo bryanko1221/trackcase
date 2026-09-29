@@ -1,5 +1,240 @@
 [
   {
+    "id": "jyz-2688",
+    "groupId": "jyz-2688",
+    "community": "板橋佳元植",
+    "block": "待確認",
+    "floor": null,
+    "totalFloor": null,
+    "area": 23.1,
+    "layout": "2房2廳2衛",
+    "price": 2688,
+    "unit": null,
+    "parking": null,
+    "owner": false,
+    "yq": null,
+    "new": false,
+    "status": "active",
+    "updated": "2026-09-29",
+    "sourceVerified": "2026-09-29重新核對：591社區頁目前顯示佳元植在售0筆；樂居目前仍顯示2,688萬、2房1戶，但未提供完整樓層/坪數。原先29.27坪、16F資料來源與今日591/樂居不一致，已撤回強識別欄位，避免誤列。",
+    "sources": {
+      "591": false,
+      "樂居": true
+    },
+    "links": {
+      "樂居": "https://www.leju.com.tw/community_list?area=F220&city=F&road=2046"
+    },
+    "history": [],
+    "sourceValidation": {
+      "591": {
+        "state": "not-currently-listed",
+        "checkedAt": "2026-09-29",
+        "reason": "591 current community sale page shows 0 active listings"
+      },
+      "樂居": {
+        "state": "active-but-partial",
+        "checkedAt": "2026-09-29",
+        "reason": "current indexed Leju community search shows 2,688萬 / 2房 1戶 but no complete detail"
+      }
+    }
+  },
+  {
+    "id": "ps-a-2588",
+    "groupId": "ps-a-2588",
+    "community": "板橋公園世紀A區",
+    "block": "待確認",
+    "floor": 1,
+    "totalFloor": 14,
+    "area": 29.58,
+    "layout": "3房2廳2衛",
+    "price": 2588,
+    "parking": false,
+    "status": "active",
+    "owner": false,
+    "yq": true,
+    "updated": "2026-09-29",
+    "new": true,
+    "sources": {
+      "已核實既有案件": true
+    },
+    "links": {},
+    "sourceVerified": "2026-09-29全掃：保留既有已核實案件；591平台筆數未直接當唯一戶數。"
+  },
+  {
+    "id": "ps-bc-2280",
+    "groupId": "ps-bc-2280",
+    "community": "板橋公園世紀B區",
+    "block": "待確認",
+    "floor": 10,
+    "totalFloor": 12,
+    "area": 28.14,
+    "layout": "2房2廳1衛",
+    "price": 2280,
+    "parking": false,
+    "status": "active",
+    "owner": false,
+    "yq": true,
+    "updated": "2026-09-29",
+    "new": true,
+    "sources": {
+      "已核實既有案件": true
+    },
+    "links": {},
+    "sourceVerified": "2026-09-29全掃：保留既有已核實案件；591平台筆數未直接當唯一戶數。"
+  },
+  {
+    "id": "ps-bc-4888",
+    "groupId": "ps-bc-4888",
+    "community": "板橋公園世紀B區",
+    "block": "待確認",
+    "floor": 7,
+    "totalFloor": 12,
+    "area": 74.33,
+    "layout": "4房2廳2衛",
+    "price": 4888,
+    "parking": true,
+    "status": "active",
+    "owner": false,
+    "yq": true,
+    "updated": "2026-09-29",
+    "new": true,
+    "sources": {
+      "已核實既有案件": true
+    },
+    "links": {},
+    "sourceVerified": "2026-09-29全掃：保留既有已核實案件；591平台筆數未直接當唯一戶數。"
+  },
+  {
+    "id": "ps-bc-3698",
+    "groupId": "ps-bc-3698",
+    "community": "板橋公園世紀B區",
+    "block": "待確認",
+    "floor": 5,
+    "totalFloor": 12,
+    "area": 58.44,
+    "layout": "3房2廳2衛",
+    "price": 3698,
+    "parking": true,
+    "status": "active",
+    "owner": false,
+    "yq": true,
+    "updated": "2026-09-29",
+    "new": true,
+    "sources": {
+      "已核實既有案件": true
+    },
+    "links": {},
+    "sourceVerified": "2026-09-29全掃：保留既有已核實案件；591平台筆數未直接當唯一戶數。"
+  },
+  {
+    "id": "ps-bc-3758",
+    "groupId": "ps-bc-3758",
+    "community": "板橋公園世紀B區",
+    "block": "待確認",
+    "floor": 4,
+    "totalFloor": 12,
+    "area": 60.34,
+    "layout": "4房2廳2衛",
+    "price": 3758,
+    "parking": true,
+    "status": "active",
+    "owner": false,
+    "yq": null,
+    "updated": "2026-09-29",
+    "new": true,
+    "sources": {
+      "已核實既有案件": true
+    },
+    "links": {},
+    "sourceVerified": "2026-09-29全掃：保留既有已核實案件；591平台筆數未直接當唯一戶數。"
+  },
+  {
+    "id": "wh-culture-3480-18",
+    "groupId": "wh-culture-3480-18",
+    "community": "板橋文化勳章",
+    "block": "待確認",
+    "floor": 18,
+    "totalFloor": 25,
+    "area": 54.88,
+    "layout": "4房2廳2衛2陽台",
+    "price": 3480,
+    "parking": true,
+    "status": "active",
+    "owner": false,
+    "yq": false,
+    "updated": "2026-09-29",
+    "new": true,
+    "sources": {
+      "591": true,
+      "樂屋": true
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20709527.html",
+      "樂屋": "https://community.rakuya.com.tw/38922/sell"
+    },
+    "sourceVerified": "2026-09-29 Firecrawl直接核實591：18F/25F、54.88坪不含車位、4房2廳2衛2陽台、3,480萬；樂屋同日顯示文化勳章18F 3,480萬。",
+    "unit": 63.41,
+    "parkingArea": 10.422
+  },
+  {
+    "id": "wh-culture-5088-15f",
+    "groupId": "wh-culture-5088-15f",
+    "community": "板橋文化勳章",
+    "block": "待確認",
+    "floor": 15,
+    "totalFloor": 25,
+    "area": 76.06,
+    "layout": "4房2廳2衛1陽台",
+    "price": 5088,
+    "parking": true,
+    "status": "active",
+    "owner": false,
+    "yq": false,
+    "updated": "2026-09-29",
+    "new": true,
+    "sources": {
+      "591": true
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20912237.html"
+    },
+    "sourceVerified": "2026-09-29 Firecrawl直接核實591：15F/25F、76.06坪含車位、4房2廳2衛1陽台、5,088萬，有效期至2026-11-14。",
+    "unit": 75.88,
+    "parkingArea": 12.3
+  },
+  {
+    "id": "wh-3920",
+    "groupId": "wh-3920",
+    "community": "板橋文化勳章",
+    "block": "主棟",
+    "floor": 9,
+    "totalFloor": 25,
+    "area": 62.58,
+    "layout": "4房(含加蓋1房)",
+    "price": 3920,
+    "unit": 71.84,
+    "parking": true,
+    "owner": false,
+    "yq": true,
+    "new": false,
+    "updated": "2026-09-28",
+    "sourceVerified": "樂屋網＋永慶房屋／好房網交叉核實；永慶本戶直連尚未取得",
+    "sources": {
+      "591": false,
+      "信義": false,
+      "樂居": false,
+      "樂屋": true,
+      "中信": false,
+      "永慶": true
+    },
+    "history": [],
+    "links": {},
+    "sourceValidation": {},
+    "status": "gone_pending",
+    "lastStatusChange": "2026-09-29",
+    "changeNote": "2026-09-29重新掃描591文化勳章目前2筆，未見原9F/3920萬版本。"
+  },
+  {
     "id": "ng-match-01",
     "groupId": "ng-match-01",
     "community": "板橋新巨蛋",
@@ -1126,33 +1361,95 @@
     }
   },
   {
-    "id": "wh-3920",
-    "groupId": "wh-3920",
-    "community": "板橋文化勳章",
+    "id": "banqiao-qing-7f-3448",
+    "groupId": "banqiao-qing-7f-3448",
+    "community": "板橋晴",
     "block": "主棟",
-    "floor": 9,
-    "totalFloor": 25,
-    "area": 62.58,
-    "layout": "4房(含加蓋1房)",
-    "price": 3920,
-    "unit": 71.84,
+    "floor": 7,
+    "totalFloor": 12,
+    "area": 34.48,
+    "layout": "2房2廳1衛1陽台",
+    "price": 2185,
+    "unit": 80.81,
     "parking": true,
+    "parkingArea": 9.67,
+    "owner": false,
+    "yq": null,
+    "new": true,
+    "updated": "2026-09-29",
+    "status": "active",
+    "matchStatus": "高度疑似同戶",
+    "matchNote": "591社區頁目前11筆；逐筆Firecrawl核實後，多筆均為莒光路180巷、7F、34.48坪/44.15坪（34.48+9.67車位）、2房車，疑似同一戶不同仲介/不同刊登版本。保留11個591案件ID，不把11筆計為11戶。",
+    "priceVariants": [
+      2185,
+      2360
+    ],
+    "listingIds": [
+      "S20939780",
+      "S20866050",
+      "S20865148",
+      "S20852053",
+      "25129350",
+      "S20851872",
+      "S20841699",
+      "S20836673",
+      "S20819821",
+      "S20809213",
+      "S20698282"
+    ],
+    "listingCountOn591": 11,
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "中信": false,
+      "永慶": false
+    },
+    "sourceVerified": "2026-09-29：591社區頁目前11筆；已核實主要案件及多個案件頁，判斷多筆為同戶不同刊登版本，保留唯一戶代表，不把11筆算11戶。",
+    "links": {
+      "591": "https://market.591.com.tw/104765/sale",
+      "591-主要案件": "https://sale.591.com.tw/home/house/detail/2/20939780.html"
+    }
+  },
+  {
+    "id": "ryxq-5068-2f",
+    "groupId": "ryxq-5068-2f",
+    "community": "板橋榮耀交響曲",
+    "block": "待確認",
+    "floor": 2,
+    "totalFloor": 15,
+    "area": 75.76,
+    "layout": "4房2廳2衛",
+    "price": 5068,
+    "unit": 87.4,
+    "parking": true,
+    "parkingArea": 24.64,
+    "parkingPrice": 600,
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-09-28",
-    "sourceVerified": "樂屋網＋永慶房屋／好房網交叉核實；永慶本戶直連尚未取得",
+    "status": "gone_pending",
+    "updated": "2026-09-04",
+    "sourceVerified": "2026-09-29：591=0筆；樂居有5,068萬舊索引；永慶直接URL暫時403，故不再視為今日已核實在售。",
     "sources": {
-      "591": false,
-      "信義": false,
-      "樂居": false,
-      "樂屋": true,
-      "中信": false,
       "永慶": true
     },
+    "links": {
+      "永慶": "https://buy.yungching.com.tw/house/7217539"
+    },
     "history": [],
-    "links": {},
-    "sourceValidation": {}
+    "sourceValidation": {
+      "永慶": {
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
+        "url": "https://buy.yungching.com.tw/house/7217539"
+      }
+    },
+    "lastStatusChange": "2026-09-29",
+    "changeNote": "2026-09-29重新核對：591榮耀交響曲社區在售0筆；樂居仍顯示5,068萬，但該頁資料抓取時間較早，永慶直接頁目前回403，無法以今日直接頁確認仍在售，因此移出目前在售，待重新取得有效直接案件頁。"
   },
   {
     "id": "xpd-4535-18f",
@@ -1560,136 +1857,6 @@
     },
     "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號0939DZ。",
     "updated": "2026-09-29"
-  },
-  {
-    "id": "ryxq-5068-2f",
-    "groupId": "ryxq-5068-2f",
-    "community": "板橋榮耀交響曲",
-    "block": "待確認",
-    "floor": 2,
-    "totalFloor": 15,
-    "area": 75.76,
-    "layout": "4房2廳2衛",
-    "price": 5068,
-    "unit": 87.4,
-    "parking": true,
-    "parkingArea": 24.64,
-    "parkingPrice": 600,
-    "owner": false,
-    "yq": true,
-    "new": false,
-    "status": "gone_pending",
-    "updated": "2026-09-04",
-    "sourceVerified": "2026-09-29：591=0筆；樂居有5,068萬舊索引；永慶直接URL暫時403，故不再視為今日已核實在售。",
-    "sources": {
-      "永慶": true
-    },
-    "links": {
-      "永慶": "https://buy.yungching.com.tw/house/7217539"
-    },
-    "history": [],
-    "sourceValidation": {
-      "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://buy.yungching.com.tw/house/7217539"
-      }
-    },
-    "lastStatusChange": "2026-09-29",
-    "changeNote": "2026-09-29重新核對：591榮耀交響曲社區在售0筆；樂居仍顯示5,068萬，但該頁資料抓取時間較早，永慶直接頁目前回403，無法以今日直接頁確認仍在售，因此移出目前在售，待重新取得有效直接案件頁。"
-  },
-  {
-    "id": "jyz-2688",
-    "groupId": "jyz-2688",
-    "community": "板橋佳元植",
-    "block": "待確認",
-    "floor": null,
-    "totalFloor": null,
-    "area": 23.1,
-    "layout": "2房2廳2衛",
-    "price": 2688,
-    "unit": null,
-    "parking": null,
-    "owner": false,
-    "yq": null,
-    "new": false,
-    "status": "active",
-    "updated": "2026-09-29",
-    "sourceVerified": "2026-09-29重新核對：591社區頁目前顯示佳元植在售0筆；樂居目前仍顯示2,688萬、2房1戶，但未提供完整樓層/坪數。原先29.27坪、16F資料來源與今日591/樂居不一致，已撤回強識別欄位，避免誤列。",
-    "sources": {
-      "591": false,
-      "樂居": true
-    },
-    "links": {
-      "樂居": "https://www.leju.com.tw/community_list?area=F220&city=F&road=2046"
-    },
-    "history": [],
-    "sourceValidation": {
-      "591": {
-        "state": "not-currently-listed",
-        "checkedAt": "2026-09-29",
-        "reason": "591 current community sale page shows 0 active listings"
-      },
-      "樂居": {
-        "state": "active-but-partial",
-        "checkedAt": "2026-09-29",
-        "reason": "current indexed Leju community search shows 2,688萬 / 2房 1戶 but no complete detail"
-      }
-    }
-  },
-  {
-    "id": "banqiao-qing-7f-3448",
-    "groupId": "banqiao-qing-7f-3448",
-    "community": "板橋晴",
-    "block": "主棟",
-    "floor": 7,
-    "totalFloor": 12,
-    "area": 34.48,
-    "layout": "2房2廳1衛1陽台",
-    "price": 2185,
-    "unit": 80.81,
-    "parking": true,
-    "parkingArea": 9.67,
-    "owner": false,
-    "yq": null,
-    "new": true,
-    "updated": "2026-09-29",
-    "status": "active",
-    "matchStatus": "高度疑似同戶",
-    "matchNote": "591社區頁目前11筆；逐筆Firecrawl核實後，多筆均為莒光路180巷、7F、34.48坪/44.15坪（34.48+9.67車位）、2房車，疑似同一戶不同仲介/不同刊登版本。保留11個591案件ID，不把11筆計為11戶。",
-    "priceVariants": [
-      2185,
-      2360
-    ],
-    "listingIds": [
-      "S20939780",
-      "S20866050",
-      "S20865148",
-      "S20852053",
-      "25129350",
-      "S20851872",
-      "S20841699",
-      "S20836673",
-      "S20819821",
-      "S20809213",
-      "S20698282"
-    ],
-    "listingCountOn591": 11,
-    "sources": {
-      "591": true,
-      "信義": false,
-      "樂居": false,
-      "樂屋": false,
-      "中信": false,
-      "永慶": false
-    },
-    "sourceVerified": "2026-09-29：591社區頁目前11筆；已核實主要案件及多個案件頁，判斷多筆為同戶不同刊登版本，保留唯一戶代表，不把11筆算11戶。",
-    "links": {
-      "591": "https://market.591.com.tw/104765/sale",
-      "591-主要案件": "https://sale.591.com.tw/home/house/detail/2/20939780.html"
-    }
   },
   {
     "id": "ykf-1738-3f",
