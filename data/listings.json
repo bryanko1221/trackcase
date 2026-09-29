@@ -666,7 +666,7 @@
     "yq": true,
     "new": false,
     "updated": "2026-09-29",
-    "sourceVerified": "2026-09-29：永慶店舖清單與樂屋社區銷售頁均顯示本戶目前在售；原樂屋個別網址已404，原永慶網址則解析到無關案件，因此不再保留為有效個案直連。",
+    "sourceVerified": "2026-09-29：使用者實際確認永慶目前找不到本戶；原樂屋個別網址亦已404。社區頁/搜尋摘要不能證明本戶仍在售，因此撤銷現售狀態。",
     "sources": {
       "591": false,
       "信義": false,
@@ -676,10 +676,7 @@
       "永慶": true
     },
     "history": [],
-    "links": {
-      "永慶社區/店舖清單": "https://shop.yungching.com.tw/0233169908_0167/list/%E6%96%B0%E5%8C%97%E5%B8%82-_c?od=41&pg=2",
-      "樂屋社區銷售頁": "https://community.rakuya.com.tw/38979/sell?display=community"
-    },
+    "links": {},
     "sourceValidation": {
       "樂屋個別網址": {
         "state": "gone",
@@ -708,6 +705,12 @@
         "reason": "current-community-listing",
         "checkedAt": "2026-09-29",
         "url": "https://community.rakuya.com.tw/38979/sell?display=community"
+      },
+      "永慶目前案件": {
+        "state": "not-found",
+        "httpStatus": null,
+        "reason": "user-confirmed-not-found; no current direct listing found in current search",
+        "checkedAt": "2026-09-29"
       }
     },
     "dedupAt": "2026-09-29",
@@ -717,7 +720,10 @@
     "dedupNote": "同一戶：B區5F、58.44坪、3房、3,698萬；移除重複別名 ps-bc-3698。",
     "listingIds": [
       "ps-bc-3698"
-    ]
+    ],
+    "status": "gone_pending",
+    "lastStatusChange": "2026-09-29",
+    "note": "B區5F/58.44坪/3房/3,698萬：暫移至消失／下架／狀態變更，不列入目前在售。"
   },
   {
     "id": "pc-b-4888",
