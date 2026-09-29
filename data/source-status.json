@@ -501,11 +501,18 @@
     "databaseActiveCount": 29
   },
   "parkCenturyUrlAudit": {
-    "checkedAt": "2026-09-29T15:10:00+08:00",
+    "checkedAt": "2026-09-29T15:20:00+08:00",
     "uniqueCurrentListings": 5,
     "duplicateAliasesRemoved": 5,
     "activeDirectUrls": 6,
     "deadOrWrongDirectUrls": 3,
-    "note": "直接網址審核：10F永慶＋信義有效；7F永慶有效；4F信義有效；1F台慶＋住商有效；5F目前以永慶店舖清單＋樂屋社區頁確認，原個別URL失效/錯誤。"
+    "note": "直接網址審核：10F永慶＋信義有效；7F永慶有效；4F信義有效；1F台慶＋住商有效；5F目前以永慶店舖清單＋樂屋社區頁確認，原個別URL失效/錯誤。",
+    "10F-2280": {
+      "status": "gone_pending",
+      "reason": "user-direct-check-reported-delisted-or-sold",
+      "yungching": "https://buy.yungching.com.tw/house/7460515",
+      "sinyi": "https://www.sinyi.com.tw/buy/house/8301KR",
+      "note": "搜尋引擎仍可顯示舊頁內容，不視為目前直連有效。"
+    }
   }
 }
