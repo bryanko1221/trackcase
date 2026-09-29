@@ -1,0 +1,133 @@
+{
+  "updated": "2026-09-29",
+  "transactions": [
+    {
+      "community": "板橋新巨蛋",
+      "status": "pending",
+      "note": "本輪尚未取得可直接核實的最新成交筆，不自行補猜。"
+    },
+    {
+      "community": "板橋文化勳章",
+      "status": "verified",
+      "date": "2026-04-09",
+      "floor": "10/25F",
+      "buildingArea": 56.4,
+      "parking": "無車位",
+      "totalPrice": 3450,
+      "unitPrice": 61.17,
+      "sourceLabel": "PLEX／內政部實登",
+      "note": "資料頁列無車位坪數"
+    },
+    {
+      "community": "板橋公園世紀",
+      "status": "pending",
+      "note": "成交資料本輪尚待直接核實。"
+    },
+    {
+      "community": "欣璞綻",
+      "status": "verified",
+      "date": "2026-03",
+      "floor": "18/25F",
+      "layout": "3房2廳2衛",
+      "buildingArea": 46.93,
+      "parkingArea": 8.52,
+      "parking": "車位",
+      "totalPrice": 3000,
+      "unitPrice": 63.9,
+      "sourceLabel": "永慶／內政部實登",
+      "note": "特殊交易標示"
+    },
+    {
+      "community": "綠如意",
+      "status": "verified",
+      "date": "2026-04-29",
+      "floor": "2/16F",
+      "buildingArea": 38.95,
+      "parkingArea": 11.84,
+      "parkingPrice": 250,
+      "totalPrice": 3058,
+      "unitPrice": 72.09,
+      "sourceLabel": "PLEX／內政部實登",
+      "note": "單價已扣車位"
+    },
+    {
+      "community": "鑑築",
+      "status": "verified",
+      "date": "2024-08-12",
+      "floor": "3/14F",
+      "layout": "4房2廳3衛",
+      "buildingArea": 63.89,
+      "parkingArea": 11.42,
+      "parkingPrice": 250,
+      "totalPrice": 4950,
+      "unitPrice": 73.56,
+      "sourceLabel": "PLEX／內政部實登",
+      "note": "單價已扣車位"
+    },
+    {
+      "community": "榮耀交響曲",
+      "status": "verified",
+      "date": "2023-11-02",
+      "floor": "15/15F",
+      "buildingArea": 40.14,
+      "parkingArea": 11.27,
+      "totalPrice": 2532,
+      "unitPrice": 49.24,
+      "sourceLabel": "PLEX／內政部實登",
+      "note": "目前可取得頁面最新成交為2023-11-02"
+    },
+    {
+      "community": "佳元植",
+      "status": "verified",
+      "date": "2025-07-24",
+      "floor": "22/22F",
+      "buildingArea": 45.35,
+      "parkingArea": 18.95,
+      "parkingPrice": 530,
+      "totalPrice": 4466,
+      "unitPrice": 86.79,
+      "sourceLabel": "PLEX／內政部實登",
+      "note": "單價已扣車位"
+    },
+    {
+      "community": "板橋千禧園",
+      "status": "pending",
+      "note": "本輪尚未取得可直接核實的最新成交筆。"
+    },
+    {
+      "community": "板橋吉祥花園",
+      "status": "pending",
+      "note": "本輪尚未取得可直接核實的最新成交筆。"
+    },
+    {
+      "community": "雙喜臨門",
+      "status": "pending",
+      "note": "本輪尚未取得可直接核實的最新成交筆。"
+    },
+    {
+      "community": "板橋晴",
+      "status": "verified",
+      "date": "2024-06-26",
+      "floor": "8/12F",
+      "layout": "2房1廳1衛",
+      "buildingArea": 18.81,
+      "parking": "無",
+      "totalPrice": 1580,
+      "unitPrice": 84,
+      "sourceLabel": "PLEX／內政部實登",
+      "note": "目前可取得頁面最新成交"
+    },
+    {
+      "community": "永康芬揚",
+      "status": "verified",
+      "date": "2026-06-12",
+      "floor": "3/14F",
+      "buildingArea": 21.76,
+      "parking": "無",
+      "totalPrice": 1730,
+      "unitPrice": 79.5,
+      "sourceLabel": "PLEX／內政部實登",
+      "note": "目前可取得頁面最新成交"
+    }
+  ]
+}
