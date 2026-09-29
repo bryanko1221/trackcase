@@ -791,44 +791,6 @@
     }
   },
   {
-    "id": "ng-match-11",
-    "groupId": "ng-match-11",
-    "community": "板橋新巨蛋",
-    "block": "A區",
-    "floor": 6,
-    "totalFloor": 40,
-    "area": 12.85,
-    "layout": "1房1廳1衛",
-    "price": 1638,
-    "unit": 127.5,
-    "parking": false,
-    "new": true,
-    "updated": "2026-09-28",
-    "status": "active",
-    "matchStatus": "可能是另一戶",
-    "matchNote": "樂居＋信義3508VZ；與6F 1368萬戶尚未強識別",
-    "sources": {
-      "591": false,
-      "樂居": true,
-      "信義": true,
-      "樂屋": false,
-      "永慶": false
-    },
-    "links": {
-      "信義": "https://sinyi.com.tw/buy/house/3508VZ"
-    },
-    "sourceVerified": "2026-09-28 TinyFish：591／信義／永慶交叉整理；未能強識別者保留待確認。",
-    "sourceValidation": {
-      "信義": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-09-28T14:22:40.992045+08:00",
-        "url": "https://sinyi.com.tw/buy/house/3508VZ"
-      }
-    }
-  },
-  {
     "id": "ng-1728",
     "groupId": "ng-1728",
     "community": "板橋新巨蛋",
