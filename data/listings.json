@@ -570,11 +570,11 @@
     "id": "ng-1398",
     "groupId": "ng-1398",
     "community": "板橋新巨蛋",
-    "block": "待確認",
-    "floor": null,
-    "totalFloor": 43,
+    "block": "A棟",
+    "floor": 6,
+    "totalFloor": 40,
     "area": 12.85,
-    "layout": "1房",
+    "layout": "1+1房",
     "price": 1398,
     "unit": 108.79,
     "parking": false,
@@ -582,9 +582,10 @@
     "yq": null,
     "new": false,
     "updated": "2026-09-29",
-    "sourceVerified": "591公開搜尋結果（尚未取得案件直連）；未與其他平台確認為同戶",
+    "sourceVerified": "2026-09-29：已找到目前公開案件直連。我家網顯示新巨蛋、1398萬、12.85坪、6樓/40樓、1+1房、108.79萬/坪。",
     "sources": {
-      "591": true,
+      "591": false,
+      "我家網": true,
       "信義": false,
       "樂居": false,
       "樂屋": false,
@@ -592,8 +593,18 @@
       "永慶": null
     },
     "history": [],
-    "links": {},
-    "sourceValidation": {}
+    "links": {
+      "我家網": "https://www.myhomes.com.tw/objects/o/1170427?layout=store"
+    },
+    "sourceValidation": {
+      "我家網": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "current-search-result-direct-listing",
+        "checkedAt": "2026-09-29",
+        "url": "https://www.myhomes.com.tw/objects/o/1170427?layout=store"
+      }
+    }
   },
   {
     "id": "pc-a-2588",
