@@ -1,13 +1,15 @@
 {
-  "name": "stable-before-feature-1-4-5-6",
-  "recordedAt": "2026-09-29T19:00:00+08:00",
-  "commit": "4743fbf9b759105d5bdadb313cc9d6f8b1982046",
-  "description": "移除開發案件後、加入案件詳細追蹤/棟別樓層視圖/跨平台重複案件/平台健康度之前的穩定版。若新功能有問題，可回復此 commit。",
+  "name": "stable-building-perspective-20260929",
+  "recordedAt": "2026-09-29T20:00:00+08:00",
+  "commit": "700d42d98534cd40cf836c18d8fd649ad9d73590",
+  "description": "目前確認的穩定版：主頁全部在售案件改為同社區集中、同棟垂直排列、依樓層高低呈現的大樓透視圖；保留現有37筆案件與原篩選/詳細資料功能，開發案件功能維持移除。",
   "protectedFiles": [
     "index.html",
+    "style.css",
     "data/listings.json",
     "data/source-status.json",
     "app-20260929-140000.js",
     "dedupe-ui.js"
-  ]
+  ],
+  "restoreNote": "後續若新功能造成主頁異常，可回復此 commit。"
 }
