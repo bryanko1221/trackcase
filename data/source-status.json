@@ -155,45 +155,66 @@
         "uniqueGroupCount": 1,
         "url": "https://market.591.com.tw/104765/sale",
         "lastChecked": "2026-09-29",
-        "note": "Firecrawl實際讀取社區頁與11個案件詳情頁；11筆均取得案件頁，但跨刊登去重後高度疑似為同一戶群組。"
-      },
-      "信義": {
-        "status": "not_yet_verified",
-        "listedCount": null,
-        "lastChecked": "2026-09-29"
-      },
-      "樂居": {
-        "status": "not_yet_verified",
-        "listedCount": null,
-        "lastChecked": "2026-09-29"
+        "note": "Firecrawl逐筆核實11個案件頁；目前高度疑似同一戶群組。"
       },
       "樂屋": {
-        "status": "not_yet_verified",
-        "listedCount": null,
-        "lastChecked": "2026-09-29"
+        "status": "search_verified_partial",
+        "listedCount": 4,
+        "verifiedCount": 0,
+        "url": "https://community.rakuya.com.tw/55318/sell",
+        "lastChecked": "2026-09-29",
+        "note": "搜尋結果明確顯示4件待售；直接案件頁遭403，未逐筆核實。"
+      },
+      "樂居": {
+        "status": "search_verified_partial",
+        "listedCount": 1,
+        "verifiedCount": 0,
+        "url": "https://www.leju.com.tw/community/L2d51159882d68c",
+        "lastChecked": "2026-09-29",
+        "note": "搜尋結果顯示2360萬待售；直接頁遭bot block，未逐筆核實。"
       },
       "中信": {
-        "status": "not_yet_verified",
-        "listedCount": null,
-        "lastChecked": "2026-09-29"
+        "status": "search_verified_partial",
+        "listedCount": 1,
+        "verifiedCount": 0,
+        "url": "https://buy.cthouse.com.tw/house/2104103.html",
+        "lastChecked": "2026-09-29",
+        "note": "搜尋結果找到2360萬案件；直接頁欄位異常回傳0萬，僅保留搜尋層證據。"
       },
       "永慶": {
-        "status": "not_yet_verified",
+        "status": "verified_zero",
+        "listedCount": 0,
+        "verifiedCount": 0,
+        "url": "https://community.yungching.com.tw/building/65693",
+        "lastChecked": "2026-09-29",
+        "note": "社區頁搜尋結果顯示0筆待售。"
+      },
+      "信義": {
+        "status": "search_no_match",
         "listedCount": null,
+        "verifiedCount": 0,
         "lastChecked": "2026-09-29"
       },
-      "note": "本次先完成板橋晴591；其他平台未核實，不推定為0筆。",
-      "dedup": {
-        "platform": "591",
-        "listedCount": 11,
-        "verifiedCount": 11,
-        "uniqueGroupCount": 1,
-        "status": "高度疑似同戶",
-        "priceVariants": [
-          2185,
-          2360
-        ]
-      }
+      "住商": {
+        "status": "no_sale_found",
+        "listedCount": 0,
+        "verifiedCount": 0,
+        "lastChecked": "2026-09-29",
+        "note": "搜尋找到的是出租案，不列出售。"
+      },
+      "台灣房屋": {
+        "status": "no_direct_match",
+        "listedCount": null,
+        "verifiedCount": 0,
+        "lastChecked": "2026-09-29"
+      },
+      "好房網": {
+        "status": "no_direct_match",
+        "listedCount": null,
+        "verifiedCount": 0,
+        "lastChecked": "2026-09-29"
+      },
+      "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
   "lastScheduledCheck": "2026-09-28T14:23:39.022027+08:00",
@@ -210,8 +231,10 @@
     "label": "🟡 部分完成",
     "checkedAt": "2026-09-29",
     "reasons": [
-      "板橋晴本次僅完成591逐筆核實",
-      "信義、樂居、樂屋、中信、永慶尚未完成本次平台核實"
+      "591已逐筆核實11個案件頁",
+      "樂屋/樂居直接頁遭阻擋",
+      "中信直接頁欄位異常",
+      "信義、台灣房屋、好房網未取得可直接核實出售案件"
     ]
   },
   "exaSecondPass": {
