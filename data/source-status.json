@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-09-29",
-  "lastUpdated": "2026-09-29 14:39",
+  "lastUpdated": "2026-09-29",
   "note": "2026-09-28 TinyFish完成新巨蛋591直接案件頁逐案核實，補充建物坪數明細、車位坪數與591頁面單價；單價口徑與建物坪數分開保存，無法核實者不猜。",
   "communities": {
     "板橋新巨蛋": {
@@ -229,13 +229,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-09-29T14:39:46.678992+08:00",
-    "sourceCount": 9,
-    "communityCount": 13,
-    "reasons": [
-      "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
-      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
-    ]
+    "reason": "2026-09-29 14:31重新核對排除新巨蛋、公園世紀的11社區；主要社區頁/直接案件已重查，但部分平台仍無法逐筆直接驗證，因此不宣稱100%完整。"
   },
   "exaSecondPass": {
     "checkedAt": "2026-09-27T19:15:00+08:00",
@@ -322,11 +316,10 @@
     }
   },
   "latestFreeFirstScan": {
-    "checkedAt": "2026-09-29",
-    "method": "Free-first：Exa Search → Firecrawl live scrape → cross-platform Search；TinyFish Agent未使用",
+    "checkedAt": "2026-09-29T14:31:00+08:00",
+    "method": "Free-first：Exa Search → Firecrawl live scrape → cross-platform search；排除新巨蛋、公園世紀",
     "scope": [
       "板橋文化勳章",
-      "板橋公園世紀",
       "欣璞綻",
       "綠如意",
       "鑑築",
@@ -338,86 +331,60 @@
       "板橋晴",
       "永康芬揚"
     ],
-    "591Live": {
+    "platformCounts": {
       "板橋文化勳章": {
-        "listedCount": 2,
-        "status": "verified_count"
-      },
-      "板橋公園世紀A區": {
-        "listedCount": 12,
-        "status": "verified_count"
-      },
-      "板橋公園世紀B區": {
-        "listedCount": 1,
-        "status": "verified_count"
+        "591": 2,
+        "verifiedUnique": 2
       },
       "欣璞綻": {
-        "listedCount": 6,
-        "status": "verified_count"
+        "591": 6,
+        "verifiedUnique": 3,
+        "note": "591 6筆中至少4筆為16F/25.39坪/2788萬同戶；另有11F 2320、6F 2980等已核實"
       },
       "綠如意": {
-        "listedCount": 4,
-        "status": "verified_count"
+        "591": 6,
+        "verifiedUnique": 1,
+        "note": "至少4筆為2F/50.5坪/3080萬同戶；另有案件待逐筆核實"
       },
       "鑑築": {
-        "listedCount": 2,
-        "status": "verified_count"
+        "591Aggregate": "社區頁聚合數字不採為戶數",
+        "verifiedUnique": 2
       },
       "榮耀交響曲": {
-        "listedCount": 0,
-        "status": "verified_zero"
+        "591": 0,
+        "verifiedUnique": 0
       },
       "佳元植": {
-        "listedCount": 0,
-        "status": "verified_zero",
-        "note": "Exa搜尋層仍找到1筆候選，但591直接sale頁為0，候選未列入核實在售"
+        "591": 1,
+        "verifiedUnique": 1,
+        "note": "21世紀直接案件2,358萬/32.96坪/2F/22F"
       },
       "板橋千禧園": {
-        "listedCount": 0,
-        "status": "verified_zero"
+        "591": 0,
+        "verifiedUnique": 0
       },
       "板橋吉祥花園": {
-        "listedCount": null,
-        "status": "not_found_direct_591",
-        "note": "本輪未取得可直接核實的591社區sale頁；好房網社區頁可見1筆待售"
+        "591": null,
+        "verifiedUnique": 0,
+        "note": "本輪未取得可靠直接591社區sale頁"
       },
       "雙喜臨門": {
-        "listedCount": 0,
-        "status": "verified_zero"
+        "591": 0,
+        "verifiedUnique": 0,
+        "note": "板橋莒光路社區未找到目前出售直接案件"
       },
       "板橋晴": {
-        "listedCount": 11,
-        "status": "verified_count",
-        "verifiedCount": 11,
-        "uniqueGroupCount": 1
+        "591": 11,
+        "verifiedUnique": 1,
+        "note": "多筆不同仲介/刊登版本高度疑似同一戶"
       },
       "永康芬揚": {
-        "listedCount": 18,
-        "status": "verified_count"
+        "591": 18,
+        "verifiedUnique": "待逐筆去重"
       }
     },
-    "keyCrossChecks": {
-      "板橋文化勳章": [
-        "信義社區頁搜尋層顯示0筆銷售中；台慶有1筆3,480萬案件"
-      ],
-      "板橋公園世紀": [
-        "信義社區頁顯示目前在售1件；永慶直接案件頁至少2件B/C；好房網B/C社區頁1件"
-      ],
-      "鑑築": [
-        "永慶直接案件頁1件5,988萬；信義搜尋到1件4,500萬"
-      ],
-      "榮耀交響曲": [
-        "信義社區頁待售顯示無筆；台灣成家網銷售中0筆"
-      ],
-      "佳元植": [
-        "591直接頁0；Exa搜尋層找到21世紀2,358萬與R.TUBE 2,688萬候選，尚未逐筆交叉核實"
-      ],
-      "永康芬揚": [
-        "中信直接案件1件1,980萬；住商直接案件1件2,115萬；591直接頁18筆"
-      ]
-    },
     "completeness": "partial",
-    "note": "本輪已完成12社區的第一輪免費搜尋與591直接頁掃描；尚未完成所有平台的逐筆核實，因此不得視為12社區完整跨平台清單。"
+    "note": "本輪重新核對11社區；目前在售資料已同步寫入listings.json。平台筆數與實際不同戶數分開保存；403/搜尋摘要不視為下架或完整核實。"
   },
   "latestDeduplication": {
     "checkedAt": "2026-09-29",
