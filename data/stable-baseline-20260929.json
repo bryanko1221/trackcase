@@ -1,0 +1,13 @@
+{
+  "name": "stable-before-feature-1-4-5-6",
+  "recordedAt": "2026-09-29T19:00:00+08:00",
+  "commit": "4743fbf9b759105d5bdadb313cc9d6f8b1982046",
+  "description": "移除開發案件後、加入案件詳細追蹤/棟別樓層視圖/跨平台重複案件/平台健康度之前的穩定版。若新功能有問題，可回復此 commit。",
+  "protectedFiles": [
+    "index.html",
+    "data/listings.json",
+    "data/source-status.json",
+    "app-20260929-140000.js",
+    "dedupe-ui.js"
+  ]
+}
