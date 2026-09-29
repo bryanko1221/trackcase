@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-09-29",
-  "lastUpdated": "2026-09-29T15:58:00+08:00",
+  "lastUpdated": "2026-09-29",
   "note": "2026-09-28 TinyFish完成新巨蛋591直接案件頁逐案核實，補充建物坪數明細、車位坪數與591頁面單價；單價口徑與建物坪數分開保存，無法核實者不猜。",
   "communities": {
     "板橋新巨蛋": {
@@ -518,22 +518,6 @@
       "status": "gone_pending",
       "reason": "user-confirmed-not-found-on-Yungching; Rakuya direct URL 404",
       "note": "社區頁仍有聚合/舊資料不能視為本戶現售。"
-    }
-  },
-  "communityVerification": {
-    "榮耀交響曲": {
-      "status": "partial",
-      "listed": 1,
-      "verified": 1,
-      "active": 1,
-      "note": "591社區頁未顯示在售數，但永慶目前公開直接案件 YC1255301 可核實5,068萬/2F/15F。"
-    },
-    "佳元植": {
-      "status": "partial",
-      "listed": 1,
-      "verified": 1,
-      "active": 1,
-      "note": "591社區頁目前顯示同社區在售1筆；21世紀直接案件核實2,358萬/2F/22F。"
     }
   }
 }
