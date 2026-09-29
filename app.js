@@ -48,8 +48,12 @@ async function getJson(path,fallback){
   }catch(e){console.warn('資料讀取失敗：'+path,e);return fallback;}
 }
 async function init(){
+  // 主案件資料是核心來源：先顯示，任何輔助檔案或去重異常都不得讓前台變成 0 筆。
+  const a=await getJson('data/listings.json',[]);
+  listings=Array.isArray(a)?a:[];
+  window.listings=listings;
+  render();
   try{
-    const a=await getJson('data/listings.json',[]);
     const [m,meta,o,curr,ledger,scan]=await Promise.all([
       getJson('data/manual-updates.json',[]),
       getJson('data/source-status.json',{}),
@@ -58,28 +62,26 @@ async function init(){
       getJson('data/scan-ledger.json',{}),
       getJson('data/scan-2026-09-07.json',{listings:[]})
     ]);
-    const map=new Map(Array.isArray(a)?a.map(x=>[x.id,x]):[]);
+    const map=new Map(listings.map(x=>[x.id,x]));
     (Array.isArray(m)?m:[]).forEach(x=>map.set(x.id,{...(map.get(x.id)||{}),...x,sources:{...(map.get(x.id)?.sources||{}),...(x.sources||{})},links:{...(map.get(x.id)?.links||{}),...(x.links||{})}}));
     Object.values(o||{}).forEach(group=>Object.entries(group||{}).forEach(([id,x])=>{
       const cur=map.get(id);
       if(cur) map.set(id,{...cur,...x,sources:{...(cur.sources||{}),...(x.sources||{})},links:{...(cur.links||{}),...(x.links||{})}});
       else if(x?.community) map.set(id,{id,...x});
     }));
-    listings=dedupe([...map.values()]);
+    const merged=[...map.values()];
+    try{ listings=dedupe(merged); }catch(e){ console.error('去重失敗，保留原始案件資料',e); listings=merged; }
     window.listings=listings;
-    sourceMeta=meta;
+    sourceMeta=meta||{};
     scanMeta={...ledger,...scan};
-    if($('#lastUpdated')){
-      const raw=sourceMeta?.lastScheduledCheck||sourceMeta?.lastUpdated;
-      let stamp='無有效掃描時間';
-      if(raw){const dt=new Date(raw);if(!Number.isNaN(dt.getTime()))stamp=new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(dt).replaceAll('/','-');}
-      $('#lastUpdated').textContent='最後更新：'+stamp+'｜掃描流程2.0｜'+(sourceMeta?.scanCompleteness?.status==='partial'||scanMeta.coverage_status==='partial'?'🟡部分完成：平台逐案核實仍需補齊':'🟢完整掃描');
-    }
   }catch(e){
-    console.error('主資料載入失敗',e);
-    listings=[];
-    window.listings=listings;
-    if($('#listingGrid'))$('#listingGrid').innerHTML='<div class="card">主資料載入失敗，請稍後重新整理。</div>';
+    console.error('輔助資料處理失敗，保留主案件資料',e);
+  }
+  if($('#lastUpdated')){
+    const raw=sourceMeta?.lastScheduledCheck||sourceMeta?.lastUpdated;
+    let stamp='資料已載入';
+    if(raw){const dt=new Date(raw);if(!Number.isNaN(dt.getTime()))stamp=new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(dt).replaceAll('/','-');}
+    $('#lastUpdated').textContent='最後更新：'+stamp+'｜掃描流程2.0｜'+(sourceMeta?.scanCompleteness?.status==='partial'||scanMeta.coverage_status==='partial'?'🟡部分完成：平台逐案核實仍需補齊':'🟢完整掃描');
   }
   if($('#buildingFilter'))$('#buildingFilter').innerHTML='<option value="all">全部</option>'+MONITORED.map(x=>`<option value="${x}">${x}</option>`).join('');
   const blocks=[...new Set(listings.map(x=>x.block).filter(Boolean))];
