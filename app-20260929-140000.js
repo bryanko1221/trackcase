@@ -53,9 +53,7 @@ function compactRow(x){
     '<span class="row-floor">'+esc(floor)+'</span>'+
     '<span class="row-area">'+esc((x.area??'—')+'坪')+'</span>'+
     '<span class="row-layout">'+esc(x.layout||'—')+'</span>'+
-    '<strong class="row-price">'+esc(price)+'</strong>'+
-    '<span class="row-unit">'+esc(unit)+'</span>'+
-    '<span class="row-status '+statusClass+'">'+esc(statusText(x))+'</span>'+
+    '<span class="row-price-cell"><strong class="row-price">'+esc(price)+'</strong><small class="row-unit">'+esc(unit)+'</small><span class="row-status '+statusClass+'">'+esc(statusText(x))+'</span></span>'+
   '</button>';
 }
 function communityRows(c,items){
