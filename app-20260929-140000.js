@@ -1,0 +1,99 @@
+let listings=[],sourceMeta={},scanMeta={};
+const SOURCES=['591','信義','樂屋','永慶','中信','住商','台灣房屋','好房網','樂居'];
+const MONITORED=['板橋新巨蛋','板橋文化勳章','板橋公園世紀','欣璞綻','綠如意','鑑築','榮耀交響曲','佳元植','板橋千禧園','板橋吉祥花園','雙喜臨門','板橋晴','永康芬揚'];
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const money=n=>n==null?'—':Number(n).toLocaleString('zh-TW')+'萬';
+const SOLD_KEY='trackcase_sold_tracking_v1';
+let soldTracking={};
+function loadSoldTracking(){try{soldTracking=JSON.parse(localStorage.getItem(SOLD_KEY)||'{}')||{}}catch(e){soldTracking={}}}
+function saveSoldTracking(){try{localStorage.setItem(SOLD_KEY,JSON.stringify(soldTracking))}catch(e){console.warn('成交追蹤儲存失敗',e)}}
+function soldState(x){return soldTracking[x.id]||{sold:false,knownPrice:null,soldDate:'',regStatus:'pending',regPrice:null,regDate:'',regAddress:'',note:''}}
+function soldBadge(x){const s=soldState(x);if(!s.sold)return '';if(s.regStatus==='verified')return '<span class="status-badge">✅ 實登已核實</span>';if(s.regStatus==='mismatch')return '<span class="status-badge">⚠️ 實登金額不符</span>';return '<span class="status-badge">🟠 已成交・待實登</span>'}
+function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+const status=x=>x.status||'active';
+const statusText=x=>({active:'🟢 在售',price_drop:'🔻 降價',price_up:'🔺 漲價',gone_pending:'⚠️ 下架待確認',sold_pending:'⚠️ 消失／下架／狀態變更',registered:'✅ 已完成實登'}[status(x)]||'🟢 在售');
+const communityKey=v=>{if(!v)return v;const s=String(v).replace(/\s+/g,'');return s.startsWith('板橋公園世紀')?'板橋公園世紀':s};
+const blockKey=v=>{if(!v)return'';const s=String(v).replace(/\s+/g,'');return ['B/C區','B、C區','B、C'].includes(s)?'BC':s};
+const sameBlock=(a,b)=>{const x=blockKey(a),y=blockKey(b);return x===y||(x==='BC'&&(y==='B區'||y==='C區'))||(y==='BC'&&(x==='B區'||x==='C區'))};
+const layoutKey=v=>{const m=String(v||'').replace(/\s/g,'').match(/(\d+)房/);return m?m[1]+'房':String(v||'')};
+const blockRank=b=>({A區:1,B區:2,'B/C區':2,C區:3,D區:4,'棟別待確認':9,'待確認':9})[b]||8;
+function validListingUrl(p,u){if(!u)return false;try{const s=new URL(u).hostname+new URL(u).pathname;if(p.startsWith('591'))return /sale\.591\.com\.tw\/home\/house\/detail\//.test(s);if(p==='信義')return /sinyi\.com\.tw\/buy\/house\//.test(s);if(p.startsWith('樂屋'))return /rakuya\.com\.tw\/.*\/sell\/info/.test(s);if(p==='永慶')return /yungching\.com\.tw\/house\//.test(s);if(p==='好房網')return /housefun\.com\.tw\/.*(?:house|buy)/i.test(s);if(p==='中信')return /cthouse\.com\.tw\/house\//i.test(s);if(p==='台灣房屋')return /twhg\.com\.tw\/buy\//i.test(s);return true}catch(e){return false}}
+function cleanLinks(x){return Object.entries(x.links||{}).filter(([p,u])=>u&&validListingUrl(p,u)).sort((a,b)=>SOURCES.indexOf(a[0])-SOURCES.indexOf(b[0]))}
+function linkHtml(x){return cleanLinks(x).map(([p,u])=>`<a href="${u}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${p}</a>`).join('')}
+function merge(a,b){const newer=String(b.updated||'')>=String(a.updated||'')?b:a,older=newer===a?b:a;return {...older,...newer,sources:{...(a.sources||{}),...(b.sources||{})},links:{...(a.links||{}),...(b.links||{})}}}
+function normalizeUrl(u){try{const z=new URL(u);z.hostname=z.hostname.replace(/^www\\./,'');z.hash='';z.search='';return z.toString().replace(/\\/$/,'')}catch(e){return String(u||'')}} function identityStrong(a,b){if(a.groupId&&b.groupId&&a.groupId===b.groupId)return true;const al=Object.values(a.links||{}).map(normalizeUrl),bl=Object.values(b.links||{}).map(normalizeUrl);if(al.some(u=>u&&bl.includes(u)))return true;if(a.address&&b.address&&String(a.address).replace(/\s/g,'')===String(b.address).replace(/\s/g,''))return true;if(a.propertyIds&&b.propertyIds&&Object.values(a.propertyIds).some(v=>v&&Object.values(b.propertyIds).includes(v)))return true;if(communityKey(a.community)==='板橋公園世紀'&&communityKey(b.community)==='板橋公園世紀'&&a.floor!=null&&b.floor!=null&&a.floor===b.floor&&a.area!=null&&b.area!=null&&Math.abs(a.area-b.area)<0.01&&layoutKey(a.layout)===layoutKey(b.layout)&&a.price!=null&&b.price!=null&&a.price===b.price&&a.parking===b.parking)return true;return false}
+function dedupe(arr){const out=[];for(const raw of arr){const x={...raw,community:communityKey(raw.community)};if(!['active','price_drop','price_up'].includes(status(x))){out.push(x);continue}let i=out.findIndex(y=>['active','price_drop','price_up'].includes(status(y))&&communityKey(y.community)===x.community&&sameBlock(y.block,x.block)&&y.floor===x.floor&&y.parking===x.parking&&layoutKey(y.layout)===layoutKey(x.layout)&&((y.area==null||x.area==null)||Math.abs(y.area-x.area)<=1));if(i>=0){if(identityStrong(x,out[i]))out[i]=merge(out[i],x);else out.push(x)}else out.push(x)}return out}
+function sortData(a){const s=$('#sortFilter')?.value||'default';return [...a].sort((x,y)=>s==='priceAsc'?(x.price??999999)-(y.price??999999):s==='priceDesc'?(y.price??0)-(x.price??0):s==='unitAsc'?(x.unit??999)-(y.unit??999):s==='unitDesc'?(y.unit??0)-(x.unit??0):s==='updatedDesc'?String(y.updated||'').localeCompare(String(x.updated||'')):(blockRank(x.block)-blockRank(y.block))||((y.floor??-1)-(x.floor??-1)))}
+function inRange(v,s){return s==='all'||(v!=null&&v>=+s.split('-')[0]&&v<=+s.split('-')[1])}
+function filtered(){const k=$('#keyword')?.value.trim().toLowerCase()||'',c=$('#buildingFilter')?.value||'all',b=$('#blockFilter')?.value||'all',p=$('#priceFilter')?.value||'all',a=$('#areaFilter')?.value||'all',l=$('#layoutFilter')?.value||'all',pk=$('#parkingFilter')?.value||'all',st=$('#statusFilter')?.value||'all';return listings.filter(x=>(!k||[x.community,x.block,x.layout,x.id,x.address,x.agent,...Object.values(x.propertyIds||{})].join(' ').toLowerCase().includes(k))&&(c==='all'||communityKey(x.community)===c)&&(b==='all'||x.block===b)&&inRange(x.price,p)&&inRange(x.area,a)&&(l==='all'||String(x.layout||'').startsWith(l))&&(pk==='all'||(pk==='yes'?x.parking===true:x.parking===false))&&(st==='all'||status(x)===st))}
+function badge(p,v){return `<span class="platform ${v?'':'off'}">${p} ${v?'●':'○'}</span>`}
+function card(x){const ss=soldState(x);return `<article class="listing-card" data-id="${x.id}"><div class="listing-top"><div><div class="listing-title">${x.community}｜${x.block||'棟別待確認'} ${x.floor!=null?x.floor+'F':'樓層待確認'}</div><div class="listing-sub">${x.area??'—'}坪 · ${x.layout||'—'} · ${x.parking===null||x.parking===undefined?'車位待確認':x.parking?'有車位':'無車位'}</div></div><div>${x.new?'<span class="new">🆕 新增</span>':''}<span class="status-badge">${statusText(x)}</span>${soldBadge(x)}</div></div><div class="price">${money(x.price)} <span class="unit">${x.unit?x.unit+'萬/坪':'單價待核實'}</span></div><div class="facts"><div>樓層<b>${x.floor!=null?x.floor+'/'+(x.totalFloor||'-')+'F':'待確認'}</b></div><div>建物坪<b>${x.buildingArea??'待核實'}坪</b></div><div>車位<b>${x.parkingArea??'—'}坪</b></div><div>車位價<b>${x.parkingPrice?money(x.parkingPrice):'—'}</b></div><div>同案平台<b>${SOURCES.filter(p=>x.sources?.[p]).length} 個</b></div></div><div class="platforms">${SOURCES.map(p=>badge(p,x.sources?.[p])).join('')}</div><div class="source-direct"><span>🔗 原始案件：</span>${linkHtml(x)||'<span class="source-missing">尚未取得有效案件直連</span>'}</div>${x.agent?`<div class="muted">仲介：${x.agent}</div>`:''}${x.yq===true?'<div class="muted">永慶：🟢目前有掛售</div>':x.yq===false?'<div class="muted">永慶：🔴目前未確認掛售</div>':'<div class="muted">永慶：⚪尚未確認</div>'}${x.changeNote?`<div class="muted">${x.changeNote}</div>`:''}${x.verificationNote?`<div class="muted">核實：${x.verificationNote}</div>`:''}${x.photoStatus?`<div class="muted">照片：${x.photoStatus}</div>`:''}${ss.sold?`<div class="sold-note">成交追蹤：${money(ss.knownPrice)}｜${ss.soldDate||'日期未填'}｜${ss.regStatus==='verified'?'實登已核實':ss.regStatus==='mismatch'?'實登金額不符':'等待實登'}</div>`:''}<button type="button" class="sold-btn" onclick="event.stopPropagation();openSoldForm('${x.id}')">${ss.sold?'✏️ 修改成交追蹤':'📝 標記已成交'}</button></article>`}
+function render(){const d=sortData(filtered());if($('#resultCount'))$('#resultCount').textContent=d.length+' 筆案件';if($('#listingGrid'))$('#listingGrid').innerHTML=d.map(card).join('')||'<div class="card">沒有符合條件的案件。</div>';$$('.listing-card').forEach(e=>e.onclick=()=>detail(listings.find(x=>x.id===e.dataset.id)));if($('#statTotal'))$('#statTotal').textContent=listings.filter(x=>['active','price_drop','price_up'].includes(status(x))).length;if($('#statNew'))$('#statNew').textContent=listings.filter(x=>x.new).length;if($('#statDrops'))$('#statDrops').textContent=listings.filter(x=>['price_drop','price_up'].includes(status(x))).length;if($('#statSold'))$('#statSold').textContent=listings.filter(x=>['sold_pending','gone_pending'].includes(status(x))).length}
+function openSoldForm(id){const x=listings.find(v=>v.id===id);if(!x)return;const s=soldState(x);$('#soldTrackingId').value=id;$('#soldKnownPrice').value=s.knownPrice??'';$('#soldDate').value=s.soldDate||'';$('#soldRegStatus').value=s.regStatus||'pending';$('#soldRegPrice').value=s.regPrice??'';$('#soldRegDate').value=s.regDate||'';$('#soldRegAddress').value=s.regAddress||x.address||'';$('#soldNote').value=s.note||'';$('#soldDialog')?.showModal?.()}
+function detail(x){if(!x||!$('#detailContent'))return;const active=SOURCES.filter(p=>x.sources?.[p]);$('#detailContent').innerHTML=`<div class="detail"><span class="tag">${statusText(x)}</span><h2>${x.community}｜${x.block||'棟別待確認'} ${x.floor!=null?x.floor+'F':''}</h2><p>同案刊登平台：<b>${active.join('、')||'尚未確認'}</b><br>最後核實：${x.updated||'—'}${x.agent?`<br>仲介：${x.agent}`:''}</p><div class="detail-grid"><div><b>總價</b>${money(x.price)}</div><div><b>單價</b>${x.unit?x.unit+'萬/坪':'待核實'}</div><div><b>總坪</b>${x.area??'—'}坪</div><div><b>建物坪</b>${x.buildingArea??'待核實'}坪</div><div><b>車位坪</b>${x.parkingArea??'—'}坪</div><div><b>車位價格</b>${x.parkingPrice?money(x.parkingPrice):'—'}</div><div><b>格局</b>${x.layout||'—'}</div><div><b>樓層</b>${x.floor!=null?x.floor+'/'+(x.totalFloor||'-')+'F':'待確認'}</div></div><h3>所有原始案件連結</h3><div class="source-links">${linkHtml(x)||'尚未取得有效案件直連'}</div><p class="muted">永慶狀態：${x.yq===true?'已確認有刊登':x.yq===false?'已確認無刊登':'尚未確認'}</p>${x.verificationNote?`<p class="muted">${x.verificationNote}</p>`:''}</div>`;$('#detailDialog')?.showModal?.()}
+function changeItem(x,t){return `<div class="change-item"><strong>${t==='new'?'🆕':t==='drop'?'🔻':t==='up'?'🔺':'⚠️'} ${x.community}｜${x.block||''} ${x.floor??''}F</strong><small>${x.area||'—'}坪｜${money(x.price)}｜${t==='new'?'新增':t==='drop'?'價格下降':t==='up'?'價格上升':(x.changeNote||'消失／下架／狀態變更')}</small></div>`}
+function renderSoldWait(){const a=listings.filter(x=>{const q=soldState(x);return q.sold&&q.regStatus!=='verified'&&q.regStatus!=='mismatch'});if($('#soldWaitCount'))$('#soldWaitCount').textContent=a.length;if($('#soldWaitSummary'))$('#soldWaitSummary').innerHTML='<b>目前 '+a.length+' 筆待實登</b><div class="muted">實價登錄每月1、11、21日更新；先記錄已知成交價，之後再補上實登結果。</div>';if($('#soldWaitGrid'))$('#soldWaitGrid').innerHTML=a.map(card).join('')||'<div class="card">目前沒有待實登案件。</div>';$('#soldWaitGrid .listing-card').forEach(e=>e.onclick=()=>detail(listings.find(x=>x.id===e.dataset.id)))}
+function renderChanges(){const n=listings.filter(x=>x.new),d=listings.filter(x=>status(x)==='price_drop'),u=listings.filter(x=>status(x)==='price_up'),g=listings.filter(x=>['sold_pending','gone_pending'].includes(status(x)));if($('#changeNewCount'))$('#changeNewCount').textContent=n.length;if($('#changeDropCount'))$('#changeDropCount').textContent=d.length+u.length;if($('#changeGoneCount'))$('#changeGoneCount').textContent=g.length;if($('#newChanges'))$('#newChanges').innerHTML=n.map(x=>changeItem(x,'new')).join('')||'<div class="muted">目前沒有新增。</div>';if($('#dropChanges'))$('#dropChanges').innerHTML=[...d.map(x=>changeItem(x,'drop')),...u.map(x=>changeItem(x,'up'))].join('')||'<div class="muted">本次無價格變動。</div>';if($('#goneChanges'))$('#goneChanges').innerHTML=g.map(x=>changeItem(x,'gone')).join('')||'<div class="muted">目前沒有消失／下架／狀態變更。</div>'}
+function renderDevelop(){const e=listings.filter(x=>x.yq===false&&status(x)==='active'),f=$('#developFilter')?.value||'all',d=f==='owner'?e.filter(x=>x.owner):f==='competitor'?e.filter(x=>!x.owner):e;if($('#developTotal'))$('#developTotal').textContent=e.length;if($('#ownerCount'))$('#ownerCount').textContent=e.filter(x=>x.owner).length;if($('#noYQCount'))$('#noYQCount').textContent=e.length;if($('#developGrid'))$('#developGrid').innerHTML=sortData(d).map(card).join('')||'<div class="muted">目前沒有已確認永慶未刊登的案件。</div>'}
+$$('.tab').forEach(t=>t.onclick=()=>{$$('.tab').forEach(x=>x.classList.remove('active'));t.classList.add('active');$$('.view').forEach(x=>x.classList.remove('active'));$('#view-'+t.dataset.view)?.classList.add('active');if(t.dataset.view==='changes')renderChanges();if(t.dataset.view==='soldwait')renderSoldWait();if(t.dataset.view==='develop')renderDevelop()});
+['#keyword','#buildingFilter','#blockFilter','#priceFilter','#areaFilter','#layoutFilter','#parkingFilter','#sortFilter','#statusFilter'].forEach(s=>$(s)?.addEventListener('input',render));
+$('#resetFilters')?.addEventListener('click',()=>{$('#keyword').value='';['#buildingFilter','#blockFilter','#priceFilter','#areaFilter','#layoutFilter','#parkingFilter','#sortFilter'].forEach(s=>$(s).value='all');$('#statusFilter').value='active';render()});
+$('#developFilter')?.addEventListener('change',renderDevelop);$('#dialogClose')?.addEventListener('click',()=>$('#detailDialog')?.close());$('#statusFilter').value='active';
+
+// ===== SAFE BOOT DIAGNOSTICS =====
+window.__TRACKCASE_DIAG__={core:"not-started",coreCount:0,merge:"not-started",dedupe:"not-started",render:"not-started",error:""};
+window.addEventListener('error',e=>{window.__TRACKCASE_DIAG__.error=String(e.message||e.error||'JS error');});
+loadSoldTracking();
+async function getJson(path,fallback){
+  try{
+    const r=await fetch(path+'?'+Date.now(),{cache:'no-store'});
+    if(!r.ok) throw new Error(path+' HTTP '+r.status);
+    return await r.json();
+  }catch(e){console.warn('資料讀取失敗：'+path,e);return fallback;}
+}
+async function init(){
+  // 主案件資料是核心來源：先顯示，任何輔助檔案或去重異常都不得讓前台變成 0 筆。
+  const a=await getJson('data/listings.json',[]);
+  listings=Array.isArray(a)?a:[];
+  window.listings=listings;
+  window.__TRACKCASE_DIAG__.core='loaded'; window.__TRACKCASE_DIAG__.coreCount=listings.length;
+  try{render();window.__TRACKCASE_DIAG__.render='initial-ok';}catch(e){window.__TRACKCASE_DIAG__.render='initial-error';window.__TRACKCASE_DIAG__.error=String(e);}
+  try{
+    const [m,meta,o,curr,ledger,scan]=await Promise.all([
+      getJson('data/manual-updates.json',[]),
+      getJson('data/source-status.json',{}),
+      getJson('data/verified-overrides.json',{}),
+      getJson('data/current-community-update.json',{listings:[]}),
+      getJson('data/scan-ledger.json',{}),
+      getJson('data/scan-2026-09-07.json',{listings:[]})
+    ]);
+    const map=new Map(listings.map(x=>[x.id,x]));
+    (Array.isArray(m)?m:[]).forEach(x=>map.set(x.id,{...(map.get(x.id)||{}),...x,sources:{...(map.get(x.id)?.sources||{}),...(x.sources||{})},links:{...(map.get(x.id)?.links||{}),...(x.links||{})}}));
+    Object.values(o||{}).forEach(group=>Object.entries(group||{}).forEach(([id,x])=>{
+      const cur=map.get(id);
+      if(cur) map.set(id,{...cur,...x,sources:{...(cur.sources||{}),...(x.sources||{})},links:{...(cur.links||{}),...(x.links||{})}});
+      else if(x?.community) map.set(id,{id,...x});
+    }));
+    const merged=[...map.values()];
+    try{ listings=dedupe(merged); window.__TRACKCASE_DIAG__.dedupe='ok'; }catch(e){ console.error('去重失敗，保留原始案件資料',e); listings=merged; window.__TRACKCASE_DIAG__.dedupe='error'; window.__TRACKCASE_DIAG__.error=String(e); }
+    window.listings=listings;
+    window.__TRACKCASE_DIAG__.merge='ok';
+    sourceMeta=meta||{};
+    scanMeta={...ledger,...scan};
+  }catch(e){
+    console.error('輔助資料處理失敗，保留主案件資料',e);
+  }
+  if($('#lastUpdated')){
+    const raw=sourceMeta?.lastScheduledCheck||sourceMeta?.lastUpdated;
+    let stamp='資料已載入';
+    if(raw){const dt=new Date(raw);if(!Number.isNaN(dt.getTime()))stamp=new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(dt).replaceAll('/','-');}
+    $('#lastUpdated').textContent='最後更新：'+stamp+'｜掃描流程2.0｜'+(sourceMeta?.scanCompleteness?.status==='partial'||scanMeta.coverage_status==='partial'?'🟡部分完成：平台逐案核實仍需補齊':'🟢完整掃描');
+  }
+  if($('#buildingFilter'))$('#buildingFilter').innerHTML='<option value="all">全部</option>'+MONITORED.map(x=>`<option value="${x}">${x}</option>`).join('');
+  const blocks=[...new Set(listings.map(x=>x.block).filter(Boolean))];
+  if($('#blockFilter'))$('#blockFilter').innerHTML='<option value="all">全部</option>'+blocks.map(x=>`<option value="${x}">${x}</option>`).join('');
+  try{render();window.__TRACKCASE_DIAG__.render='final-ok';}catch(e){window.__TRACKCASE_DIAG__.render='final-error';window.__TRACKCASE_DIAG__.error=String(e);}try{renderChanges();renderSoldWait();}catch(e){console.warn(e)}
+}
+init();
+window.openSoldForm=openSoldForm;
+document.addEventListener('DOMContentLoaded',()=>{const f=$('#soldForm');if(f)f.addEventListener('submit',e=>{e.preventDefault();const id=$('#soldTrackingId').value; soldTracking[id]={sold:true,knownPrice:$('#soldKnownPrice').value?Number($('#soldKnownPrice').value):null,soldDate:$('#soldDate').value,regStatus:$('#soldRegStatus').value,regPrice:$('#soldRegPrice').value?Number($('#soldRegPrice').value):null,regDate:$('#soldRegDate').value,regAddress:$('#soldRegAddress').value,note:$('#soldNote').value};saveSoldTracking();$('#soldDialog').close();render();renderChanges();renderSoldWait()});$('#soldCancel')?.addEventListener('click',()=>$('#soldDialog').close());});
