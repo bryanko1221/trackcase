@@ -1,6 +1,6 @@
 {
-  "lastVerified": "2026-09-11",
-  "lastUpdated": "2026-09-28 14:23",
+  "lastVerified": "2026-09-29",
+  "lastUpdated": "2026-09-29",
   "note": "2026-09-28 TinyFish完成新巨蛋591直接案件頁逐案核實，補充建物坪數明細、車位坪數與591頁面單價；單價口徑與建物坪數分開保存，無法核實者不猜。",
   "communities": {
     "板橋新巨蛋": {
@@ -146,11 +146,59 @@
         "url": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000031",
         "lastChecked": "2026-09-01"
       }
+    },
+    "板橋晴": {
+      "591": {
+        "status": "verified",
+        "listedCount": 11,
+        "verifiedCount": 11,
+        "uniqueGroupCount": 1,
+        "url": "https://market.591.com.tw/104765/sale",
+        "lastChecked": "2026-09-29",
+        "note": "Firecrawl實際讀取社區頁與11個案件詳情頁；11筆均取得案件頁，但跨刊登去重後高度疑似為同一戶群組。"
+      },
+      "信義": {
+        "status": "not_yet_verified",
+        "listedCount": null,
+        "lastChecked": "2026-09-29"
+      },
+      "樂居": {
+        "status": "not_yet_verified",
+        "listedCount": null,
+        "lastChecked": "2026-09-29"
+      },
+      "樂屋": {
+        "status": "not_yet_verified",
+        "listedCount": null,
+        "lastChecked": "2026-09-29"
+      },
+      "中信": {
+        "status": "not_yet_verified",
+        "listedCount": null,
+        "lastChecked": "2026-09-29"
+      },
+      "永慶": {
+        "status": "not_yet_verified",
+        "listedCount": null,
+        "lastChecked": "2026-09-29"
+      },
+      "note": "本次先完成板橋晴591；其他平台未核實，不推定為0筆。",
+      "dedup": {
+        "platform": "591",
+        "listedCount": 11,
+        "verifiedCount": 11,
+        "uniqueGroupCount": 1,
+        "status": "高度疑似同戶",
+        "priceVariants": [
+          2185,
+          2360
+        ]
+      }
     }
   },
   "lastScheduledCheck": "2026-09-28T14:23:39.022027+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-28 14:23",
+  "lastValidated": "2026-09-29",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -160,12 +208,10 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-09-28T14:23:38.976861+08:00",
-    "sourceCount": 9,
-    "communityCount": 13,
+    "checkedAt": "2026-09-29",
     "reasons": [
-      "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
-      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
+      "板橋晴本次僅完成591逐筆核實",
+      "信義、樂居、樂屋、中信、永慶尚未完成本次平台核實"
     ]
   },
   "exaSecondPass": {
