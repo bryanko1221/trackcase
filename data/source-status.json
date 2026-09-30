@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-09-29",
-  "lastUpdated": "2026-09-29",
+  "lastUpdated": "2026-09-30 14:22",
   "note": "2026-09-28 TinyFish完成新巨蛋591直接案件頁逐案核實，補充建物坪數明細、車位坪數與591頁面單價；單價口徑與建物坪數分開保存，無法核實者不猜。",
   "communities": {
     "板橋新巨蛋": {
@@ -217,9 +217,9 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-09-29T14:55:00+08:00",
+  "lastScheduledCheck": "2026-09-30T14:22:58.951814+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-29 14:55",
+  "lastValidated": "2026-09-30 14:22",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -229,7 +229,13 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "reason": "11社區正式現售集合已完成同步；部分平台仍受403/Cloudflare限制，未宣稱100%平台逐案核實。"
+    "checkedAt": "2026-09-30T14:22:58.899508+08:00",
+    "sourceCount": 13,
+    "communityCount": 13,
+    "reasons": [
+      "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
+      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
+    ]
   },
   "exaSecondPass": {
     "checkedAt": "2026-09-27T19:15:00+08:00",
