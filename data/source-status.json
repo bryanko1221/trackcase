@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-10-01",
-  "lastUpdated": "2026-10-01 09:18",
+  "lastUpdated": "2026-10-01 14:54",
   "note": "2026-09-28 TinyFish完成新巨蛋591直接案件頁逐案核實，補充建物坪數明細、車位坪數與591頁面單價；單價口徑與建物坪數分開保存，無法核實者不猜。",
   "communities": {
     "板橋新巨蛋": {
@@ -217,27 +217,24 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-10-01T09:18:00+08:00",
+  "lastScheduledCheck": "2026-10-01T14:54:29.750216+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-10-01 09:18",
+  "lastValidated": "2026-10-01 14:54",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
     "interval": "daily 09:00",
-    "timezone": "Asia/Taipei",
-    "method": "free-first / Exa Search → Exa Fetch → Firecrawl補缺 → GPT去重與快照比對"
+    "timezone": "Asia/Taipei"
   },
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-01T09:18:00+08:00",
+    "checkedAt": "2026-10-01T14:54:29.701834+08:00",
     "sourceCount": 13,
     "communityCount": 13,
     "reasons": [
-      "Free-first本輪使用Exa Search→Exa Fetch；Firecrawl補缺回傳429，未以其結果冒充核實。",
-      "本輪取得多個直接案件頁，但尚未完成13社區×全部指定平台逐案核實。",
-      "平台顯示筆數與直接核實筆數不一致者維持🟡部分完成。",
-      "未核實案件不列為完整唯一現售戶數。"
+      "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
+      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
     ]
   },
   "exaSecondPass": {
