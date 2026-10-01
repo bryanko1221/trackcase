@@ -1,6 +1,6 @@
 {
-  "lastVerified": "2026-09-29",
-  "lastUpdated": "2026-09-30 14:22",
+  "lastVerified": "2026-10-01",
+  "lastUpdated": "2026-10-01 09:18",
   "note": "2026-09-28 TinyFish完成新巨蛋591直接案件頁逐案核實，補充建物坪數明細、車位坪數與591頁面單價；單價口徑與建物坪數分開保存，無法核實者不猜。",
   "communities": {
     "板橋新巨蛋": {
@@ -217,24 +217,27 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-09-30T14:22:58.951814+08:00",
+  "lastScheduledCheck": "2026-10-01T09:18:00+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-09-30 14:22",
+  "lastValidated": "2026-10-01 09:18",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
     "interval": "daily 09:00",
-    "timezone": "Asia/Taipei"
+    "timezone": "Asia/Taipei",
+    "method": "free-first / Exa Search → Exa Fetch → Firecrawl補缺 → GPT去重與快照比對"
   },
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-09-30T14:22:58.899508+08:00",
+    "checkedAt": "2026-10-01T09:18:00+08:00",
     "sourceCount": 13,
     "communityCount": 13,
     "reasons": [
-      "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
-      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
+      "Free-first本輪使用Exa Search→Exa Fetch；Firecrawl補缺回傳429，未以其結果冒充核實。",
+      "本輪取得多個直接案件頁，但尚未完成13社區×全部指定平台逐案核實。",
+      "平台顯示筆數與直接核實筆數不一致者維持🟡部分完成。",
+      "未核實案件不列為完整唯一現售戶數。"
     ]
   },
   "exaSecondPass": {
@@ -334,10 +337,12 @@
     }
   },
   "latestFreeFirstScan": {
-    "checkedAt": "2026-09-29T14:55:00+08:00",
-    "method": "Free-first：Exa Search → Firecrawl live scrape → cross-platform search；排除新巨蛋、公園世紀",
+    "checkedAt": "2026-10-01T09:18:00+08:00",
+    "method": "Free-first：Exa Search → Exa Fetch → GPT跨平台去重與前次快照比對；Firecrawl補缺本輪429，未採用其未完成結果",
     "scope": [
+      "板橋新巨蛋",
       "板橋文化勳章",
+      "板橋公園世紀",
       "欣璞綻",
       "綠如意",
       "鑑築",
@@ -349,60 +354,17 @@
       "板橋晴",
       "永康芬揚"
     ],
-    "platformCounts": {
-      "板橋文化勳章": {
-        "591": 2,
-        "verifiedUnique": 2
-      },
-      "欣璞綻": {
-        "591": 6,
-        "verifiedUnique": 3,
-        "note": "591 6筆中至少4筆為16F/25.39坪/2788萬同戶；另有11F 2320、6F 2980等已核實"
-      },
-      "綠如意": {
-        "591": 6,
-        "verifiedUnique": 1,
-        "note": "至少4筆為2F/50.5坪/3080萬同戶；另有案件待逐筆核實"
-      },
-      "鑑築": {
-        "591Aggregate": "社區頁聚合數字不採為戶數",
-        "verifiedUnique": 2
-      },
-      "榮耀交響曲": {
-        "591": 0,
-        "verifiedUnique": 0
-      },
-      "佳元植": {
-        "591": 1,
-        "verifiedUnique": 1,
-        "note": "21世紀直接案件2,358萬/32.96坪/2F/22F"
-      },
-      "板橋千禧園": {
-        "591": 0,
-        "verifiedUnique": 0
-      },
-      "板橋吉祥花園": {
-        "591": null,
-        "verifiedUnique": 0,
-        "note": "本輪未取得可靠直接591社區sale頁"
-      },
-      "雙喜臨門": {
-        "591": 0,
-        "verifiedUnique": 0,
-        "note": "板橋莒光路社區未找到目前出售直接案件"
-      },
-      "板橋晴": {
-        "591": 11,
-        "verifiedUnique": 1,
-        "note": "多筆不同仲介/刊登版本高度疑似同一戶"
-      },
-      "永康芬揚": {
-        "591": 18,
-        "verifiedUnique": 4
-      }
-    },
     "completeness": "partial",
-    "note": "正式資料已同步至data/listings.json；11社區canonicalCurrentListings共14筆唯一現售集合。平台原始筆數與唯一戶數分開保存，未核實案件不列入正式現售。"
+    "notes": [
+      "新巨蛋直接核實到中信、永慶、信義案件頁；C棟22F 26.57坪1,945萬中信頁明確顯示1,968萬→1,945萬。",
+      "欣璞綻6F 25.39坪2,980萬信義直接案件頁可核實。",
+      "鑑築14F 89.73坪四房雙車，中信直接頁5,988萬→5,688萬；永慶直接頁亦為5,688萬。",
+      "榮耀交響曲2F 75.76坪四房雙平車，永慶直接案件頁5,068萬。",
+      "佳元植2F 32.96坪兩房車，21世紀直接案件頁2,358萬。",
+      "永康芬揚11F 22.54坪兩房，中信直接案件頁1,980萬；住商另有11F 25.36坪2,115萬，因坪數不同未合併。",
+      "板橋吉祥花園取得多個591直接案件入口，但尚未完成社區名稱／戶別強識別，不列為已核實唯一戶。",
+      "Firecrawl本輪429，未計入直接核實。"
+    ]
   },
   "latestDeduplication": {
     "checkedAt": "2026-09-29T15:10:00+08:00",
