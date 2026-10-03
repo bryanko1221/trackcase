@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T14:45:12.194496+08:00",
+  "updatedAt": "2026-10-03T14:05:55.023957+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -45,9 +45,9 @@
       "id": "ng-6800",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20576106.html",
-      "state": "gone",
-      "httpStatus": 404,
-      "reason": "not-found"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-6800",
@@ -157,9 +157,9 @@
       "id": "ng-1880",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/19784014.html",
-      "state": "gone",
-      "httpStatus": 404,
-      "reason": "not-found"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-1880",
@@ -173,9 +173,9 @@
       "id": "ng-1315",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20446447.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "pc-a-2588",
@@ -277,17 +277,17 @@
       "id": "lry-2540",
       "source": "591",
       "url": "https://market.591.com.tw/29100",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "wh-culture-3480-18",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20709527.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "wh-culture-3480-18",
@@ -301,17 +301,17 @@
       "id": "wh-culture-5088-15f",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20912237.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-match-01",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20726936.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-match-14",
@@ -325,9 +325,9 @@
       "id": "ng-match-03",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20922725.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-4288",
@@ -341,17 +341,17 @@
       "id": "ng-match-02",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20831851.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-match-05",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20915461.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-match-05",
@@ -365,9 +365,9 @@
       "id": "ng-match-04",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20256798.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-match-04",
@@ -389,25 +389,25 @@
       "id": "ng-match-06",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20963768.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-match-07",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20903931.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-match-08",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20671886.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-match-08",
@@ -429,9 +429,9 @@
       "id": "ng-match-16",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20804507.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-match-16",
@@ -453,41 +453,41 @@
       "id": "banqiao-qing-7f-3448",
       "source": "591",
       "url": "https://market.591.com.tw/104765/sale",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "banqiao-qing-7f-3448",
       "source": "591-主要案件",
       "url": "https://sale.591.com.tw/home/house/detail/2/20939780.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "xpd-2788-16f",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20889395.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "xpd-2320-11f",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20875770.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "xpd-2980-6f",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20532631.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "lry-2850-16f",
@@ -501,9 +501,9 @@
       "id": "lry-3080-2f",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20904980.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "kz-5688-14f",
@@ -533,9 +533,9 @@
       "id": "jyz-2358-2f",
       "source": "591",
       "url": "https://market.591.com.tw/5890269/sale",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "jyz-2358-2f",
@@ -556,14 +556,9 @@
   ],
   "changed": [
     {
-      "id": "ng-1880",
-      "change": "all-known-links-gone",
-      "date": "2026-10-02"
-    },
-    {
       "id": "lry-2850-16f",
       "change": "all-known-links-gone",
-      "date": "2026-10-02"
+      "date": "2026-10-03"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-10-01",
-  "lastUpdated": "2026-10-02 14:47",
+  "lastUpdated": "2026-10-03 14:06",
   "note": "2026-09-28 TinyFish完成新巨蛋591直接案件頁逐案核實，補充建物坪數明細、車位坪數與591頁面單價；單價口徑與建物坪數分開保存，無法核實者不猜。",
   "communities": {
     "板橋新巨蛋": {
@@ -217,9 +217,9 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-10-02T14:47:24.206977+08:00",
+  "lastScheduledCheck": "2026-10-03T14:06:57.034593+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-10-02 14:47",
+  "lastValidated": "2026-10-03 14:06",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -229,7 +229,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-02T14:47:24.175517+08:00",
+    "checkedAt": "2026-10-03T14:06:56.985554+08:00",
     "sourceCount": 13,
     "communityCount": 13,
     "reasons": [
