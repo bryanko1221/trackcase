@@ -961,8 +961,8 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "status": "active",
-    "updated": "2026-09-04",
+    "status": "gone_pending",
+    "updated": "2026-10-04",
     "sourceVerified": "2026-09-04：永慶社區頁與樂屋網交叉核實",
     "sources": {
       "591": true,
@@ -991,9 +991,9 @@
         "url": "https://community.yungching.com.tw/building/57470"
       }
     },
-    "lastStatusChange": "2026-09-30",
-    "changeNote": "2026-09-29重新核對欣璞綻591目前在售清單：原4,535萬18F版本未出現在今日591在售清單；移出目前在售，待重新取得有效直接案件頁。",
-    "lastChecked": "2026-09-29T14:31:00+08:00"
+    "lastStatusChange": "2026-10-04",
+    "changeNote": "2026-10-04重新核對欣璞綻：原4,535萬18F案件在樂居待售頁目前無符合案件，591當前清單亦未取得有效直連；移出目前在售，列為下架待確認。",
+    "lastChecked": "2026-10-04T10:30:00+08:00"
   },
   {
     "id": "xpd-4680-6f",
@@ -1012,8 +1012,8 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "status": "active",
-    "updated": "2026-09-04",
+    "status": "gone_pending",
+    "updated": "2026-10-04",
     "sourceVerified": "2026-09-04：永慶社區頁核實",
     "sources": {
       "591": true,
@@ -1042,9 +1042,9 @@
         "url": "https://community.yungching.com.tw/building/57470"
       }
     },
-    "lastStatusChange": "2026-09-29",
-    "changeNote": "2026-09-29重新核對欣璞綻591目前在售清單：原4,680萬6F版本未出現在今日591在售清單；移出目前在售，待重新取得有效直接案件頁。",
-    "lastChecked": "2026-09-29T14:31:00+08:00"
+    "lastStatusChange": "2026-10-04",
+    "changeNote": "2026-10-04重新核對欣璞綻：原4,680萬6F案件在樂居待售頁目前無符合案件，591當前清單亦未取得有效直連；移出目前在售，列為下架待確認。",
+    "lastChecked": "2026-10-04T10:30:00+08:00"
   },
   {
     "id": "ryxq-5068-2f",
@@ -1102,8 +1102,8 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "status": "active",
-    "updated": "2026-09-04",
+    "status": "gone_pending",
+    "updated": "2026-10-04",
     "sourceVerified": "2026-09-04：樂居目前待售1筆",
     "sources": {
       "樂居": true
@@ -1126,9 +1126,9 @@
         "url": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a"
       }
     },
-    "lastStatusChange": "2026-09-29",
-    "changeNote": "2026-09-29重新核對佳元植：591今日社區在售1筆，Exa搜尋到現售2,358萬21世紀直接案件；原2,688萬候選無今日直接案件證據，移出目前在售，待重新取得有效直接頁。",
-    "lastChecked": "2026-09-29T14:31:00+08:00"
+    "lastStatusChange": "2026-10-04",
+    "changeNote": "2026-10-04重新核對佳元植：樂居待售頁目前顯示2688萬入口但未提供可確認的有效目前案件，591社區待售顯示0筆；移出目前在售，列為下架待確認。",
+    "lastChecked": "2026-10-04T10:30:00+08:00"
   },
   {
     "id": "lry-2540",
@@ -1145,8 +1145,8 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "status": "active",
-    "updated": "2026-09-04",
+    "status": "gone_pending",
+    "updated": "2026-10-04",
     "sourceVerified": "2026-09-04：591社區頁目前可見在售案例；戶別/樓層待直接案件頁確認",
     "sources": {
       "591": true
@@ -1164,9 +1164,9 @@
         "url": "https://market.591.com.tw/29100"
       }
     },
-    "lastStatusChange": "2026-09-30",
-    "changeNote": "2026-09-29重新核對綠如意：原2,540萬案件未出現在今日591目前6筆在售清單，移出目前在售。",
-    "lastChecked": "2026-09-29T14:31:00+08:00"
+    "lastStatusChange": "2026-10-04",
+    "changeNote": "2026-10-04重新核對綠如意：591社區頁目前可見3,080萬等現售案件，但未找到原2,540萬案件；移出目前在售，列為下架待確認。",
+    "lastChecked": "2026-10-04T10:30:00+08:00"
   },
   {
     "id": "wh-culture-3480-18",
