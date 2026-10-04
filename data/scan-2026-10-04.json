@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-04",
+  "checkedAt": "2026-10-04T10:30:00+08:00",
+  "status": "partial",
+  "label": "🟡 部分完成",
+  "method": [
+    "Exa搜尋",
+    "原始案件頁Fetch",
+    "跨平台比對",
+    "既有URL狀態比對"
+  ],
+  "monitoredCommunities": 13,
+  "changes": {
+    "movedToGonePending": [
+      {
+        "id": "xpd-4535-18f",
+        "community": "欣璞綻",
+        "price": 4535,
+        "floor": "18F",
+        "reason": "今日未取得有效現售證據"
+      },
+      {
+        "id": "xpd-4680-6f",
+        "community": "欣璞綻",
+        "price": 4680,
+        "floor": "6F",
+        "reason": "今日未取得有效現售證據"
+      },
+      {
+        "id": "jyz-2688",
+        "community": "佳元植",
+        "price": 2688,
+        "floor": "待確認",
+        "reason": "591社區待售0筆，樂居入口無可確認案件"
+      },
+      {
+        "id": "lry-2540",
+        "community": "綠如意",
+        "price": 2540,
+        "floor": "待確認",
+        "reason": "今日591社區頁未找到原案件"
+      }
+    ],
+    "confirmedExamples": [
+      {
+        "community": "新巨蛋",
+        "id": "ng-4998",
+        "price": 4998,
+        "floor": "11F",
+        "platforms": [
+          "信義"
+        ]
+      },
+      {
+        "community": "新巨蛋",
+        "id": "ng-match-01",
+        "price": 6588,
+        "floor": "43F",
+        "platforms": [
+          "591"
+        ]
+      },
+      {
+        "community": "文化勳章",
+        "id": "wh-culture-3480-18",
+        "price": 3480,
+        "floor": "18F",
+        "platforms": [
+          "591",
+          "台慶"
+        ]
+      },
+      {
+        "community": "文化勳章",
+        "id": "wh-culture-5088-15f",
+        "price": 5088,
+        "floor": "15F",
+        "platforms": [
+          "591"
+        ]
+      },
+      {
+        "community": "榮耀交響曲",
+        "id": "ryxq-5068-2f",
+        "price": 5068,
+        "floor": "2F",
+        "platforms": [
+          "永慶"
+        ]
+      },
+      {
+        "community": "綠如意",
+        "id": "lry-3080-2f",
+        "price": 3080,
+        "floor": "2F",
+        "platforms": [
+          "591"
+        ]
+      },
+      {
+        "community": "鑑築",
+        "id": "kz-5688-14f",
+        "price": 5688,
+        "floor": "14F",
+        "platforms": [
+          "中信"
+        ]
+      },
+      {
+        "community": "鑑築",
+        "id": "kz-4500-2f",
+        "price": 4500,
+        "floor": "2F",
+        "platforms": [
+          "信義"
+        ]
+      },
+      {
+        "community": "佳元植",
+        "id": "jyz-2358-2f",
+        "price": 2358,
+        "floor": "2F",
+        "platforms": [
+          "21世紀"
+        ]
+      },
+      {
+        "community": "永康芬揚",
+        "id": "ykf-1738-3f",
+        "price": 1738,
+        "floor": "3F",
+        "platforms": [
+          "我家網"
+        ]
+      },
+      {
+        "community": "永康芬揚",
+        "id": "yongkang-2115",
+        "price": 2115,
+        "floor": "11F",
+        "platforms": [
+          "住商"
+        ]
+      },
+      {
+        "community": "永康芬揚",
+        "id": "yongkang-2800",
+        "price": 2800,
+        "floor": "13F",
+        "platforms": [
+          "住商"
+        ]
+      }
+    ]
+  },
+  "caveats": [
+    "部分永慶、樂居、樂屋頁面出現403/timeout/404；依規則未把技術阻擋直接判定為下架。",
+    "公開GitHub Pages本次重新抓取未成功，因此本次不能宣稱前台已完成最新畫面驗證。"
+  ]
+}
