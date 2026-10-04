@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T14:05:55.023957+08:00",
+  "updatedAt": "2026-10-04T14:40:50.147871+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -556,9 +556,14 @@
   ],
   "changed": [
     {
+      "id": "xpd-4535-18f",
+      "change": "reactivated",
+      "date": "2026-10-04"
+    },
+    {
       "id": "lry-2850-16f",
       "change": "all-known-links-gone",
-      "date": "2026-10-03"
+      "date": "2026-10-04"
     }
   ]
 }
