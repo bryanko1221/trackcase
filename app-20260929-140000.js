@@ -12,7 +12,7 @@ function soldBadge(x){const s=soldState(x);if(!s.sold)return '';if(s.regStatus==
 function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 const status=x=>x.status||'active';
 const statusText=x=>({active:'🟢 在售',price_drop:'🔻 降價',price_up:'🔺 漲價',gone_pending:'⚠️ 下架待確認',sold_pending:'⚠️ 消失／下架／狀態變更',registered:'✅ 已完成實登'}[status(x)]||'🟢 在售');
-const communityKey=v=>{if(!v)return v;const s=String(v).replace(/\s+/g,'');return s.startsWith('板橋公園世紀')?'板橋公園世紀':s};
+const communityKey=v=>{if(!v)return v;const s=String(v).replace(/\s+/g,'');const map={'板橋新巨蛋':'板橋新巨蛋','板橋文化勳章':'板橋文化勳章','板橋公園世紀':'板橋公園世紀','板橋欣璞綻':'欣璞綻','板橋綠如意':'綠如意','板橋鑑築':'鑑築','板橋榮耀交響曲':'榮耀交響曲','板橋佳元植':'佳元植','板橋千禧園':'板橋千禧園','板橋吉祥花園':'板橋吉祥花園','板橋雙喜臨門':'雙喜臨門','板橋晴':'板橋晴','板橋永康芬揚':'永康芬揚'};return map[s]||s};
 const blockKey=v=>{if(!v)return'';const s=String(v).replace(/\s+/g,'');return ['B/C區','B、C區','B、C'].includes(s)?'BC':s};
 const sameBlock=(a,b)=>{const x=blockKey(a),y=blockKey(b);return x===y||(x==='BC'&&(y==='B區'||y==='C區'))||(y==='BC'&&(x==='B區'||x==='C區'))};
 const layoutKey=v=>{const m=String(v||'').replace(/\s/g,'').match(/(\d+)房/);return m?m[1]+'房':String(v||'')};
