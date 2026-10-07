@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-10-04",
-  "lastUpdated": "2026-10-06 15:16",
+  "lastUpdated": "2026-10-07 14:55",
   "note": "2026-10-04手動補做今日在售監測：重新搜尋13個指定社區，並對可取得的原始案件頁做交叉核實；403/timeout僅標記未知，不直接判定下架。",
   "communities": {
     "板橋新巨蛋": {
@@ -217,9 +217,9 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-10-06T15:16:07.641242+08:00",
+  "lastScheduledCheck": "2026-10-07T14:55:42.468065+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-10-06 15:16",
+  "lastValidated": "2026-10-07 14:55",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -229,7 +229,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-06T15:16:07.588332+08:00",
+    "checkedAt": "2026-10-07T14:55:42.425803+08:00",
     "sourceCount": 13,
     "communityCount": 13,
     "reasons": [
