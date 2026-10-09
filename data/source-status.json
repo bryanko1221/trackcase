@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-10-09",
-  "lastUpdated": "2026-10-09 12:04",
+  "lastUpdated": "2026-10-09 15:12",
   "note": "2026-10-09中午補做免費優先監控：Exa搜尋＋直接Fetch、Firecrawl Search補缺、跨平台比對。整體部分完成；不把搜尋摘要冒充直連核實，也不把一次搜尋不到當作售出。",
   "communities": {
     "板橋新巨蛋": {
@@ -217,9 +217,9 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-10-09T12:04:00+08:00",
+  "lastScheduledCheck": "2026-10-09T15:12:07.638692+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-10-09 12:04",
+  "lastValidated": "2026-10-09 15:12",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -229,14 +229,12 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-09T12:04:00+08:00",
+    "checkedAt": "2026-10-09T15:12:07.595149+08:00",
     "sourceCount": 13,
     "communityCount": 13,
     "reasons": [
-      "13社區中仍有多個平台只有社區頁/搜尋入口，未能逐筆直接核實。",
-      "591部分直接案件頁欄位被動態模板遮蔽；顯示筆數與可核實案件數有差額。",
-      "Firecrawl Search成功，但本輪Firecrawl直接Scrape遇到ERR_TUNNEL_CONNECTION_FAILED；改由Exa Fetch直接讀取可存取頁面。",
-      "Exa Search與部分社區頁的顯示數不一致，例如新巨蛋52/47/43、欣璞綻標頭5與列表8；分開記錄，不混為戶數。"
+      "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
+      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
     ]
   },
   "exaSecondPass": {
