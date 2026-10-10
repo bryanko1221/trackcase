@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-10-09",
-  "lastUpdated": "2026-10-09 21:02",
+  "lastUpdated": "2026-10-10 14:45",
   "note": "2026-10-09晚間補核：Exa Search/Fetch直接案件頁、Firecrawl Search補缺與跨平台比對。整體🟡部分完成；部分591欄位遮蔽、其他平台尚未全量逐案核實；一次搜尋不到不判售出。",
   "communities": {
     "板橋新巨蛋": {
@@ -217,9 +217,9 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-10-09T21:02:44+08:00",
+  "lastScheduledCheck": "2026-10-10T14:45:57.508130+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-10-09 21:02",
+  "lastValidated": "2026-10-10 14:45",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -229,13 +229,12 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-09T21:02:44+08:00",
-    "sourceCount": 13,
+    "checkedAt": "2026-10-10T14:45:57.457017+08:00",
+    "sourceCount": 14,
     "communityCount": 13,
     "reasons": [
-      "591社區頁、頁面列表及房型篩選筆數存在差異",
-      "部分直接案件頁價格／樓層／坪數欄位被動態模板遮蔽",
-      "部分樂屋、樂居、永慶、中信、住商、台灣房屋及好房網尚未逐案核實"
+      "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
+      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
     ]
   },
   "exaSecondPass": {
