@@ -1999,15 +1999,15 @@
     "block": "棟別待確認",
     "floor": null,
     "totalFloor": null,
-    "area": null,
-    "layout": "3房（標題資訊，待確認）",
-    "price": null,
-    "unit": null,
+    "area": 50.5,
+    "layout": "3房2廳1衛",
+    "price": 3080,
+    "unit": 73.2,
     "parking": true,
     "parkingArea": 11.84,
     "status": "active",
     "new": false,
-    "updated": "2026-10-11",
+    "updated": "2026-10-12",
     "sources": {
       "591": true
     },
@@ -2030,8 +2030,8 @@
       "S20454970"
     ],
     "listingCountOn591": 4,
-    "sourceVerified": "2026-09-29 Firecrawl：591目前4筆均為2F/16F、50.5坪、約3,080萬同戶不同刊登版本，合併為1戶。",
-    "lastChecked": "2026-09-29T14:31:00+08:00",
+    "sourceVerified": "2026-10-12：591原始案件頁確認3,080萬、50.5坪、2F、3房2廳、含11.84坪車位",
+    "lastChecked": "2026-10-12T12:00:00+08:00",
     "matchStatus": "待確認",
     "yq": null,
     "verificationNote": "591 S20904980直接頁有效期至2026-11-13，標題為三房坡車、車位11.84坪；價格、樓層、房屋坪數欄位遮蔽，原3,080萬/50.5坪/2F本輪未能重新核實。"
