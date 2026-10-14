@@ -16,7 +16,7 @@ from urllib.error import HTTPError, URLError
 
 ROOT = Path(__file__).resolve().parents[1]
 LISTINGS = ROOT / 'data/listings.json'
-REPORT = ROOT / 'data/batch-scan-report.json'
+REPORT = ROOT / 'data/listing-validation-report.json'
 STATUS = ROOT / 'data/source-status.json'
 
 UA = 'Mozilla/5.0 (compatible; trackcase-public-validator/1.0)'
