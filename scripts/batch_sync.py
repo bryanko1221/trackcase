@@ -1,43 +1,59 @@
 #!/usr/bin/env python3
-"""Batch scan public listing indexes and verify every discovered direct listing URL.
+"""Audit public listing indexes and reconcile platform-reported counts.
 
 Only normal public HTTP requests are used. No login/CAPTCHA/anti-bot bypass is attempted.
-A source is never considered complete merely because its community page displays a count.
+A source is NOT complete unless the reported total reconciles with unique listing IDs,
+all scanned pages succeed, every discovered direct URL is resolved, and pagination was
+not cut off. Unknown counts are reported as unknown, never assumed complete.
 """
 import json, re, sys, time
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request, urlopen
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, urldefrag
 from urllib.error import HTTPError
 
 ROOT=Path(__file__).resolve().parents[1]
 CONFIG=ROOT/'data/batch-sources.json'
 REPORT=ROOT/'data/batch-scan-report.json'
-
-UA='Mozilla/5.0 (compatible; trackcase-public-index-scanner/2.0)'
+UA='Mozilla/5.0 (compatible; trackcase-public-index-scanner/3.0)'
 UNAVAILABLE=re.compile(r'(物件不存在|案件不存在|已下架|已關閉|已售出|查無此物件|頁面不存在|listing not found|page not found)',re.I)
 PAGINATION=re.compile(r'(page|pg|pageno|firstRow|offset|start|pageindex|下一頁|下頁|next)',re.I)
+COUNT_RE=re.compile(r'(?:共|找到|符合條件|共計|目前有|共有|總計)\s*([0-9,]+)\s*(?:筆|件|個物件|間房屋|個案件)',re.I)
+LISTING_ID_PATTERNS=[
+    re.compile(r'/home/house/detail/\d+/(\d{6,})',re.I),
+    re.compile(r'/(?:house|listing|object|objects)/([A-Za-z0-9_-]{5,})(?:[/.?]|$)',re.I),
+    re.compile(r'[?&](?:ehid|sn|id|item_id)=([A-Za-z0-9_-]{5,})',re.I),
+]
 
 class Parser(HTMLParser):
     def __init__(self):
-        super().__init__(); self.links=[]; self.meta={}; self.jsonld=[]; self._script=False; self._buf=[]
+        super().__init__(); self.links=[]; self.link_items=[]; self.meta={}; self.jsonld=[]
+        self._script=False; self._jsonld_script=False; self._buf=[]; self._anchor_text=[]; self._in_anchor=False; self.text_parts=[]
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
-        if tag=='a' and a.get('href'): self.links.append(a['href'])
+        if tag=='a' and a.get('href'):
+            self.links.append(a['href']); self._anchor_text=[]; self._in_anchor=True
+            self.link_items.append({'href':a['href'],'text':''})
         if tag=='meta' and a.get('name') and a.get('content'): self.meta[a['name']]=a['content']
         if tag=='meta' and a.get('property') and a.get('content'): self.meta[a['property']]=a['content']
-        if tag=='script' and a.get('type')=='application/ld+json': self._script=True; self._buf=[]
+        if tag=='script':
+            self._script=True; self._jsonld_script=a.get('type')=='application/ld+json'; self._buf=[]
     def handle_data(self,data):
-        if self._script:self._buf.append(data)
+        if self._script:
+            if self._jsonld_script:self._buf.append(data)
+            return
+        self.text_parts.append(data)
+        if self._in_anchor and self.link_items:self.link_items[-1]['text']+=data
     def handle_endtag(self,tag):
+        if tag=='a': self._in_anchor=False
         if tag=='script' and self._script:
             raw=''.join(self._buf).strip()
             if raw:
                 try:self.jsonld.append(json.loads(raw))
                 except Exception:pass
-            self._script=False
+            self._script=False; self._jsonld_script=False
 
 def fetch(url):
     req=Request(url,headers={'User-Agent':UA,'Accept':'text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8'})
@@ -59,24 +75,55 @@ def same_origin(a,b):
 def is_listing(source,u):
     return bool(source.get('listingPattern') and re.search(source['listingPattern'],u))
 
+def listing_key(url):
+    clean=urldefrag(url)[0]
+    for pat in LISTING_ID_PATTERNS:
+        m=pat.search(clean)
+        if m:return m.group(1).lower()
+    p=urlparse(clean)
+    return (p.netloc.lower()+p.path.rstrip('/')).lower()
+
+def extract_reported_count(source,parser):
+    # A source-specific regex is preferred when configured; it must have a capture group.
+    corpus=' '.join([parser.meta.get('description',''),parser.meta.get('og:description',''),' '.join(parser.text_parts)])
+    pattern=source.get('countPattern')
+    if pattern:
+        try:
+            m=re.search(pattern,corpus,re.I)
+            if m:return int(m.group(1).replace(',',''))
+        except (ValueError,IndexError,re.error):
+            pass
+    m=COUNT_RE.search(corpus)
+    return int(m.group(1).replace(',','')) if m else None
+
 def crawl_source(source,max_pages=25):
     root=source['url']; queue=[root]; seen=set(); listing_urls=[]; pages=[]; pagination=[]; records=[]
+    last_parser=None; hit_page_cap=False
     while queue and len(seen)<max_pages:
         url=queue.pop(0)
         if url in seen:continue
         seen.add(url)
         try:
-            html,status=fetch(url); p=parse(html)
+            html,status=fetch(url); p=parse(html); last_parser=p
             pages.append({'url':url,'httpStatus':status,'ok':200<=status<400})
-            for href in p.links:
-                u=urljoin(url,href)
+            for item in p.link_items:
+                u=urljoin(url,item['href'])
                 if is_listing(source,u) and u not in listing_urls:listing_urls.append(u)
-                if same_origin(root,u) and u not in seen and PAGINATION.search(u) and u not in queue and len(queue)+len(seen)<max_pages:queue.append(u); pagination.append(u)
+                label=item.get('text','')
+                if same_origin(root,u) and u not in seen and PAGINATION.search(u) and u not in queue and len(queue)+len(seen)<max_pages:
+                    queue.append(u); pagination.append(u)
             walk_json(p.jsonld,records)
+        except HTTPError as e:
+            pages.append({'url':url,'httpStatus':e.code,'ok':False,'error':'http-error'})
         except Exception as e:
-            pages.append({'url':url,'httpStatus':None,'ok':False,'error':str(e)})
+            pages.append({'url':url,'httpStatus':None,'ok':False,'error':type(e).__name__})
         time.sleep(float(source.get('delaySeconds',1)))
-    return listing_urls,pages,pagination,records
+    if queue: hit_page_cap=True
+    reported=extract_reported_count(source,last_parser) if last_parser else None
+    ids=[listing_key(u) for u in listing_urls]
+    unique_ids=set(ids)
+    duplicate_count=len(ids)-len(unique_ids)
+    return listing_urls,pages,pagination,records,reported,len(unique_ids),duplicate_count,hit_page_cap
 
 def verify(url):
     try:
@@ -90,14 +137,50 @@ def verify(url):
 def main():
     cfg=json.loads(CONFIG.read_text(encoding='utf-8')); results=[]; total=0
     for source in cfg['sources']:
-        checked=datetime.now(timezone.utc).isoformat(); urls,pages,pagination,records=crawl_source(source)
+        checked=datetime.now(timezone.utc).isoformat()
+        urls,pages,pagination,records,reported,unique_ids,duplicates,hit_cap=crawl_source(source)
         direct=[];active=gone=unknown=0
         for u in urls:
-            r=verify(u);direct.append({'url':u,**r,'checkedAt':datetime.now(timezone.utc).isoformat()})
-            active+=r['state']=='active';gone+=r['state']=='gone';unknown+=r['state']=='unknown';time.sleep(float(cfg.get('verifyDelaySeconds',0.2)))
-        item={'source':source['name'],'community':source.get('community'),'indexUrl':source['url'],'checkedAt':checked,'pagesScanned':len(pages),'paginationDiscovered':len(set(pagination)),'pages':pages,'listingUrls':urls,'directVerification':direct,'directActiveCount':active,'directGoneCount':gone,'directUnknownCount':unknown,'jsonLdRecords':records,'httpOk':bool(pages) and all(p.get('ok') for p in pages),'complete':bool(pages) and all(p.get('ok') for p in pages) and bool(urls) and unknown==0}
+            r=verify(u);direct.append({'url':u,'listingKey':listing_key(u),**r,'checkedAt':datetime.now(timezone.utc).isoformat()})
+            active+=r['state']=='active';gone+=r['state']=='gone';unknown+=r['state']=='unknown'
+            time.sleep(float(cfg.get('verifyDelaySeconds',0.2)))
+        pages_ok=bool(pages) and all(p.get('ok') for p in pages)
+        count_delta=(reported-unique_ids) if reported is not None else None
+        count_matches=(reported==unique_ids) if reported is not None else None
+        if reported is None: count_status='unknown'
+        elif count_matches: count_status='match'
+        else: count_status='mismatch'
+        pagination_status='truncated' if hit_cap else ('pages-scanned' if pagination else 'no-next-page-found')
+        # A count match is required. Unknown count is never silently promoted to complete.
+        complete=bool(pages_ok and urls and unknown==0 and reported is not None and count_matches and not hit_cap)
+        if not pages_ok: enumeration_status='page-fetch-failed'
+        elif hit_cap: enumeration_status='page-cap-reached'
+        elif reported is None: enumeration_status='count-unavailable'
+        elif not count_matches: enumeration_status='count-mismatch'
+        elif unknown: enumeration_status='direct-verification-unknown'
+        elif not urls: enumeration_status='no-listings-discovered'
+        else: enumeration_status='complete'
+        item={
+          'source':source['name'],'community':source.get('community'),'indexUrl':source['url'],'checkedAt':checked,
+          'pagesScanned':len(pages),'paginationDiscovered':len(set(pagination)),'pages':pages,
+          'listingUrls':urls,'listingIdsDiscovered':unique_ids,'duplicateListingUrlCount':duplicates,
+          'reportedCount':reported,'countDelta':count_delta,'countMatches':count_matches,'countStatus':count_status,
+          'paginationStatus':pagination_status,'hitPageCap':hit_cap,'enumerationStatus':enumeration_status,
+          'directVerification':direct,'directActiveCount':active,'directGoneCount':gone,'directUnknownCount':unknown,
+          'jsonLdRecords':records,'httpOk':pages_ok,'complete':complete
+        }
         results.append(item);total+=len(urls)
-    report={'updatedAt':datetime.now(timezone.utc).isoformat(),'sources':results,'totalListingUrlsFound':total,'directUrlsVerified':sum(len(x['directVerification']) for x in results),'completeSourceCount':sum(x['complete'] for x in results),'sourceCount':len(results),'safeToReplaceListings':False}
-    REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(json.dumps(report,ensure_ascii=False,indent=2));return 0
+    report={'schemaVersion':2,'updatedAt':datetime.now(timezone.utc).isoformat(),'sources':results,
+      'totalListingUrlsFound':total,'totalUniqueListingIdsDiscovered':sum(x['listingIdsDiscovered'] for x in results),
+      'directUrlsVerified':sum(len(x['directVerification']) for x in results),
+      'countMatchSourceCount':sum(x['countStatus']=='match' for x in results),
+      'countMismatchSourceCount':sum(x['countStatus']=='mismatch' for x in results),
+      'countUnknownSourceCount':sum(x['countStatus']=='unknown' for x in results),
+      'completeSourceCount':sum(x['complete'] for x in results),'sourceCount':len(results),
+      'safeToReplaceListings':False,
+      'note':'平台原始筆數與已發現的不重複案件 ID 分開記錄；筆數未知、差額未解釋、分頁被截斷或直連無法核實時，不判定完整。'}
+    REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    print(json.dumps({k:v for k,v in report.items() if k!='sources'},ensure_ascii=False,indent=2))
+    return 0
 
 if __name__=='__main__':sys.exit(main())
