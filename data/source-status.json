@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-10-09",
-  "lastUpdated": "2026-10-14 14:43",
+  "lastUpdated": "2026-10-14 15:05",
   "note": "2026-10-14 14:08手動同步新巨蛋591案件S21070676；全13社區、全平台逐案核實尚未完成，整體維持🟡部分完成。591不同頁面顯示筆數有差異，不將平台筆數視為唯一戶數。",
   "communities": {
     "板橋新巨蛋": {
@@ -218,9 +218,9 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-10-14T14:43:23.530698+08:00",
+  "lastScheduledCheck": "2026-10-14T15:05:03.995107+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-10-14 14:43",
+  "lastValidated": "2026-10-14 15:05",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -230,7 +230,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-14T14:43:23.490137+08:00",
+    "checkedAt": "2026-10-14T15:05:03.955011+08:00",
     "sourceCount": 37,
     "communityCount": 13,
     "reasons": [
