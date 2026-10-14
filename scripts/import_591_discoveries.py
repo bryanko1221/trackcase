@@ -25,6 +25,10 @@ def main():
     listings = json.loads(LISTINGS.read_text(encoding="utf-8"))
     now = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
     existing_ids = {str(x.get("id")) for x in listings if x.get("id")}
+    imported_by_591_id = {str(x.get("id"))[4:]: x for x in listings if str(x.get("id","")).startswith("591-")}
+    for item in listings:
+        if str(item.get("id","")).startswith("591-"):
+            item["new"] = False
     existing_591_ids = set()
     for item in listings:
         for url in (item.get("links") or {}).values():
@@ -44,7 +48,7 @@ def main():
         for card in source.get("discoveredListings") or []:
             url = str(card.get("url") or "").split("?")[0]
             ident = str(card.get("listingId") or listing_id_from_url(url) or "")
-            if not ident.isdigit() or ident in seen or ident in existing_591_ids:
+            if not ident.isdigit() or ident in seen:
                 continue
             seen.add(ident)
             title = str(card.get("title") or "").strip()
@@ -52,6 +56,30 @@ def main():
             area = card.get("area")
             floor = card.get("floor")
             total_floor = card.get("totalFloor")
+            prior = imported_by_591_id.get(ident)
+            if prior is not None:
+                old_price = prior.get("price")
+                if title:
+                    prior["title"] = title
+                if price is not None:
+                    prior["price"] = price
+                    if old_price is not None and old_price != price:
+                        prior["changeNote"] = f"591清單卡片價格變動：{old_price}萬→{price}萬（本輪動態清單比對）"
+                if area is not None:
+                    prior["area"] = area
+                if floor is not None:
+                    prior["floor"] = floor
+                if total_floor is not None:
+                    prior["totalFloor"] = total_floor
+                if card.get("layout"):
+                    prior["layout"] = card["layout"]
+                prior["status"] = "active"
+                prior["updated"] = now
+                prior["verificationNote"] = "本輪已重新出現在591公開社區在售清單；未從卡片取得的欄位仍待確認。"
+                existing_591_ids.add(ident)
+                continue
+            if ident in existing_591_ids:
+                continue
             unit = None
             unit_match = re.search(r"([0-9]+(?:\.[0-9]+)?)\s*萬\s*/\s*坪", str(card.get("text") or ""))
             if unit_match:
