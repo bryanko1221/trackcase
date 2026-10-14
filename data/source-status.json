@@ -1,16 +1,17 @@
 {
   "lastVerified": "2026-10-09",
-  "lastUpdated": "2026-10-14 13:53",
-  "note": "2026-10-09晚間補核：Exa Search/Fetch直接案件頁、Firecrawl Search補缺與跨平台比對。整體🟡部分完成；部分591欄位遮蔽、其他平台尚未全量逐案核實；一次搜尋不到不判售出。",
+  "lastUpdated": "2026-10-14 14:08",
+  "note": "2026-10-14 14:08手動同步新巨蛋591案件S21070676；全13社區、全平台逐案核實尚未完成，整體維持🟡部分完成。591不同頁面顯示筆數有差異，不將平台筆數視為唯一戶數。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
         "status": "available",
-        "listedCount": 46,
-        "communityListedCount": null,
+        "listedCount": 51,
+        "communityListedCount": 43,
         "url": "https://sale.591.com.tw/?keywords=%E6%96%B0%E5%B7%A8%E8%9B%8B&regionid=3&firstRow=0&shType=list&community_id=29267&match_type=4",
         "latestSaleUrl": "https://market.591.com.tw/29267/sale",
-        "lastChecked": "2026-09-28"
+        "lastChecked": "2026-10-14",
+        "note": "本輪頁面筆數存在口徑差異：一般在售頁約51、社區頁約43，另有搜尋索引顯示48；本輪已開啟9個別案件頁，其中7筆主要欄位可讀，尚未逐筆完成全部清單。"
       },
       "樂居": {
         "status": "available",
@@ -217,7 +218,7 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-10-14T13:53:44.215705+08:00",
+  "lastScheduledCheck": "2026-10-14T14:08:00+08:00",
   "batchScanReport": "data/batch-scan-report.json",
   "lastValidated": "2026-10-14 13:53",
   "validationReport": "data/batch-scan-report.json",
@@ -229,12 +230,14 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-14T13:53:44.179030+08:00",
+    "checkedAt": "2026-10-14T14:08:00+08:00",
     "sourceCount": 14,
     "communityCount": 13,
     "reasons": [
       "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
-      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
+      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實",
+      "本次僅同步新巨蛋591案件S21070676，並非13社區全平台完整掃描",
+      "591不同清單頁顯示筆數有差異，個別案件仍需逐案核實及跨平台去重"
     ]
   },
   "exaSecondPass": {
@@ -671,5 +674,14 @@
       "candidates": 1,
       "status": "partial"
     }
+  },
+  "manualListingUpdate": {
+    "checkedAt": "2026-10-14T14:08:00+08:00",
+    "status": "partial",
+    "community": "板橋新巨蛋",
+    "listingId": "S21070676",
+    "siteRecordId": "ng-1580-38f-studio-s21070676",
+    "action": "added-to-data-listings",
+    "note": "本次首次納入網站；非確認仲介首次上架；門牌與跨平台重複待確認。"
   }
 }
