@@ -47,7 +47,7 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          for path in [Path('data/listings.json'), Path('data/source-status.json'), Path('data/batch-sources.json'), Path('data/batch-scan-report.json'), Path('data/verified-overrides.json'), Path('data/community-seed.json'), Path('data/scan-ledger.json')]:
+          for path in [Path('data/listings.json'), Path('data/source-status.json'), Path('data/batch-sources.json'), Path('data/batch-scan-report.json'), Path('data/listing-validation-report.json'), Path('data/verified-overrides.json'), Path('data/community-seed.json'), Path('data/scan-ledger.json')]:
               json.loads(path.read_text(encoding='utf-8'))
               print(f'OK: {path}')
           html = Path('index.html').read_text(encoding='utf-8')
@@ -94,7 +94,7 @@ jobs:
           set -e
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/listings.json data/batch-scan-report.json data/source-status.json index.html timestamp.js
+          git add data/listings.json data/batch-scan-report.json data/listing-validation-report.json data/source-status.json index.html timestamp.js
           git diff --cached --quiet && exit 0
           git commit -m 'chore: strict daily listing scan and website status'
           for attempt in 1 2 3 4 5; do

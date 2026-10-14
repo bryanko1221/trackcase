@@ -98,20 +98,26 @@ def extract_reported_count(source,parser):
 
 def crawl_source(source,max_pages=25):
     root=source['url']; queue=[root]; seen=set(); listing_urls=[]; pages=[]; pagination=[]; records=[]
-    last_parser=None; hit_page_cap=False
+    last_parser=None; reported=None; hit_page_cap=False
     while queue and len(seen)<max_pages:
         url=queue.pop(0)
         if url in seen:continue
         seen.add(url)
         try:
             html,status=fetch(url); p=parse(html); last_parser=p
+            if reported is None:
+                reported=extract_reported_count(source,p)
             pages.append({'url':url,'httpStatus':status,'ok':200<=status<400})
             for item in p.link_items:
                 u=urljoin(url,item['href'])
                 if is_listing(source,u) and u not in listing_urls:listing_urls.append(u)
                 label=item.get('text','')
-                if same_origin(root,u) and u not in seen and PAGINATION.search(u) and u not in queue and len(queue)+len(seen)<max_pages:
-                    queue.append(u); pagination.append(u)
+                if same_origin(root,u) and u not in seen and PAGINATION.search(u) and u not in queue:
+                    pagination.append(u)
+                    if len(queue)+len(seen)<max_pages:
+                        queue.append(u)
+                    else:
+                        hit_page_cap=True
             walk_json(p.jsonld,records)
         except HTTPError as e:
             pages.append({'url':url,'httpStatus':e.code,'ok':False,'error':'http-error'})
@@ -119,7 +125,6 @@ def crawl_source(source,max_pages=25):
             pages.append({'url':url,'httpStatus':None,'ok':False,'error':type(e).__name__})
         time.sleep(float(source.get('delaySeconds',1)))
     if queue: hit_page_cap=True
-    reported=extract_reported_count(source,last_parser) if last_parser else None
     ids=[listing_key(u) for u in listing_urls]
     unique_ids=set(ids)
     duplicate_count=len(ids)-len(unique_ids)

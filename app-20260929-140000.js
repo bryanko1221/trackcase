@@ -90,6 +90,9 @@ async function init(){
     if(raw){const dt=new Date(raw);if(!Number.isNaN(dt.getTime()))stamp=new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(dt).replaceAll('/','-');}
     $('#lastUpdated').textContent='最後更新：'+stamp+'｜掃描流程2.0｜'+(sourceMeta?.scanCompleteness?.status!=='complete'||scanMeta.coverage_status==='partial'?'🟡部分完成：平台逐案核實仍需補齊':'🟢完整掃描');
   }
+  { const cr=sourceMeta?.scanCompleteness?.countReconciliation; const sc=sourceMeta?.scanCompleteness;
+    window.__TRACKCASE_COUNT_DIAG__=cr?{matched:cr.matchedSources??0,mismatch:cr.mismatchedSources??0,unknown:cr.unknownCountSources??0,ids:cr.uniqueListingIdsDiscovered??0,label:sc?.label||'🟡部分完成'}:null;
+  }
   if($('#buildingFilter'))$('#buildingFilter').innerHTML='<option value="all">全部</option>'+MONITORED.map(x=>`<option value="${x}">${x}</option>`).join('');
   const blocks=[...new Set(listings.map(x=>x.block).filter(Boolean))];
   if($('#blockFilter'))$('#blockFilter').innerHTML='<option value="all">全部</option>'+blocks.map(x=>`<option value="${x}">${x}</option>`).join('');
