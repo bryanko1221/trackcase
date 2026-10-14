@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-10-09",
-  "lastUpdated": "2026-10-13 15:24",
+  "lastUpdated": "2026-10-14 13:53",
   "note": "2026-10-09晚間補核：Exa Search/Fetch直接案件頁、Firecrawl Search補缺與跨平台比對。整體🟡部分完成；部分591欄位遮蔽、其他平台尚未全量逐案核實；一次搜尋不到不判售出。",
   "communities": {
     "板橋新巨蛋": {
@@ -217,9 +217,9 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-10-13T15:24:18.282759+08:00",
+  "lastScheduledCheck": "2026-10-14T13:53:44.215705+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-10-13 15:24",
+  "lastValidated": "2026-10-14 13:53",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -229,7 +229,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-13T15:24:18.240282+08:00",
+    "checkedAt": "2026-10-14T13:53:44.179030+08:00",
     "sourceCount": 14,
     "communityCount": 13,
     "reasons": [

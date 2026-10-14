@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T15:22:59.398283+08:00",
+  "updatedAt": "2026-10-14T13:52:00.950231+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -181,9 +181,9 @@
       "id": "pc-a-2588",
       "source": "住商不動產",
       "url": "https://www.hbhousing.com.tw/detail?sn=KS197260",
-      "state": "unknown",
-      "httpStatus": 403,
-      "reason": "access-blocked-or-server-error"
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
     },
     {
       "id": "pc-b-3698",
@@ -510,7 +510,7 @@
       "source": "住商",
       "url": "https://www.hbhousing.com.tw/detail?sn=WS76211",
       "state": "unknown",
-      "httpStatus": 403,
+      "httpStatus": 420,
       "reason": "access-blocked-or-server-error"
     },
     {
@@ -541,9 +541,9 @@
       "id": "yongkang-2115",
       "source": "住商",
       "url": "https://www.hbhousing.com.tw/detail?sn=WS76225",
-      "state": "unknown",
-      "httpStatus": 403,
-      "reason": "access-blocked-or-server-error"
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
     },
     {
       "id": "yongkang-1980",
@@ -574,7 +574,7 @@
     {
       "id": "lry-2850-16f",
       "change": "all-known-links-gone",
-      "date": "2026-10-13"
+      "date": "2026-10-14"
     }
   ]
 }
