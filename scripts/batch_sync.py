@@ -138,11 +138,11 @@ def crawl_591_dynamic(source,max_scrolls=40):
             for card in cards:
                 text_value=card.get('text','')
                 pid=listing_key(card.get('url',''))
-                price_matches=re.findall(r'(?<![.\\d])([0-9,]{3,})\\s*萬(?!\\s*/\\s*坪)',text_value)
-                area_match=re.search(r'([0-9]+(?:\\.[0-9]+)?)\\s*坪',text_value)
-                floor_match=re.search(r'([0-9]{1,2})\\s*F\\s*/\\s*([0-9]{1,2})\\s*F',text_value,re.I)
+                price_matches=re.findall(r'(?<![.\d])([0-9,]{3,})\s*萬(?!\s*/\s*坪)',text_value)
+                area_match=re.search(r'([0-9]+(?:\.[0-9]+)?)\s*坪',text_value)
+                floor_match=re.search(r'([0-9]{1,2})\s*F\s*/\s*([0-9]{1,2})\s*F',text_value,re.I)
                 layout_match=re.search(r'([0-9]+房[0-9]+廳[0-9]+衛)',text_value)
-                title_match=re.search(r'([\\u4e00-\\u9fffA-Za-z0-9][^\\n]{3,70}?)(?:\\s+[0-9]+房|\\s+[0-9]+\\.?[0-9]*\\s*坪|\\s+[0-9,]+\\s*萬)',text_value)
+                title_match=re.search(r'([\u4e00-\u9fffA-Za-z0-9][^\n]{3,70}?)(?:\s+[0-9]+房|\s+[0-9]+\.?[0-9]*\s*坪|\s+[0-9,]+\s*萬)',text_value)
                 card['listingId']=pid
                 card['title']=title_match.group(1).strip() if title_match else text_value[:70]
                 card['price']=int(price_matches[-1].replace(',','')) if price_matches else None
