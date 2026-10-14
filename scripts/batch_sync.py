@@ -110,8 +110,12 @@ def crawl_source(source,max_pages=25):
                 u=urljoin(url,item['href'])
                 if is_listing(source,u) and u not in listing_urls:listing_urls.append(u)
                 label=item.get('text','')
-                if same_origin(root,u) and u not in seen and PAGINATION.search(u) and u not in queue and len(queue)+len(seen)<max_pages:
-                    queue.append(u); pagination.append(u)
+                if same_origin(root,u) and u not in seen and PAGINATION.search(u) and u not in queue:
+                    pagination.append(u)
+                    if len(queue)+len(seen)<max_pages:
+                        queue.append(u)
+                    else:
+                        hit_page_cap=True
             walk_json(p.jsonld,records)
         except HTTPError as e:
             pages.append({'url':url,'httpStatus':e.code,'ok':False,'error':'http-error'})
