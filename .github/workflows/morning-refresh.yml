@@ -27,6 +27,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install browser for dynamic 591 listings
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium
+
       - name: Recover full listing base
         run: python scripts/recover_base_listings.py
 
