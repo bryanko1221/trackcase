@@ -127,8 +127,29 @@ def crawl_591_dynamic(source,max_scrolls=40):
                 page.wait_for_timeout(900)
             else:
                 hit_cap=True
-            links=page.locator(selector).evaluate_all("(els) => els.map(a => a.href)")
+            cards=page.locator(selector).evaluate_all("""(els) => els.map(a => ({
+                url: a.href,
+                text: ((a.innerText || a.parentElement?.innerText || '') + '').replace(/\\s+/g, ' ').trim(),
+                image: a.querySelector('img')?.src || a.parentElement?.querySelector('img')?.src || null
+            }))""")
+            links=[x.get('url') for x in cards if x.get('url')]
             listing_urls=list(dict.fromkeys(listing_urls+links))
+            # Keep visible card text for downstream extraction/import; values are parsed conservatively.
+            for card in cards:
+                text_value=card.get('text','')
+                pid=listing_key(card.get('url',''))
+                price_matches=re.findall(r'(?<![.\\d])([0-9,]{3,})\\s*萬(?!\\s*/\\s*坪)',text_value)
+                area_match=re.search(r'([0-9]+(?:\\.[0-9]+)?)\\s*坪',text_value)
+                floor_match=re.search(r'([0-9]{1,2})\\s*F\\s*/\\s*([0-9]{1,2})\\s*F',text_value,re.I)
+                layout_match=re.search(r'([0-9]+房[0-9]+廳[0-9]+衛)',text_value)
+                title_match=re.search(r'([\\u4e00-\\u9fffA-Za-z0-9][^\\n]{3,70}?)(?:\\s+[0-9]+房|\\s+[0-9]+\\.?[0-9]*\\s*坪|\\s+[0-9,]+\\s*萬)',text_value)
+                card['listingId']=pid
+                card['title']=title_match.group(1).strip() if title_match else text_value[:70]
+                card['price']=int(price_matches[-1].replace(',','')) if price_matches else None
+                card['area']=float(area_match.group(1)) if area_match else None
+                card['floor']=int(floor_match.group(1)) if floor_match else None
+                card['totalFloor']=int(floor_match.group(2)) if floor_match else None
+                card['layout']=layout_match.group(1) if layout_match else None
             body=page.locator('body').inner_text(timeout=10000)
             m=re.search(r'本社區在售物件\s*[（(]\s*([0-9,]+)\s*筆\s*[）)]',body)
             if m:
@@ -139,7 +160,7 @@ def crawl_591_dynamic(source,max_scrolls=40):
             checked_pages.append({'url':root,'httpStatus':status,'ok':bool(status and 200<=status<400),
                                   'rendered':True,'scrollRounds':scrolls,
                                   'uniqueListingIdsAfterRender':len({listing_key(u) for u in listing_urls}),
-                                  'stableRoundsAtEnd':stable_rounds,
+                                  'stableRoundsAtEnd':stable_rounds,'cards':cards,
                                   'error':None if reported is not None else 'community-sale-count-not-found'})
             browser.close()
     except Exception as e:
@@ -232,6 +253,7 @@ def main():
           'scanMode':'browser-rendered-infinite-scroll' if (source.get('name')=='591' and '/sale' in source.get('url','')) else 'http-html-pagination',
           'pagesScanned':len(pages),'paginationDiscovered':len(set(pagination)),'pages':pages,
           'listingUrls':urls,'listingIdsDiscovered':unique_ids,'duplicateListingUrlCount':duplicates,
+          'discoveredListings':(pages[0].get('cards',[]) if (source.get('name')=='591' and '/sale' in source.get('url','') and pages) else []),
           'reportedCount':reported,'countDelta':count_delta,'countMatches':count_matches,'countStatus':count_status,
           'paginationStatus':pagination_status,'hitPageCap':hit_cap,'enumerationStatus':enumeration_status,
           'directVerification':direct,'directActiveCount':active,'directGoneCount':gone,'directUnknownCount':unknown,
