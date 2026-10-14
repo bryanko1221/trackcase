@@ -40,6 +40,9 @@ jobs:
       - name: Batch scan indexes, pagination and every discovered direct listing
         run: python scripts/batch_sync.py
 
+      - name: Import new 591 listings discovered by dynamic browser scan
+        run: python scripts/import_591_discoveries.py
+
       - name: Reconcile known direct listing pages
         run: python scripts/reconcile_listings.py
 
