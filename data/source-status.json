@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-10-09",
-  "lastUpdated": "2026-10-14 14:08",
+  "lastUpdated": "2026-10-14 14:38",
   "note": "2026-10-14 14:08手動同步新巨蛋591案件S21070676；全13社區、全平台逐案核實尚未完成，整體維持🟡部分完成。591不同頁面顯示筆數有差異，不將平台筆數視為唯一戶數。",
   "communities": {
     "板橋新巨蛋": {
@@ -218,9 +218,9 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-10-14T14:08:00+08:00",
+  "lastScheduledCheck": "2026-10-14T14:38:44.836222+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-10-14 13:53",
+  "lastValidated": "2026-10-14 14:38",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -230,14 +230,12 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-14T14:08:00+08:00",
+    "checkedAt": "2026-10-14T14:38:44.794501+08:00",
     "sourceCount": 14,
     "communityCount": 13,
     "reasons": [
       "掃描報告只有逐案件 checked 紀錄，缺少來源層級完整性摘要",
-      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實",
-      "本次僅同步新巨蛋591案件S21070676，並非13社區全平台完整掃描",
-      "591不同清單頁顯示筆數有差異，個別案件仍需逐案核實及跨平台去重"
+      "無法由目前報告證明所有分頁、所有直連及來源預期筆數均已完成核實"
     ]
   },
   "exaSecondPass": {
