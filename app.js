@@ -89,12 +89,6 @@ async function init(){
     if(raw){const dt=new Date(raw);if(!Number.isNaN(dt.getTime()))stamp=new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(dt).replaceAll('/','-');}
     $('#lastUpdated').textContent='最後更新：'+stamp+'｜掃描流程2.0｜'+(sourceMeta?.scanCompleteness?.status==='partial'||scanMeta.coverage_status==='partial'?'🟡部分完成：平台逐案核實仍需補齊':'🟢完整掃描');
   }
-  if($('#diagStatus')) {
-    const cr=sourceMeta?.scanCompleteness?.countReconciliation;
-    const sc=sourceMeta?.scanCompleteness;
-    if(cr) $('#diagStatus').textContent='來源筆數核對：符合 '+(cr.matchedSources??0)+'｜差異 '+(cr.mismatchedSources??0)+'｜未知 '+(cr.unknownCountSources??0)+'｜已發現不重複案件ID '+(cr.uniqueListingIdsDiscovered??0)+'｜'+(sc?.label||'🟡部分完成');
-    else $('#diagStatus').textContent='系統診斷：平台原始筆數與已發現案件 ID 尚未完成核對；未知或受限來源不視為下架。';
-  }
   if($('#buildingFilter'))$('#buildingFilter').innerHTML='<option value="all">全部</option>'+MONITORED.map(x=>`<option value="${x}">${x}</option>`).join('');
   const blocks=[...new Set(listings.map(x=>x.block).filter(Boolean))];
   if($('#blockFilter'))$('#blockFilter').innerHTML='<option value="all">全部</option>'+blocks.map(x=>`<option value="${x}">${x}</option>`).join('');
