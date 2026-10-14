@@ -30,16 +30,20 @@ def main():
         if str(item.get("id","")).startswith("591-"):
             item["new"] = False
     existing_591_ids = set()
+    records_by_591_id = {}
     for item in listings:
         for url in (item.get("links") or {}).values():
             ident = listing_id_from_url(url)
             if ident:
                 existing_591_ids.add(ident)
+                records_by_591_id.setdefault(ident, item)
         for ident in item.get("listingIds") or []:
             if str(ident).isdigit():
                 existing_591_ids.add(str(ident))
+                records_by_591_id.setdefault(str(ident), item)
 
     added = []
+    refreshed = []
     seen = set()
     for source in report.get("sources", []):
         if source.get("source") != "591" or source.get("scanMode") != "browser-rendered-infinite-scroll":
@@ -79,6 +83,13 @@ def main():
                 existing_591_ids.add(ident)
                 continue
             if ident in existing_591_ids:
+                prior_match = records_by_591_id.get(ident)
+                if prior_match is not None:
+                    prior_match.setdefault("sources", {})["591"] = True
+                    prior_match.setdefault("links", {})["591"] = url
+                    prior_match["status"] = "active" if prior_match.get("status") == "gone_pending" else prior_match.get("status", "active")
+                    prior_match["updated"] = now
+                    refreshed.append({"id": prior_match.get("id"), "listingId": ident, "community": community, "source": "591"})
                 continue
             unit = None
             unit_match = re.search(r"([0-9]+(?:\.[0-9]+)?)\s*萬\s*/\s*坪", str(card.get("text") or ""))
@@ -134,7 +145,7 @@ def main():
             added.append({"id": record["id"], "community": community, "listingId": ident, "price": price, "area": area, "floor": floor})
 
     LISTINGS.write_text(json.dumps(listings, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    result = {"added": len(added), "addedListings": added, "totalListings": len(listings), "updatedAt": now}
+    result = {"added": len(added), "refreshedExisting": len(refreshed), "refreshed": refreshed, "addedListings": added, "totalListings": len(listings), "updatedAt": now}
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
