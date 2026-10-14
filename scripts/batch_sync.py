@@ -96,7 +96,62 @@ def extract_reported_count(source,parser):
     m=COUNT_RE.search(corpus)
     return int(m.group(1).replace(',','')) if m else None
 
+
+def crawl_591_dynamic(source,max_scrolls=40):
+    """Render 591's public community sale page and collect cards loaded by scrolling.
+    This uses an ordinary browser session; it does not log in or bypass CAPTCHA/anti-bot controls.
+    """
+    root=source['url']; checked_pages=[]; listing_urls=[]; reported=None; hit_cap=False
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as p:
+            browser=p.chromium.launch(headless=True)
+            page=browser.new_page(locale='zh-TW', user_agent=UA)
+            response=page.goto(root,wait_until='domcontentloaded',timeout=45000)
+            page.wait_for_timeout(2500)
+            selector='a[href*="sale.591.com.tw/home/house/detail/"]'
+            stable_rounds=0; previous_ids=set(); scrolls=0
+            for i in range(max_scrolls):
+                scrolls=i+1
+                links=page.locator(selector).evaluate_all("(els) => els.map(a => a.href)")
+                current={listing_key(u) for u in links}
+                listing_urls=list(dict.fromkeys(listing_urls+links))
+                if current and current==previous_ids:
+                    stable_rounds+=1
+                else:
+                    stable_rounds=0
+                previous_ids=current
+                if stable_rounds>=4 and scrolls>=6:
+                    break
+                page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                page.wait_for_timeout(900)
+            else:
+                hit_cap=True
+            links=page.locator(selector).evaluate_all("(els) => els.map(a => a.href)")
+            listing_urls=list(dict.fromkeys(listing_urls+links))
+            body=page.locator('body').inner_text(timeout=10000)
+            m=re.search(r'本社區在售物件\s*[（(]\s*([0-9,]+)\s*筆\s*[）)]',body)
+            if m:
+                reported=int(m.group(1).replace(',',''))
+            else:
+                reported=None
+            status=response.status if response else None
+            checked_pages.append({'url':root,'httpStatus':status,'ok':bool(status and 200<=status<400),
+                                  'rendered':True,'scrollRounds':scrolls,
+                                  'uniqueListingIdsAfterRender':len({listing_key(u) for u in listing_urls}),
+                                  'stableRoundsAtEnd':stable_rounds,
+                                  'error':None if reported is not None else 'community-sale-count-not-found'})
+            browser.close()
+    except Exception as e:
+        return [],[{'url':root,'httpStatus':None,'ok':False,'rendered':False,
+                    'error':'dynamic-browser-error:'+type(e).__name__}],[],[],None,0,0,True
+    ids=[listing_key(u) for u in listing_urls]
+    unique_ids=set(ids)
+    return listing_urls,checked_pages,[],[],reported,len(unique_ids),len(ids)-len(unique_ids),hit_cap
+
 def crawl_source(source,max_pages=25):
+    if source.get('name')=='591' and '/sale' in source.get('url',''):
+        return crawl_591_dynamic(source)
     root=source['url']; queue=[root]; seen=set(); listing_urls=[]; pages=[]; pagination=[]; records=[]
     last_parser=None; reported=None; hit_page_cap=False
     while queue and len(seen)<max_pages:
@@ -155,7 +210,8 @@ def main():
         if reported is None: count_status='unknown'
         elif count_matches: count_status='match'
         else: count_status='mismatch'
-        pagination_status='truncated' if hit_cap else ('pages-scanned' if pagination else 'no-next-page-found')
+        is_591_dynamic=(source.get('name')=='591' and '/sale' in source.get('url',''))
+        pagination_status=('dynamic-scroll-capped' if hit_cap else 'dynamic-scroll-stable') if is_591_dynamic else ('truncated' if hit_cap else ('pages-scanned' if pagination else 'no-next-page-found'))
         # A count match is required. Unknown count is never silently promoted to complete.
         complete=bool(pages_ok and urls and unknown==0 and reported is not None and count_matches and not hit_cap)
         if not pages_ok: enumeration_status='page-fetch-failed'
@@ -167,6 +223,7 @@ def main():
         else: enumeration_status='complete'
         item={
           'source':source['name'],'community':source.get('community'),'indexUrl':source['url'],'checkedAt':checked,
+          'scanMode':'browser-rendered-infinite-scroll' if (source.get('name')=='591' and '/sale' in source.get('url','')) else 'http-html-pagination',
           'pagesScanned':len(pages),'paginationDiscovered':len(set(pagination)),'pages':pages,
           'listingUrls':urls,'listingIdsDiscovered':unique_ids,'duplicateListingUrlCount':duplicates,
           'reportedCount':reported,'countDelta':count_delta,'countMatches':count_matches,'countStatus':count_status,
