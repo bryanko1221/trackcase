@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T15:22:31.179597+08:00",
+  "updatedAt": "2026-10-15T13:46:21.508825+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -580,53 +580,29 @@
   ],
   "changed": [
     {
-      "id": "ng-1945",
-      "source": "591",
-      "change": "link-invalid",
-      "date": "2026-10-14"
-    },
-    {
       "id": "ng-1880",
       "change": "all-known-links-gone",
-      "date": "2026-10-14"
-    },
-    {
-      "id": "ng-match-01",
-      "source": "591",
-      "change": "link-invalid",
-      "date": "2026-10-14"
+      "date": "2026-10-15"
     },
     {
       "id": "ng-match-01",
       "change": "all-known-links-gone",
-      "date": "2026-10-14"
-    },
-    {
-      "id": "ng-match-08",
-      "source": "591",
-      "change": "link-invalid",
-      "date": "2026-10-14"
+      "date": "2026-10-15"
     },
     {
       "id": "ng-match-08",
       "change": "all-known-links-gone",
-      "date": "2026-10-14"
-    },
-    {
-      "id": "xpd-2980-6f",
-      "source": "591",
-      "change": "link-invalid",
-      "date": "2026-10-14"
+      "date": "2026-10-15"
     },
     {
       "id": "xpd-2980-6f",
       "change": "all-known-links-gone",
-      "date": "2026-10-14"
+      "date": "2026-10-15"
     },
     {
       "id": "lry-2850-16f",
       "change": "all-known-links-gone",
-      "date": "2026-10-14"
+      "date": "2026-10-15"
     }
   ]
 }

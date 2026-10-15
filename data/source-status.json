@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-10-09",
-  "lastUpdated": "2026-10-14 15:23",
+  "lastUpdated": "2026-10-15 13:47",
   "note": "2026-10-14 14:08手動同步新巨蛋591案件S21070676；全13社區、全平台逐案核實尚未完成，整體維持🟡部分完成。591不同頁面顯示筆數有差異，不將平台筆數視為唯一戶數。",
   "communities": {
     "板橋新巨蛋": {
@@ -218,9 +218,9 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-10-14T15:23:58.334868+08:00",
+  "lastScheduledCheck": "2026-10-15T13:47:56.200110+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-10-14 15:23",
+  "lastValidated": "2026-10-15 13:47",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -230,7 +230,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-14T15:23:58.290430+08:00",
+    "checkedAt": "2026-10-15T13:47:56.150390+08:00",
     "sourceCount": 37,
     "communityCount": 13,
     "reasons": [
@@ -249,7 +249,7 @@
       "板橋新巨蛋/中信: 未取得直連案件",
       "板橋新巨蛋/中信: 清單完整性=count-unavailable",
       "板橋新巨蛋/永慶: 未能可靠讀取平台原始筆數",
-      "板橋新巨蛋/永慶: 37筆直連無法核實",
+      "板橋新巨蛋/永慶: 38筆直連無法核實",
       "板橋新巨蛋/永慶: 清單完整性=count-unavailable",
       "板橋新巨蛋/住商: 未能可靠讀取平台原始筆數",
       "板橋新巨蛋/住商: 29筆直連無法核實",
@@ -289,7 +289,7 @@
       "板橋公園世紀/591: 已達分頁上限，可能漏頁",
       "板橋公園世紀/591: 未取得直連案件",
       "板橋公園世紀/591: 清單完整性=page-fetch-failed",
-      "板橋公園世紀/信義: 平台顯示2筆，發現4個不重複案件ID，差額-2",
+      "板橋公園世紀/信義: 平台顯示2筆，發現5個不重複案件ID，差額-3",
       "板橋公園世紀/信義: 清單完整性=count-mismatch",
       "板橋公園世紀/永慶: 來源頁未成功取得",
       "板橋公園世紀/永慶: 未能可靠讀取平台原始筆數",
@@ -381,7 +381,7 @@
       "matchedSources": 3,
       "mismatchedSources": 2,
       "unknownCountSources": 32,
-      "uniqueListingIdsDiscovered": 134
+      "uniqueListingIdsDiscovered": 136
     }
   },
   "exaSecondPass": {
