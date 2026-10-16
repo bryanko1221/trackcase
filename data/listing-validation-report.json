@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T13:46:21.508825+08:00",
+  "updatedAt": "2026-10-16T13:39:01.766419+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -341,9 +341,9 @@
       "id": "ng-match-02",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/20831851.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "gone",
+      "httpStatus": 404,
+      "reason": "not-found"
     },
     {
       "id": "ng-match-05",
@@ -582,27 +582,38 @@
     {
       "id": "ng-1880",
       "change": "all-known-links-gone",
-      "date": "2026-10-15"
+      "date": "2026-10-16"
     },
     {
       "id": "ng-match-01",
       "change": "all-known-links-gone",
-      "date": "2026-10-15"
+      "date": "2026-10-16"
+    },
+    {
+      "id": "ng-match-02",
+      "source": "591",
+      "change": "link-invalid",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "ng-match-02",
+      "change": "all-known-links-gone",
+      "date": "2026-10-16"
     },
     {
       "id": "ng-match-08",
       "change": "all-known-links-gone",
-      "date": "2026-10-15"
+      "date": "2026-10-16"
     },
     {
       "id": "xpd-2980-6f",
       "change": "all-known-links-gone",
-      "date": "2026-10-15"
+      "date": "2026-10-16"
     },
     {
       "id": "lry-2850-16f",
       "change": "all-known-links-gone",
-      "date": "2026-10-15"
+      "date": "2026-10-16"
     }
   ]
 }
