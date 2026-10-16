@@ -1,0 +1,185 @@
+{
+  "checkedAt": "2026-10-16T09:04:00+08:00",
+  "status": "partial",
+  "label": "🟡 部分完成",
+  "communities": 13,
+  "method": "Exa Search → Exa Fetch個別案件頁/社區列表頁 → 跨平台比對與主檔快照核對；Firecrawl額度不足未執行；未使用TinyFish。",
+  "scanCounts": {
+    "individualListingPagesRead": 19,
+    "communityPagesRead": 9,
+    "structuredFieldsReadable": 8,
+    "partialOrMaskedPages": 10,
+    "expiredPages": 1,
+    "masterRecords": 50,
+    "confirmedNewUniqueListings": 0,
+    "newCandidates": 1,
+    "confirmedPriceDrops": 0,
+    "priceDropCandidates": 1,
+    "confirmedPriceUps": 0,
+    "confirmedSoldOrDelisted": 0
+  },
+  "platformCountDiscrepancies": [
+    {
+      "community": "板橋新巨蛋",
+      "platform": "591",
+      "pageHeader": 51,
+      "communityList": 35,
+      "difference": 16,
+      "note": "不同頁面口徑不一致，不能視為唯一戶數。"
+    },
+    {
+      "community": "板橋文化勳章",
+      "platform": "591",
+      "pageHeader": 2,
+      "communityList": 3,
+      "difference": 1,
+      "note": "頁首2筆、社區列表3個刊登卡片。"
+    }
+  ],
+  "communityStatus": [
+    {
+      "community": "板橋新巨蛋",
+      "masterRecords": 23,
+      "directPagesRead": 8,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "S20903931/S20999996高度疑似同戶但未比對照片；S21038916欄位遮蔽，與YC1261573格局/戶別關係待確認。"
+    },
+    {
+      "community": "板橋文化勳章",
+      "masterRecords": 3,
+      "directPagesRead": 0,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "591頁首2/列表3；樂屋3個18樓刊登版本，坪數54.88/55.23不同，未逐筆進入個別頁。"
+    },
+    {
+      "community": "板橋公園世紀",
+      "masterRecords": 5,
+      "directPagesRead": 1,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "A區一樓591 S20761300有效至10/18，2,380萬；台慶/住商相似案2,588萬，價差208萬但戶別/照片未核。"
+    },
+    {
+      "community": "欣璞綻",
+      "masterRecords": 5,
+      "directPagesRead": 2,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "591 S20778150文案可讀2,788萬/25.39坪/16F；樂屋列表另有2,988萬6F候選，個別頁未取得。"
+    },
+    {
+      "community": "綠如意",
+      "masterRecords": 3,
+      "directPagesRead": 2,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "R.TUBE個別頁3,080萬/50.5坪/2F/16F/車位11.84坪，與591 S20904980高度吻合；完整戶別/照片待核；樂屋顯示0筆。"
+    },
+    {
+      "community": "鑑築",
+      "masterRecords": 2,
+      "directPagesRead": 1,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "永慶YC1233722直接頁5,688萬/89.73坪/14F/14F/雙車；頁面顯示5,988→5,688萬但變價日期未揭露。🟦永慶有刊登。"
+    },
+    {
+      "community": "榮耀交響曲",
+      "masterRecords": 1,
+      "directPagesRead": 1,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "永慶YC1255301直接頁5,068萬/75.76坪/2F/15F/雙車。🟦永慶有刊登。"
+    },
+    {
+      "community": "佳元植",
+      "masterRecords": 2,
+      "directPagesRead": 1,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "21世紀7614917直接頁2,358萬/32.96坪/2F/22F/坡道機械車位。"
+    },
+    {
+      "community": "板橋千禧園",
+      "masterRecords": 0,
+      "directPagesRead": 0,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "本輪只取得社區/成交資訊頁，未取得現售個別案件；不能判定無案。"
+    },
+    {
+      "community": "板橋吉祥花園",
+      "masterRecords": 0,
+      "directPagesRead": 0,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "來源尚未配置，未核實，不能判定無案。"
+    },
+    {
+      "community": "雙喜臨門",
+      "masterRecords": 0,
+      "directPagesRead": 0,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "樂屋頁顯示0筆符合待售，其他平台未完成。"
+    },
+    {
+      "community": "板橋晴",
+      "masterRecords": 2,
+      "directPagesRead": 1,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "591頁顯示11個刊登卡片；樂屋列表顯示2,360→2,185萬並標示降價7.6%，但591個別頁價格欄位遮蔽，僅列候選。"
+    },
+    {
+      "community": "永康芬揚",
+      "masterRecords": 4,
+      "directPagesRead": 2,
+      "uniqueDedupedCount": null,
+      "status": "partial",
+      "note": "中信2080902直接頁1,980萬/22.54坪/11F/14F/無車位；591 S20996320車位2.83坪、機械式，但價格/坪數/樓層遮蔽；樂屋多版本車位型式有差異。"
+    }
+  ],
+  "changes": {
+    "newUniqueListings": 0,
+    "newCandidates": 1,
+    "confirmedPriceDrops": 0,
+    "priceDropCandidates": [
+      {
+        "community": "板橋晴",
+        "oldPrice": 2360,
+        "newPrice": 2185,
+        "amount": 175,
+        "calculatedPercent": 7.42,
+        "platform": "樂屋網社區列表",
+        "confirmed": false,
+        "note": "平台標示7.6%；591個別頁價格欄位遮蔽。"
+      }
+    ],
+    "confirmedPriceUps": 0,
+    "confirmedSoldOrDelisted": 0,
+    "historicalPriceChangesWithUnknownDate": [
+      {
+        "community": "鑑築",
+        "oldPrice": 5988,
+        "newPrice": 5688,
+        "amount": 300,
+        "platform": "永慶",
+        "date": null,
+        "notCountedAsToday": true
+      }
+    ]
+  },
+  "gaps": [
+    "尚未完成13社區全平台逐案清單與唯一戶數對帳。",
+    "本輪未完成信義、樂屋、樂居、永慶、中信、住商、台灣房屋、好房網全社區掃描。",
+    "591頁面限制未授權連續自動抓取，本輪未批量抓取。",
+    "Firecrawl額度不足，未重試；未使用TinyFish。"
+  ],
+  "websiteUpdate": {
+    "status": "pending",
+    "note": "此報告需與主檔、source-status及scan-ledger同步並確認Pages部署。"
+  }
+}
