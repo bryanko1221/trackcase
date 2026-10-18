@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-10-09",
-  "lastUpdated": "2026-10-17 13:33",
+  "lastUpdated": "2026-10-18 13:39",
   "note": "2026-10-14 14:08手動同步新巨蛋591案件S21070676；全13社區、全平台逐案核實尚未完成，整體維持🟡部分完成。591不同頁面顯示筆數有差異，不將平台筆數視為唯一戶數。",
   "communities": {
     "板橋新巨蛋": {
@@ -218,9 +218,9 @@
       "note": "第二輪跨平台掃描完成；除591外部分平台僅搜尋層確認。"
     }
   },
-  "lastScheduledCheck": "2026-10-17T13:33:24.709240+08:00",
+  "lastScheduledCheck": "2026-10-18T13:39:49.621184+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-10-17 13:33",
+  "lastValidated": "2026-10-18 13:39",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -230,7 +230,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-17T13:33:24.668427+08:00",
+    "checkedAt": "2026-10-18T13:39:49.580427+08:00",
     "sourceCount": 37,
     "communityCount": 13,
     "reasons": [
@@ -243,7 +243,7 @@
       "板橋新巨蛋/樂居: 未能可靠讀取平台原始筆數",
       "板橋新巨蛋/樂居: 未取得直連案件",
       "板橋新巨蛋/樂居: 清單完整性=page-fetch-failed",
-      "板橋新巨蛋/信義: 平台顯示6筆，發現7個不重複案件ID，差額-1",
+      "板橋新巨蛋/信義: 平台顯示7筆，發現8個不重複案件ID，差額-1",
       "板橋新巨蛋/信義: 清單完整性=count-mismatch",
       "板橋新巨蛋/中信: 未能可靠讀取平台原始筆數",
       "板橋新巨蛋/中信: 未取得直連案件",
@@ -381,7 +381,7 @@
       "matchedSources": 3,
       "mismatchedSources": 2,
       "unknownCountSources": 32,
-      "uniqueListingIdsDiscovered": 136
+      "uniqueListingIdsDiscovered": 138
     }
   },
   "exaSecondPass": {
