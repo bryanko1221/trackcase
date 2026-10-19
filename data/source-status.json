@@ -1,7 +1,7 @@
 {
   "lastVerified": "2026-10-19",
   "lastUpdated": "2026-10-19 09:03",
-  "note": "2026-10-19 09:03：Exa Search＋Fetch直接讀取26個個別案件頁及5個社區/列表頁；18頁主要欄位可讀、8頁欄位被動態模板遮蔽。Firecrawl餘額-1000/1000，未使用。13社區全平台逐案核實及唯一戶數對帳未完成，整體🟡部分完成。",
+  "note": "2026-10-19 09:05：Exa Search＋Fetch直接讀取27個個別案件頁及5個社區/列表頁；19頁主要欄位可讀、8頁欄位被動態模板遮蔽。Firecrawl餘額-1000/1000，未使用。13社區全平台逐案核實及唯一戶數對帳未完成，整體🟡部分完成。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
@@ -1029,11 +1029,11 @@
   "latestScan": {
     "scanDate": "2026-10-19",
     "scanStartedAt": "2026-10-19T08:59:45+08:00",
-    "scanCompletedAt": "2026-10-19T09:03:24+08:00",
+    "scanCompletedAt": "2026-10-19T09:05:20+08:00",
     "status": "partial",
     "label": "🟡 部分完成",
-    "directIndividualPagesRead": 26,
-    "primaryFieldsReadable": 18,
+    "directIndividualPagesRead": 27,
+    "primaryFieldsReadable": 19,
     "partialFields": 8,
     "communityOrListingPagesRead": 5,
     "masterRecordCount": 50,
@@ -1324,6 +1324,12 @@
       "TinyFish不是必要工具。",
       "591頁面欄位遮蔽及頁面條款限制，不進行高頻批量抓取；未核實欄位保留待確認。"
     ],
-    "websiteStatus": "本輪提交後待驗證"
+    "websiteStatus": "source-status.json已提交且Pages部署工作成功；主案件檔、掃描帳本與首頁未能同步，整體網站更新未完全成功。",
+    "counts": {
+      "directIndividualPagesRead": 27,
+      "individualPagesPrimaryFieldsReadable": 19,
+      "individualPagesPartiallyMasked": 8,
+      "communityOrListingPagesRead": 5
+    }
   }
 }
