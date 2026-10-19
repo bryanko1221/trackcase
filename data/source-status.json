@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-10-19",
-  "lastUpdated": "2026-10-19 09:03",
+  "lastUpdated": "2026-10-19 13:57",
   "note": "2026-10-19 09:05：Exa Search＋Fetch直接讀取27個個別案件頁及5個社區/列表頁；19頁主要欄位可讀、8頁欄位被動態模板遮蔽。Firecrawl餘額-1000/1000，未使用。13社區全平台逐案核實及唯一戶數對帳未完成，整體🟡部分完成。",
   "communities": {
     "板橋新巨蛋": {
@@ -416,9 +416,9 @@
       }
     }
   },
-  "lastScheduledCheck": "2026-10-19T09:00:00+08:00",
+  "lastScheduledCheck": "2026-10-19T13:57:11.016747+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-10-18 13:39",
+  "lastValidated": "2026-10-19 13:57",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -428,7 +428,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-18T13:39:49.580427+08:00",
+    "checkedAt": "2026-10-19T13:57:10.963979+08:00",
     "sourceCount": 37,
     "communityCount": 13,
     "reasons": [
