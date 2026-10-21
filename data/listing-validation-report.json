@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T13:51:49.416134+08:00",
+  "updatedAt": "2026-10-21T13:55:06.671502+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -29,9 +29,9 @@
       "id": "ng-1945",
       "source": "中信",
       "url": "https://buy.cthouse.com.tw/house/2118541.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-6800",
@@ -62,8 +62,8 @@
       "source": "中信",
       "url": "https://buy.cthouse.com.tw/house/2040095.html",
       "state": "unknown",
-      "httpStatus": null,
-      "reason": "TimeoutError"
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "ng-6600",
@@ -485,9 +485,9 @@
       "id": "kz-5688-14f",
       "source": "中信",
       "url": "https://buy.cthouse.com.tw/house/2004451.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "kz-4500-2f",
@@ -549,9 +549,9 @@
       "id": "yongkang-1980",
       "source": "中信",
       "url": "https://buy.cthouse.com.tw/house/2080902.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "yongkang-2800",
@@ -582,32 +582,32 @@
     {
       "id": "ng-1880",
       "change": "all-known-links-gone",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
       "id": "ng-match-01",
       "change": "all-known-links-gone",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
       "id": "ng-match-02",
       "change": "all-known-links-gone",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
       "id": "ng-match-08",
       "change": "all-known-links-gone",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
       "id": "xpd-2980-6f",
       "change": "all-known-links-gone",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
       "id": "lry-2850-16f",
       "change": "all-known-links-gone",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     }
   ]
 }
