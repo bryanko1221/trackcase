@@ -1510,7 +1510,19 @@
     "所有13社區跨平台去重後唯一戶數均未完成，必須維持🟡部分完成；單次搜尋不到不判定售出。"
   ],
   "websiteUpdate": {
-    "status": "pending_verification",
-    "message": "資料檔、主檔與首頁已準備更新；需在提交後核對GitHub Pages部署狀態。"
+    "status": "success_live_verified",
+    "verifiedAt": "2026-10-24T09:00:45+08:00",
+    "checks": {
+      "homepageDateAndPartialStatus": true,
+      "homepageCoverageTableVisible": true,
+      "homepageActiveCountVisible": 42,
+      "sourceStatusDateUpdated": true,
+      "listingsFileContainsS20999996": true,
+      "ng1728StatusActive": true,
+      "parkCenturyCurrentLowestDirectPrice2380": true,
+      "dailyReportAccessible": true,
+      "githubPagesWorkflow": "success"
+    },
+    "note": "已核對GitHub Pages首頁日期2026-10-24 09:00、🟡部分完成標示、13社區完整度表、目前在售統計42、主檔S20999996候選、ng-1728 active、A區一樓來源價差與每日報告可讀。"
   }
 }
