@@ -9,8 +9,8 @@
       "totalFloor": 40,
       "parking": false,
       "owner": true,
-      "status": "price_drop",
-      "updated": "2026-09-03",
+      "status": "active",
+      "updated": "2026-10-24",
       "sources": {
         "591": true
       },
@@ -18,7 +18,19 @@
         "591": "https://sale.591.com.tw/home/house/detail/2/20446447.html",
         "好房網": null
       },
-      "sourceVerified": "2026-09-03重新核實：32/40F、12.41坪、1,290萬、屋主李先生；591直接案件為20446447，改用591直接頁，不再使用錯誤的好房網連結"
+      "sourceVerified": "2026-10-24直接Fetch確認591 S20446447仍有有效刊登（有效至2026-12-22）；核心價格/坪數/樓層沿用先前核實資料。既有降價不是今日變價，狀態由price_drop改回active，避免把歷史降價計入今日統計。",
+      "changeNote": "既有降價保留為歷史資料；本輪直接頁確認刊登有效，不計今日降價。",
+      "sourceValidation": {
+        "591": {
+          "state": "active",
+          "httpStatus": 200,
+          "reason": "direct-page-readable-partial-fields",
+          "checkedAt": "2026-10-24T09:00:03+08:00",
+          "url": "https://sale.591.com.tw/home/house/detail/2/20446447.html",
+          "effectiveUntil": "2026-12-22",
+          "note": "本輪直接Fetch確認刊登有效至2026-12-22、最近更新約4小時前；價格/坪數/樓層欄位仍被動態模板遮蔽，沿用既有核實欄位。"
+        }
+      }
     },
     "ng-1200": {
       "status": "gone_pending",
@@ -80,30 +92,97 @@
       "totalFloor": 14,
       "area": 29.58,
       "layout": "3房2廳2衛",
-      "price": 2588,
-      "unit": 87.49,
+      "price": 2380,
+      "unit": 80.46,
       "parking": false,
       "owner": false,
       "yq": true,
       "status": "active",
-      "updated": "2026-09-02",
-      "sourceVerified": "2026-09-02重新核實：永慶YC1288091與樂屋目前均可確認1F、29.58坪、3房、2,588萬；591社區頁目前顯示0筆，故以直接在售來源優先",
+      "updated": "2026-10-24",
+      "sourceVerified": "2026-10-24跨平台直接頁核實：同戶特徵為公園世紀A區候選、1F/14F、29.58坪、3房2廳2衛、無車位、管理費1,775元/月。住商TS147949現價2,380萬（頁面原價2,588萬、降幅8.04%）；台慶TC0532111及住商KS197260仍顯示2,588萬；591 S21096885與S20956618個別頁價格欄位遮蔽。實際變價日期未標示，不列今日降價。永慶目前未取得同戶個別直連；舊資料曾有永慶來源，競業名單暫保守排除，待重新核實。",
       "sources": {
-        "591": false,
+        "591": true,
         "信義": false,
         "樂居": false,
         "樂屋": true,
         "中信": false,
         "永慶": true,
-        "住商": false,
+        "住商": true,
         "台灣房屋": false,
         "好房網": true
       },
       "links": {
         "永慶": "https://shop.yungching.com.tw/0233169908_0167/list/%E6%96%B0%E5%8C%97%E5%B8%82-_c?od=41",
         "樂屋": "https://www.rakuya.com.tw/sell/result?city=2&keyword=%E5%85%AC%E5%9C%92%E4%B8%96%E7%B4%80",
-        "好房網": "https://buy.housefun.com.tw/mrt/%E6%96%B0%E5%9F%94%E7%AB%99_s/%E9%9B%BB%E6%A2%AF%E5%A4%A7%E6%A8%93_type/%E4%BD%8F%E5%AE%85_use"
-      }
+        "好房網": "https://buy.housefun.com.tw/mrt/%E6%96%B0%E5%9F%94%E7%AB%99_s/%E9%9B%BB%E6%A2%AF%E5%A4%A7%E6%A8%93_type/%E4%BD%8F%E5%AE%85_use",
+        "住商不動產-TS147949（現價2,380萬）": "https://www.hbhousing.com.tw/detail?sn=TS147949",
+        "591-S21096885（價格欄位遮蔽）": "https://sale.591.com.tw/home/house/detail/2/21096885.html",
+        "591-S20956618（價格欄位遮蔽）": "https://sale.591.com.tw/home/house/detail/2/20956618.html",
+        "台慶不動產": "https://buy.taiching.com.tw/house/7509130",
+        "住商不動產-KS197260（2,588萬版本）": "https://www.hbhousing.com.tw/detail?sn=KS197260"
+      },
+      "sourceValidation": {
+        "住商TS147949": {
+          "state": "active",
+          "httpStatus": 200,
+          "reason": "direct-page-readable",
+          "checkedAt": "2026-10-24T09:00:03+08:00",
+          "url": "https://www.hbhousing.com.tw/detail?sn=TS147949",
+          "note": "2,380萬、原價2,588萬、29.58坪、1F/14F、3房、無車位、管理費1,775元/月。"
+        },
+        "台慶TC0532111": {
+          "state": "active",
+          "httpStatus": 200,
+          "reason": "direct-page-readable",
+          "checkedAt": "2026-10-24T09:00:03+08:00",
+          "url": "https://buy.taiching.com.tw/house/7509130",
+          "note": "2,588萬、29.58坪、1F/14F、3房。"
+        },
+        "住商KS197260": {
+          "state": "active",
+          "httpStatus": 200,
+          "reason": "direct-page-readable",
+          "checkedAt": "2026-10-24T09:00:03+08:00",
+          "url": "https://www.hbhousing.com.tw/detail?sn=KS197260",
+          "note": "2,588萬、29.58坪、1F/14F、3房、管理費1,775元/月。"
+        },
+        "591-S21096885": {
+          "state": "active",
+          "httpStatus": 200,
+          "reason": "direct-page-partial-fields",
+          "checkedAt": "2026-10-24T09:00:03+08:00",
+          "url": "https://sale.591.com.tw/home/house/detail/2/21096885.html",
+          "effectiveUntil": "2026-12-16",
+          "note": "29.58坪、1F/14F、3房、管理費1,775元/月；價格欄位被模板遮蔽。"
+        },
+        "591-S20956618": {
+          "state": "active",
+          "httpStatus": 200,
+          "reason": "direct-page-partial-fields",
+          "checkedAt": "2026-10-24T09:00:03+08:00",
+          "url": "https://sale.591.com.tw/home/house/detail/2/20956618.html",
+          "effectiveUntil": "2026-11-22",
+          "note": "標題明示公園世紀A區一樓庭院三房；價格欄位被模板遮蔽。"
+        },
+        "永慶": {
+          "state": "unverified",
+          "checkedAt": "2026-10-24T09:00:03+08:00",
+          "reason": "no-current-direct-listing-page",
+          "historicalUrl": "https://shop.yungching.com.tw/0233169908_0167/list/%E6%96%B0%E5%8C%97%E5%B8%82-_c?od=41",
+          "note": "舊資料只有店舖/社區清單，非本戶個別案件直連；目前是否仍有永慶同戶刊登未核實。"
+        }
+      },
+      "priceVariants": {
+        "住商 TS147949": 2380,
+        "台慶 TC0532111": 2588,
+        "住商 KS197260": 2588,
+        "591 S21096885": null,
+        "591 S20956618": null
+      },
+      "priceConflictNote": "2026-10-24跨平台直接頁核實：同戶特徵為公園世紀A區候選、1F/14F、29.58坪、3房2廳2衛、無車位、管理費1,775元/月。住商TS147949現價2,380萬（頁面原價2,588萬、降幅8.04%）；台慶TC0532111及住商KS197260仍顯示2,588萬；591 S21096885與S20956618個別頁價格欄位遮蔽。實際變價日期未標示，不列今日降價。永慶目前未取得同戶個別直連；舊資料曾有永慶來源，競業名單暫保守排除，待重新核實。",
+      "changeNote": "本輪確認不同平台仍有2,380萬與2,588萬版本；原價→現價的實際變價日期未標示，不計今日降價。",
+      "matchStatus": "高度吻合同戶候選；價格衝突保留，照片/門牌仍待最後核對",
+      "competitorStatus": "暫不列競業開發名單：過往資料曾有永慶來源，本輪未取得永慶個別直連，先保守排除"
     }
   },
   "板橋公園世紀B、C區": {
