@@ -53,7 +53,7 @@
     "required_action": "每次完整掃描都必須測試新上架搜尋、逐平台展開及直接案件網址健康狀態。"
   },
   "coverage_status": "partial",
-  "coverage_note": "2026-10-24 09:00：25個不重複個別案件頁、11頁主要欄位可讀、14頁部分遮蔽；全13社區全平台逐案清單與唯一戶數仍未完成。平台差異及未核實來源已記錄，網站必須顯示🟡部分完成。",
+  "coverage_note": "2026-10-24 09:00：25個不重複個別案件頁、11頁主要欄位可讀、14頁部分遮蔽；全13社區全平台逐案清單與唯一戶數仍未完成。平台差異及未核實來源已記錄，網站必須顯示🟡部分完成。 GitHub Pages已更新並核實首頁日期、🟡部分完成表、主檔與每日報告。",
   "latest_run": {
     "checkedAt": "2026-10-24T09:00:03+08:00",
     "scanDate": "2026-10-24",
@@ -1500,7 +1500,23 @@
       "公園世紀A區同戶候選的永慶來源今日未取得個別案件直連；因舊資料曾顯示永慶刊登，競業開發名單暫保守排除，待重新核實。",
       "未確認新增唯一戶、今日降價、今日漲價或售出/下架事件。新巨蛋S20999996是新增納入主檔候選，不代表今日首次上架。",
       "所有13社區跨平台去重後唯一戶數均未完成，必須維持🟡部分完成；單次搜尋不到不判定售出。"
-    ]
+    ],
+    "websiteUpdate": {
+      "status": "success_live_verified",
+      "verifiedAt": "2026-10-24T09:00:45+08:00",
+      "checks": {
+        "homepageDateAndPartialStatus": true,
+        "homepageCoverageTableVisible": true,
+        "homepageActiveCountVisible": 42,
+        "sourceStatusDateUpdated": true,
+        "listingsFileContainsS20999996": true,
+        "ng1728StatusActive": true,
+        "parkCenturyCurrentLowestDirectPrice2380": true,
+        "dailyReportAccessible": true,
+        "githubPagesWorkflow": "success"
+      },
+      "note": "已核對GitHub Pages首頁日期2026-10-24 09:00、🟡部分完成標示、13社區完整度表、目前在售統計42、主檔S20999996候選、ng-1728 active、A區一樓來源價差與每日報告可讀。"
+    }
   },
   "run_history": [
     {
