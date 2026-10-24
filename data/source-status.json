@@ -2253,7 +2253,7 @@
     ],
     "websiteUpdate": {
       "status": "success_live_verified",
-      "verifiedAt": "2026-10-24T09:00:45+08:00",
+      "verifiedAt": "2026-10-24T09:09:58+08:00",
       "checks": {
         "homepageDateAndPartialStatus": true,
         "homepageCoverageTableVisible": true,
@@ -2265,7 +2265,7 @@
         "dailyReportAccessible": true,
         "githubPagesWorkflow": "success"
       },
-      "note": "已核對GitHub Pages首頁日期2026-10-24 09:00、🟡部分完成標示、13社區完整度表、目前在售統計42、主檔S20999996候選、ng-1728 active、A區一樓來源價差與每日報告可讀。"
+      "note": "2026-10-24 09:09:58（台北時間）核對：GitHub Pages首頁日期、🟡部分完成表、在售統計42、主檔候選S20999996、ng-1728狀態與每日報告均可讀；部署工作流程成功。"
     }
   },
   "communityStatus": {
@@ -3945,7 +3945,7 @@
     ],
     "websiteUpdate": {
       "status": "success_live_verified",
-      "verifiedAt": "2026-10-24T09:00:45+08:00",
+      "verifiedAt": "2026-10-24T09:09:58+08:00",
       "checks": {
         "homepageDateAndPartialStatus": true,
         "homepageCoverageTableVisible": true,
@@ -3957,7 +3957,7 @@
         "dailyReportAccessible": true,
         "githubPagesWorkflow": "success"
       },
-      "note": "已核對GitHub Pages首頁日期2026-10-24 09:00、🟡部分完成標示、13社區完整度表、目前在售統計42、主檔S20999996候選、ng-1728 active、A區一樓來源價差與每日報告可讀。"
+      "note": "2026-10-24 09:09:58（台北時間）核對：GitHub Pages首頁日期、🟡部分完成表、在售統計42、主檔候選S20999996、ng-1728狀態與每日報告均可讀；部署工作流程成功。"
     }
   },
   "latestAutomationWrite": {
@@ -3965,7 +3965,7 @@
     "status": "success_live_verified",
     "verification": {
       "status": "success_live_verified",
-      "verifiedAt": "2026-10-24T09:00:45+08:00",
+      "verifiedAt": "2026-10-24T09:09:58+08:00",
       "checks": {
         "homepageDateAndPartialStatus": true,
         "homepageCoverageTableVisible": true,
@@ -3977,7 +3977,9 @@
         "dailyReportAccessible": true,
         "githubPagesWorkflow": "success"
       },
-      "note": "已核對GitHub Pages首頁日期2026-10-24 09:00、🟡部分完成標示、13社區完整度表、目前在售統計42、主檔S20999996候選、ng-1728 active、A區一樓來源價差與每日報告可讀。"
-    }
+      "note": "2026-10-24 09:09:58（台北時間）核對：GitHub Pages首頁日期、🟡部分完成表、在售統計42、主檔候選S20999996、ng-1728狀態與每日報告均可讀；部署工作流程成功。"
+    },
+    "verifiedAt": "2026-10-24T09:09:58+08:00",
+    "note": "2026-10-24 09:09:58（台北時間）核對：GitHub Pages首頁日期、🟡部分完成表、在售統計42、主檔候選S20999996、ng-1728狀態與每日報告均可讀；部署工作流程成功。"
   }
 }
