@@ -1,7 +1,7 @@
 {
   "lastVerified": "2026-10-24",
   "lastUpdated": "2026-10-24 09:00",
-  "note": "2026-10-24 09:00：Exa Search＋Exa Fetch直接讀取25個不重複個別案件頁；11頁主要欄位可讀、14頁部分欄位遮蔽。13社區全平台逐案核實及唯一戶數對帳未完成，整體🟡部分完成。已修正新巨蛋兩筆狀態，新增S20999996待確認候選，並記錄公園世紀A區價格差異。",
+  "note": "2026-10-24 09:00：Exa Search＋Exa Fetch直接讀取25個不重複個別案件頁；11頁主要欄位可讀、14頁部分欄位遮蔽。13社區全平台逐案核實及唯一戶數對帳未完成，整體🟡部分完成。已修正新巨蛋兩筆狀態，新增S20999996待確認候選，並記錄公園世紀A區價格差異。 GitHub Pages部署已完成並直接核對：首頁日期/部分完成表、主檔候選與每日報告均可讀。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
@@ -2252,8 +2252,20 @@
       "所有13社區跨平台去重後唯一戶數均未完成，必須維持🟡部分完成；單次搜尋不到不判定售出。"
     ],
     "websiteUpdate": {
-      "status": "pending",
-      "note": "提交後需再核實GitHub Pages部署、日期、案件數與變化統計。"
+      "status": "success_live_verified",
+      "verifiedAt": "2026-10-24T09:00:45+08:00",
+      "checks": {
+        "homepageDateAndPartialStatus": true,
+        "homepageCoverageTableVisible": true,
+        "homepageActiveCountVisible": 42,
+        "sourceStatusDateUpdated": true,
+        "listingsFileContainsS20999996": true,
+        "ng1728StatusActive": true,
+        "parkCenturyCurrentLowestDirectPrice2380": true,
+        "dailyReportAccessible": true,
+        "githubPagesWorkflow": "success"
+      },
+      "note": "已核對GitHub Pages首頁日期2026-10-24 09:00、🟡部分完成標示、13社區完整度表、目前在售統計42、主檔S20999996候選、ng-1728 active、A區一樓來源價差與每日報告可讀。"
     }
   },
   "communityStatus": {
@@ -3932,22 +3944,40 @@
       "所有13社區跨平台去重後唯一戶數均未完成，必須維持🟡部分完成；單次搜尋不到不判定售出。"
     ],
     "websiteUpdate": {
-      "status": "pending",
-      "note": "提交後需再核實GitHub Pages部署、日期、案件數與變化統計。"
+      "status": "success_live_verified",
+      "verifiedAt": "2026-10-24T09:00:45+08:00",
+      "checks": {
+        "homepageDateAndPartialStatus": true,
+        "homepageCoverageTableVisible": true,
+        "homepageActiveCountVisible": 42,
+        "sourceStatusDateUpdated": true,
+        "listingsFileContainsS20999996": true,
+        "ng1728StatusActive": true,
+        "parkCenturyCurrentLowestDirectPrice2380": true,
+        "dailyReportAccessible": true,
+        "githubPagesWorkflow": "success"
+      },
+      "note": "已核對GitHub Pages首頁日期2026-10-24 09:00、🟡部分完成標示、13社區完整度表、目前在售統計42、主檔S20999996候選、ng-1728 active、A區一樓來源價差與每日報告可讀。"
     }
   },
   "latestAutomationWrite": {
-    "checkedAt": "2026-10-24T09:00:03+08:00",
-    "status": "pending_verification",
-    "files": [
-      "data/listings.json",
-      "data/verified-overrides.json",
-      "data/source-status.json",
-      "data/scan-ledger.json",
-      "app-20260929-140000.js",
-      "index.html",
-      "data/daily-scan-report-2026-10-24.json"
-    ],
-    "note": "GitHub更新提交後，仍需檢查GitHub Pages是否已部署及前端日期/筆數。"
+    "checkedAt": "2026-10-24T09:00:45+08:00",
+    "status": "success_live_verified",
+    "verification": {
+      "status": "success_live_verified",
+      "verifiedAt": "2026-10-24T09:00:45+08:00",
+      "checks": {
+        "homepageDateAndPartialStatus": true,
+        "homepageCoverageTableVisible": true,
+        "homepageActiveCountVisible": 42,
+        "sourceStatusDateUpdated": true,
+        "listingsFileContainsS20999996": true,
+        "ng1728StatusActive": true,
+        "parkCenturyCurrentLowestDirectPrice2380": true,
+        "dailyReportAccessible": true,
+        "githubPagesWorkflow": "success"
+      },
+      "note": "已核對GitHub Pages首頁日期2026-10-24 09:00、🟡部分完成標示、13社區完整度表、目前在售統計42、主檔S20999996候選、ng-1728 active、A區一樓來源價差與每日報告可讀。"
+    }
   }
 }
