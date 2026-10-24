@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T14:00:24.191387+08:00",
+  "updatedAt": "2026-10-24T13:36:02.220764+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -61,9 +61,9 @@
       "id": "ng-6800",
       "source": "中信",
       "url": "https://buy.cthouse.com.tw/house/2040095.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": null,
+      "reason": "TimeoutError"
     },
     {
       "id": "ng-6600",
@@ -180,6 +180,38 @@
     {
       "id": "pc-a-2588",
       "source": "住商不動產",
+      "url": "https://www.hbhousing.com.tw/detail?sn=KS197260",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "pc-a-2588",
+      "source": "住商不動產-TS147949（現價2,380萬）",
+      "url": "https://www.hbhousing.com.tw/detail?sn=TS147949",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "pc-a-2588",
+      "source": "591-S21096885（價格欄位遮蔽）",
+      "url": "https://sale.591.com.tw/home/house/detail/2/21096885.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "pc-a-2588",
+      "source": "591-S20956618（價格欄位遮蔽）",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20956618.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "pc-a-2588",
+      "source": "住商不動產-KS197260（2,588萬版本）",
       "url": "https://www.hbhousing.com.tw/detail?sn=KS197260",
       "state": "active",
       "httpStatus": 200,
@@ -576,43 +608,51 @@
       "state": "active",
       "httpStatus": 200,
       "reason": "ok"
+    },
+    {
+      "id": "ng-3988-s20999996",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20999996.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
     }
   ],
   "changed": [
     {
       "id": "ng-1880",
       "change": "all-known-links-gone",
-      "date": "2026-10-23"
+      "date": "2026-10-24"
     },
     {
       "id": "ng-match-01",
       "change": "all-known-links-gone",
-      "date": "2026-10-23"
+      "date": "2026-10-24"
     },
     {
       "id": "ng-match-02",
       "change": "all-known-links-gone",
-      "date": "2026-10-23"
+      "date": "2026-10-24"
     },
     {
       "id": "ng-match-08",
       "change": "all-known-links-gone",
-      "date": "2026-10-23"
+      "date": "2026-10-24"
     },
     {
       "id": "xpd-2788-16f",
       "change": "all-known-links-gone",
-      "date": "2026-10-23"
+      "date": "2026-10-24"
     },
     {
       "id": "xpd-2980-6f",
       "change": "all-known-links-gone",
-      "date": "2026-10-23"
+      "date": "2026-10-24"
     },
     {
       "id": "lry-2850-16f",
       "change": "all-known-links-gone",
-      "date": "2026-10-23"
+      "date": "2026-10-24"
     }
   ]
 }
