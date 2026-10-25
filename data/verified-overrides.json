@@ -10,7 +10,7 @@
       "parking": false,
       "owner": true,
       "status": "active",
-      "updated": "2026-10-24",
+      "updated": "2026-10-25",
       "sources": {
         "591": true
       },
@@ -18,17 +18,17 @@
         "591": "https://sale.591.com.tw/home/house/detail/2/20446447.html",
         "好房網": null
       },
-      "sourceVerified": "2026-10-24直接Fetch確認591 S20446447仍有有效刊登（有效至2026-12-22）；核心價格/坪數/樓層沿用先前核實資料。既有降價不是今日變價，狀態由price_drop改回active，避免把歷史降價計入今日統計。",
+      "sourceVerified": "2026-10-25直接Fetch確認591 S20446447仍有有效刊登至2026-12-22；核心欄位遮蔽，沿用先前核實值；不計今日降價。",
       "changeNote": "既有降價保留為歷史資料；本輪直接頁確認刊登有效，不計今日降價。",
       "sourceValidation": {
         "591": {
-          "state": "active",
+          "state": "active_partial",
           "httpStatus": 200,
           "reason": "direct-page-readable-partial-fields",
-          "checkedAt": "2026-10-24T09:00:03+08:00",
+          "checkedAt": "2026-10-25T09:11:01+08:00",
           "url": "https://sale.591.com.tw/home/house/detail/2/20446447.html",
           "effectiveUntil": "2026-12-22",
-          "note": "本輪直接Fetch確認刊登有效至2026-12-22、最近更新約4小時前；價格/坪數/樓層欄位仍被動態模板遮蔽，沿用既有核實欄位。"
+          "note": "2026-10-25直接Fetch仍確認有效刊登；核心價格/坪數/樓層欄位遮蔽，沿用先前核實值。"
         }
       }
     },
