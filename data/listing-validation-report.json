@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T13:36:02.220764+08:00",
+  "updatedAt": "2026-10-25T13:52:52.721310+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -61,9 +61,9 @@
       "id": "ng-6800",
       "source": "中信",
       "url": "https://buy.cthouse.com.tw/house/2040095.html",
-      "state": "unknown",
-      "httpStatus": null,
-      "reason": "TimeoutError"
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
     },
     {
       "id": "ng-6600",
@@ -515,11 +515,27 @@
     },
     {
       "id": "kz-5688-14f",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20238545.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "kz-5688-14f",
       "source": "中信",
       "url": "https://buy.cthouse.com.tw/house/2004451.html",
       "state": "active",
       "httpStatus": 200,
       "reason": "ok"
+    },
+    {
+      "id": "kz-5688-14f",
+      "source": "永慶",
+      "url": "https://buy.yungching.com.tw/house/6730596",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
     },
     {
       "id": "kz-4500-2f",
@@ -616,43 +632,116 @@
       "state": "active",
       "httpStatus": 200,
       "reason": "ok"
+    },
+    {
+      "id": "ng-candidate-s20884530",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20884530.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "yk-candidate-s21007093",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/21007093.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "yk-candidate-s20997905",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20997905.html",
+      "state": "gone",
+      "httpStatus": 404,
+      "reason": "not-found"
+    },
+    {
+      "id": "kz-candidate-s21091535",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/21091535.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "pc-candidate-s20951579",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20951579.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "pc-candidate-s21061360",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/21061360.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "pc-candidate-s20848204",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20848204.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
     }
   ],
   "changed": [
     {
+      "id": "ng-1728",
+      "source": "信義",
+      "change": "link-invalid",
+      "date": "2026-10-25"
+    },
+    {
       "id": "ng-1880",
       "change": "all-known-links-gone",
-      "date": "2026-10-24"
+      "date": "2026-10-25"
     },
     {
       "id": "ng-match-01",
       "change": "all-known-links-gone",
-      "date": "2026-10-24"
+      "date": "2026-10-25"
     },
     {
       "id": "ng-match-02",
       "change": "all-known-links-gone",
-      "date": "2026-10-24"
+      "date": "2026-10-25"
     },
     {
       "id": "ng-match-08",
       "change": "all-known-links-gone",
-      "date": "2026-10-24"
+      "date": "2026-10-25"
     },
     {
       "id": "xpd-2788-16f",
       "change": "all-known-links-gone",
-      "date": "2026-10-24"
+      "date": "2026-10-25"
     },
     {
       "id": "xpd-2980-6f",
       "change": "all-known-links-gone",
-      "date": "2026-10-24"
+      "date": "2026-10-25"
     },
     {
       "id": "lry-2850-16f",
       "change": "all-known-links-gone",
-      "date": "2026-10-24"
+      "date": "2026-10-25"
+    },
+    {
+      "id": "yk-candidate-s20997905",
+      "source": "591",
+      "change": "link-invalid",
+      "date": "2026-10-25"
+    },
+    {
+      "id": "yk-candidate-s20997905",
+      "change": "all-known-links-gone",
+      "date": "2026-10-25"
     }
   ]
 }
