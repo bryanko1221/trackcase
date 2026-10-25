@@ -2269,12 +2269,20 @@
       "checks": {
         "homepageDateAndPartialStatus": false,
         "homepageCoverageTableVisible": false,
-        "masterRecordCount": false,
+        "mainFileRecordCount": false,
         "candidateStatusFilter": false,
         "dailyReportAccessible": false,
-        "githubPagesWorkflow": "pending"
+        "githubPagesDeployment": "pending"
       },
-      "note": "待公開頁面重新讀取核實部署結果。"
+      "note": "GitHub main branch files are committed; public Pages URL still serving the prior snapshot at first check."
+    },
+    "websiteDisplayCounts": {
+      "mainFileRecords": 58,
+      "afterOverridesBeforeDedupe": 63,
+      "afterDedupe": 59,
+      "activeConfirmedDisplay": 42,
+      "candidatesPendingVerification": 7,
+      "gonePending": 10
     }
   },
   "communityStatus": {
@@ -4944,18 +4952,26 @@
       "checks": {
         "homepageDateAndPartialStatus": false,
         "homepageCoverageTableVisible": false,
-        "masterRecordCount": false,
+        "mainFileRecordCount": false,
         "candidateStatusFilter": false,
         "dailyReportAccessible": false,
-        "githubPagesWorkflow": "pending"
+        "githubPagesDeployment": "pending"
       },
-      "note": "待公開頁面重新讀取核實部署結果。"
+      "note": "GitHub main branch files are committed; public Pages URL still serving the prior snapshot at first check."
+    },
+    "websiteDisplayCounts": {
+      "mainFileRecords": 58,
+      "afterOverridesBeforeDedupe": 63,
+      "afterDedupe": 59,
+      "activeConfirmedDisplay": 42,
+      "candidatesPendingVerification": 7,
+      "gonePending": 10
     }
   },
   "latestAutomationWrite": {
     "checkedAt": "2026-10-25T09:11:01+08:00",
     "status": "pending_live_verification",
     "verifiedAt": null,
-    "note": "GitHub檔案準備寫入，待公開GitHub Pages與每日報告核實部署。"
+    "note": "GitHub main branch files are committed; public Pages URL still serving the prior snapshot at first check."
   }
 }
