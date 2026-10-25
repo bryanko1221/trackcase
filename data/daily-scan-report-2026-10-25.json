@@ -1479,12 +1479,12 @@
     "checks": {
       "homepageDateAndPartialStatus": false,
       "homepageCoverageTableVisible": false,
-      "masterRecordCount": false,
+      "mainFileRecordCount": false,
       "candidateStatusFilter": false,
       "dailyReportAccessible": false,
-      "githubPagesWorkflow": "pending"
+      "githubPagesDeployment": "pending"
     },
-    "note": "待公開頁面重新讀取核實部署結果。"
+    "note": "GitHub main branch files are committed; public Pages URL still serving the prior snapshot at first check."
   },
   "summary": "🟡部分完成；今日確認新增唯一戶、降價、漲價、售出/下架均為0。新增7筆待核實候選，不計唯一戶；網站更新待部署驗證。",
   "candidateRecords": [
@@ -1596,5 +1596,13 @@
       ],
       "verificationNote": "可能與A區1F/29.58坪/3房/2,380萬候選同戶，但管理費口徑不同且缺少完整坪數/照片核對，未合併。"
     }
-  ]
+  ],
+  "websiteDisplayCounts": {
+    "mainFileRecords": 58,
+    "afterOverridesBeforeDedupe": 63,
+    "afterDedupe": 59,
+    "activeConfirmedDisplay": 42,
+    "candidatesPendingVerification": 7,
+    "gonePending": 10
+  }
 }
