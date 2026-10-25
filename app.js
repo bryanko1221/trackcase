@@ -11,7 +11,7 @@ function soldState(x){return soldTracking[x.id]||{sold:false,knownPrice:null,sol
 function soldBadge(x){const s=soldState(x);if(!s.sold)return '';if(s.regStatus==='verified')return '<span class="status-badge">✅ 實登已核實</span>';if(s.regStatus==='mismatch')return '<span class="status-badge">⚠️ 實登金額不符</span>';return '<span class="status-badge">🟠 已成交・待實登</span>'}
 function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 const status=x=>x.status||'active';
-const statusText=x=>({active:'🟢 在售',price_drop:'🔻 降價',price_up:'🔺 漲價',gone_pending:'⚠️ 下架待確認',sold_pending:'⚠️ 消失／下架／狀態變更',registered:'✅ 已完成實登'}[status(x)]||'🟢 在售');
+const statusText=x=>({active:'🟢 在售',candidate:'🟡 待核實／疑似重複',price_drop:'🔻 降價',price_up:'🔺 漲價',gone_pending:'⚠️ 下架待確認',sold_pending:'⚠️ 消失／下架／狀態變更',registered:'✅ 已完成實登'}[status(x)]||'🟢 在售');
 const communityKey=v=>{if(!v)return v;const s=String(v).replace(/\s+/g,'');return s.startsWith('板橋公園世紀')?'板橋公園世紀':s};
 const blockKey=v=>{if(!v)return'';const s=String(v).replace(/\s+/g,'');return ['B/C區','B、C區','B、C'].includes(s)?'BC':s};
 const sameBlock=(a,b)=>{const x=blockKey(a),y=blockKey(b);return x===y||(x==='BC'&&(y==='B區'||y==='C區'))||(y==='BC'&&(x==='B區'||x==='C區'))};
