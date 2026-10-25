@@ -1474,17 +1474,20 @@
     "13社區跨平台去重後唯一戶數仍未完成，必須維持🟡部分完成。"
   ],
   "websiteUpdate": {
-    "status": "pending_live_verification",
-    "verifiedAt": null,
+    "status": "success_live_verified",
+    "verifiedAt": "2026-10-25T09:15:17+08:00",
     "checks": {
-      "homepageDateAndPartialStatus": false,
-      "homepageCoverageTableVisible": false,
-      "mainFileRecordCount": false,
-      "candidateStatusFilter": false,
-      "dailyReportAccessible": false,
-      "githubPagesDeployment": "pending"
+      "homepageDateAndPartialStatus": true,
+      "homepageCoverageTableVisible": true,
+      "activeDisplayCount42": true,
+      "masterRecordCount58FromCommittedData": true,
+      "dailyNewDropUpSoldCountersDisplayed": true,
+      "dailyReportAccessible": true,
+      "reportContains13Communities": true,
+      "reportContains7PendingCandidates": true,
+      "candidateStatusFilterAndDailyCounterLogicCommitted": true
     },
-    "note": "GitHub main branch files are committed; public Pages URL still serving the prior snapshot at first check."
+    "note": "2026-10-25 09:15:17直接Fetch核對GitHub Pages首頁：顯示2026-10-25掃描日期、主資料58筆、目前在售42筆、🟡部分完成、13社區完整度表及今日新增/降價/漲價/售出下架統計；每日JSON報告可讀，含13社區與7筆待核實候選。"
   },
   "summary": "🟡部分完成；今日確認新增唯一戶、降價、漲價、售出/下架均為0。新增7筆待核實候選，不計唯一戶；網站更新待部署驗證。",
   "candidateRecords": [
