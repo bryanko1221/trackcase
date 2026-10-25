@@ -1535,12 +1535,20 @@
       "checks": {
         "homepageDateAndPartialStatus": false,
         "homepageCoverageTableVisible": false,
-        "masterRecordCount": false,
+        "mainFileRecordCount": false,
         "candidateStatusFilter": false,
         "dailyReportAccessible": false,
-        "githubPagesWorkflow": "pending"
+        "githubPagesDeployment": "pending"
       },
-      "note": "待公開頁面重新讀取核實部署結果。"
+      "note": "GitHub main branch files are committed; public Pages URL still serving the prior snapshot at first check."
+    },
+    "websiteDisplayCounts": {
+      "mainFileRecords": 58,
+      "afterOverridesBeforeDedupe": 63,
+      "afterDedupe": 59,
+      "activeConfirmedDisplay": 42,
+      "candidatesPendingVerification": 7,
+      "gonePending": 10
     }
   },
   "run_history": [
@@ -4492,12 +4500,20 @@
         "checks": {
           "homepageDateAndPartialStatus": false,
           "homepageCoverageTableVisible": false,
-          "masterRecordCount": false,
+          "mainFileRecordCount": false,
           "candidateStatusFilter": false,
           "dailyReportAccessible": false,
-          "githubPagesWorkflow": "pending"
+          "githubPagesDeployment": "pending"
         },
-        "note": "待公開頁面重新讀取核實部署結果。"
+        "note": "GitHub main branch files are committed; public Pages URL still serving the prior snapshot at first check."
+      },
+      "websiteDisplayCounts": {
+        "mainFileRecords": 58,
+        "afterOverridesBeforeDedupe": 63,
+        "afterDedupe": 59,
+        "activeConfirmedDisplay": 42,
+        "candidatesPendingVerification": 7,
+        "gonePending": 10
       }
     }
   ]
