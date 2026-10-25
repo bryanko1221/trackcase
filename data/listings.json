@@ -2567,7 +2567,7 @@
     "yq": null,
     "new": false,
     "status": "active",
-    "updated": "2026-10-24",
+    "updated": "2026-10-25",
     "sources": {
       "591": true,
       "信義": false,
@@ -2584,16 +2584,18 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "active",
+        "state": "active_partial",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-24T13:36:02.220764+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20999996.html"
+        "reason": "direct-page-readable-partial-fields",
+        "checkedAt": "2026-10-25T09:16:39+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20999996.html",
+        "effectiveUntil": "2026-12-01",
+        "note": "2026-10-25直接Fetch仍確認有效刊登；開價3,988萬、權狀約47.48坪、11F/43F、3房2廳2衛1陽台、管理費約3,110元/月。門牌360號與總樓層43F矛盾；屋況文字車位10.19坪、另一欄位0.19坪，需再核對。"
       }
     },
-    "matchStatus": "待確認",
-    "sourceVerified": "2026-10-24直接Fetch 591 S20999996：有效至2026-12-01，3,988萬、約47.48坪、11F/43F、3房2廳2衛1陽台、坡道平面車位、管理費約3,110元/月。文案門牌360號與總樓層43樓矛盾，棟別待確認。",
-    "verificationNote": "591頁面屋況文字列車位約10.19坪，但另一欄位顯示0.19坪，車位坪數需人工再核對。未證明今日新上架，new=false；不計今日新增唯一戶。",
+    "matchStatus": "棟別待確認／車位坪數待確認",
+    "sourceVerified": "2026-10-25直接Fetch重新核實591 S20999996仍有效至2026-12-01；價格3,988萬、約47.48坪、11F/43F、三房車。門牌360號與43F矛盾，棟別待確認。",
+    "verificationNote": "門牌文化路一段360號依規則屬A棟/40F，但頁面總樓層為43F，故不得直接判A/C/D棟。車位坪數10.19坪與0.19坪欄位衝突。有效刊登不代表今日新上架，new=false。",
     "agent": "王昱翔／台灣房屋南港三井世貿店",
     "brokerage": "兆鴻不動產仲介有限公司",
     "validUntil": "2026-12-01",
