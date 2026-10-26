@@ -286,15 +286,17 @@
           "591本社區": 12,
           "前次本社區": 15
         },
-        "individualPagesRead": 4,
+        "individualPagesRead": 3,
         "readable": 1,
-        "partial": 3,
+        "partial": 2,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
           "591列表12、前次15，未逐案對帳。",
           "住商WS76211由1,738萬上調至1,768萬，+30萬（+1.73%）。"
-        ]
+        ],
+        "pages": 3,
+        "partialFields": 2
       }
     ],
     "platformGaps": [
