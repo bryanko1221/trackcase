@@ -1,7 +1,7 @@
 {
   "scanDate": "2026-10-26",
   "scanStartedAt": "2026-10-26T09:03:03+08:00",
-  "scanCompletedAt": "2026-10-26 09:03（執行環境提供的本輪時間；工具完成秒級時間未提供）",
+  "scanCompletedAt": "2026-10-26 09:14（GitHub Pages部署與公開頁核對完成；掃描資料整理的精確完成秒級時間未提供）",
   "status": "partial",
   "label": "🟡 部分完成",
   "method": "Exa Search找入口 → Exa Fetch直接讀取個別案件頁及社區/列表頁 → GPT跨平台強識別比對；Firecrawl額度不可用未使用，TinyFish非必要。",
@@ -306,7 +306,7 @@
   ],
   "websiteUpdate": {
     "status": "success_live_verified",
-    "verifiedAt": "2026-10-26T09:03:03+08:00",
+    "verifiedAt": "2026-10-26T09:14:26+08:00",
     "checks": {
       "homepageDateAndPartialStatus": true,
       "dailyReportAccessible": true,
@@ -317,8 +317,8 @@
       "masterRecordCount58": true,
       "deploymentRunSucceeded": true
     },
-    "deploymentRun": "https://github.com/bryanko1221/trackcase/actions/runs/40252859872",
-    "note": "公開GitHub Pages首頁與每日JSON已重新Fetch核對：顯示2026-10-26 09:03、🟡部分完成、今日漲價1；主資料58筆、首頁現有合併邏輯顯示42筆在售。42筆不是13社區全平台已核實唯一戶數。"
+    "deploymentRun": "https://github.com/bryanko1221/trackcase/actions/runs/40253179048",
+    "note": "公開GitHub Pages首頁與每日JSON於部署成功後重新Fetch核對：日期、🟡部分完成、今日漲價1筆、13社區表均可見。42筆為網站現有合併邏輯顯示，不是全平台唯一戶數。"
   },
   "sourceLinks": {
     "mainSite": "https://bryanko1221.github.io/trackcase/",
