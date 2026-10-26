@@ -1,7 +1,7 @@
 {
   "lastVerified": "2026-10-26",
   "lastUpdated": "2026-10-26 09:03",
-  "note": "2026-10-26：22次Exa搜尋、23個不重複URL直接Fetch（12個個別案件頁、11個社區/列表頁）。確認永康芬揚住商WS76211由1,738萬上調至1,768萬（+30萬、+1.73%）；新增唯一戶0、降價0、漲價1、售出/下架0。全13社區唯一戶數未完成，🟡部分完成。",
+  "note": "2026-10-26：22次Exa搜尋、23個不重複URL直接Fetch（12個個別案件頁、11個社區/列表頁）。確認永康芬揚住商WS76211由1,738萬上調至1,768萬（+30萬、+1.73%）；新增唯一戶0、降價0、漲價1、售出/下架0。全13社區唯一戶數未完成，🟡部分完成。 GitHub Pages部署run 40252859872已成功；公開首頁與每日JSON已核對，今日漲價1筆及🟡部分完成標示可見。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
@@ -868,8 +868,20 @@
       "千禧園、吉祥花園、雙喜臨門未取得本輪目標社區個別現售頁；列表0筆不代表全市場無案。"
     ],
     "websiteUpdate": {
-      "status": "pending_verification",
-      "verifiedAt": null
+      "status": "success_live_verified",
+      "verifiedAt": "2026-10-26T09:03:03+08:00",
+      "checks": {
+        "homepageDateAndPartialStatus": true,
+        "dailyReportAccessible": true,
+        "priceIncreaseVisible": true,
+        "sourceStatusDateVisible": true,
+        "thirteenCommunityTableVisible": true,
+        "activeDisplayCount42": true,
+        "masterRecordCount58": true,
+        "deploymentRunSucceeded": true
+      },
+      "deploymentRun": "https://github.com/bryanko1221/trackcase/actions/runs/40252859872",
+      "note": "公開GitHub Pages首頁與每日JSON已重新Fetch核對：顯示2026-10-26 09:03、🟡部分完成、今日漲價1；主資料58筆、首頁現有合併邏輯顯示42筆在售。42筆不是13社區全平台已核實唯一戶數。"
     }
   },
   "communityStatus": {
@@ -2131,13 +2143,25 @@
       "千禧園、吉祥花園、雙喜臨門未取得本輪目標社區個別現售頁；列表0筆不代表全市場無案。"
     ],
     "websiteUpdate": {
-      "status": "pending_verification",
-      "verifiedAt": null
+      "status": "success_live_verified",
+      "verifiedAt": "2026-10-26T09:03:03+08:00",
+      "checks": {
+        "homepageDateAndPartialStatus": true,
+        "dailyReportAccessible": true,
+        "priceIncreaseVisible": true,
+        "sourceStatusDateVisible": true,
+        "thirteenCommunityTableVisible": true,
+        "activeDisplayCount42": true,
+        "masterRecordCount58": true,
+        "deploymentRunSucceeded": true
+      },
+      "deploymentRun": "https://github.com/bryanko1221/trackcase/actions/runs/40252859872",
+      "note": "公開GitHub Pages首頁與每日JSON已重新Fetch核對：顯示2026-10-26 09:03、🟡部分完成、今日漲價1；主資料58筆、首頁現有合併邏輯顯示42筆在售。42筆不是13社區全平台已核實唯一戶數。"
     }
   },
   "latestAutomationWrite": {
     "date": "2026-10-26",
-    "status": "pending_verification",
-    "note": "等待本輪GitHub提交後驗證公開頁面。"
+    "status": "success_live_verified",
+    "note": "GitHub Pages部署成功；公開首頁與每日JSON已核對。"
   }
 }
