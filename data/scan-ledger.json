@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "scan_version": "2.1",
   "purpose": "防止社區新案漏抓、樓層缺失、案件網址失效未更新：逐平台完整清單→逐案直接頁核實→網址每日健康檢查→跨平台強識別去重→平台筆數差異檢查→網站更新",
   "required_sources": [
@@ -53,1442 +53,283 @@
     "required_action": "每次完整掃描都必須測試新上架搜尋、逐平台展開及直接案件網址健康狀態。"
   },
   "coverage_status": "partial",
-  "coverage_note": "2026-10-25 09:11:01：54個不重複個別案件頁（主要欄位可讀28、部分遮蔽26），另讀取10個社區/列表頁；新增7筆待核實候選，不計已確認唯一戶。全13社區全平台逐案清單與唯一戶數仍未完成。",
+  "coverage_note": "2026-10-26：12個個別案件頁、11個社區/列表頁；確認永康芬揚住商WS76211 1,738萬→1,768萬，+30萬（+1.73%）。全13社區全平台逐案清單與唯一戶數未完成，維持🟡部分完成。",
   "latest_run": {
-    "scanDate": "2026-10-25",
-    "scanStartedAt": "2026-10-25T09:01:26+08:00",
-    "scanCompletedAt": "2026-10-25T09:11:01+08:00",
+    "scanDate": "2026-10-26",
+    "scanStartedAt": "2026-10-26T09:03:03+08:00",
+    "scanCompletedAt": "2026-10-26 09:03（執行環境提供的本輪時間；工具完成秒級時間未提供）",
     "status": "partial",
     "label": "🟡 部分完成",
-    "method": "Exa Search找入口 → Exa Fetch直接讀個別案件頁 → GPT跨平台強識別比對；Firecrawl額度不可用未使用，TinyFish非必要。",
-    "directIndividualPagesRead": 54,
-    "primaryFieldsReadable": 28,
-    "partialFields": 26,
-    "communityOrListingPagesRead": 10,
-    "uniqueUrlsFetched": 64,
+    "method": "Exa Search找入口 → Exa Fetch直接讀取個別案件頁及社區/列表頁 → GPT跨平台強識別比對；Firecrawl額度不可用未使用，TinyFish非必要。",
+    "searchQueries": 22,
+    "directIndividualPagesRead": 12,
+    "primaryFieldsReadable": 3,
+    "partialFields": 9,
+    "communityOrListingPagesRead": 11,
+    "uniqueUrlsFetched": 23,
     "masterRecordCount": 58,
-    "masterStatusCounts": {
-      "active": 33,
-      "未標狀態": 8,
-      "gone_pending": 10,
-      "candidate": 7
-    },
     "uniqueAfterDedup": null,
     "changes": {
       "newUniqueListingsConfirmed": 0,
       "priceDropsConfirmedToday": 0,
-      "priceUpsConfirmedToday": 0,
+      "priceUpsConfirmedToday": 1,
       "soldOrDelistedConfirmed": 0,
-      "platformListingExpiriesDetected": 2,
-      "sourceStatusCorrections": 2,
-      "candidateRecordsAddedToMaster": 7,
-      "sourceLinksAddedToExisting": 1,
-      "historicalPriceDifferencesObserved": 9
+      "platformListingExpiriesDetected": 0,
+      "sourceStatusCorrections": 0,
+      "candidateRecordsAddedToMaster": 0,
+      "sourceLinksAddedToExisting": 0,
+      "historicalPriceDifferencesObserved": 3,
+      "platformCountChangesObserved": 2
     },
+    "confirmedPriceChanges": [
+      {
+        "community": "永康芬揚",
+        "masterId": "ykf-1738-3f",
+        "listingId": "WS76211",
+        "platform": "住商不動產",
+        "oldPrice": 1738,
+        "newPrice": 1768,
+        "change": 30,
+        "percent": 1.73,
+        "date": "2026-10-26",
+        "area": 21.76,
+        "floor": "3/14",
+        "layout": "2房2廳1衛",
+        "parking": false,
+        "managementFee": 2177,
+        "url": "https://www.hbhousing.com.tw/detail?sn=WS76211"
+      }
+    ],
     "communities": [
       {
         "name": "板橋新巨蛋",
         "displayCounts": {
           "591一般在售頁": 50,
-          "591本社區列表": 33
+          "591本社區列表": 31,
+          "前次本社區列表": 33
         },
-        "pages": 24,
-        "readable": 14,
-        "partial": 10,
-        "candidates": 1,
+        "individualPagesRead": 2,
+        "readable": 2,
+        "partial": 0,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "591一般頁50、本社區列表33，差17但統計口徑不同。",
-          "S20999996門牌360號與43F矛盾；車位欄位0.19與文案10.19坪矛盾。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "partial",
-            "directPagesRead": 10,
-            "primaryFieldsReadable": 0,
-            "partialFields": 10,
-            "displayCount": 50,
-            "communityListCount": 33,
-            "note": "10個直接頁，多數欄位遮蔽。一般在售頁50、本社區列表33。"
-          },
-          "信義": {
-            "status": "partial",
-            "directPagesRead": 8,
-            "primaryFieldsReadable": 8,
-            "partialFields": 0,
-            "note": "8個直接頁主要欄位可讀，未完成全量清單。"
-          },
-          "樂屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "partial",
-            "directPagesRead": 4,
-            "primaryFieldsReadable": 4,
-            "partialFields": 0,
-            "note": "4個直接頁可讀，確認多筆🟦永慶有刊登。"
-          },
-          "中信": {
-            "status": "partial",
-            "directPagesRead": 2,
-            "primaryFieldsReadable": 2,
-            "partialFields": 0,
-            "note": "2040095與2118541直接頁可讀。"
-          },
-          "住商": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          }
-        }
+          "591社區列表31、前次33，未逐案對帳。",
+          "S20999996門牌360號與43F矛盾，車位坪數欄位矛盾。"
+        ]
       },
       {
         "name": "板橋文化勳章",
         "displayCounts": {
           "591本社區": 1
         },
-        "pages": 2,
-        "readable": 1,
+        "individualPagesRead": 1,
+        "readable": 0,
         "partial": 1,
-        "candidates": 0,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "S20912237有效至11/14，價格/坪數欄位遮蔽；S20709527僅部分主欄位可讀。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "partial",
-            "directPagesRead": 2,
-            "primaryFieldsReadable": 1,
-            "partialFields": 1,
-            "displayCount": 1,
-            "note": "S20709527部分主欄位可讀，S20912237欄位遮蔽。"
-          },
-          "信義": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "中信": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "住商": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          }
-        }
+          "S20912237有效至11/14，價格/坪數等欄位遮蔽。"
+        ]
       },
       {
         "name": "板橋公園世紀",
         "displayCounts": {
-          "591 A區一樓候選": 2,
-          "591 B區在售": 1,
-          "信義B區個別頁": 1
+          "591一樓候選": 2,
+          "591 B區列表": 1
         },
-        "pages": 9,
-        "readable": 3,
-        "partial": 6,
-        "candidates": 3,
+        "individualPagesRead": 1,
+        "readable": 0,
+        "partial": 1,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "A區一樓來源2,380萬與2,588萬衝突。",
-          "S20761300有效期已於10/18屆滿，不判定房屋售出。",
-          "兩筆四房車候選可能重複，待確認。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "partial",
-            "directPagesRead": 6,
-            "primaryFieldsReadable": 0,
-            "partialFields": 6,
-            "note": "6個直接頁，核心欄位多數遮蔽；S20761300已過期。"
-          },
-          "信義": {
-            "status": "partial",
-            "directPagesRead": 1,
-            "primaryFieldsReadable": 1,
-            "partialFields": 0,
-            "note": "6254VN：B區4F/12F、60.34坪、現價3,758萬。"
-          },
-          "樂屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "中信": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "住商": {
-            "status": "partial",
-            "directPagesRead": 2,
-            "primaryFieldsReadable": 2,
-            "partialFields": 0,
-            "note": "TS147949 2,380萬；KS197260 2,588萬。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          }
-        }
+          "S21096885有效至12/16，價格欄位遮蔽。",
+          "A區一樓仍有2,380萬與2,588萬來源差異。"
+        ]
       },
       {
         "name": "欣璞綻",
         "displayCounts": {
           "591標頭": 3,
           "591列表版本": 6,
-          "樂屋相似候選": 2
+          "樂屋候選": 2
         },
-        "pages": 1,
+        "individualPagesRead": 1,
         "readable": 0,
         "partial": 1,
-        "candidates": 0,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "591標頭3筆與列表6個版本不一致。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "partial",
-            "directPagesRead": 1,
-            "primaryFieldsReadable": 0,
-            "partialFields": 1,
-            "displayCount": 3,
-            "communityListCount": 6,
-            "note": "S20875770有效，價格/坪數/樓層遮蔽。"
-          },
-          "信義": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂屋": {
-            "status": "partial",
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "displayCount": 2,
-            "note": "列表有2個相似候選版本，未逐筆開個案。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "中信": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "住商": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          }
-        }
+          "列表版本不等於唯一戶。",
+          "S20853407有效至11/04，核心欄位遮蔽。"
+        ]
       },
       {
         "name": "綠如意",
         "displayCounts": {
-          "591候選卡片": 4,
-          "樂屋符合待售": 0
+          "591可見候選卡片": 3
         },
-        "pages": 1,
+        "individualPagesRead": 1,
         "readable": 0,
         "partial": 1,
-        "candidates": 0,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "S20904980核心欄位遮蔽；樂屋0筆不代表全市場無案。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "partial",
-            "directPagesRead": 1,
-            "primaryFieldsReadable": 0,
-            "partialFields": 1,
-            "displayCount": 4,
-            "note": "S20904980有效至11/13，核心欄位遮蔽。"
-          },
-          "信義": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂屋": {
-            "status": "partial",
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "displayCount": 0,
-            "note": "社區頁0筆，其他平台未完成。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "中信": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "住商": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          }
-        }
+          "S20904980有效至11/13，核心欄位遮蔽。"
+        ]
       },
       {
         "name": "鑑築",
         "displayCounts": {
           "591本社區在售": 2
         },
-        "pages": 5,
-        "readable": 3,
-        "partial": 2,
-        "candidates": 1,
+        "individualPagesRead": 1,
+        "readable": 0,
+        "partial": 1,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "591 S20238545高度吻合既有5,688萬大戶，已關聯來源候選；S21091535房數文案矛盾，未合併。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "partial",
-            "directPagesRead": 2,
-            "primaryFieldsReadable": 0,
-            "partialFields": 2,
-            "displayCount": 2,
-            "note": "S21091535與S20238545有效，主要欄位遮蔽。"
-          },
-          "信義": {
-            "status": "partial",
-            "directPagesRead": 1,
-            "primaryFieldsReadable": 1,
-            "partialFields": 0,
-            "note": "0939DZ：4,500萬、60.54坪、2F/14F。"
-          },
-          "樂屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "partial",
-            "directPagesRead": 1,
-            "primaryFieldsReadable": 1,
-            "partialFields": 0,
-            "note": "YC1233722：5,688萬、89.73坪、14F/14F、雙車。"
-          },
-          "中信": {
-            "status": "partial",
-            "directPagesRead": 1,
-            "primaryFieldsReadable": 1,
-            "partialFields": 0,
-            "note": "2004451：5,688萬、89.73坪、14F/14F。"
-          },
-          "住商": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          }
-        }
+          "S20238545有效至11/16，核心欄位遮蔽。"
+        ]
       },
       {
         "name": "榮耀交響曲",
         "displayCounts": {
-          "591匹配": 0,
-          "永慶個別頁": 1
+          "591搜尋結果": "無匹配結果（未直接抓取列表頁）"
         },
-        "pages": 1,
-        "readable": 1,
+        "individualPagesRead": 0,
+        "readable": 0,
         "partial": 0,
-        "candidates": 0,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "永慶YC1255301仍刊登；591無匹配不代表全平台無案。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "partial",
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "displayCount": 0,
-            "note": "591社區銷售頁無匹配。"
-          },
-          "信義": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "partial",
-            "directPagesRead": 1,
-            "primaryFieldsReadable": 1,
-            "partialFields": 0,
-            "note": "YC1255301：5,068萬、75.76坪、2F/15F、四房雙車。"
-          },
-          "中信": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "住商": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          }
-        }
+          "本輪未讀取個別現售頁；搜尋無匹配不代表全市場無案。"
+        ]
       },
       {
         "name": "佳元植",
         "displayCounts": {
-          "591本社區": 1,
-          "21世紀個別頁": 1
+          "591搜尋結果": 1
         },
-        "pages": 1,
-        "readable": 1,
+        "individualPagesRead": 0,
+        "readable": 0,
         "partial": 0,
-        "candidates": 0,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "591顯示1筆但未取得對應個別頁。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "partial",
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "displayCount": 1,
-            "note": "社區顯示1筆但未取得個別直連。"
-          },
-          "信義": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "中信": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "住商": {
-            "status": "not_completed",
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "未完成。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          }
-        }
+          "591搜尋結果有1個候選，但本輪未直接讀取個別頁。"
+        ]
       },
       {
         "name": "板橋千禧園",
         "displayCounts": {
-          "591匹配": 0,
-          "樂屋符合待售": 0
+          "樂屋符合待售": 0,
+          "591本輪": "主要為歷史成交"
         },
-        "pages": 0,
+        "individualPagesRead": 0,
         "readable": 0,
         "partial": 0,
-        "candidates": 0,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "未取得目標社區現售個別頁；名稱相似的萬禧園已排除。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "partial",
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "displayCount": 0,
-            "note": "本輪社區銷售頁無匹配；其他平台未完成。"
-          },
-          "信義": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂屋": {
-            "status": "partial",
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "displayCount": 0,
-            "note": "社區頁0筆。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "中信": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "住商": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          }
-        }
+          "樂屋社區頁0筆符合待售；其他平台未完成。"
+        ]
       },
       {
         "name": "板橋吉祥花園",
         "displayCounts": {
           "樂屋吉祥花園廣場符合待售": 0
         },
-        "pages": 0,
+        "individualPagesRead": 0,
         "readable": 0,
         "partial": 0,
-        "candidates": 0,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "樂屋社區頁0筆；其他平台及名稱映射未完成。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "信義": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂屋": {
-            "status": "partial",
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "displayCount": 0,
-            "note": "吉祥花園廣場頁0筆，名稱映射及其他平台未完成。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "中信": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "住商": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          }
-        }
+          "社區名稱映射仍待確認。"
+        ]
       },
       {
         "name": "雙喜臨門",
         "displayCounts": {
-          "樂屋莒光雙喜臨門符合待售": 0
+          "樂屋符合待售": 0,
+          "591本輪": "主要為歷史成交"
         },
-        "pages": 0,
+        "individualPagesRead": 0,
         "readable": 0,
         "partial": 0,
-        "candidates": 0,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "樂屋社區頁0筆；591主要結果為歷史成交/實價，排除現售。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "信義": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂屋": {
-            "status": "partial",
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "displayCount": 0,
-            "note": "莒光雙喜臨門社區頁0筆，其他平台未完成。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "中信": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "住商": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          }
-        }
+          "樂屋0筆符合待售；591歷史成交不列現售。"
+        ]
       },
       {
         "name": "板橋晴",
         "displayCounts": {
-          "591個別頁": 2,
-          "樂屋相似版本": 4
+          "樂屋候選版本": 4,
+          "591 S20865148": "有效至11/06"
         },
-        "pages": 2,
+        "individualPagesRead": 2,
         "readable": 0,
         "partial": 2,
-        "candidates": 0,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "2,185萬/34.48坪與2,360萬/44.15坪版本的同戶關係未核實。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "partial",
-            "directPagesRead": 2,
-            "primaryFieldsReadable": 0,
-            "partialFields": 2,
-            "note": "S20865148與S20939780有效，但價格/坪數/樓層欄位遮蔽。"
-          },
-          "信義": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂屋": {
-            "status": "partial",
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "displayCount": 4,
-            "note": "4個相似版本，未逐筆開啟個別頁。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "中信": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "住商": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          }
-        }
+          "2,185萬/34.48坪與2,360萬/44.15坪同戶關係未核實。"
+        ]
       },
       {
         "name": "永康芬揚",
         "displayCounts": {
-          "591本社區": 15,
-          "前次快照": 22,
-          "較早快照": 23
+          "591本社區": 12,
+          "前次本社區": 15
         },
-        "pages": 8,
-        "readable": 5,
+        "individualPagesRead": 4,
+        "readable": 1,
         "partial": 3,
-        "candidates": 2,
         "uniqueAfterDedup": null,
         "status": "partial",
         "issues": [
-          "591本輪15筆、前次22/23筆，未完成對帳。",
-          "1,920萬/1,980萬版本與候選可能重複，未判定今日降價。"
-        ],
-        "platforms": {
-          "591": {
-            "status": "partial",
-            "directPagesRead": 3,
-            "primaryFieldsReadable": 0,
-            "partialFields": 3,
-            "displayCount": 15,
-            "note": "S21007093、S20997905、S20954970有效但核心欄位遮蔽。"
-          },
-          "信義": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "樂居": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "永慶": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "中信": {
-            "status": "partial",
-            "directPagesRead": 1,
-            "primaryFieldsReadable": 1,
-            "partialFields": 0,
-            "note": "2080902：1,980萬、22.54坪、11F/14F、2房。"
-          },
-          "住商": {
-            "status": "partial",
-            "directPagesRead": 2,
-            "primaryFieldsReadable": 2,
-            "partialFields": 0,
-            "note": "WS76211與WS76225主要欄位可讀。"
-          },
-          "台灣房屋": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "好房網": {
-            "status": "not_completed",
-            "displayCount": null,
-            "directPagesRead": 0,
-            "primaryFieldsReadable": 0,
-            "partialFields": 0,
-            "note": "本輪未完成此平台對本社區的全量逐案核實。"
-          },
-          "我家網": {
-            "status": "partial",
-            "directPagesRead": 1,
-            "primaryFieldsReadable": 1,
-            "partialFields": 0,
-            "note": "1388064：1,738萬、21.76坪、3F/14F。"
-          },
-          "R.TUBE": {
-            "status": "partial",
-            "directPagesRead": 1,
-            "primaryFieldsReadable": 1,
-            "partialFields": 0,
-            "note": "RE1764805674110484：2,800萬、31.82坪、13F/14F。"
-          }
-        }
+          "591列表12、前次15，未逐案對帳。",
+          "住商WS76211由1,738萬上調至1,768萬，+30萬（+1.73%）。"
+        ]
       }
     ],
     "platformGaps": [
-      "591：54個別頁中多個價格/坪數/樓層欄位被動態模板遮蔽；顯示數與列表版本未完成全量對帳。",
-      "信義房屋：本輪直接核實部分新巨蛋與公園世紀案件，未完成13社區完整清單。",
-      "樂屋網：部分社區頁可讀，但列表卡片不是逐案核實，未完成全量。",
-      "樂居：未完成13社區全量逐案核實。",
-      "永慶房屋：已直接核實部分個別頁，仍未完成13社區全量清單。",
-      "中信房屋：直接核實部分案件，未完成全量清單。",
-      "住商不動產：直接核實部分案件，未完成全量清單。",
-      "台灣房屋：未完成官方平台全量逐案核實。",
-      "好房網：未完成全13社區逐案核實。",
+      "591：多個個別頁價格/坪數/樓層欄位遮蔽；全量清單未完成。",
+      "信義房屋：本輪直接核實新巨蛋1359QV，未完成13社區全量清單。",
+      "樂屋網、樂居、永慶、中信、住商、台灣房屋、好房網：本輪未完成13社區全量逐案核實。",
       "Firecrawl額度回傳-1000/1000，本輪未使用；TinyFish非必要工具。",
-      "千禧園、吉祥花園、雙喜臨門未取得目標社區可核實的個別現售頁；列表0筆不等於全市場無案。"
+      "千禧園、吉祥花園、雙喜臨門未取得本輪目標社區個別現售頁；列表0筆不代表全市場無案。"
     ],
     "platformCountDifferences": [
       {
         "community": "板橋新巨蛋",
         "platform": "591",
-        "displayCounts": {
-          "一般在售頁": 50,
-          "本社區列表": 33
-        },
-        "difference": 17,
-        "note": "統計範圍不同，不能直接視為漏案或唯一戶數。"
-      },
-      {
-        "community": "欣璞綻",
-        "platform": "591/樂屋",
-        "displayCounts": {
-          "591標頭": 3,
-          "591列表版本": 6,
-          "樂屋候選版本": 2
-        },
-        "difference": 3,
-        "note": "列表版本可能重複，不可直接當唯一戶數。"
+        "current": 31,
+        "previous": 33,
+        "difference": -2,
+        "note": "未逐案對帳，不判定下架。"
       },
       {
         "community": "永康芬揚",
         "platform": "591",
-        "displayCounts": {
-          "本輪": 15,
-          "前次快照": 22,
-          "較早快照": 23
-        },
-        "difference": null,
-        "note": "未逐案對帳，不判定差額為售出/下架。"
-      },
-      {
-        "community": "板橋公園世紀A區",
-        "platform": "住商/591",
-        "displayCounts": {
-          "TS147949": 2380,
-          "KS197260": 2588,
-          "591候選": null
-        },
-        "difference": 208,
-        "note": "同戶候選有2,380萬與2,588萬來源版本，變價日期未標示。"
-      },
-      {
-        "community": "板橋晴",
-        "platform": "591/樂屋",
-        "displayCounts": {
-          "591候選": null,
-          "樂屋相似版本": 4
-        },
-        "difference": null,
-        "note": "2,185萬/34.48坪與2,360萬/44.15坪版本同戶關係未核實。"
-      },
-      {
-        "community": "鑑築",
-        "platform": "591",
-        "displayCounts": {
-          "本社區在售卡片": 2,
-          "附近社區在售": 50
-        },
-        "difference": null,
-        "note": "兩個卡片不等於兩戶已核實。"
-      }
-    ],
-    "platformListingExpiries": [
-      {
-        "community": "板橋新巨蛋",
-        "platform": "591",
-        "listingId": "S20543014",
-        "effectiveUntil": "2026-10-12",
-        "interpretation": "只標記591刊登到期；中信2118541仍支持主案件在售，不判定房屋售出。"
-      },
-      {
-        "community": "板橋公園世紀",
-        "platform": "591",
-        "listingId": "S20761300",
-        "effectiveUntil": "2026-10-18",
-        "interpretation": "只標記該591刊登到期，不判定房屋售出。"
-      }
-    ],
-    "historicalPriceDifferences": [
-      {
-        "id": "ng-6600",
-        "community": "板橋新巨蛋",
-        "platforms": [
-          "信義",
-          "永慶"
-        ],
-        "oldPrice": 6800,
-        "newPrice": 6600,
-        "change": -200,
-        "percent": -2.94,
-        "date": "未標示",
-        "todayChange": false
-      },
-      {
-        "id": "ng-1728",
-        "community": "板橋新巨蛋",
-        "platforms": [
-          "信義",
-          "永慶"
-        ],
-        "oldPrice": 1898,
-        "newPrice": 1728,
-        "change": -170,
-        "percent": -8.96,
-        "date": "未標示",
-        "todayChange": false
-      },
-      {
-        "id": "ng-4998",
-        "community": "板橋新巨蛋",
-        "platforms": [
-          "信義",
-          "永慶"
-        ],
-        "oldPrice": 5388,
-        "newPrice": 4998,
-        "change": -390,
-        "percent": -7.24,
-        "date": "未標示",
-        "todayChange": false
-      },
-      {
-        "id": "ng-1368",
-        "community": "板橋新巨蛋",
-        "platforms": [
-          "信義"
-        ],
-        "oldPrice": 1450,
-        "newPrice": 1368,
-        "change": -82,
-        "percent": -5.66,
-        "date": "未標示",
-        "todayChange": false
-      },
-      {
-        "id": "ng-1638",
-        "community": "板橋新巨蛋",
-        "platforms": [
-          "信義"
-        ],
-        "oldPrice": 1798,
-        "newPrice": 1638,
-        "change": -160,
-        "percent": -8.9,
-        "date": "未標示",
-        "todayChange": false
-      },
-      {
-        "id": "kz-5688-14f",
-        "community": "鑑築",
-        "platforms": [
-          "永慶",
-          "中信"
-        ],
-        "oldPrice": 5988,
-        "newPrice": 5688,
-        "change": -300,
-        "percent": -5.01,
-        "date": "未標示",
-        "todayChange": false
-      },
-      {
-        "id": "pc-a-2588",
-        "community": "板橋公園世紀A區",
-        "platforms": [
-          "住商TS147949"
-        ],
-        "oldPrice": 2588,
-        "newPrice": 2380,
-        "change": -208,
-        "percent": -8.04,
-        "date": "未標示",
-        "todayChange": false
-      },
-      {
-        "id": "yongkang-1738-3f",
-        "community": "永康芬揚",
-        "platforms": [
-          "我家網",
-          "住商WS76211"
-        ],
-        "oldPrice": 1768,
-        "newPrice": 1738,
-        "change": -30,
-        "percent": -1.7,
-        "date": "未標示",
-        "todayChange": false
-      },
-      {
-        "id": "pc-b-3758",
-        "community": "板橋公園世紀B區",
-        "platforms": [
-          "信義6254VN"
-        ],
-        "oldPrice": 3800,
-        "newPrice": 3758,
-        "change": -42,
-        "percent": -1.11,
-        "date": "未標示",
-        "todayChange": false
+        "current": 12,
+        "previous": 15,
+        "difference": -3,
+        "note": "未逐案對帳，不判定下架。"
       }
     ],
     "priceConflicts": [
       {
         "community": "板橋公園世紀A區",
-        "listing": "1F/29.58坪/3房",
         "prices": [
           2380,
           2588
         ],
-        "note": "保留平台差異，未計今日降價。"
+        "note": "住商來源價格仍不一致，變價日期未標示。"
       },
       {
         "community": "板橋晴",
@@ -1505,53 +346,22 @@
       {
         "community": "永康芬揚",
         "prices": [
-          1920,
-          1980
+          1738,
+          1768
         ],
-        "note": "同戶關係及變價日期未核實。"
-      }
-    ],
-    "excludedFalsePositives": [
-      {
-        "listingId": "S21055476",
-        "title": "万禧园2+1房車",
-        "reason": "頁面指向縣民大道一段府中商圈，不足以映射至莒光路156號的板橋千禧園，已排除。"
+        "note": "住商WS76211本輪直接頁確認1,768萬；我家網目前價未重新直接核實。"
       }
     ],
     "notes": [
-      "本輪直接讀取54個不重複個別案件網址，28頁主要欄位可讀、26頁部分欄位遭動態模板遮蔽；另讀取10個社區/列表頁。",
-      "新增7筆status=candidate待核實候選，不計入確認在售唯一戶數；候選缺少的價格/坪數/樓層均保留null。",
-      "新巨蛋S20884530屋主自售頁有效至2026-12-09，但核心欄位遮蔽；不代表今日首次上架。",
-      "鑑築S20238545高度吻合既有5,688萬大戶，已關聯到同一主案來源候選；仍待照片/戶別最後確認。",
-      "新巨蛋S20999996門牌360號與43F矛盾，車位欄位0.19坪與文案10.19坪矛盾，棟別與車位坪數待確認。",
-      "ng-1728信義1359QV與永慶YC1216530均直接頁可讀；確認🟦永慶有刊登，競業開發名單排除。",
-      "ng-6800錯誤歷史快照曾把B32的5,900萬混入B13，已移除錯誤歷史值；B13仍為6,800萬。",
-      "yongkang-2115永慶直連回傳CRAWL_NOT_FOUND，不能判定下架，已標未核實。",
-      "13社區跨平台去重後唯一戶數仍未完成，必須維持🟡部分完成。"
+      "本輪22次Exa搜尋、23個不重複URL直接Fetch，其中12個個別案件頁、11個社區/列表頁；3個個別頁主要欄位可讀、9個部分遮蔽或抽取不完整。",
+      "今日確認唯一價格變動：永康芬揚住商WS76211由1,738萬上調至1,768萬，+30萬（+1.73%）。",
+      "今日確認新增唯一戶0、降價0、售出/下架0；一次搜尋不到或平台顯示數下降不得判定售出。",
+      "所有13社區跨平台唯一戶數均未完成全量核實，維持🟡部分完成。"
     ],
     "websiteUpdate": {
-      "status": "success_live_verified",
-      "verifiedAt": "2026-10-25T09:15:17+08:00",
-      "checks": {
-        "homepageDateAndPartialStatus": true,
-        "homepageCoverageTableVisible": true,
-        "activeDisplayCount42": true,
-        "masterRecordCount58FromCommittedData": true,
-        "dailyNewDropUpSoldCountersDisplayed": true,
-        "dailyReportAccessible": true,
-        "reportContains13Communities": true,
-        "reportContains7PendingCandidates": true,
-        "candidateStatusFilterAndDailyCounterLogicCommitted": true
-      },
-      "note": "2026-10-25 09:15:17直接Fetch核對GitHub Pages首頁：顯示2026-10-25掃描日期、主資料58筆、目前在售42筆、🟡部分完成、13社區完整度表及今日新增/降價/漲價/售出下架統計；每日JSON報告可讀，含13社區與7筆待核實候選。"
-    },
-    "websiteDisplayCounts": {
-      "mainFileRecords": 58,
-      "afterOverridesBeforeDedupe": 63,
-      "afterDedupe": 59,
-      "activeConfirmedDisplay": 42,
-      "candidatesPendingVerification": 7,
-      "gonePending": 10
+      "status": "pending_verification",
+      "verifiedAt": null,
+      "note": "等待本輪GitHub提交後驗證公開頁面。"
     }
   },
   "run_history": [
@@ -4520,6 +3330,57 @@
         "activeConfirmedDisplay": 42,
         "candidatesPendingVerification": 7,
         "gonePending": 10
+      }
+    },
+    {
+      "checkedAt": "2026-10-26T09:03:03+08:00",
+      "scanDate": "2026-10-26",
+      "status": "partial",
+      "label": "🟡 部分完成",
+      "directIndividualPagesRead": 12,
+      "primaryFieldsReadable": 3,
+      "partialFields": 9,
+      "communityOrListingPagesRead": 11,
+      "uniqueUrlsFetched": 23,
+      "changes": {
+        "newUniqueListingsConfirmed": 0,
+        "priceDropsConfirmedToday": 0,
+        "priceUpsConfirmedToday": 1,
+        "soldOrDelistedConfirmed": 0,
+        "platformListingExpiriesDetected": 0,
+        "sourceStatusCorrections": 0,
+        "candidateRecordsAddedToMaster": 0,
+        "sourceLinksAddedToExisting": 0,
+        "historicalPriceDifferencesObserved": 3,
+        "platformCountChangesObserved": 2
+      },
+      "confirmedPriceChanges": [
+        {
+          "community": "永康芬揚",
+          "masterId": "ykf-1738-3f",
+          "listingId": "WS76211",
+          "platform": "住商不動產",
+          "oldPrice": 1738,
+          "newPrice": 1768,
+          "change": 30,
+          "percent": 1.73,
+          "date": "2026-10-26",
+          "area": 21.76,
+          "floor": "3/14",
+          "layout": "2房2廳1衛",
+          "parking": false,
+          "managementFee": 2177,
+          "url": "https://www.hbhousing.com.tw/detail?sn=WS76211"
+        }
+      ],
+      "notes": [
+        "本輪22次Exa搜尋、23個不重複URL直接Fetch，其中12個個別案件頁、11個社區/列表頁；3個個別頁主要欄位可讀、9個部分遮蔽或抽取不完整。",
+        "今日確認唯一價格變動：永康芬揚住商WS76211由1,738萬上調至1,768萬，+30萬（+1.73%）。",
+        "今日確認新增唯一戶0、降價0、售出/下架0；一次搜尋不到或平台顯示數下降不得判定售出。",
+        "所有13社區跨平台唯一戶數均未完成全量核實，維持🟡部分完成。"
+      ],
+      "websiteUpdate": {
+        "status": "pending_verification"
       }
     }
   ]
