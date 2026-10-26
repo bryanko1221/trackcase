@@ -328,8 +328,8 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-10-25",
-    "sourceVerified": "2026-10-25直接Fetch核實信義1359QV與永慶YC1216530仍有個別刊登；同一戶，競業開發名單排除。",
+    "updated": "2026-10-26",
+    "sourceVerified": "2026-10-26直接讀取信義1359QV：現價1,728萬、16.63坪、4F/40F、1房（含加蓋1房）；修正舊來源驗證記錄中的404標記。永慶YC1216530上次於10/25核實，本輪未重新直接讀取。",
     "sources": {
       "591": false,
       "信義": false,
@@ -346,11 +346,14 @@
     },
     "sourceValidation": {
       "信義": {
-        "state": "gone",
-        "httpStatus": 404,
-        "reason": "not-found",
-        "checkedAt": "2026-10-25T13:52:52.721310+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/1359QV"
+        "state": "active",
+        "checkedAt": "2026-10-26T09:03:03+08:00",
+        "reason": "Exa直接讀取官方個別案件頁，當前刊登資料可讀；HTTP狀態碼未獨立取得",
+        "url": "https://www.sinyi.com.tw/buy/house/1359QV",
+        "currentPrice": 1728,
+        "area": 16.63,
+        "floor": "4/40",
+        "note": "本輪直接頁可讀，修正舊的404狀態記錄；歷史原價1,898萬→1,728萬無變價日期，不計今日降價。"
       },
       "樂屋": {
         "state": "gone",
@@ -369,15 +372,15 @@
     },
     "status": "active",
     "lastStatusChange": "2026-09-29",
-    "urlAuditAt": "2026-09-29",
+    "urlAuditAt": "2026-10-26",
     "urlAudit": {
       "信義": {
-        "state": "not-currently-listed",
-        "evidence": "今日信義新巨蛋社區在售清單未出現；原始個別頁為舊快取"
+        "state": "active",
+        "evidence": "2026-10-26 Exa直接讀取信義1359QV個別頁，現價1,728萬與16.63坪/4F/40F可讀；舊not-currently-listed記錄已被本輪直接頁證據更新。"
       },
       "永慶": {
-        "state": "not-currently-listed",
-        "evidence": "今日永慶板橋新巨蛋直營店在售清單未出現；原始個別頁為舊快取"
+        "state": "last-verified-active-2026-10-25",
+        "evidence": "YC1216530於10/25直接頁核實；本輪未重新讀取。"
       },
       "樂屋": {
         "state": "unverified",
@@ -386,7 +389,8 @@
     },
     "verificationNote": "信義與永慶直接頁均可讀；🟦永慶有刊登。歷史原價1,898萬→1,728萬，日期未標示，不列今日降價。",
     "matchStatus": "直接頁已核實；跨平台仍待核",
-    "competitorStatus": "🟦永慶有刊登；排除競業開發名單。"
+    "competitorStatus": "🟦永慶有刊登；排除競業開發名單。",
+    "lastChecked": "2026-10-26"
   },
   {
     "id": "ng-1638",
@@ -620,8 +624,8 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-10-25",
-    "sourceVerified": "2026-10-24跨平台直接頁核實：同戶特徵為公園世紀A區候選、1F/14F、29.58坪、3房2廳2衛、無車位、管理費1,775元/月。住商TS147949現價2,380萬（頁面原價2,588萬、降幅8.04%）；台慶TC0532111及住商KS197260仍顯示2,588萬；591 S21096885與S20956618個別頁價格欄位遮蔽。實際變價日期未標示，不列今日降價。永慶目前未取得同戶個別直連；舊資料曾有永慶來源，競業名單暫保守排除，待重新核實。",
+    "updated": "2026-10-26",
+    "sourceVerified": "2026-10-26重新讀取591 S21096885，刊登有效至2026-12-16；文案可核實1F/14F、29.58坪、3房及管理費1,775元/月，價格欄位遮蔽。與既有A區一樓案件高度吻合，保留2,380萬/2,588萬來源差異，不計今日降價。",
     "sources": {
       "591": true,
       "信義": false,
@@ -682,12 +686,11 @@
       },
       "591-S21096885": {
         "state": "active_partial",
-        "httpStatus": 200,
-        "reason": "direct-page-readable-partial-fields",
-        "checkedAt": "2026-10-25T09:11:01+08:00",
+        "checkedAt": "2026-10-26T09:03:03+08:00",
+        "reason": "直接案件頁可讀部分條件，價格欄位遮蔽",
         "url": "https://sale.591.com.tw/home/house/detail/2/21096885.html",
         "effectiveUntil": "2026-12-16",
-        "note": "有效至12/16；價格欄位遮蔽。"
+        "note": "1F/14F、29.58坪、3房、管理費1,775元/月；價格欄位遮蔽，與既有A區一樓主案高度吻合。"
       },
       "591-S20956618": {
         "state": "active_partial",
@@ -753,7 +756,8 @@
     "priceConflictNote": "2026-10-25直接Fetch仍確認住商TS147949為2,380萬（頁面原價2,588萬），住商KS197260仍顯示2,588萬；591 S21096885/S20956618價格欄位遮蔽。實際變價日期未標示，不計今日降價。",
     "changeNote": "本輪確認不同平台仍有2,380萬與2,588萬版本；原價→現價的實際變價日期未標示，不計今日降價。",
     "matchStatus": "高度吻合同戶候選；價格衝突保留，照片/門牌仍待最後核對",
-    "competitorStatus": "暫不列競業開發名單：過往曾有永慶來源線索，但本輪未取得同戶永慶個別直連；目前永慶狀態未核實。"
+    "competitorStatus": "暫不列競業開發名單：過往曾有永慶來源線索，但本輪未取得同戶永慶個別直連；目前永慶狀態未核實。",
+    "lastChecked": "2026-10-26"
   },
   {
     "id": "pc-b-3698",
@@ -2167,11 +2171,12 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-25T13:52:52.721310+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20238545.html"
+        "state": "active_partial",
+        "checkedAt": "2026-10-26T09:03:03+08:00",
+        "reason": "直接案件頁可讀部分欄位，核心價格/坪數/樓層欄位部分遮蔽",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20238545.html",
+        "effectiveUntil": "2026-11-16",
+        "note": "591 S20238545仍有有效刊登；可讀車位25.84坪、管理費約5,353元/月，核心欄位部分遮蔽。"
       },
       "中信": {
         "state": "active",
@@ -2189,8 +2194,8 @@
       }
     },
     "sourceVerified": "2026-10-25直接Fetch核實中信2004451與永慶YC1233722同戶；591 S20238545高度吻合但核心欄位遮蔽，已關聯為同戶來源候選，仍待照片/戶別最後確認。",
-    "updated": "2026-10-25",
-    "lastChecked": "2026-09-29T14:31:00+08:00",
+    "updated": "2026-10-26",
+    "lastChecked": "2026-10-26",
     "verificationNote": "🟦永慶有刊登；市場在售可列，競業開發名單排除。591 S20238545疑似同戶，價格/樓層/坪數欄位未讀出，暫保留來源候選。",
     "competitorStatus": "🟦永慶有刊登；排除競業開發名單。"
   },
@@ -2582,7 +2587,7 @@
     "yq": null,
     "new": false,
     "status": "active",
-    "updated": "2026-10-25",
+    "updated": "2026-10-26",
     "sources": {
       "591": true,
       "信義": false,
@@ -2599,20 +2604,22 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "active",
-        "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-25T13:52:52.721310+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20999996.html"
+        "state": "active_partial",
+        "checkedAt": "2026-10-26T09:03:03+08:00",
+        "reason": "直接案件頁可讀；部分欄位由文案補足",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20999996.html",
+        "effectiveUntil": "2026-12-01",
+        "note": "仍有效刊登；文化路一段360號與總樓層43F矛盾，車位欄位0.19與文案10.19坪矛盾。"
       }
     },
     "matchStatus": "棟別待確認／車位坪數待確認",
-    "sourceVerified": "2026-10-25直接Fetch重新核實591 S20999996仍有效至2026-12-01；價格3,988萬、約47.48坪、11F/43F、三房車。門牌360號與43F矛盾，棟別待確認。",
+    "sourceVerified": "2026-10-26重新直接讀取591 S20999996，仍有效至2026-12-01；文案列3,988萬、約47.48坪、11F/43F、三房車。門牌360號與43F規則矛盾，車位坪數欄位矛盾，仍標棟別/車位待確認；非今日新上架。",
     "verificationNote": "門牌文化路一段360號依規則屬A棟/40F，但頁面總樓層為43F，故不得直接判A/C/D棟。車位坪數10.19坪與0.19坪欄位衝突。有效刊登不代表今日新上架，new=false。",
     "agent": "王昱翔／台灣房屋南港三井世貿店",
     "brokerage": "兆鴻不動產仲介有限公司",
     "validUntil": "2026-12-01",
-    "yqCheck": "未完成跨平台全量核對"
+    "yqCheck": "未完成跨平台全量核對",
+    "lastChecked": "2026-10-26"
   },
   {
     "id": "ng-candidate-s20884530",
