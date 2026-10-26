@@ -892,11 +892,11 @@
     },
     "websiteDisplayCounts": {
       "mainFileRecords": 58,
-      "afterOverridesBeforeDedupe": 63,
-      "afterDedupe": 59,
+      "afterOverridesBeforeDedupe": null,
+      "afterDedupe": null,
       "activeConfirmedDisplay": 42,
-      "candidatesPendingVerification": 7,
-      "gonePending": 10
+      "candidatesPendingVerification": 6,
+      "gonePending": 11
     }
   },
   "communityStatus": {
@@ -2182,11 +2182,11 @@
     },
     "websiteDisplayCounts": {
       "mainFileRecords": 58,
-      "afterOverridesBeforeDedupe": 63,
-      "afterDedupe": 59,
+      "afterOverridesBeforeDedupe": null,
+      "afterDedupe": null,
       "activeConfirmedDisplay": 42,
-      "candidatesPendingVerification": 7,
-      "gonePending": 10
+      "candidatesPendingVerification": 6,
+      "gonePending": 11
     }
   },
   "latestAutomationWrite": {
