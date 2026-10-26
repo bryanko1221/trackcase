@@ -301,7 +301,8 @@
     "今日確認唯一價格變動：永康芬揚住商WS76211由1,738萬上調至1,768萬，+30萬（+1.73%）。",
     "今日確認新增唯一戶0、降價0、售出/下架0；一次搜尋不到或平台顯示數下降不得判定售出。",
     "所有13社區跨平台唯一戶數均未完成全量核實，維持🟡部分完成。",
-    "2026-10-26修正ng-1728信義1359QV的舊404來源驗證標記：本輪直接頁可讀，現價1,728萬、16.63坪、4F/40F；永慶來源只沿用10/25核實。"
+    "2026-10-26修正ng-1728信義1359QV的舊404來源驗證標記：本輪直接頁可讀，現價1,728萬、16.63坪、4F/40F；永慶來源只沿用10/25核實。",
+    "主檔原始狀態數（58筆）：active 32、price_up 1、candidate 6、gone_pending 11、未標狀態8；網站目前在售顯示42筆為前端合併/篩選結果，不等於13社區全平台已核實唯一戶數。"
   ],
   "websiteUpdate": {
     "status": "success_live_verified",
@@ -334,10 +335,10 @@
   },
   "websiteDisplayCounts": {
     "mainFileRecords": 58,
-    "afterOverridesBeforeDedupe": 63,
-    "afterDedupe": 59,
+    "afterOverridesBeforeDedupe": null,
+    "afterDedupe": null,
     "activeConfirmedDisplay": 42,
-    "candidatesPendingVerification": 7,
-    "gonePending": 10
+    "candidatesPendingVerification": 6,
+    "gonePending": 11
   }
 }
