@@ -2243,14 +2243,14 @@
     "floor": 3,
     "totalFloor": 14,
     "area": 21.76,
-    "layout": "2房1廳1衛",
-    "price": 1738,
-    "unit": 79.87,
+    "layout": "2房2廳1衛",
+    "price": 1768,
+    "unit": 81.24,
     "parking": false,
     "owner": false,
     "yq": false,
     "new": false,
-    "status": "active",
+    "status": "price_up",
     "sources": {
       "我家網": true,
       "住商": true
@@ -2268,17 +2268,50 @@
         "url": "https://www.myhomes.com.tw/objects/o/1388064"
       },
       "住商": {
-        "state": "unknown",
-        "httpStatus": 420,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-25T13:52:52.721310+08:00",
-        "url": "https://www.hbhousing.com.tw/detail?sn=WS76211"
+        "state": "active",
+        "checkedAt": "2026-10-26T09:03:03+08:00",
+        "reason": "Exa直接讀取個別案件頁，核心欄位可讀",
+        "url": "https://www.hbhousing.com.tw/detail?sn=WS76211",
+        "listingId": "WS76211",
+        "currentPrice": 1768,
+        "area": 21.76,
+        "floor": "3/14",
+        "layout": "2房2廳1衛",
+        "managementFee": 2177,
+        "age": 0.8
       }
     },
-    "sourceVerified": "2026-09-29：591社區頁目前18筆在售；我家網直接案件仍顯示1,738萬、3F/14F、21.76坪，因此保留作為已核實個案。",
-    "updated": "2026-10-25",
-    "lastChecked": "2026-09-29T14:31:00+08:00",
-    "changeNote": "跨平台價差：我家網現價1,738萬、住商WS76211顯示1,768萬；變價日期未確認，不列今日新降價。"
+    "sourceVerified": "2026-10-26直接Fetch住商WS76211核實：現價1,768萬、建坪21.76坪、3F/14F、2房2廳1衛、無車位、管理費2,177元/月、屋齡約0.8年、朝南。前次主檔為1,738萬，確認同一案件編號價格上調30萬元（+1.73%）。我家網前次快照仍為1,738萬，當前價格尚未重新直接核實，保留跨平台差異。",
+    "updated": "2026-10-26",
+    "lastChecked": "2026-10-26",
+    "changeNote": "🔺 2026-10-26漲價：住商WS76211，1,738萬→1,768萬，+30萬（+1.73%）。我家網前次快照1,738萬，當前價格未重新直接核實；不把跨平台價差另算一次變價。",
+    "managementFee": 2177,
+    "age": 0.8,
+    "address": "新北市板橋區縣民大道三段",
+    "facing": "朝南",
+    "history": [
+      {
+        "date": "2026-10-26",
+        "platform": "住商不動產",
+        "listingId": "WS76211",
+        "oldPrice": 1738,
+        "newPrice": 1768,
+        "change": 30,
+        "percent": 1.73,
+        "confirmed": true,
+        "url": "https://www.hbhousing.com.tw/detail?sn=WS76211"
+      }
+    ],
+    "matchStatus": "同一案件編號直接頁核實；今日價格上調已確認",
+    "priceChangeConfirmed": {
+      "date": "2026-10-26",
+      "platform": "住商不動產",
+      "listingId": "WS76211",
+      "oldPrice": 1738,
+      "newPrice": 1768,
+      "change": 30,
+      "percent": 1.73
+    }
   },
   {
     "id": "jyz-2358-2f",
