@@ -23,8 +23,8 @@
         "status": "partial",
         "listedCount": 9,
         "url": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000036",
-        "lastChecked": "2026-10-24",
-        "note": "本輪直接讀取1359QV與9524XN兩個個別頁，非全社區清單。"
+        "lastChecked": "2026-10-26",
+        "note": "2026-10-26直接讀取個別頁1359QV；現價1,728萬、16.63坪、4F/40F可讀，但未完成全社區清單。"
       },
       "樂屋": {
         "status": "available",
@@ -882,6 +882,21 @@
       },
       "deploymentRun": "https://github.com/bryanko1221/trackcase/actions/runs/40252859872",
       "note": "公開GitHub Pages首頁與每日JSON已重新Fetch核對：顯示2026-10-26 09:03、🟡部分完成、今日漲價1；主資料58筆、首頁現有合併邏輯顯示42筆在售。42筆不是13社區全平台已核實唯一戶數。"
+    },
+    "masterStatusCounts": {
+      "active": 32,
+      "未標狀態": 8,
+      "gone_pending": 11,
+      "price_up": 1,
+      "candidate": 6
+    },
+    "websiteDisplayCounts": {
+      "mainFileRecords": 58,
+      "afterOverridesBeforeDedupe": 63,
+      "afterDedupe": 59,
+      "activeConfirmedDisplay": 42,
+      "candidatesPendingVerification": 7,
+      "gonePending": 10
     }
   },
   "communityStatus": {
@@ -2157,6 +2172,21 @@
       },
       "deploymentRun": "https://github.com/bryanko1221/trackcase/actions/runs/40252859872",
       "note": "公開GitHub Pages首頁與每日JSON已重新Fetch核對：顯示2026-10-26 09:03、🟡部分完成、今日漲價1；主資料58筆、首頁現有合併邏輯顯示42筆在售。42筆不是13社區全平台已核實唯一戶數。"
+    },
+    "masterStatusCounts": {
+      "active": 32,
+      "未標狀態": 8,
+      "gone_pending": 11,
+      "price_up": 1,
+      "candidate": 6
+    },
+    "websiteDisplayCounts": {
+      "mainFileRecords": 58,
+      "afterOverridesBeforeDedupe": 63,
+      "afterDedupe": 59,
+      "activeConfirmedDisplay": 42,
+      "candidatesPendingVerification": 7,
+      "gonePending": 10
     }
   },
   "latestAutomationWrite": {
