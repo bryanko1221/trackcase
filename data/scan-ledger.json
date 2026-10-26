@@ -359,9 +359,20 @@
       "所有13社區跨平台唯一戶數均未完成全量核實，維持🟡部分完成。"
     ],
     "websiteUpdate": {
-      "status": "pending_verification",
-      "verifiedAt": null,
-      "note": "等待本輪GitHub提交後驗證公開頁面。"
+      "status": "success_live_verified",
+      "verifiedAt": "2026-10-26T09:03:03+08:00",
+      "checks": {
+        "homepageDateAndPartialStatus": true,
+        "dailyReportAccessible": true,
+        "priceIncreaseVisible": true,
+        "sourceStatusDateVisible": true,
+        "thirteenCommunityTableVisible": true,
+        "activeDisplayCount42": true,
+        "masterRecordCount58": true,
+        "deploymentRunSucceeded": true
+      },
+      "deploymentRun": "https://github.com/bryanko1221/trackcase/actions/runs/40252859872",
+      "note": "公開GitHub Pages首頁與每日JSON已重新Fetch核對：顯示2026-10-26 09:03、🟡部分完成、今日漲價1；主資料58筆、首頁現有合併邏輯顯示42筆在售。42筆不是13社區全平台已核實唯一戶數。"
     }
   },
   "run_history": [
@@ -3380,7 +3391,20 @@
         "所有13社區跨平台唯一戶數均未完成全量核實，維持🟡部分完成。"
       ],
       "websiteUpdate": {
-        "status": "pending_verification"
+        "status": "success_live_verified",
+        "verifiedAt": "2026-10-26T09:03:03+08:00",
+        "checks": {
+          "homepageDateAndPartialStatus": true,
+          "dailyReportAccessible": true,
+          "priceIncreaseVisible": true,
+          "sourceStatusDateVisible": true,
+          "thirteenCommunityTableVisible": true,
+          "activeDisplayCount42": true,
+          "masterRecordCount58": true,
+          "deploymentRunSucceeded": true
+        },
+        "deploymentRun": "https://github.com/bryanko1221/trackcase/actions/runs/40252859872",
+        "note": "公開GitHub Pages首頁與每日JSON已重新Fetch核對：顯示2026-10-26 09:03、🟡部分完成、今日漲價1；主資料58筆、首頁現有合併邏輯顯示42筆在售。42筆不是13社區全平台已核實唯一戶數。"
       }
     }
   ]
