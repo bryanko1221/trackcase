@@ -379,6 +379,11 @@
     "鑑築591 S20238545列表單價81.2萬/坪與中信/永慶直接頁63.4萬/坪不一致，待核實是否同戶/價格口徑。",
     "板橋千禧園、板橋吉祥花園、雙喜臨門本輪未取得可確認屬於目標社區的個別現售頁；搜尋不到不等於無案。"
   ],
-  "websiteUpdate": "pending",
-  "websiteVerification": "pending"
+  "websiteUpdate": "網站更新未確認成功",
+  "websiteVerification": {
+    "checkedAt": "2026-10-27T09:14:41+08:00",
+    "repositoryWrites": "success",
+    "publicHomepage": "not_confirmed",
+    "details": "GitHub main branch index.html、source-status.json、listings.json與每日報告已寫入；但Exa Fetch在09:14重新讀取公開GitHub Pages時，首頁與source-status仍回傳2026-10-26舊內容，雖然新listings.json與daily-scan-report-2026-10-27.json已可讀。無法確認首頁與來源狀態完整刷新。"
+  }
 }
