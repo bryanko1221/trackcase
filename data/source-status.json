@@ -1,7 +1,7 @@
 {
   "lastVerified": "2026-10-27",
-  "lastUpdated": "2026-10-27 09:09",
-  "note": "2026-10-27：38次Exa搜尋、45個不重複URL直接Fetch（31個個別案件頁、14個社區/列表頁）；12個目標個別頁核心欄位可讀、16個部分遮蔽，另1頁社區歸屬待確認、2頁一般莒光路案件排除。今日確認新增唯一戶0、降價0、漲價0、售出/下架0；新增7筆待核實候選，修正欣璞綻S21121742恢復在售、永康芬揚S20997905由gone_pending改為candidate、文化勳章錯誤社區歸屬。591顯示數差異：新巨蛋50/29（前次31）、永康芬揚11（前次12）、欣璞綻標頭3/列表7（前次6）、綠如意可見3卡（前次4），均未逐案對帳。整體🟡部分完成。",
+  "lastUpdated": "2026-10-27 09:14",
+  "note": "2026-10-27：38次Exa搜尋、45個不重複URL直接Fetch（31個個別案件頁、14個社區/列表頁）；12個目標個別頁核心欄位可讀、16個部分遮蔽，另1頁社區歸屬待確認、2頁一般莒光路案件排除。今日確認新增唯一戶0、降價0、漲價0、售出/下架0；新增7筆待核實候選，修正欣璞綻S21121742恢復在售、永康芬揚S20997905由gone_pending改為candidate、文化勳章錯誤社區歸屬。591顯示數差異：新巨蛋50/29（前次31）、永康芬揚11（前次12）、欣璞綻標頭3/列表7（前次6）、綠如意可見3卡（前次4），均未逐案對帳。整體🟡部分完成。 公開網站核對補充（2026-10-27 09:14）：GitHub main branch寫入成功；但公開Pages首頁與source-status在直接Fetch時仍回傳2026-10-26舊內容，只有新listings.json與每日報告可讀，因此網站更新未確認成功。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
@@ -580,9 +580,9 @@
       }
     }
   },
-  "lastScheduledCheck": "2026-10-27T09:09:00+08:00",
+  "lastScheduledCheck": "2026-10-27T09:14:41+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-10-27 09:09",
+  "lastValidated": "2026-10-27 09:14",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
     "enabled": true,
@@ -592,7 +592,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-27T09:09:00+08:00",
+    "checkedAt": "2026-10-27T09:14:41+08:00",
     "sourceCount": 45,
     "communityCount": 13,
     "reasons": [
@@ -1247,8 +1247,13 @@
       "鑑築591 S20238545列表單價81.2萬/坪與中信/永慶直接頁63.4萬/坪不一致，待核實是否同戶/價格口徑。",
       "板橋千禧園、板橋吉祥花園、雙喜臨門本輪未取得可確認屬於目標社區的個別現售頁；搜尋不到不等於無案。"
     ],
-    "websiteUpdate": "pending",
-    "websiteVerification": "pending"
+    "websiteUpdate": "網站更新未確認成功",
+    "websiteVerification": {
+      "checkedAt": "2026-10-27T09:14:41+08:00",
+      "repositoryWrites": "success",
+      "publicHomepage": "not_confirmed",
+      "details": "GitHub main branch index.html、source-status.json、listings.json與每日報告已寫入；但Exa Fetch在09:14重新讀取公開GitHub Pages時，首頁與source-status仍回傳2026-10-26舊內容，雖然新listings.json與daily-scan-report-2026-10-27.json已可讀。無法確認首頁與來源狀態完整刷新。"
+    }
   },
   "communityStatus": {
     "板橋新巨蛋": {
@@ -2846,8 +2851,13 @@
       "鑑築591 S20238545列表單價81.2萬/坪與中信/永慶直接頁63.4萬/坪不一致，待核實是否同戶/價格口徑。",
       "板橋千禧園、板橋吉祥花園、雙喜臨門本輪未取得可確認屬於目標社區的個別現售頁；搜尋不到不等於無案。"
     ],
-    "websiteUpdate": "pending",
-    "websiteVerification": "pending"
+    "websiteUpdate": "網站更新未確認成功",
+    "websiteVerification": {
+      "checkedAt": "2026-10-27T09:14:41+08:00",
+      "repositoryWrites": "success",
+      "publicHomepage": "not_confirmed",
+      "details": "GitHub main branch index.html、source-status.json、listings.json與每日報告已寫入；但Exa Fetch在09:14重新讀取公開GitHub Pages時，首頁與source-status仍回傳2026-10-26舊內容，雖然新listings.json與daily-scan-report-2026-10-27.json已可讀。無法確認首頁與來源狀態完整刷新。"
+    }
   },
   "latestAutomationWrite": {
     "date": "2026-10-26",
