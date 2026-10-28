@@ -1,7 +1,7 @@
 {
   "lastVerified": "2026-10-28",
-  "lastUpdated": "2026-10-28 09:03",
-  "note": "2026-10-28：34次Exa Search、33個不重複網址直接Fetch（18個個別案件頁、15個社區/列表頁）；6頁核心欄位可讀、12頁部分遮蔽，另1個社區身份待確認。今日新增唯一戶0、降價0、漲價0、售出/下架0；修正新巨蛋S20808679過期來源狀態、永康芬揚S20997905候選狀態，新增信義欣璞綻2256TB待去重候選。591新巨蛋一般49/本社區25（前次29）；欣璞綻591標頭3/列表7；永康芬揚11（前次11）。板橋晴樂屋列表有2,360→2,185萬價格訊號，但個別頁及變價日期未核，未計今日降價。",
+  "lastUpdated": "2026-10-28 09:08",
+  "note": "2026-10-28：34次Exa Search、33個不重複網址直接Fetch（18個個別案件頁、15個社區/列表頁）；6頁核心欄位可讀、12頁部分遮蔽，另1個社區身份待確認。今日新增唯一戶0、降價0、漲價0、售出/下架0；修正新巨蛋S20808679過期來源狀態、永康芬揚S20997905候選狀態，新增信義欣璞綻2256TB待去重候選。591新巨蛋一般49/本社區25（前次29）；欣璞綻591標頭3/列表7；永康芬揚11（前次11）。板橋晴樂屋列表有2,360→2,185萬價格訊號，但個別頁及變價日期未核，未計今日降價。 09:08：GitHub Pages部署run 40613169456成功；公開首頁、今日報告JSON、來源狀態JSON可讀，首頁日期/66筆主檔/42筆畫面在售/🟡部分完成已核對。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
@@ -627,7 +627,7 @@
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-10-28T09:03:51+08:00",
+    "checkedAt": "2026-10-28T09:08:49+08:00",
     "sourceCount": 33,
     "communityCount": 13,
     "reasons": [
@@ -1274,15 +1274,16 @@
       "公園世紀A區一樓仍有2,380萬與2,588萬來源版本；保留差異，不列今日降價。",
       "千禧園、吉祥花園、雙喜臨門本輪沒有取得目標社區可確認的現售個別頁；搜尋不到不代表全市場無案。"
     ],
-    "websiteUpdate": "pending_live_verification",
+    "websiteUpdate": "success_live_verified",
     "websiteVerification": {
-      "checkedAt": "2026-10-28T09:03:51+08:00",
-      "repositoryWrites": "pending",
-      "publicHomepage": "pending",
-      "sourceStatus": "pending",
-      "dailyReport": "pending",
-      "currentReportPointer": "pending",
-      "details": "主案件及首頁已提交；每日報告與來源狀態待提交，公開部署待核對。"
+      "checkedAt": "2026-10-28T09:08:49+08:00",
+      "repositoryWrites": "success",
+      "publicHomepage": "success",
+      "sourceStatus": "success",
+      "dailyReport": "success",
+      "currentReportPointer": "success",
+      "details": "GitHub Pages deployment run 40613169456 completed successfully. Public homepage shows 2026-10-28 09:03, 66 master records, 42 currently displayed listings, zero confirmed daily changes, and 🟡 partial status. Public daily report and source-status JSON are readable. The new 2,988萬 Sinyi candidate and stale-card corrections are in repository data; full platform deduplication remains incomplete.",
+      "deploymentRun": "https://github.com/bryanko1221/trackcase/actions/runs/40613169456"
     }
   },
   "communityStatus": {
@@ -2879,20 +2880,21 @@
       "公園世紀A區一樓仍有2,380萬與2,588萬來源版本；保留差異，不列今日降價。",
       "千禧園、吉祥花園、雙喜臨門本輪沒有取得目標社區可確認的現售個別頁；搜尋不到不代表全市場無案。"
     ],
-    "websiteUpdate": "pending_live_verification",
+    "websiteUpdate": "success_live_verified",
     "websiteVerification": {
-      "checkedAt": "2026-10-28T09:03:51+08:00",
-      "repositoryWrites": "pending",
-      "publicHomepage": "pending",
-      "sourceStatus": "pending",
-      "dailyReport": "pending",
-      "currentReportPointer": "pending",
-      "details": "主案件及首頁已提交；每日報告與來源狀態待提交，公開部署待核對。"
+      "checkedAt": "2026-10-28T09:08:49+08:00",
+      "repositoryWrites": "success",
+      "publicHomepage": "success",
+      "sourceStatus": "success",
+      "dailyReport": "success",
+      "currentReportPointer": "success",
+      "details": "GitHub Pages deployment run 40613169456 completed successfully. Public homepage shows 2026-10-28 09:03, 66 master records, 42 currently displayed listings, zero confirmed daily changes, and 🟡 partial status. Public daily report and source-status JSON are readable. The new 2,988萬 Sinyi candidate and stale-card corrections are in repository data; full platform deduplication remains incomplete.",
+      "deploymentRun": "https://github.com/bryanko1221/trackcase/actions/runs/40613169456"
     }
   },
   "latestAutomationWrite": {
     "date": "2026-10-28",
-    "status": "pending_live_verification",
-    "note": "主案件、首頁靜態備援、每日報告及來源狀態已提交；等待公開GitHub Pages與每日JSON直接核對。"
+    "status": "success_live_verified",
+    "note": "GitHub Pages deployment run 40613169456 completed successfully; at 09:08 public homepage, daily report JSON and source-status JSON were fetched and checked. Homepage shows scan date 2026-10-28, 66 master records, 42 displayed for sale, 0/0/0/0 confirmed daily changes, and 🟡 partial status."
   }
 }
