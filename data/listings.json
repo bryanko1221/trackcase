@@ -34,14 +34,14 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/7855FZ"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/6364266"
       }
     },
@@ -62,7 +62,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sourceVerified": "2026-10-25直接Fetch確認中信2118541仍刊登；591 S20543014有效期已於10/12屆滿。主案件仍由中信頁支持在售，不判定售出。",
     "sources": {
       "591": false,
@@ -85,14 +85,14 @@
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20543014.html"
       },
       "中信": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.cthouse.com.tw/house/2118541.html"
       },
       "信義": {
@@ -156,28 +156,28 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/7680JW"
       },
       "樂屋": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/6499628"
       },
       "中信": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.cthouse.com.tw/house/2040095.html"
       }
     },
@@ -209,7 +209,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sourceVerified": "2026-10-25直接Fetch核實信義9524XN與永慶YC1233715均仍有刊登，7F/46F、84.05坪、6,600萬。",
     "sources": {
       "591": false,
@@ -230,21 +230,21 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/9524XN"
       },
       "樂屋": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08d32d300679720&from=communitySearchSell"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/6892646"
       }
     },
@@ -273,7 +273,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sourceVerified": "信義房屋＋樂屋網交叉核實；永慶尚未確認",
     "sources": {
       "591": false,
@@ -293,14 +293,14 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/4813PN"
       },
       "樂屋": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0a558427248637f&from=communitySearchSell"
       }
     },
@@ -328,7 +328,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sourceVerified": "2026-10-26直接讀取信義1359QV：現價1,728萬、16.63坪、4F/40F、1房（含加蓋1房）；修正舊來源驗證記錄中的404標記。永慶YC1216530上次於10/25核實，本輪未重新直接讀取。",
     "sources": {
       "591": false,
@@ -349,21 +349,21 @@
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/1359QV"
       },
       "樂屋": {
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0eed31338337495&from=communitySearchSell"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/6680641"
       }
     },
@@ -404,7 +404,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sourceVerified": "信義房屋＋樂屋網交叉核實；永慶尚未確認",
     "sources": {
       "591": false,
@@ -424,14 +424,14 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/3508VZ"
       },
       "樂屋": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=089270299156338&from=communitySearchSell"
       }
     }
@@ -451,7 +451,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sourceVerified": "591＋樂屋網交叉核實；永慶尚未確認",
     "sources": {
       "591": false,
@@ -471,19 +471,19 @@
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/19784014.html"
       },
       "樂屋": {
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=09906e35200994e&from=realpriceH&from_id=6a8abdd5b7577"
       }
     },
     "status": "gone_pending",
-    "lastStatusChange": "2026-10-27"
+    "lastStatusChange": "2026-10-28"
   },
   {
     "id": "ng-1315",
@@ -531,7 +531,7 @@
       }
     },
     "status": "active",
-    "lastStatusChange": "2026-10-27",
+    "lastStatusChange": "2026-10-28",
     "dedupAt": "2026-09-29",
     "dedupRemovedIds": [
       "ng-match-15"
@@ -592,7 +592,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sourceVerified": "591公開搜尋結果（尚未取得案件直連）；未與其他平台確認為同戶",
     "sources": {
       "591": true,
@@ -650,14 +650,14 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.taiching.com.tw/house/7509130"
       },
       "住商不動產": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.hbhousing.com.tw/detail?sn=KS197260"
       },
       "住商TS147949": {
@@ -712,41 +712,42 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.hbhousing.com.tw/detail?sn=TS147949"
       },
       "591-S21096885（價格欄位遮蔽）": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/21096885.html"
       },
       "591-S20956618（價格欄位遮蔽）": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20956618.html"
       },
       "住商不動產-KS197260（2,588萬版本）": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.hbhousing.com.tw/detail?sn=KS197260"
       },
       "591-S21094824": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/21094824.html"
       },
       "樂屋社區銷售頁": {
-        "state": "active-list-card",
-        "reason": "community-list-card-only",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/38979/sell"
       }
     },
@@ -788,7 +789,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sourceVerified": "2026-10-09晚間重新取得永慶7171225直接頁；gone_pending恢復active，非新增戶。",
     "sources": {
       "591": false,
@@ -807,7 +808,7 @@
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/7171225"
       }
     },
@@ -839,7 +840,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sourceVerified": "2026-09-29：樂屋社區銷售頁＋永慶直接案件頁交叉核實。",
     "sources": {
       "591": false,
@@ -859,14 +860,14 @@
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/6572663"
       },
       "樂屋社區銷售頁": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/38979/sell?display=community"
       }
     },
@@ -894,7 +895,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sourceVerified": "2026-09-29：使用者實際點擊10樓案件網址後回報頁面顯示「案件已下架或被搶先」；因此撤銷原本的「有效直連」判定。搜尋引擎仍可見舊頁內容，不能作為目前在售直連證據。",
     "sources": {
       "591": false,
@@ -970,7 +971,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sourceVerified": "2026-09-29：信義直接案件頁確認目前在售，總價3,758萬；樂屋社區銷售頁亦列出本戶。",
     "sources": {
       "591": false,
@@ -990,14 +991,14 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/6254VN"
       },
       "樂屋社區銷售頁": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/38979/sell?display=community"
       }
     },
@@ -1025,7 +1026,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sourceVerified": "樂屋網＋永慶房屋／好房網交叉核實；永慶本戶直連尚未取得",
     "sources": {
       "591": false,
@@ -1079,14 +1080,14 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/38961/sell"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.yungching.com.tw/building/57470"
       }
     },
@@ -1130,14 +1131,14 @@
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.leju.com.tw/community/Le2a110419dc202?mode=buy"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.yungching.com.tw/building/57470"
       }
     },
@@ -1163,8 +1164,8 @@
     "yq": true,
     "new": false,
     "status": "active",
-    "updated": "2026-10-28",
-    "sourceVerified": "2026-10-28直接Fetch永慶仍顯示5,068萬、75.76坪、2F/15F、4房2廳2衛、含雙車位；標記🟦永慶有刊登。",
+    "updated": "2026-09-04",
+    "sourceVerified": "2026-09-04：永慶案件 YC1255301",
     "sources": {
       "永慶": true
     },
@@ -1174,9 +1175,10 @@
     "history": [],
     "sourceValidation": {
       "永慶": {
-        "state": "active",
-        "reason": "direct-fetch-content-present",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "state": "unknown",
+        "httpStatus": 403,
+        "reason": "access-blocked-or-server-error",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/7217539"
       }
     },
@@ -1191,26 +1193,24 @@
     "groupId": "jyz-2688",
     "community": "板橋佳元植",
     "block": "待確認",
-    "floor": 16,
-    "totalFloor": 22,
-    "area": 29.27,
-    "layout": "2房2廳2衛",
+    "floor": null,
+    "totalFloor": null,
+    "area": null,
+    "layout": "2房",
     "price": 2688,
     "unit": null,
-    "parking": true,
+    "parking": null,
     "owner": false,
     "yq": null,
     "new": false,
     "status": "active",
-    "updated": "2026-10-28",
-    "sourceVerified": "2026-10-28直接Fetch住商TS146339：2,688萬、29.27坪、16F/22F、2房2廳2衛、坡道機械車位6.23坪；管理費與車位價格未提供。",
+    "updated": "2026-09-04",
+    "sourceVerified": "2026-09-04：樂居目前待售1筆",
     "sources": {
-      "樂居": true,
-      "住商": true
+      "樂居": true
     },
     "links": {
-      "樂居": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a",
-      "住商": "https://www.hbhousing.com.tw/detail?sn=TS146339"
+      "樂居": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a"
     },
     "history": [],
     "sourceValidation": {
@@ -1223,7 +1223,7 @@
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a"
       },
       "住商不動產": {
@@ -1235,8 +1235,9 @@
       },
       "住商": {
         "state": "active",
-        "reason": "direct-fetch-content-present",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.hbhousing.com.tw/detail?sn=TS146339"
       }
     },
@@ -1279,7 +1280,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://market.591.com.tw/29100"
       }
     },
@@ -1301,7 +1302,7 @@
     "status": "gone_pending",
     "owner": false,
     "yq": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "new": false,
     "sources": {
       "591": false,
@@ -1318,7 +1319,7 @@
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20709527.html"
       },
       "樂屋": {
@@ -1332,7 +1333,7 @@
     "lastChecked": "2026-09-29T14:31:00+08:00",
     "matchStatus": "社區歸屬待確認：591 S20709527未明確標示文化勳章；原樂屋網址38922實際為文化大地，已移出目標社區統計。",
     "verificationNote": "2026-10-27重新核對：此頁雖為有效刊登，但社區歸屬未證實；不再計入板橋文化勳章現售案件。",
-    "lastStatusChange": "2026-10-27"
+    "lastStatusChange": "2026-10-28"
   },
   {
     "id": "wh-culture-5088-15f",
@@ -1348,7 +1349,7 @@
     "status": "active",
     "owner": false,
     "yq": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "new": false,
     "sources": {
       "591": true
@@ -1364,7 +1365,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20912237.html"
       }
     },
@@ -1386,7 +1387,7 @@
     "price": 6588,
     "parking": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "status": "gone_pending",
     "matchStatus": "高度同戶",
     "matchNote": "591 20726936＋樂居85坪43F 6,588萬",
@@ -1413,11 +1414,11 @@
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20726936.html"
       }
     },
-    "lastStatusChange": "2026-10-27"
+    "lastStatusChange": "2026-10-28"
   },
   {
     "id": "ng-match-14",
@@ -1431,7 +1432,7 @@
     "price": 1488,
     "parking": false,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "status": "active",
     "matchStatus": "待確認",
     "matchNote": "樂居1,488萬＋591待配對",
@@ -1452,7 +1453,7 @@
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/7386714"
       }
     }
@@ -1469,7 +1470,7 @@
     "price": 5599,
     "parking": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "status": "active",
     "matchStatus": "高度疑似同戶",
     "matchNote": "591 20922725、20709568＋樂居75.5坪38F 5,599萬",
@@ -1496,7 +1497,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20922725.html"
       }
     }
@@ -1507,7 +1508,7 @@
     "community": "板橋新巨蛋",
     "new": false,
     "status": "active",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "block": "C區",
     "floor": 33,
     "totalFloor": 43,
@@ -1535,7 +1536,7 @@
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/7280883"
       }
     }
@@ -1553,7 +1554,7 @@
     "unit": 84.1,
     "parking": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "status": "gone_pending",
     "matchStatus": "同戶",
     "matchNote": "591 20831851、20672650＋樂居76.77坪32F 5,900萬",
@@ -1580,12 +1581,12 @@
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20831851.html"
       }
     },
     "verificationNote": "591 S20831851直接頁仍有效至2026-10-31，但價格/坪數欄位為模板占位符；5,900萬、32F/46F、76.78坪沿用前次核實資料，本輪未重新核價。",
-    "lastStatusChange": "2026-10-27"
+    "lastStatusChange": "2026-10-28"
   },
   {
     "id": "ng-match-05",
@@ -1600,7 +1601,7 @@
     "unit": 109.9,
     "parking": false,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "status": "active",
     "matchStatus": "高度同戶",
     "matchNote": "591 20915461、20884530＋樂居",
@@ -1628,14 +1629,14 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20915461.html"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/6666073"
       }
     },
@@ -1660,7 +1661,7 @@
     "price": 3998,
     "parking": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "status": "active",
     "matchStatus": "同戶群",
     "matchNote": "591 20462197、20642421、20256798＋樂居＋信義9465BS",
@@ -1690,21 +1691,21 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20256798.html"
       },
       "信義": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sinyi.com.tw/buy/house/9465BS"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/7294619"
       }
     }
@@ -1722,7 +1723,7 @@
     "unit": null,
     "parking": false,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "status": "active",
     "matchStatus": "待確認",
     "matchNote": "591 20963768、20962147＋樂居23F 1,600萬",
@@ -1749,7 +1750,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20963768.html"
       }
     },
@@ -1769,7 +1770,7 @@
     "unit": null,
     "parking": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "status": "active",
     "matchStatus": "待確認",
     "matchNote": "591 5個案件ID＋樂居3,988萬",
@@ -1792,7 +1793,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20903931.html"
       }
     },
@@ -1815,7 +1816,7 @@
     "unit": 83.2,
     "parking": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "status": "gone_pending",
     "matchStatus": "已核實",
     "matchNote": "591 20671886、20787215＋樂居＋信義4336YB",
@@ -1842,14 +1843,14 @@
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20804507.html"
       },
       "信義": {
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/4336YB"
       },
       "永慶": {
@@ -1860,7 +1861,7 @@
     },
     "yq": null,
     "changeNote": "S20671886為錯誤／過期來源，不代表此戶下架；目前以591 S20804507與信義4336YB為有效來源。",
-    "lastStatusChange": "2026-10-27"
+    "lastStatusChange": "2026-10-28"
   },
   {
     "id": "ng-match-16",
@@ -1874,7 +1875,7 @@
     "price": 2108,
     "parking": true,
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "status": "active",
     "matchStatus": "已核實",
     "matchNote": "樂居2,268萬＋591兩房車案件待配",
@@ -1899,7 +1900,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.mysweethome.com.tw/sell_item/A725-YS201935"
       }
     },
@@ -1965,7 +1966,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20865148.html"
       },
       "591-主要案件": {
@@ -1979,13 +1980,14 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/55318/sell"
       },
       "樂屋社區銷售頁": {
-        "state": "active-list-card",
-        "reason": "community-list-card-only",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/55318/sell"
       }
     },
@@ -2032,20 +2034,21 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/21121742.html"
       },
       "591舊刊登": {
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20778150.html"
       },
       "樂屋社區列表": {
-        "state": "active-list-card",
-        "reason": "community-list-card-only",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/38961/sell"
       }
     },
@@ -2077,7 +2080,7 @@
     "parking": false,
     "status": "active",
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sources": {
       "591": true
     },
@@ -2089,7 +2092,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20875770.html"
       }
     },
@@ -2121,14 +2124,15 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "expired",
-        "reason": "listing-expired",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "state": "gone",
+        "httpStatus": 404,
+        "reason": "not-found",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20532631.html"
       }
     },
     "sourceVerified": "2026-09-29 Firecrawl直接核實591：6F/25F、25.39坪、2房1廳1衛1陽台、2,980萬，有效期至2026-10-10。",
-    "lastStatusChange": "2026-10-27",
+    "lastStatusChange": "2026-10-28",
     "updated": "2026-10-28",
     "lastChecked": "2026-10-28T09:03:51+08:00",
     "validUntil": "2026-10-10",
@@ -2164,13 +2168,13 @@
         "state": "gone",
         "httpStatus": 404,
         "reason": "not-found",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/7012JW"
       }
     },
     "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號7012JW。",
-    "lastStatusChange": "2026-10-27",
-    "updated": "2026-10-27",
+    "lastStatusChange": "2026-10-28",
+    "updated": "2026-10-28",
     "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
@@ -2188,7 +2192,7 @@
     "parkingArea": 11.84,
     "status": "candidate",
     "new": false,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sources": {
       "591": true
     },
@@ -2207,7 +2211,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://market.591.com.tw/29100/sale"
       }
     },
@@ -2265,34 +2269,35 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20238545.html"
       },
       "中信": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.cthouse.com.tw/house/2004451.html"
       },
       "永慶": {
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/6730596"
       },
       "591-S20238545": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20238545.html"
       },
       "好房網": {
         "state": "active",
-        "reason": "direct-fetch-content-present-price-not-shown",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "httpStatus": 202,
+        "reason": "ok",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.housefun.com.tw/buy/house/6351168"
       }
     },
@@ -2336,12 +2341,12 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/0939DZ"
       }
     },
     "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號0939DZ。",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "lastChecked": "2026-09-29T14:31:00+08:00"
   },
   {
@@ -2374,14 +2379,14 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.myhomes.com.tw/objects/o/1388064"
       },
       "住商": {
         "state": "unknown",
         "httpStatus": 420,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.hbhousing.com.tw/detail?sn=WS76211"
       },
       "住商不動產": {
@@ -2394,7 +2399,7 @@
       }
     },
     "sourceVerified": "2026-10-26直接Fetch住商WS76211核實：現價1,768萬、建坪21.76坪、3F/14F、2房2廳1衛、無車位、管理費2,177元/月、屋齡約0.8年、朝南。前次主檔為1,738萬，確認同一案件編號價格上調30萬元（+1.73%）。我家網前次快照仍為1,738萬，當前價格尚未重新直接核實，保留跨平台差異。",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "lastChecked": "2026-10-26",
     "changeNote": "🔺 2026-10-26漲價：住商WS76211，1,738萬→1,768萬，+30萬（+1.73%）。我家網前次快照1,738萬，當前價格未重新直接核實；不把跨平台價差另算一次變價。",
     "managementFee": 2177,
@@ -2467,13 +2472,14 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://market.591.com.tw/5890269/sale"
       },
       "21世紀": {
         "state": "active",
-        "reason": "direct-fetch-content-present",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.century21.com.tw/buypage/7614917"
       }
     }
@@ -2494,7 +2500,7 @@
     "owner": false,
     "yq": null,
     "status": "active",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sources": {
       "591": true,
       "信義": false,
@@ -2516,14 +2522,14 @@
         "state": "unknown",
         "httpStatus": 403,
         "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.yungching.com.tw/house/1282388"
       },
       "住商": {
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.hbhousing.com.tw/detail?sn=WS76225"
       }
     },
@@ -2544,7 +2550,7 @@
     "owner": false,
     "yq": null,
     "status": "active",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sources": {
       "中信": true
     },
@@ -2557,7 +2563,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://buy.cthouse.com.tw/house/2080902.html"
       }
     },
@@ -2578,7 +2584,7 @@
     "owner": false,
     "yq": null,
     "status": "active",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sources": {
       "R.TUBE": true
     },
@@ -2591,7 +2597,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.rtube.com.tw/real-estates/RE1764805674110484"
       }
     },
@@ -2604,7 +2610,7 @@
     "community": "板橋晴",
     "new": false,
     "status": "candidate",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "block": "棟別待確認",
     "floor": null,
     "totalFloor": null,
@@ -2629,7 +2635,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20939780.html"
       }
     }
@@ -2650,7 +2656,7 @@
     "yq": null,
     "new": true,
     "status": "active",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "agent": "陳小姐／中信房屋板橋新埔加盟店",
     "sources": {
       "591": true,
@@ -2677,7 +2683,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/21070676.html"
       }
     }
@@ -2721,8 +2727,9 @@
     "sourceValidation": {
       "591": {
         "state": "active",
-        "reason": "direct-fetch-content-present",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20999996.html"
       }
     },
@@ -2759,7 +2766,7 @@
     "new": false,
     "status": "candidate",
     "matchStatus": "待確認／疑似重複候選",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sources": {
       "591": true,
       "信義": false,
@@ -2786,7 +2793,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20884530.html"
       }
     },
@@ -2818,7 +2825,7 @@
     "new": false,
     "status": "candidate",
     "matchStatus": "待確認／疑似重複候選",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sources": {
       "591": true,
       "信義": false,
@@ -2845,7 +2852,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/21007093.html"
       }
     },
@@ -2875,7 +2882,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "status": "candidate",
+    "status": "gone_pending",
     "matchStatus": "待確認／疑似重複候選",
     "updated": "2026-10-28",
     "sources": {
@@ -2901,9 +2908,10 @@
     ],
     "sourceValidation": {
       "591": {
-        "state": "active",
-        "reason": "direct-fetch-content-present",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "state": "gone",
+        "httpStatus": 404,
+        "reason": "not-found",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20997905.html"
       }
     },
@@ -2937,7 +2945,7 @@
     "new": false,
     "status": "candidate",
     "matchStatus": "待確認／疑似重複候選",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sources": {
       "591": true,
       "信義": false,
@@ -2963,7 +2971,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/21091535.html"
       }
     },
@@ -2995,7 +3003,7 @@
     "new": false,
     "status": "candidate",
     "matchStatus": "待確認／疑似重複候選",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sources": {
       "591": true,
       "信義": false,
@@ -3021,7 +3029,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20951579.html"
       }
     },
@@ -3053,7 +3061,7 @@
     "new": false,
     "status": "candidate",
     "matchStatus": "待確認／疑似重複候選",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sources": {
       "591": true,
       "信義": false,
@@ -3079,7 +3087,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/21061360.html"
       }
     },
@@ -3111,7 +3119,7 @@
     "new": false,
     "status": "candidate",
     "matchStatus": "待確認／疑似重複候選",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "sources": {
       "591": true,
       "信義": false,
@@ -3137,7 +3145,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20848204.html"
       }
     },
@@ -3167,16 +3175,17 @@
     "unit": null,
     "yq": null,
     "sources": {
-      "591": true
+      "591": false
     },
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/20808679.html"
     },
     "sourceValidation": {
       "591": {
-        "state": "expired",
-        "reason": "listing-expired",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "state": "gone",
+        "httpStatus": 404,
+        "reason": "not-found",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20808679.html"
       }
     },
@@ -3197,7 +3206,7 @@
     "title": "新埔捷運站綠如意方正三房坡車",
     "new": false,
     "status": "candidate",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "price": null,
     "area": null,
     "floor": null,
@@ -3220,7 +3229,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20904980.html"
       }
     },
@@ -3238,7 +3247,7 @@
     "title": "新埔捷運中庭花園綠如意三房車",
     "new": false,
     "status": "candidate",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "price": null,
     "area": null,
     "floor": null,
@@ -3261,7 +3270,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20874783.html"
       }
     },
@@ -3279,7 +3288,7 @@
     "title": "公園世紀A區低公設三房候選",
     "new": false,
     "status": "candidate",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "price": null,
     "area": null,
     "floor": null,
@@ -3302,7 +3311,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/21126154.html"
       }
     },
@@ -3342,14 +3351,16 @@
     "sourceValidation": {
       "591": {
         "state": "active",
-        "reason": "direct-fetch-content-present-price-masked",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20979616.html"
       },
       "樂屋社區銷售頁": {
-        "state": "price-signal-unverified",
-        "reason": "community-list-card-only",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/55318/sell"
       }
     },
@@ -3395,7 +3406,7 @@
     "title": "新埔捷運電梯採光二房／板橋晴",
     "new": false,
     "status": "candidate",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "price": null,
     "area": null,
     "floor": null,
@@ -3418,7 +3429,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/20866050.html"
       }
     },
@@ -3436,7 +3447,7 @@
     "title": "CZ8永康芬揚高樓景觀2房",
     "new": false,
     "status": "candidate",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "price": null,
     "area": null,
     "floor": null,
@@ -3459,7 +3470,7 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-27T14:11:11.479685+08:00",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/21126291.html"
       }
     },
@@ -3505,14 +3516,16 @@
     "sourceValidation": {
       "信義": {
         "state": "active",
-        "reason": "direct-fetch-content-present",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://www.sinyi.com.tw/buy/house/2256TB"
       },
       "樂屋社區列表": {
-        "state": "candidate-list-only",
-        "reason": "community-list-card-only",
-        "checkedAt": "2026-10-28T09:03:51+08:00",
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
         "url": "https://community.rakuya.com.tw/38961/sell"
       }
     },
