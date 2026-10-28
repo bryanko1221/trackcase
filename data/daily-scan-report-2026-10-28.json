@@ -372,14 +372,15 @@
     "公園世紀A區一樓仍有2,380萬與2,588萬來源版本；保留差異，不列今日降價。",
     "千禧園、吉祥花園、雙喜臨門本輪沒有取得目標社區可確認的現售個別頁；搜尋不到不代表全市場無案。"
   ],
-  "websiteUpdate": "pending_live_verification",
+  "websiteUpdate": "success_live_verified",
   "websiteVerification": {
-    "checkedAt": "2026-10-28T09:03:51+08:00",
-    "repositoryWrites": "pending",
-    "publicHomepage": "pending",
-    "sourceStatus": "pending",
-    "dailyReport": "pending",
-    "currentReportPointer": "pending",
-    "details": "主案件及首頁已提交；每日報告與來源狀態待提交，公開部署待核對。"
+    "checkedAt": "2026-10-28T09:08:49+08:00",
+    "repositoryWrites": "success",
+    "publicHomepage": "success",
+    "sourceStatus": "success",
+    "dailyReport": "success",
+    "currentReportPointer": "success",
+    "details": "GitHub Pages deployment run 40613169456 completed successfully. Public homepage shows 2026-10-28 09:03, 66 master records, 42 currently displayed listings, zero confirmed daily changes, and 🟡 partial status. Public daily report and source-status JSON are readable. The new 2,988萬 Sinyi candidate and stale-card corrections are in repository data; full platform deduplication remains incomplete.",
+    "deploymentRun": "https://github.com/bryanko1221/trackcase/actions/runs/40613169456"
   }
 }
