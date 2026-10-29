@@ -62,8 +62,8 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-10-28",
-    "sourceVerified": "2026-10-25直接Fetch確認中信2118541仍刊登；591 S20543014有效期已於10/12屆滿。主案件仍由中信頁支持在售，不判定售出。",
+    "updated": "2026-10-29",
+    "sourceVerified": "2026-10-29直接Fetch中信2118541：現價1,945萬、頁面原價1,968萬、26.57坪含車位10.1943坪、22F/43F、1房1廳1衛。實際變價日期未標示，非今日確認降價。",
     "sources": {
       "591": false,
       "信義": false,
@@ -91,9 +91,10 @@
       "中信": {
         "state": "active",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://buy.cthouse.com.tw/house/2118541.html"
+        "reason": "direct-page-readable",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://buy.cthouse.com.tw/house/2118541.html",
+        "note": "現價1,945萬，頁面同時顯示原價1,968萬；日期未標示。26.57坪、22F/43F、車位250萬/10.1943坪。"
       },
       "信義": {
         "state": "gone",
@@ -109,10 +110,11 @@
     "listingIds": [
       "ng-match-13"
     ],
-    "parkingArea": 10.19,
+    "parkingArea": 10.1943,
     "parkingPrice": 250,
     "matchStatus": "已核實",
-    "changeNote": "591來源刊登已過期（有效期至2026-10-12）；中信2118541仍在售，僅標記平台來源過期，不列房屋下架／售出。"
+    "changeNote": "中信頁顯示1,968萬→1,945萬（-23萬，約-1.17%）；變價日期未標示，列歷史價格訊號，不計今日降價。",
+    "lastChecked": "2026-10-29T09:04:06+08:00"
   },
   {
     "id": "ng-6800",
@@ -621,8 +623,8 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-10-28",
-    "sourceVerified": "2026-10-26重新讀取591 S21096885，刊登有效至2026-12-16；文案可核實1F/14F、29.58坪、3房及管理費1,775元/月，價格欄位遮蔽。與既有A區一樓案件高度吻合，保留2,380萬/2,588萬來源差異，不計今日降價。",
+    "updated": "2026-10-29",
+    "sourceVerified": "2026-10-29重新Fetch多個個別頁與社區列表：主案保留2,380萬、29.58坪、1F/14F、3房；591 S21096885/S21094824頁仍有效但部分價格欄位遮蔽，住商仍有2,588萬版本，價格差異未解決。",
     "sources": {
       "591": true,
       "信義": false,
@@ -686,11 +688,12 @@
       },
       "591-S21096885": {
         "state": "active_partial",
-        "checkedAt": "2026-10-26T09:03:03+08:00",
-        "reason": "直接案件頁可讀部分條件，價格欄位遮蔽",
+        "httpStatus": 200,
+        "reason": "direct-page-readable-partial-fields",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/21096885.html",
         "effectiveUntil": "2026-12-16",
-        "note": "1F/14F、29.58坪、3房、管理費1,775元/月；價格欄位遮蔽，與既有A區一樓主案高度吻合。"
+        "note": "1F/14F、29.58坪、3房、管理費1,775元/月；價格欄位遮蔽。"
       },
       "591-S20956618": {
         "state": "active_partial",
@@ -737,11 +740,13 @@
         "url": "https://www.hbhousing.com.tw/detail?sn=KS197260"
       },
       "591-S21094824": {
-        "state": "active",
+        "state": "active_partial",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/21094824.html"
+        "reason": "direct-page-readable-partial-fields",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/21094824.html",
+        "effectiveUntil": "2026-12-16",
+        "note": "一樓三房候選；與主案條件高度吻合，價格欄位未完整抽取。"
       },
       "樂屋社區銷售頁": {
         "state": "active",
@@ -768,10 +773,10 @@
       "591 S20956618": null
     },
     "priceConflictNote": "2026-10-25直接Fetch仍確認住商TS147949為2,380萬（頁面原價2,588萬），住商KS197260仍顯示2,588萬；591 S21096885/S20956618價格欄位遮蔽。實際變價日期未標示，不計今日降價。",
-    "changeNote": "本輪確認不同平台仍有2,380萬與2,588萬版本；原價→現價的實際變價日期未標示，不計今日降價。",
+    "changeNote": "同戶候選來源仍有2,380萬與2,588萬兩種價格；變價日期未標示，不計今日降價。",
     "matchStatus": "高度吻合同戶；591 S21094824直接頁確認2,380萬/29.58坪/1F14F，與S21096885、S20956618及住商/台慶版本價格差異仍待核實",
     "competitorStatus": "暫不列競業開發名單：過往曾有永慶來源線索，但本輪未取得同戶永慶個別直連；目前永慶狀態未核實。",
-    "lastChecked": "2026-10-26",
+    "lastChecked": "2026-10-29T09:04:06+08:00",
     "verificationNote": "主案目前可核實價格2,380萬；樂屋B區社區列表也出現1F/14F、29.58坪、2,380萬版本。住商/台慶仍有2,588萬版本，價格差異待核，非今日降價。"
   },
   {
@@ -1164,8 +1169,8 @@
     "yq": true,
     "new": false,
     "status": "active",
-    "updated": "2026-09-04",
-    "sourceVerified": "2026-09-04：永慶案件 YC1255301",
+    "updated": "2026-10-29",
+    "sourceVerified": "2026-10-29直接Fetch永慶YC1255301：5,068萬、75.76坪（含車位24.64坪）、2F/15F、4房2廳2衛，兩個坡道平面車位合計600萬元.",
     "sources": {
       "永慶": true
     },
@@ -1175,17 +1180,18 @@
     "history": [],
     "sourceValidation": {
       "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://buy.yungching.com.tw/house/7217539"
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "direct-page-readable",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://buy.yungching.com.tw/house/7217539",
+        "note": "YC1255301；5,068萬、75.76坪、2F/15F、4房、兩個坡道平面車位合計600萬。"
       }
     },
     "lastStatusChange": "2026-09-29",
     "changeNote": "2026-09-29重新核對榮耀交響曲：591目前社區在售0筆，台灣成家網銷售中0筆；永慶直接頁目前403，無法以今日直接頁確認仍在售，移出目前在售。",
-    "lastChecked": "2026-10-28T09:03:51+08:00",
-    "verificationNote": "2026-09-29 永慶房屋直連可讀，案件 YC1255301，5,068萬，2F/15F，75.76坪。",
+    "lastChecked": "2026-10-29T09:04:06+08:00",
+    "verificationNote": "2026-10-29直接Fetch永慶YC1255301：5,068萬、75.76坪（含車位24.64坪）、2F/15F、4房2廳2衛，兩個坡道平面車位合計600萬元.",
     "competitorStatus": "🟦永慶有刊登；排除競業開發名單"
   },
   {
@@ -1291,49 +1297,63 @@
   {
     "id": "wh-culture-3480-18",
     "groupId": "wh-culture-3480-18",
-    "community": "待確認社區",
+    "community": "板橋文化勳章",
     "block": "待確認",
     "floor": 18,
     "totalFloor": 25,
-    "area": 54.88,
-    "layout": "4房2廳2衛2陽台",
+    "area": 55.23,
+    "layout": "4房2廳2衛",
     "price": 3480,
     "parking": true,
-    "status": "gone_pending",
+    "status": "active",
     "owner": false,
-    "yq": false,
-    "updated": "2026-10-28",
-    "new": false,
+    "yq": null,
+    "updated": "2026-10-29",
+    "new": true,
     "sources": {
       "591": false,
-      "樂屋": true
+      "信義": false,
+      "樂屋": false,
+      "樂居": false,
+      "永慶": null,
+      "中信": false,
+      "住商": false,
+      "台灣房屋": false,
+      "好房網": false,
+      "台慶不動產": true
     },
     "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/20709527.html"
+      "台慶不動產": "https://buy.taiching.com.tw/house/7306262"
     },
-    "sourceVerified": "2026-09-29 Firecrawl直接核實591：18F/25F、54.88坪不含車位、4房2廳2衛2陽台、3,480萬；樂屋同日顯示文化勳章18F 3,480萬。",
-    "unit": 63.41,
+    "sourceVerified": "2026-10-29直接Fetch台慶不動產TC0169908：現價3,480萬，頁面原價3,750萬，建物55.23坪（含車位10.422坪），18F/25F、4房2廳2衛、管理費3,735元/月。變價日期未標示；本輪新納入追蹤，不代表今日才上架。",
+    "unit": null,
     "parkingArea": 10.422,
     "sourceValidation": {
-      "591": {
-        "state": "gone",
-        "httpStatus": 404,
-        "reason": "not-found",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20709527.html"
-      },
-      "樂屋": {
+      "台慶不動產": {
         "state": "active",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-26T13:58:28.158910+08:00",
-        "url": "https://community.rakuya.com.tw/38922/sell"
+        "reason": "direct-page-readable",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://buy.taiching.com.tw/house/7306262",
+        "note": "TC0169908；3,480萬，原價3,750萬，55.23坪，18F/25F，4房，車位10.422坪，管理費3,735元/月."
       }
     },
     "lastChecked": "2026-09-29T14:31:00+08:00",
-    "matchStatus": "社區歸屬待確認：591 S20709527未明確標示文化勳章；原樂屋網址38922實際為文化大地，已移出目標社區統計。",
-    "verificationNote": "2026-10-27重新核對：此頁雖為有效刊登，但社區歸屬未證實；不再計入板橋文化勳章現售案件。",
-    "lastStatusChange": "2026-10-28"
+    "matchStatus": "個別頁直接核實在售；原價3,750→現價3,480（-7.2%）日期未標示；新納入主檔但不計確認今日新增唯一戶。",
+    "verificationNote": "個別頁確認仍在售；與已知文化勳章15F/76.06坪案件條件不同。全平台去重仍未完成。",
+    "lastStatusChange": "2026-10-28",
+    "address": "新北市板橋區文化路二段（完整門牌未揭露）",
+    "buildingArea": null,
+    "parkingPrice": null,
+    "managementFee": 3735,
+    "age": 31.3,
+    "changeNote": "頁面顯示3,750萬→3,480萬，下降270萬（約7.2%）；實際變價日期未標示，不計今日降價。",
+    "priceVariants": {
+      "台慶不動產原價": 3750,
+      "台慶不動產現價": 3480
+    },
+    "priceConflictNote": "實際變價日期未標示；不列今日降價。",
+    "competitorStatus": "永慶是否有同戶刊登未核實，暫不列競業開發名單"
   },
   {
     "id": "wh-culture-5088-15f",
@@ -1349,7 +1369,7 @@
     "status": "active",
     "owner": false,
     "yq": false,
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "new": false,
     "sources": {
       "591": true
@@ -1357,23 +1377,25 @@
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/20912237.html"
     },
-    "sourceVerified": "2026-09-29 Firecrawl直接核實591：15F/25F、76.06坪含車位、4房2廳2衛1陽台、5,088萬，有效期至2026-11-14。",
+    "sourceVerified": "2026-10-29直接Fetch591 S20912237：刊登有效至2026-11-14，標題為15樓約76坪四房；價格欄位遮蔽，管理費5,182元/月、平面車位約12.3坪可讀。",
     "unit": 75.9,
     "parkingArea": 12.3,
     "sourceValidation": {
       "591": {
-        "state": "active",
+        "state": "active_partial",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20912237.html"
+        "reason": "direct-page-readable-partial-fields",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20912237.html",
+        "effectiveUntil": "2026-11-14",
+        "note": "15F/25F、約76.06坪、4房候選；價格欄位遮蔽，管理費5,182元/月、平面車位約12.3坪。"
       }
     },
-    "lastChecked": "2026-09-29T14:31:00+08:00",
+    "lastChecked": "2026-10-29T09:04:06+08:00",
     "lastKnownPrice": 5088,
     "priceVerificationNote": "591社區列表顯示75.9萬/坪、約76.06坪；個別頁總價欄位遮蔽，與主檔舊總價5,088萬不一致。現價待直接核實，不以舊價冒充現價。",
     "matchStatus": "在售頁有效；總價未核實（591列表75.9萬/坪與舊主檔總價衝突）",
-    "verificationNote": "2026-10-27直接頁仍有效，但價格欄位遮蔽；將舊5,088萬保留為lastKnownPrice，不作現價。"
+    "verificationNote": "2026-10-29直接Fetch591 S20912237：刊登有效至2026-11-14，標題為15樓約76坪四房；價格欄位遮蔽，管理費5,182元/月、平面車位約12.3坪可讀。"
   },
   {
     "id": "ng-match-01",
@@ -2020,7 +2042,7 @@
     "parking": false,
     "status": "active",
     "new": false,
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "sources": {
       "591": true
     },
@@ -2033,9 +2055,11 @@
       "591": {
         "state": "active",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/21121742.html"
+        "reason": "direct-page-readable",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/21121742.html",
+        "effectiveUntil": "2026-12-21",
+        "note": "2,788萬、25.39坪、16F/25F、2房2廳1衛，管理費約2,031元/月。"
       },
       "591舊刊登": {
         "state": "gone",
@@ -2059,12 +2083,12 @@
       "S20754147"
     ],
     "listingCountOn591": 4,
-    "sourceVerified": "2026-10-09晚間改用已直接核實的591 S20778150；舊連結20889395未作本輪有效來源。",
-    "lastChecked": "2026-10-28T09:03:51+08:00",
+    "sourceVerified": "2026-10-29直接Fetch591 S21121742：有效至2026-12-21，2,788萬、25.39坪、16F/25F、2房2廳1衛、管理費約2,031元/月.",
+    "lastChecked": "2026-10-29T09:04:06+08:00",
     "lastStatusChange": "2026-10-26",
     "managementFee": 2031,
     "matchStatus": "直接頁核實；舊刊登與S21121742高度吻合同戶",
-    "verificationNote": "2026-10-27直接Fetch確認591 S21121742仍有效：2,788萬、25.39坪、16/25樓、2房2廳1衛、管理費2,031元/月。恢復active；不列今日新增。"
+    "verificationNote": "2026-10-29直接Fetch591 S21121742：有效至2026-12-21，2,788萬、25.39坪、16F/25F、2房2廳1衛、管理費約2,031元/月."
   },
   {
     "id": "xpd-2320-11f",
@@ -2393,15 +2417,15 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "direct-page-readable",
-        "checkedAt": "2026-10-27T09:09:00+08:00",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
         "url": "https://www.hbhousing.com.tw/detail?sn=WS76211",
-        "note": "直接頁現價1,768萬元、21.76坪、3F/14F、2房2廳1衛、管理費2,177元/月。"
+        "note": "1,768萬、21.76坪、3F/14F、2房2廳1衛、管理費2,177元/月."
       }
     },
-    "sourceVerified": "2026-10-26直接Fetch住商WS76211核實：現價1,768萬、建坪21.76坪、3F/14F、2房2廳1衛、無車位、管理費2,177元/月、屋齡約0.8年、朝南。前次主檔為1,738萬，確認同一案件編號價格上調30萬元（+1.73%）。我家網前次快照仍為1,738萬，當前價格尚未重新直接核實，保留跨平台差異。",
-    "updated": "2026-10-28",
-    "lastChecked": "2026-10-26",
-    "changeNote": "🔺 2026-10-26漲價：住商WS76211，1,738萬→1,768萬，+30萬（+1.73%）。我家網前次快照1,738萬，當前價格未重新直接核實；不把跨平台價差另算一次變價。",
+    "sourceVerified": "2026-10-29直接Fetch住商WS76211：現價1,768萬、21.76坪、3F/14F、2房2廳1衛、管理費約2,177元/月；2026-10-26已確認1,738→1,768萬，本輪價格未再變動.",
+    "updated": "2026-10-29",
+    "lastChecked": "2026-10-29T09:04:06+08:00",
+    "changeNote": "最近已確認漲價：2026-10-26 1,738萬→1,768萬（+30萬/+1.73%）；2026-10-29仍為1,768萬，今日無新增變價。",
     "managementFee": 2177,
     "age": 0.8,
     "address": "新北市板橋區縣民大道三段",
@@ -2438,7 +2462,7 @@
       "percent": 1.73,
       "platform": "住商不動產"
     },
-    "verificationNote": "2026-10-26確認1,738萬→1,768萬；2026-10-27直接頁仍為1,768萬，今日無新增價格變化，狀態回復active，歷史變化保留。"
+    "verificationNote": "2026-10-29直接Fetch住商WS76211：現價1,768萬、21.76坪、3F/14F、2房2廳1衛、管理費約2,177元/月；2026-10-26已確認1,738→1,768萬，本輪價格未再變動."
   },
   {
     "id": "jyz-2358-2f",
@@ -2709,7 +2733,7 @@
     "yq": null,
     "new": false,
     "status": "active",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "sources": {
       "591": true,
       "信義": false,
@@ -2726,21 +2750,23 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "active",
+        "state": "active_partial",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20999996.html"
+        "reason": "direct-page-readable-with-conflicts",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20999996.html",
+        "effectiveUntil": "2026-12-01",
+        "note": "門牌360號與43F矛盾，車位坪數10.19/0.19矛盾。"
       }
     },
-    "matchStatus": "棟別待確認／車位坪數待確認",
-    "sourceVerified": "2026-10-26重新直接讀取591 S20999996，仍有效至2026-12-01；文案列3,988萬、約47.48坪、11F/43F、三房車。門牌360號與43F規則矛盾，車位坪數欄位矛盾，仍標棟別/車位待確認；非今日新上架。",
-    "verificationNote": "2026-10-28直接Fetch仍有效至2026-12-01：3,988萬、47.48坪、11F/43F、3房2廳2衛；文案門牌360號但總樓層43F矛盾，車位坪數10.19/0.19矛盾，棟別與車位坪數待確認。",
+    "matchStatus": "棟別待確認／車位坪數待確認；本輪個別頁仍有效，非確認今日新上架",
+    "sourceVerified": "2026-10-29直接Fetch仍顯示有效刊登至2026-12-01；3,988萬、47.48坪、11F/43F、3房2廳2衛。門牌360號與43F矛盾，車位坪數文案10.19坪、欄位0.19坪，均維持待確認。",
+    "verificationNote": "2026-10-29直接Fetch仍顯示有效刊登至2026-12-01；3,988萬、47.48坪、11F/43F、3房2廳2衛。門牌360號與43F矛盾，車位坪數文案10.19坪、欄位0.19坪，均維持待確認。",
     "agent": "王昱翔／台灣房屋南港三井世貿店",
     "brokerage": "兆鴻不動產仲介有限公司",
     "validUntil": "2026-12-01",
     "yqCheck": "未完成跨平台全量核對",
-    "lastChecked": "2026-10-28T09:03:51+08:00",
+    "lastChecked": "2026-10-29T09:04:06+08:00",
     "parkingAreaNote": "刊登文案10.19坪，另一欄位顯示0.19坪，待確認",
     "blockStatus": "待確認"
   },
@@ -3206,15 +3232,15 @@
     "title": "新埔捷運站綠如意方正三房坡車",
     "new": false,
     "status": "candidate",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "price": null,
     "area": null,
     "floor": null,
     "totalFloor": null,
-    "layout": "3房2廳（標題）",
+    "layout": "3房（標題）",
     "parking": true,
     "parkingArea": 11.84,
-    "parkingType": "平面",
+    "parkingType": "平面式（欄位）／標題稱坡車，矛盾待確認",
     "managementFee": null,
     "unit": null,
     "yq": null,
@@ -3226,19 +3252,24 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "active",
+        "state": "active_partial",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20904980.html"
+        "reason": "direct-page-readable-partial-fields",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20904980.html",
+        "effectiveUntil": "2026-11-13",
+        "note": "車位11.84坪；標題稱坡車，欄位稱平面式，待確認。價格/坪數/樓層遮蔽。"
       }
     },
-    "matchStatus": "待確認／591列表單價73.2萬/坪但個別頁總價、坪數欄位遮蔽，未與主檔3,080萬案合併",
+    "matchStatus": "待確認；591社區列表另有約73.2萬/坪候選，個別頁價格/坪數/樓層遮蔽；車位型式文字矛盾，未與3,080萬/50.5坪主案合併",
     "listingIds": [
       "S20904980"
     ],
     "expiryDate": "2026-11-13",
-    "verificationNote": "直接頁有效至2026-11-13；車位11.84坪、平面式，總價/坪數/樓層欄位遮蔽。"
+    "verificationNote": "2026-10-29直接Fetch591 S20904980：有效至2026-11-13，車位欄位顯示11.84坪、平面式；標題稱坡車，兩者矛盾。價格、權狀坪數、樓層欄位遮蔽.",
+    "lastChecked": "2026-10-29T09:04:06+08:00",
+    "agent": "張哲瑋／住商不動產板橋江翠北側領航店",
+    "sourceVerified": "2026-10-29直接Fetch591 S20904980：有效至2026-11-13，車位欄位顯示11.84坪、平面式；標題稱坡車，兩者矛盾。價格、權狀坪數、樓層欄位遮蔽."
   },
   {
     "id": "lry-candidate-s20874783",
@@ -3288,7 +3319,7 @@
     "title": "公園世紀A區低公設三房候選",
     "new": false,
     "status": "candidate",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "price": null,
     "area": null,
     "floor": null,
@@ -3308,11 +3339,13 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "active",
+        "state": "active_partial",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/21126154.html"
+        "reason": "direct-page-readable-partial-fields",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/21126154.html",
+        "effectiveUntil": "2026-12-21",
+        "note": "管理費1,774元/月；價格、坪數、樓層未核實。"
       }
     },
     "matchStatus": "待確認／價格、坪數、樓層欄位遮蔽",
@@ -3320,7 +3353,9 @@
       "S21126154"
     ],
     "expiryDate": "2026-12-21",
-    "verificationNote": "直接頁有效至2026-12-21；管理費約1,774元/月，文案指公園世紀A區；價格、坪數、樓層欄位遮蔽。"
+    "verificationNote": "2026-10-29直接Fetch591 S21126154：有效至2026-12-21，文案指公園世紀A區、管理費約1,774元/月；價格/坪數/樓層欄位遮蔽.",
+    "lastChecked": "2026-10-29T09:04:06+08:00",
+    "sourceVerified": "2026-10-29直接Fetch591 S21126154：有效至2026-12-21，文案指公園世紀A區、管理費約1,774元/月；價格/坪數/樓層欄位遮蔽."
   },
   {
     "id": "bq-candidate-s20979616",
@@ -3329,7 +3364,7 @@
     "title": "中信板橋晴莒光電梯二房車",
     "new": false,
     "status": "candidate",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "price": 2360,
     "area": null,
     "floor": null,
@@ -3350,26 +3385,29 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "active",
+        "state": "active_partial",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20979616.html"
+        "reason": "direct-page-readable-partial-fields",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20979616.html",
+        "effectiveUntil": "2026-11-28",
+        "note": "管理費6,622元/月、機械車位9.67坪；價格/權狀坪數/樓層欄位遮蔽。"
       },
       "樂屋社區銷售頁": {
-        "state": "active",
+        "state": "active_partial",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://community.rakuya.com.tw/55318/sell"
+        "reason": "community-listing-card-readable",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://community.rakuya.com.tw/55318/sell",
+        "note": "列表現價2,185萬、7F/12F、34.48坪；同戶關係待強識別核實。"
       }
     },
-    "matchStatus": "待確認／591社區列表顯示2,360萬、73.8萬/坪並標示較之前降價7.6%，變價日期/原價/坪數/樓層未核實",
+    "matchStatus": "疑似與主案banqiao-qing-7f-3448同戶，但缺門牌/照片強識別；591列表2,360萬與樂屋2,185萬衝突，暫不合併",
     "listingIds": [
       "S20979616"
     ],
     "expiryDate": "2026-11-28",
-    "verificationNote": "591 S20979616個別頁仍有效至2026-11-28，但價格/坪數欄位遮蔽。樂屋列表有2,360→2,185萬版本，條件與主案7F/12F、34.48坪相似，缺門牌/照片/個別頁，暫不合併、不計今日確認降價。",
+    "verificationNote": "2026-10-29直接Fetch591 S20979616：刊登有效至2026-11-28，管理費6,622元/月、機械車位9.67坪可讀；個別頁價格/坪數/樓層欄位遮蔽。樂屋社區頁現價2,185萬、7F/12F、34.48坪；591列表仍顯示2,360萬及較之前降價7.6%訊號，保留價格衝突，不計今日降價.",
     "historicalPriceSignal": {
       "platform": "591",
       "listingId": "S20979616",
@@ -3379,7 +3417,7 @@
       "date": null,
       "note": "社區列表顯示較之前降價7.6%，但未顯示原價與變價日期；不計入今日降價。"
     },
-    "lastChecked": "2026-10-28T09:03:51+08:00",
+    "lastChecked": "2026-10-29T09:04:06+08:00",
     "possibleDuplicateIds": [
       "banqiao-qing-7f-3448"
     ],
@@ -3397,7 +3435,8 @@
         "checkedAt": "2026-10-28",
         "note": "列表卡片顯示2,360萬→2,185萬、7F/12F、34.48坪；尚未取得個別案件頁，戶別/變價日期待核"
       }
-    ]
+    ],
+    "sourceVerified": "2026-10-29直接Fetch591 S20979616：刊登有效至2026-11-28，管理費6,622元/月、機械車位9.67坪可讀；個別頁價格/坪數/樓層欄位遮蔽。樂屋社區頁現價2,185萬、7F/12F、34.48坪；591列表仍顯示2,360萬及較之前降價7.6%訊號，保留價格衝突，不計今日降價."
   },
   {
     "id": "bq-candidate-s20866050",
@@ -3406,7 +3445,7 @@
     "title": "新埔捷運電梯採光二房／板橋晴",
     "new": false,
     "status": "candidate",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "price": null,
     "area": null,
     "floor": null,
@@ -3426,11 +3465,13 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "active",
+        "state": "active_partial",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20866050.html"
+        "reason": "direct-page-readable-partial-fields",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20866050.html",
+        "effectiveUntil": "2026-11-06",
+        "note": "二房車候選；價格與坪數欄位遮蔽，機械車位約9.67坪。"
       }
     },
     "matchStatus": "待確認／價格、坪數、樓層欄位遮蔽，可能與其他板橋晴2房車重複",
@@ -3438,7 +3479,9 @@
       "S20866050"
     ],
     "expiryDate": "2026-11-06",
-    "verificationNote": "直接頁有效至2026-11-06；總樓層12樓、車位欄位約9.67坪，但價格、權狀坪數與實際樓層未核實。"
+    "verificationNote": "2026-10-29直接Fetch591 S20866050：刊登有效至2026-11-06，標題為板橋晴新埔捷運電梯採光二房車，機械車位約9.67坪；價格/權狀坪數/樓層欄位未完整抽取.",
+    "lastChecked": "2026-10-29T09:04:06+08:00",
+    "sourceVerified": "2026-10-29直接Fetch591 S20866050：刊登有效至2026-11-06，標題為板橋晴新埔捷運電梯採光二房車，機械車位約9.67坪；價格/權狀坪數/樓層欄位未完整抽取."
   },
   {
     "id": "yk-candidate-s21126291",
@@ -3447,7 +3490,7 @@
     "title": "CZ8永康芬揚高樓景觀2房",
     "new": false,
     "status": "candidate",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "price": null,
     "area": null,
     "floor": null,
@@ -3467,11 +3510,13 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "active",
+        "state": "active_partial",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/21126291.html"
+        "reason": "direct-page-readable-partial-fields",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/21126291.html",
+        "effectiveUntil": "2026-12-21",
+        "note": "管理費2,254元/月、機械車位2.83坪；價格/坪數/樓層遮蔽。"
       }
     },
     "matchStatus": "待確認／可能與住商WS76225相近，但坪數、樓層、價格欄位遮蔽，不強制合併",
@@ -3479,7 +3524,9 @@
       "S21126291"
     ],
     "expiryDate": "2026-12-21",
-    "verificationNote": "直接頁有效至2026-12-21；管理費2,254元/月、機械車位2.83坪；可能與WS76225同戶，但缺坪數/樓層/價格強識別資料。"
+    "verificationNote": "2026-10-29直接Fetch591 S21126291：有效至2026-12-21，管理費約2,254元/月、機械車位約2.83坪；價格/權狀坪數/樓層欄位遮蔽.",
+    "lastChecked": "2026-10-29T09:04:06+08:00",
+    "sourceVerified": "2026-10-29直接Fetch591 S21126291：有效至2026-12-21，管理費約2,254元/月、機械車位約2.83坪；價格/權狀坪數/樓層欄位遮蔽."
   },
   {
     "id": "xpd-candidate-sinyi-2256tb",
@@ -3502,9 +3549,9 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "status": "candidate",
+    "status": "active",
     "listingStatus": "active",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "sources": {
       "信義": true,
       "樂屋": true
@@ -3514,12 +3561,22 @@
       "樂屋社區列表": "https://community.rakuya.com.tw/38961/sell"
     },
     "sourceValidation": {
+      "591": {
+        "state": "gone",
+        "httpStatus": 404,
+        "reason": "expired-or-not-found",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20532631.html",
+        "effectiveUntil": "2026-10-10",
+        "note": "舊591刊登已過期；不代表目前信義來源下架。"
+      },
       "信義": {
         "state": "active",
         "httpStatus": 200,
-        "reason": "ok",
-        "checkedAt": "2026-10-28T14:49:46.897436+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/2256TB"
+        "reason": "direct-page-readable",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/2256TB",
+        "note": "現價2,988萬、25.39坪、2房2廳1衛、6F/25F、單價117.68萬/坪。"
       },
       "樂屋社區列表": {
         "state": "active",
@@ -3532,7 +3589,72 @@
     "possibleDuplicateIds": [
       "xpd-2980-6f"
     ],
-    "matchStatus": "信義個別頁已核實；可能與已到期591 S20532631同戶，但缺門牌/照片強識別，暫不合併、不計新增唯一戶。",
-    "verificationNote": "信義2256TB直接頁：2,988萬、25.39坪、117.68萬/坪、6F/25F、2房2廳1衛。樂屋社區列表另有同樓層同坪數2,988萬卡片，尚未取得樂屋個別頁。"
+    "matchStatus": "信義個別頁已核實在售；與已到期591 S20532631同樓層/坪數但格局描述不同，缺完整門牌/照片，保留獨立主案",
+    "verificationNote": "2026-10-29直接Fetch信義2256TB：現價2,988萬、25.39坪、2房2廳1衛、6F/25F、屋齡約3.4年，單價117.68萬/坪。591 S20532631已於10/10到期，條件接近但格局描述不同，未強制合併.",
+    "address": "新北市板橋區民生路二段（完整門牌未揭露）",
+    "sourceVerified": "2026-10-29直接Fetch信義2256TB：現價2,988萬、25.39坪、2房2廳1衛、6F/25F、屋齡約3.4年，單價117.68萬/坪。591 S20532631已於10/10到期，條件接近但格局描述不同，未強制合併.",
+    "changeNote": "信義目前2,988萬；591舊刊登2,980萬已到期。兩者可能同戶但未達強識別合併標準，價格差異不計今日變價。",
+    "competitorStatus": "永慶是否有同戶刊登未核實，暫不列競業開發名單",
+    "listingIds": [
+      "2256TB",
+      "S20532631"
+    ]
+  },
+  {
+    "id": "ng-candidate-s21022469",
+    "groupId": "ng-candidate-s21022469",
+    "community": "板橋新巨蛋",
+    "title": "獨家專任新巨蛋高樓景觀三房車位",
+    "block": "棟別待確認",
+    "address": "文化路一段（完整門牌未核實）",
+    "floor": null,
+    "totalFloor": null,
+    "area": null,
+    "layout": "3房（標題）",
+    "price": null,
+    "unit": null,
+    "parking": true,
+    "parkingArea": 8.75,
+    "parkingPrice": null,
+    "parkingType": "坡道平面",
+    "managementFee": 2607,
+    "age": null,
+    "owner": false,
+    "yq": null,
+    "new": false,
+    "status": "candidate",
+    "updated": "2026-10-29",
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂屋": false,
+      "樂居": false,
+      "永慶": null,
+      "中信": false,
+      "住商": false,
+      "台灣房屋": false,
+      "好房網": false
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/21022469.html"
+    },
+    "listingIds": [
+      "S21022469"
+    ],
+    "sourceVerified": "2026-10-29直接Fetch591 S21022469：刊登有效至2026-12-04，管理費2,607元/月、平面車位約8.75坪可讀；價格、權狀坪數及樓層欄位遮蔽。",
+    "verificationNote": "目前仍有有效個別頁；可能與其他新巨蛋三房車候選重複，尚未取得門牌/照片/樓層強識別，不計新增唯一戶。",
+    "matchStatus": "待確認／可能與既有三房車候選重複；價格、坪數、樓層遮蔽。",
+    "changeNote": "有效期至2026-12-04；本輪新增候選追蹤，非確認今日新上架。",
+    "sourceValidation": {
+      "591": {
+        "state": "active_partial",
+        "httpStatus": 200,
+        "reason": "direct-page-readable-partial-fields",
+        "checkedAt": "2026-10-29T09:04:06+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/21022469.html",
+        "effectiveUntil": "2026-12-04",
+        "note": "管理費2,607元/月、平面車位8.75坪；價格/坪數/樓層遮蔽."
+      }
+    }
   }
 ]

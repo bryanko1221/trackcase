@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-29",
   "communities": [
     "板橋新巨蛋",
     "板橋文化勳章",
@@ -18,7 +18,8 @@
   ],
   "notes": [
     "2026-09-29：停用舊 canonicalCurrentListings 覆蓋機制，避免不完整掃描再次整批移除社區案件。",
-    "2026-10-14 14:08：同步新巨蛋591 S21070676（38F/40F、13.77坪、1,580萬）作為待跨平台比對的新納入案件；全量監控仍為🟡部分完成。"
+    "2026-10-14 14:08：同步新巨蛋591 S21070676（38F/40F、13.77坪、1,580萬）作為待跨平台比對的新納入案件；全量監控仍為🟡部分完成。",
+    "2026-10-29：台慶TC0169908直接頁核實文化勳章18F/25F、55.23坪、3,480萬；原價3,750萬但變價日期未標示。加入主檔追蹤，不計今日降價。"
   ],
   "listings": [
     {
@@ -61,27 +62,40 @@
       "area": 55.23,
       "layout": "4房2廳2衛",
       "price": 3480,
-      "unit": 63.01,
+      "unit": null,
       "parking": true,
       "parkingArea": 10.42,
       "owner": false,
       "yq": null,
       "status": "active",
-      "updated": "2026-09-07",
+      "updated": "2026-10-29",
       "sources": {
         "591": false,
         "信義": false,
+        "樂屋": null,
         "樂居": false,
-        "樂屋": true,
-        "中信": false,
         "永慶": null,
+        "中信": false,
         "住商": false,
-        "台灣房屋": true,
-        "好房網": true
+        "台灣房屋": false,
+        "好房網": null,
+        "台慶不動產": true
       },
       "links": {
-        "樂屋": "https://community.rakuya.com.tw/38922/sell",
-        "好房網": "https://buy.housefun.com.tw/mrt/%E6%96%B0%E5%9F%94%E7%AB%99_s/%E9%99%8D%E5%83%B9_tag"
+        "台慶不動產": "https://buy.taiching.com.tw/house/7306262"
+      },
+      "sourceVerified": "2026-10-29直接Fetch台慶不動產TC0169908：現價3,480萬，頁面原價3,750萬，建物55.23坪（含車位10.422坪），18F/25F、4房2廳2衛、管理費3,735元/月。變價日期未標示；本輪新納入追蹤，不代表今日才上架。",
+      "verificationNote": "個別頁確認仍在售；與已知文化勳章15F/76.06坪案件條件不同。全平台去重仍未完成。",
+      "changeNote": "頁面顯示3,750萬→3,480萬，下降270萬（約7.2%）；實際變價日期未標示，不計今日降價。",
+      "sourceValidation": {
+        "台慶不動產": {
+          "state": "active",
+          "httpStatus": 200,
+          "reason": "direct-page-readable",
+          "checkedAt": "2026-10-29T09:04:06+08:00",
+          "url": "https://buy.taiching.com.tw/house/7306262",
+          "note": "TC0169908；3,480萬，原價3,750萬，55.23坪，18F/25F，4房，車位10.422坪，管理費3,735元/月."
+        }
       }
     },
     {
@@ -1083,7 +1097,7 @@
       "verificationNote": "門牌未公開；依40樓總樓層暫推A區，仍須以門牌/戶別核實。其他平台及跨平台重複尚未完成確認。"
     }
   ],
-  "updatedAt": "2026-09-29T14:31:00+08:00",
+  "updatedAt": "2026-10-29T09:04:06+08:00",
   "scanSource": "2026-09-29 14:31 Free-first：Exa Search／Firecrawl／跨平台直接案件核對；排除新巨蛋、公園世紀",
   "canonicalCurrentListings": [],
   "canonicalCurrentUpdatedAt": null,
