@@ -1,7 +1,7 @@
 {
   "lastVerified": "2026-10-29",
-  "lastUpdated": "2026-10-29 09:04",
-  "note": "2026-10-29 09:04：19組Exa Search＋13組公開搜尋；直接Fetch47個不重複網址（19個個別案件頁、28個社區/列表頁）。核心欄位可讀7頁、部分遮蔽12頁。今日確認新增唯一戶0、降價0、漲價0、售出/下架0；台慶TC0169908已納入在售主檔，591新巨蛋S21022469為待核實候選；信義欣璞綻2256TB直接頁仍在售，與到期591舊案可能同戶但未強制合併。591新巨蛋整體48/本社區29；欣璞綻591標頭3/列表7版本；鑑築5912、信義2、中信社區1；永康芬揚59111。全13社區唯一戶數未完成，維持🟡部分完成。",
+  "lastUpdated": "2026-10-29 09:16",
+  "note": "2026-10-29 09:04：19組Exa Search＋13組公開搜尋；直接Fetch47個不重複網址（19個個別案件頁、28個社區/列表頁）。核心欄位可讀7頁、部分遮蔽12頁。今日確認新增唯一戶0、降價0、漲價0、售出/下架0；台慶TC0169908已納入在售主檔，591新巨蛋S21022469為待核實候選；信義欣璞綻2256TB直接頁仍在售，與到期591舊案可能同戶但未強制合併。591新巨蛋整體48/本社區29；欣璞綻591標頭3/列表7版本；鑑築5912、信義2、中信社區1；永康芬揚59111。全13社區唯一戶數未完成，維持🟡部分完成。 09:16：GitHub Pages run 40798865861成功；cache-bust公開首頁已確認2026-10-29、主資料67筆、在售顯示44筆、🟡部分完成；每日報告JSON與source-status.json均可讀且日期一致。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
@@ -2982,5 +2982,29 @@
     "date": "2026-10-28",
     "status": "success_live_verified",
     "note": "GitHub Pages deployment run 40613169456 completed successfully; at 09:08 public homepage, daily report JSON and source-status JSON were fetched and checked. Homepage shows scan date 2026-10-28, 66 master records, 42 displayed for sale, 0/0/0/0 confirmed daily changes, and 🟡 partial status."
+  },
+  "websiteVerification": {
+    "checkedAt": "2026-10-29T09:16:42+08:00",
+    "repositoryWrites": "success",
+    "publicHomepage": "success_live_verified",
+    "sourceStatus": "success_live_verified",
+    "dailyReport": "success_live_verified",
+    "currentReportPointer": "success_live_verified",
+    "displayedScanDate": "2026-10-29 09:04",
+    "displayedMasterRecords": 67,
+    "displayedForSale": 44,
+    "partialLabel": true,
+    "todayChanges": {
+      "newUnique": 0,
+      "priceDrops": 0,
+      "priceUps": 0,
+      "soldOrDelisted": 0
+    },
+    "deploymentRun": {
+      "id": 40798865861,
+      "conclusion": "success",
+      "url": "https://github.com/bryanko1221/trackcase/actions/runs/40798865861"
+    },
+    "details": "GitHub Pages部署run 40798865861成功。使用新cache-bust參數直接讀取公開首頁，已確認日期2026-10-29、主資料67筆、目前在售顯示44筆及🟡部分完成；公開每日報告JSON與source-status.json均已讀取且日期為2026-10-29。"
   }
 }

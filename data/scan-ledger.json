@@ -53,7 +53,7 @@
     "required_action": "每次完整掃描都必須測試新上架搜尋、逐平台展開及直接案件網址健康狀態。"
   },
   "coverage_status": "partial",
-  "coverage_note": "2026-10-29：19組Exa Search＋13組公開搜尋；47個不重複網址直接Fetch（19個個別案件頁、28個社區/列表頁）；核心欄位可讀7頁、部分遮蔽12頁。今日確認新增唯一戶0、降價0、漲價0、售出/下架0；台慶TC0169908加入在售主檔，591新巨蛋S21022469列待核實候選。13社區全平台唯一戶數未完成，整體🟡部分完成。",
+  "coverage_note": "2026-10-29：19組Exa Search＋13組公開搜尋；47個不重複網址直接Fetch（19個個別案件頁、28個社區/列表頁）；核心欄位可讀7頁、部分遮蔽12頁。今日確認新增唯一戶0、降價0、漲價0、售出/下架0；台慶TC0169908加入在售主檔，591新巨蛋S21022469列待核實候選。13社區全平台唯一戶數未完成，整體🟡部分完成。 公開網站於2026-10-29 09:16已核實更新成功（run 40798865861）；首頁顯示67筆主資料、44筆在售、🟡部分完成。",
   "latest_run": {
     "date": "2026-10-29",
     "startedAt": "2026-10-29T09:01:34+08:00",
@@ -71,7 +71,32 @@
     "confirmedPriceUps": 0,
     "confirmedSoldOrDelisted": 0,
     "uniqueAfterDedup": null,
-    "notes": "平台差異與未核實欄位保留；一次搜尋不到不判定售出。"
+    "notes": "平台差異與未核實欄位保留；一次搜尋不到不判定售出。",
+    "websiteUpdate": "success_live_verified",
+    "websiteVerification": {
+      "checkedAt": "2026-10-29T09:16:42+08:00",
+      "repositoryWrites": "success",
+      "publicHomepage": "success_live_verified",
+      "sourceStatus": "success_live_verified",
+      "dailyReport": "success_live_verified",
+      "currentReportPointer": "success_live_verified",
+      "displayedScanDate": "2026-10-29 09:04",
+      "displayedMasterRecords": 67,
+      "displayedForSale": 44,
+      "partialLabel": true,
+      "todayChanges": {
+        "newUnique": 0,
+        "priceDrops": 0,
+        "priceUps": 0,
+        "soldOrDelisted": 0
+      },
+      "deploymentRun": {
+        "id": 40798865861,
+        "conclusion": "success",
+        "url": "https://github.com/bryanko1221/trackcase/actions/runs/40798865861"
+      },
+      "details": "GitHub Pages部署run 40798865861成功。使用新cache-bust參數直接讀取公開首頁，已確認日期2026-10-29、主資料67筆、目前在售顯示44筆及🟡部分完成；公開每日報告JSON與source-status.json均已讀取且日期為2026-10-29。"
+    }
   },
   "run_history": [
     {

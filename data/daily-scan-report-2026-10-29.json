@@ -423,15 +423,29 @@
     "公園世紀A區一樓仍有2,380萬與2,588萬來源版本；保留差異。",
     "千禧園、吉祥花園及雙喜臨門未取得完整現售唯一戶清單；搜尋不到不代表全市場無案。"
   ],
-  "websiteUpdate": "pending_live_verification",
+  "websiteUpdate": "success_live_verified",
   "websiteVerification": {
-    "checkedAt": null,
-    "repositoryWrites": "pending",
-    "publicHomepage": "pending",
-    "sourceStatus": "pending",
-    "dailyReport": "pending",
-    "currentReportPointer": "pending",
-    "details": "報告與來源狀態已更新，待部署後重新讀取公開頁面核對。",
-    "deploymentRun": null
+    "checkedAt": "2026-10-29T09:16:42+08:00",
+    "repositoryWrites": "success",
+    "publicHomepage": "success_live_verified",
+    "sourceStatus": "success_live_verified",
+    "dailyReport": "success_live_verified",
+    "currentReportPointer": "success_live_verified",
+    "displayedScanDate": "2026-10-29 09:04",
+    "displayedMasterRecords": 67,
+    "displayedForSale": 44,
+    "partialLabel": true,
+    "todayChanges": {
+      "newUnique": 0,
+      "priceDrops": 0,
+      "priceUps": 0,
+      "soldOrDelisted": 0
+    },
+    "deploymentRun": {
+      "id": 40798865861,
+      "conclusion": "success",
+      "url": "https://github.com/bryanko1221/trackcase/actions/runs/40798865861"
+    },
+    "details": "GitHub Pages部署run 40798865861成功。使用新cache-bust參數直接讀取公開首頁，已確認日期2026-10-29、主資料67筆、目前在售顯示44筆及🟡部分完成；公開每日報告JSON與source-status.json均已讀取且日期為2026-10-29。"
   }
 }
