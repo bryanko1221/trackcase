@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T14:49:46.897436+08:00",
+  "updatedAt": "2026-10-29T14:57:35.527241+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -322,14 +322,6 @@
       "reason": "access-blocked-or-server-error"
     },
     {
-      "id": "jyz-2688",
-      "source": "住商",
-      "url": "https://www.hbhousing.com.tw/detail?sn=TS146339",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
-    },
-    {
       "id": "lry-2540",
       "source": "591",
       "url": "https://market.591.com.tw/29100",
@@ -339,8 +331,8 @@
     },
     {
       "id": "wh-culture-3480-18",
-      "source": "591",
-      "url": "https://sale.591.com.tw/home/house/detail/2/20709527.html",
+      "source": "台慶不動產",
+      "url": "https://buy.taiching.com.tw/house/7306262",
       "state": "gone",
       "httpStatus": 404,
       "reason": "not-found"
@@ -565,9 +557,9 @@
       "id": "kz-5688-14f",
       "source": "中信",
       "url": "https://buy.cthouse.com.tw/house/2004451.html",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
+      "state": "unknown",
+      "httpStatus": null,
+      "reason": "TimeoutError"
     },
     {
       "id": "kz-5688-14f",
@@ -824,70 +816,78 @@
       "state": "active",
       "httpStatus": 200,
       "reason": "ok"
+    },
+    {
+      "id": "ng-candidate-s21022469",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/21022469.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
     }
   ],
   "changed": [
     {
       "id": "ng-1880",
       "change": "all-known-links-gone",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "id": "ng-1315",
       "source": "591",
       "change": "link-invalid",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "id": "ng-1315",
       "change": "all-known-links-gone",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
+    },
+    {
+      "id": "wh-culture-3480-18",
+      "source": "台慶不動產",
+      "change": "link-invalid",
+      "date": "2026-10-29"
     },
     {
       "id": "wh-culture-3480-18",
       "change": "all-known-links-gone",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "id": "ng-match-01",
       "change": "all-known-links-gone",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "id": "ng-match-02",
       "change": "all-known-links-gone",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "id": "ng-match-08",
       "change": "all-known-links-gone",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "id": "xpd-2980-6f",
       "change": "all-known-links-gone",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "id": "lry-2850-16f",
       "change": "all-known-links-gone",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "id": "yk-candidate-s20997905",
       "change": "all-known-links-gone",
-      "date": "2026-10-28"
-    },
-    {
-      "id": "ng-candidate-s20808679",
-      "source": "591",
-      "change": "link-invalid",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     },
     {
       "id": "ng-candidate-s20808679",
       "change": "all-known-links-gone",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
     }
   ]
 }
