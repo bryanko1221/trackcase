@@ -3764,7 +3764,7 @@
     "parking": false,
     "status": "active",
     "updated": "2026-10-31",
-    "new": true,
+    "new": false,
     "owner": false,
     "yq": null,
     "sources": {
@@ -3836,7 +3836,7 @@
     "parking": true,
     "status": "active",
     "updated": "2026-10-31",
-    "new": true,
+    "new": false,
     "owner": false,
     "yq": null,
     "sources": {
