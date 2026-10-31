@@ -1312,7 +1312,7 @@
     "owner": false,
     "yq": null,
     "updated": "2026-10-30",
-    "new": true,
+    "new": false,
     "sources": {
       "591": false,
       "信義": false,
@@ -2679,7 +2679,7 @@
     "parking": false,
     "owner": false,
     "yq": null,
-    "new": true,
+    "new": false,
     "status": "active",
     "updated": "2026-10-30",
     "agent": "陳小姐／中信房屋板橋新埔加盟店",
