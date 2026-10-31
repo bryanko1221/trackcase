@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-10-31",
-  "lastUpdated": "2026-10-31 11:44",
+  "lastUpdated": "2026-10-31 11:55",
   "note": "2026-10-31 11:44手動執行：Exa＋Firecrawl Search；直接讀取13個591社區列表、21個個別案件頁。新增2筆本輪新發現唯一戶、7筆疑似重複候選；591列表顯示數大於逐案核實數，全13社區跨平台去重未完成，維持🟡部分完成。TinyFish未使用。",
   "communities": {
     "板橋新巨蛋": {
@@ -2660,12 +2660,22 @@
   },
   "websiteVerification": {
     "repositoryWrites": "success",
-    "publicHomepage": "pending",
-    "dailyReport": "pending",
-    "currentReportPointer": "pending",
+    "pagesBuild": "success",
+    "publicHomepage": "success",
+    "dailyReport": "success",
+    "currentReportPointer": "success",
     "displayedScanDate": "2026-10-31",
     "displayedMasterRecords": 76,
+    "displayedActiveListings": 45,
+    "displayedNewToday": 0,
+    "displayedPriceDropsToday": 0,
+    "displayedPriceUpsToday": 0,
+    "displayedSoldOrDelistedToday": 0,
     "partialLabel": true,
-    "checkedAt": null
+    "checkedAt": "2026-10-31T11:55:06+08:00",
+    "pagesBuildRun": 41166335414,
+    "pagesBuildConclusion": "success",
+    "publicHomepageUrl": "https://bryanko1221.github.io/trackcase/",
+    "dailyReportUrl": "https://bryanko1221.github.io/trackcase/data/daily-scan-report-2026-10-31.json"
   }
 }
