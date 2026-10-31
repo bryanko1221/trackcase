@@ -62,10 +62,10 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-10-30",
-    "sourceVerified": "2026-10-29直接Fetch中信2118541：現價1,945萬、頁面原價1,968萬、26.57坪含車位10.1943坪、22F/43F、1房1廳1衛。實際變價日期未標示，非今日確認降價。",
+    "updated": "2026-10-31",
+    "sourceVerified": "2026-10-31直接核實591 S21070784：22F/43F、26.56坪含車位、1房1廳1衛、1,945萬元；與中信主檔26.57坪、22F/43F、1,945萬元高度吻合，保留0.01坪來源差異。",
     "sources": {
-      "591": false,
+      "591": true,
       "信義": false,
       "樂屋": false,
       "樂居": false,
@@ -78,7 +78,8 @@
     "history": [],
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/20543014.html",
-      "中信": "https://buy.cthouse.com.tw/house/2118541.html"
+      "中信": "https://buy.cthouse.com.tw/house/2118541.html",
+      "591同戶候選": "https://sale.591.com.tw/home/house/detail/2/21070784.html"
     },
     "sourceValidation": {
       "591": {
@@ -622,8 +623,8 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "updated": "2026-10-30",
-    "sourceVerified": "2026-10-29重新Fetch多個個別頁與社區列表：主案保留2,380萬、29.58坪、1F/14F、3房；591 S21096885/S21094824頁仍有效但部分價格欄位遮蔽，住商仍有2,588萬版本，價格差異未解決。",
+    "updated": "2026-10-31",
+    "sourceVerified": "2026-10-31直接核實591三筆刊登：S21104352、S21158566、S21145918皆為公園世紀A區1F/14F、29.58坪、3房2廳2衛、2,380萬元；同戶高度吻合，主案合併保留三個原始網址。",
     "sources": {
       "591": true,
       "信義": false,
@@ -644,7 +645,10 @@
       "591-S20956618（價格欄位遮蔽）": "https://sale.591.com.tw/home/house/detail/2/20956618.html",
       "住商不動產-KS197260（2,588萬版本）": "https://www.hbhousing.com.tw/detail?sn=KS197260",
       "591-S21094824": "https://sale.591.com.tw/home/house/detail/2/21094824.html",
-      "樂屋社區銷售頁": "https://community.rakuya.com.tw/38979/sell"
+      "樂屋社區銷售頁": "https://community.rakuya.com.tw/38979/sell",
+      "591-S21104352": "https://sale.591.com.tw/home/house/detail/2/21104352.html",
+      "591-S21158566": "https://sale.591.com.tw/home/house/detail/2/21158566.html",
+      "591-S21145918": "https://sale.591.com.tw/home/house/detail/2/21145918.html"
     },
     "sourceValidation": {
       "台慶不動產": {
@@ -774,7 +778,7 @@
     "matchStatus": "高度吻合同戶；591 S21094824直接頁確認2,380萬/29.58坪/1F14F，與S21096885、S20956618及住商/台慶版本價格差異仍待核實",
     "competitorStatus": "暫不列競業開發名單：過往曾有永慶來源線索，但本輪未取得同戶永慶個別直連；目前永慶狀態未核實。",
     "lastChecked": "2026-10-29T09:04:06+08:00",
-    "verificationNote": "主案目前可核實價格2,380萬；樂屋B區社區列表也出現1F/14F、29.58坪、2,380萬版本。住商/台慶仍有2,588萬版本，價格差異待核，非今日降價。"
+    "verificationNote": "三筆591版本有相同樓層、坪數、格局與價格；仍保留各來源連結，其他平台逐案對帳未完成。"
   },
   {
     "id": "pc-b-3698",
@@ -1195,24 +1199,26 @@
     "groupId": "jyz-2688",
     "community": "板橋佳元植",
     "block": "待確認",
-    "floor": null,
-    "totalFloor": null,
-    "area": null,
-    "layout": "2房",
+    "floor": 16,
+    "totalFloor": 22,
+    "area": 29.36,
+    "layout": "2房2廳2衛",
     "price": 2688,
-    "unit": null,
-    "parking": null,
+    "unit": 91.55,
+    "parking": true,
     "owner": false,
     "yq": null,
     "new": false,
     "status": "active",
-    "updated": "2026-09-04",
-    "sourceVerified": "2026-09-04：樂居目前待售1筆",
+    "updated": "2026-10-31",
+    "sourceVerified": "2026-10-31直接核實591 S21039004：佳元植16F/22F、29.36坪含車位、2房2廳2衛、2,688萬元，頁面有效至2026-12-07。",
     "sources": {
+      "591": true,
       "樂居": true
     },
     "links": {
-      "樂居": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a"
+      "樂居": "https://www.leju.com.tw/community_list?area=F220&city=F&oid=La5a1360984769a",
+      "591直接頁": "https://sale.591.com.tw/home/house/detail/2/21039004.html"
     },
     "history": [],
     "sourceValidation": {
@@ -1250,7 +1256,8 @@
     "matchStatus": "直接個別頁已核實；與21世紀2,358萬/32.96坪/2F案件不同戶",
     "verificationNote": "2026-10-27補入住商TS146339直接頁，欄位已核實。",
     "parkingArea": 6.23,
-    "orientation": "北向"
+    "orientation": "北向",
+    "agent": "陽陞不動產經紀有限公司"
   },
   {
     "id": "lry-2540",
@@ -1970,7 +1977,7 @@
       "中信": false,
       "永慶": false
     },
-    "sourceVerified": "2026-09-29：591社區頁目前11筆；已核實主要案件及多個案件頁，判斷多筆為同戶不同刊登版本，保留唯一戶代表，不把11筆算11戶。",
+    "sourceVerified": "2026-09-29：591社區頁目前11筆；已核實主要案件及多個案件頁，判斷多筆為同戶不同刊登版本，保留唯一戶代表，不把11筆算11戶。 2026-10-31另核實S20865148仍在售2,185萬元，7F/12F、34.48坪、2房2廳1衛1陽台；同日另有S21152532刊登2,180萬元、同樓層坪數格局但照片不同，先分開保留，未確認降價。",
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/20865148.html",
       "樂屋社區頁": "https://community.rakuya.com.tw/55318/sell",
@@ -2035,14 +2042,15 @@
     "parking": false,
     "status": "active",
     "new": false,
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "sources": {
       "591": true
     },
     "links": {
       "591": "https://sale.591.com.tw/home/house/detail/2/21121742.html",
       "591舊刊登": "https://sale.591.com.tw/home/house/detail/2/20778150.html",
-      "樂屋社區列表": "https://community.rakuya.com.tw/38961/sell"
+      "樂屋社區列表": "https://community.rakuya.com.tw/38961/sell",
+      "591同照片刊登": "https://sale.591.com.tw/home/house/detail/2/21162810.html"
     },
     "sourceValidation": {
       "591": {
@@ -2074,7 +2082,7 @@
       "S20754147"
     ],
     "listingCountOn591": 4,
-    "sourceVerified": "2026-10-29直接Fetch591 S21121742：有效至2026-12-21，2,788萬、25.39坪、16F/25F、2房2廳1衛、管理費約2,031元/月.",
+    "sourceVerified": "2026-10-31直接核實591 S21162810：唐璽欣璞綻16F/25F、25.39坪、2房2廳1衛、2,788萬元；與主檔S21121742照片及核心條件相同，合併保留雙連結。",
     "lastChecked": "2026-10-29T09:04:06+08:00",
     "lastStatusChange": "2026-10-26",
     "managementFee": 2031,
@@ -2197,22 +2205,23 @@
     "groupId": "lry-3080-2f",
     "community": "綠如意",
     "block": "棟別待確認",
-    "floor": null,
-    "totalFloor": null,
+    "floor": 2,
+    "totalFloor": 16,
     "area": 50.5,
     "layout": "3房2廳1衛",
     "price": 3080,
     "unit": 73.2,
     "parking": true,
     "parkingArea": 11.84,
-    "status": "candidate",
+    "status": "active",
     "new": false,
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "sources": {
       "591": true
     },
     "links": {
-      "591社區列表": "https://market.591.com.tw/29100/sale"
+      "591社區列表": "https://market.591.com.tw/29100/sale",
+      "591直接頁": "https://sale.591.com.tw/home/house/detail/2/21150491.html"
     },
     "sourceValidation": {
       "591": {
@@ -2237,11 +2246,12 @@
       "S20454970"
     ],
     "listingCountOn591": 4,
-    "sourceVerified": "2026-10-12：591原始案件頁確認3,080萬、50.5坪、2F、3房2廳、含11.84坪車位",
+    "sourceVerified": "2026-10-31直接核實591 S21150491：綠如意2F/16F、50.5坪含車位、3房2廳1衛、3,080萬元，頁面有效至2026-12-27。",
     "lastChecked": "2026-10-12T12:00:00+08:00",
     "matchStatus": "社區列表候選待直連：主檔3,080萬/50.5坪與591列表61.0萬/坪卡片吻合；原直連S20904980對應另一張73.2萬/坪卡片，已拆開不強制合併。",
     "yq": null,
-    "verificationNote": "2026-10-27更正來源關聯：S20904980標題與73.2萬/坪卡片對應，主檔3,080萬/50.5坪約61.0萬/坪，不能合併；本案暫列候選，待找到正確直連。"
+    "verificationNote": "2026-10-27更正來源關聯：S20904980標題與73.2萬/坪卡片對應，主檔3,080萬/50.5坪約61.0萬/坪，不能合併；本案暫列候選，待找到正確直連。",
+    "agent": "陽陞不動產經紀有限公司"
   },
   {
     "id": "kz-5688-14f",
@@ -3469,18 +3479,18 @@
     "community": "永康芬揚",
     "title": "CZ8永康芬揚高樓景觀2房",
     "new": false,
-    "status": "candidate",
-    "updated": "2026-10-30",
-    "price": null,
-    "area": null,
-    "floor": null,
-    "totalFloor": null,
-    "layout": "2房（標題）",
+    "status": "active",
+    "updated": "2026-10-31",
+    "price": 2115,
+    "area": 25.36,
+    "floor": 11,
+    "totalFloor": 14,
+    "layout": "2房2廳1衛1陽台",
     "parking": true,
     "parkingArea": 2.83,
     "parkingType": "機械式",
     "managementFee": 2254,
-    "unit": null,
+    "unit": 86.77,
     "yq": null,
     "sources": {
       "591": true
@@ -3504,7 +3514,9 @@
     "expiryDate": "2026-12-21",
     "verificationNote": "2026-10-29直接Fetch591 S21126291：有效至2026-12-21，管理費約2,254元/月、機械車位約2.83坪；價格/權狀坪數/樓層欄位遮蔽.",
     "lastChecked": "2026-10-29T09:04:06+08:00",
-    "sourceVerified": "2026-10-29直接Fetch591 S21126291：有效至2026-12-21，管理費約2,254元/月、機械車位約2.83坪；價格/權狀坪數/樓層欄位遮蔽."
+    "sourceVerified": "2026-10-31直接核實591 S21126291：永康芬揚11F/14F、25.36坪含車位、2房2廳1衛1陽台、2,115萬元、管理費2,254元/月、機械車位2.83坪。",
+    "block": "主棟待確認",
+    "agent": "儀居房地產經紀股份有限公司／住商不動產"
   },
   {
     "id": "xpd-candidate-sinyi-2256tb",
@@ -3631,5 +3643,325 @@
         "url": "https://sale.591.com.tw/home/house/detail/2/21022469.html"
       }
     }
+  },
+  {
+    "id": "ng-candidate-s21152104",
+    "community": "板橋新巨蛋",
+    "block": "A區",
+    "floor": 38,
+    "totalFloor": 40,
+    "area": 13.77,
+    "layout": "開放式格局",
+    "price": 1580,
+    "unit": 114.74,
+    "parking": false,
+    "status": "candidate",
+    "updated": "2026-10-31",
+    "new": false,
+    "owner": false,
+    "yq": null,
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "永慶": null,
+      "中信": false,
+      "住商": false,
+      "台灣房屋": false,
+      "好房網": false
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/21152104.html"
+    },
+    "agent": "詹捷媜／中信房屋-板橋新埔加盟店",
+    "sourceVerified": "2026-10-31直接核實591 S21152104：1,580萬元、13.77坪、38F/40F、開放式格局、管理費964元/月、無車位；依總樓層推定A棟，門牌/戶別待確認。與其他38F/40F相近刊登暫不合併。",
+    "verificationNote": "2026-10-31直接核實591 S21152104：1,580萬元、13.77坪、38F/40F、開放式格局、管理費964元/月、無車位；依總樓層推定A棟，門牌/戶別待確認。與其他38F/40F相近刊登暫不合併。",
+    "managementFee": 964,
+    "age": 16,
+    "address": "文化路一段（門牌待確認）"
+  },
+  {
+    "id": "ng-candidate-s21148819",
+    "community": "板橋新巨蛋",
+    "block": "A區",
+    "floor": 38,
+    "totalFloor": 40,
+    "area": 13.76,
+    "layout": "1房1廳1衛",
+    "price": 1580,
+    "unit": 114.83,
+    "parking": null,
+    "status": "candidate",
+    "updated": "2026-10-31",
+    "new": false,
+    "owner": false,
+    "yq": null,
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "永慶": null,
+      "中信": false,
+      "住商": false,
+      "台灣房屋": false,
+      "好房網": false
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/21148819.html"
+    },
+    "agent": "陳小姐／中信房屋-板橋新埔加盟店",
+    "sourceVerified": "2026-10-31直接核實591 S21148819：1,580萬元、13.76坪、1房1廳1衛、38F/40F；依總樓層推定A棟，車位/門牌待確認。與其他38F/40F刊登條件近似，暫不合併。",
+    "verificationNote": "2026-10-31直接核實591 S21148819：1,580萬元、13.76坪、1房1廳1衛、38F/40F；依總樓層推定A棟，車位/門牌待確認。與其他38F/40F刊登條件近似，暫不合併。",
+    "address": "文化路一段（門牌待確認）"
+  },
+  {
+    "id": "ng-candidate-s21143407",
+    "community": "板橋新巨蛋",
+    "block": "A區",
+    "floor": 38,
+    "totalFloor": 40,
+    "area": 13.77,
+    "layout": "1房1廳1衛",
+    "price": 1580,
+    "unit": 114.74,
+    "parking": null,
+    "status": "candidate",
+    "updated": "2026-10-31",
+    "new": false,
+    "owner": false,
+    "yq": null,
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "永慶": null,
+      "中信": false,
+      "住商": false,
+      "台灣房屋": false,
+      "好房網": false
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/21143407.html"
+    },
+    "agent": "中信房屋-板橋新埔加盟店",
+    "sourceVerified": "2026-10-31直接核實591 S21143407：1,580萬元、13.77坪、1房1廳1衛、38F/40F；依總樓層推定A棟，門牌/戶別待確認。與S21070676/S21152104等刊登可能同戶，暫不合併。",
+    "verificationNote": "2026-10-31直接核實591 S21143407：1,580萬元、13.77坪、1房1廳1衛、38F/40F；依總樓層推定A棟，門牌/戶別待確認。與S21070676/S21152104等刊登可能同戶，暫不合併。",
+    "address": "文化路一段（門牌待確認）"
+  },
+  {
+    "id": "ng-1740-23f-s21148571",
+    "community": "板橋新巨蛋",
+    "block": "A區",
+    "floor": 23,
+    "totalFloor": 40,
+    "area": 13.59,
+    "layout": "1房1廳1衛",
+    "price": 1740,
+    "unit": 128.04,
+    "parking": false,
+    "status": "active",
+    "updated": "2026-10-31",
+    "new": true,
+    "owner": false,
+    "yq": null,
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "永慶": null,
+      "中信": false,
+      "住商": false,
+      "台灣房屋": false,
+      "好房網": false
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/21148571.html"
+    },
+    "agent": "陳小姐／中信房屋-板橋新埔加盟店",
+    "sourceVerified": "2026-10-31直接核實591 S21148571：1,740萬元、13.59坪、23F/40F、1房1廳1衛、管理費952元/月、無車位；依總樓層推定A棟，門牌待確認。",
+    "verificationNote": "2026-10-31直接核實591 S21148571：1,740萬元、13.59坪、23F/40F、1房1廳1衛、管理費952元/月、無車位；依總樓層推定A棟，門牌待確認。",
+    "managementFee": 952,
+    "age": 16,
+    "address": "文化路一段（門牌待確認）"
+  },
+  {
+    "id": "ng-candidate-s21148541",
+    "community": "板橋新巨蛋",
+    "block": "棟別待確認",
+    "floor": 24,
+    "totalFloor": 43,
+    "area": 45.99,
+    "layout": "1房2廳2衛1陽台",
+    "price": 3998,
+    "unit": 86.93,
+    "parking": true,
+    "status": "candidate",
+    "updated": "2026-10-31",
+    "new": false,
+    "owner": false,
+    "yq": null,
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "永慶": null,
+      "中信": false,
+      "住商": false,
+      "台灣房屋": false,
+      "好房網": false
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/21148541.html"
+    },
+    "agent": "陳小姐／中信房屋-板橋新埔加盟店",
+    "sourceVerified": "2026-10-31直接核實591 S21148541：3,998萬元含車位、45.99坪、24F/43F、1房2廳2衛1陽台；C/D棟需門牌確認。與主檔ng-match-04樓層/坪數/價格/格局高度相似，缺門牌/戶別，暫不合併。",
+    "verificationNote": "2026-10-31直接核實591 S21148541：3,998萬元含車位、45.99坪、24F/43F、1房2廳2衛1陽台；C/D棟需門牌確認。與主檔ng-match-04樓層/坪數/價格/格局高度相似，缺門牌/戶別，暫不合併。",
+    "address": "文化路一段（門牌待確認）"
+  },
+  {
+    "id": "xpd-2880-22f-s21151971",
+    "community": "欣璞綻",
+    "block": "棟別待確認",
+    "floor": 22,
+    "totalFloor": 25,
+    "area": 31.75,
+    "layout": "2房1廳1衛",
+    "price": 2880,
+    "unit": 90.71,
+    "parking": true,
+    "status": "active",
+    "updated": "2026-10-31",
+    "new": true,
+    "owner": false,
+    "yq": null,
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "永慶": null,
+      "中信": false,
+      "住商": false,
+      "台灣房屋": false,
+      "好房網": false
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/21151971.html"
+    },
+    "agent": "樂享家不動產有限公司",
+    "sourceVerified": "2026-10-31直接核實591 S21151971：唐璽欣璞綻22F/25F、31.75坪含車位、2房1廳1衛、2,880萬元，車位坪數13.88坪，頁面有效至2026-12-27。",
+    "verificationNote": "2026-10-31直接核實591 S21151971：唐璽欣璞綻22F/25F、31.75坪含車位、2房1廳1衛、2,880萬元，車位坪數13.88坪，頁面有效至2026-12-27。",
+    "parkingArea": 13.88
+  },
+  {
+    "id": "bq-candidate-s21152532",
+    "community": "板橋晴",
+    "block": "主棟",
+    "floor": 7,
+    "totalFloor": 12,
+    "area": 34.48,
+    "layout": "2房2廳1衛1陽台",
+    "price": 2180,
+    "unit": 80.81,
+    "parking": true,
+    "status": "candidate",
+    "updated": "2026-10-31",
+    "new": false,
+    "owner": false,
+    "yq": null,
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "永慶": null,
+      "中信": false,
+      "住商": false,
+      "台灣房屋": false,
+      "好房網": false
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/21152532.html"
+    },
+    "agent": "子冠不動產經紀有限公司",
+    "sourceVerified": "2026-10-31直接核實591 S21152532：2,180萬元含車位、34.48坪、7F/12F、2房2廳1衛1陽台；與S20865148的2,185萬元同樓層坪數格局但照片不同，可能不同戶，暫不合併且不計降價。",
+    "verificationNote": "2026-10-31直接核實591 S21152532：2,180萬元含車位、34.48坪、7F/12F、2房2廳1衛1陽台；與S20865148的2,185萬元同樓層坪數格局但照片不同，可能不同戶，暫不合併且不計降價。",
+    "parkingArea": 14.76,
+    "address": "莒光路（門牌待確認）"
+  },
+  {
+    "id": "ykf-candidate-s20954970",
+    "community": "永康芬揚",
+    "block": "主棟待確認",
+    "floor": 12,
+    "totalFloor": 14,
+    "area": 21.84,
+    "layout": "2房2廳1衛1陽台",
+    "price": 1920,
+    "unit": 87.91,
+    "parking": false,
+    "status": "candidate",
+    "updated": "2026-10-31",
+    "new": false,
+    "owner": false,
+    "yq": null,
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "永慶": null,
+      "中信": false,
+      "住商": false,
+      "台灣房屋": false,
+      "好房網": false
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20954970.html"
+    },
+    "agent": "吳建緯／住商不動產-中和景安加盟店",
+    "sourceVerified": "2026-10-31直接核實591 S20954970：1,920萬元、21.84坪、12F/14F、2房2廳1衛1陽台、無車位；與S20941605及樂屋多個同樓層/坪數/價格版本可能同戶，暫不合併。",
+    "verificationNote": "2026-10-31直接核實591 S20954970：1,920萬元、21.84坪、12F/14F、2房2廳1衛1陽台、無車位；與S20941605及樂屋多個同樓層/坪數/價格版本可能同戶，暫不合併。",
+    "address": "縣民大道三段93巷（門牌待確認）"
+  },
+  {
+    "id": "ykf-candidate-s20941605",
+    "community": "永康芬揚",
+    "block": "主棟待確認",
+    "floor": 12,
+    "totalFloor": 14,
+    "area": 21.84,
+    "layout": "2房2廳1衛1陽台",
+    "price": 1920,
+    "unit": 87.91,
+    "parking": false,
+    "status": "candidate",
+    "updated": "2026-10-31",
+    "new": false,
+    "owner": false,
+    "yq": null,
+    "sources": {
+      "591": true,
+      "信義": false,
+      "樂居": false,
+      "樂屋": false,
+      "永慶": null,
+      "中信": false,
+      "住商": false,
+      "台灣房屋": false,
+      "好房網": false
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20941605.html"
+    },
+    "agent": "林世垚／住商不動產-中和景安加盟店",
+    "sourceVerified": "2026-10-31直接核實591 S20941605：1,920萬元、21.84坪、12F/14F、2房2廳1衛1陽台、無車位；與S20954970條件完全相近但圖片/刊登者不同，暫不合併。",
+    "verificationNote": "2026-10-31直接核實591 S20941605：1,920萬元、21.84坪、12F/14F、2房2廳1衛1陽台、無車位；與S20954970條件完全相近但圖片/刊登者不同，暫不合併。",
+    "address": "縣民大道三段93巷（門牌待確認）"
   }
 ]
