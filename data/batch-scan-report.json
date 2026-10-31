@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-30T07:00:15.500431+00:00",
+  "updatedAt": "2026-10-31T06:49:18.233864+00:00",
   "sources": [
     {
       "source": "591",
       "community": "板橋新巨蛋",
       "indexUrl": "https://market.591.com.tw/29267/sale",
-      "checkedAt": "2026-10-30T06:48:30.838422+00:00",
+      "checkedAt": "2026-10-31T06:37:29.542921+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -46,7 +46,7 @@
       "source": "樂居",
       "community": "板橋新巨蛋",
       "indexUrl": "https://www.leju.com.tw/community/L4b336969ab4e5?mode=buy",
-      "checkedAt": "2026-10-30T06:49:10.511737+00:00",
+      "checkedAt": "2026-10-31T06:38:09.284374+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -81,7 +81,7 @@
       "source": "信義",
       "community": "板橋新巨蛋",
       "indexUrl": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000036",
-      "checkedAt": "2026-10-30T06:49:11.970203+00:00",
+      "checkedAt": "2026-10-31T06:38:10.748141+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -118,56 +118,56 @@
           "listingKey": "0815tr",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:19.927853+00:00"
+          "checkedAt": "2026-10-31T06:38:18.130213+00:00"
         },
         {
           "url": "https://www.sinyi.com.tw/buy/house/2981JZ",
           "listingKey": "2981jz",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:21.844633+00:00"
+          "checkedAt": "2026-10-31T06:38:20.720351+00:00"
         },
         {
           "url": "https://www.sinyi.com.tw/buy/house/9465BS",
           "listingKey": "9465bs",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:23.654067+00:00"
+          "checkedAt": "2026-10-31T06:38:23.012705+00:00"
         },
         {
           "url": "https://www.sinyi.com.tw/buy/house/7855FZ",
           "listingKey": "7855fz",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:25.514852+00:00"
+          "checkedAt": "2026-10-31T06:38:24.978090+00:00"
         },
         {
           "url": "https://www.sinyi.com.tw/buy/house/7680JW",
           "listingKey": "7680jw",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:27.503679+00:00"
+          "checkedAt": "2026-10-31T06:38:27.381501+00:00"
         },
         {
           "url": "https://www.sinyi.com.tw/buy/house/9524XN",
           "listingKey": "9524xn",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:29.520914+00:00"
+          "checkedAt": "2026-10-31T06:38:29.115839+00:00"
         },
         {
           "url": "https://www.sinyi.com.tw/buy/house/4813PN",
           "listingKey": "4813pn",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:31.420352+00:00"
+          "checkedAt": "2026-10-31T06:38:31.135648+00:00"
         },
         {
           "url": "https://www.sinyi.com.tw/buy/house/3508VZ",
           "listingKey": "3508vz",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:33.364836+00:00"
+          "checkedAt": "2026-10-31T06:38:33.113529+00:00"
         }
       ],
       "directActiveCount": 8,
@@ -193,7 +193,7 @@
       "source": "樂屋",
       "community": "板橋新巨蛋",
       "indexUrl": "https://community.rakuya.com.tw/2276/sell",
-      "checkedAt": "2026-10-30T06:49:33.364874+00:00",
+      "checkedAt": "2026-10-31T06:38:33.113576+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -210,12 +210,12 @@
         "https://community.rakuya.com.tw/2276/sell/info?ehid=0de3f5358821907&from=communitySearchSell",
         "https://community.rakuya.com.tw/2276/sell/info?ehid=0a558427248637f&from=communitySearchSell",
         "https://community.rakuya.com.tw/2276/sell/info?ehid=04ee1c343777010&from=communitySearchSell",
-        "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell",
         "https://community.rakuya.com.tw/2276/sell/info?ehid=0d5aa2357047449&from=communitySearchSell",
+        "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell",
+        "https://community.rakuya.com.tw/2276/sell/info?ehid=0c649f353592009&from=communitySearchSell",
         "https://community.rakuya.com.tw/2276/sell/info?ehid=08d32d300679720&from=communitySearchSell",
         "https://community.rakuya.com.tw/2276/sell/info?ehid=01ec79344448989&from=communitySearchSell",
         "https://community.rakuya.com.tw/2276/sell/info?ehid=089270299156338&from=communitySearchSell",
-        "https://community.rakuya.com.tw/2276/sell/info?ehid=0c649f353592009&from=communitySearchSell",
         "https://community.rakuya.com.tw/2276/sell/info?ehid=08949033888949f&from=communitySearchSell"
       ],
       "listingIdsDiscovered": 12,
@@ -234,84 +234,84 @@
           "listingKey": "0dcc86359937923",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:37.417224+00:00"
+          "checkedAt": "2026-10-31T06:38:38.106607+00:00"
         },
         {
           "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=01597d35944684f&from=communitySearchSell",
           "listingKey": "01597d35944684f",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:38.535452+00:00"
+          "checkedAt": "2026-10-31T06:38:39.335785+00:00"
         },
         {
           "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0de3f5358821907&from=communitySearchSell",
           "listingKey": "0de3f5358821907",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:39.576635+00:00"
+          "checkedAt": "2026-10-31T06:38:40.449970+00:00"
         },
         {
           "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0a558427248637f&from=communitySearchSell",
           "listingKey": "0a558427248637f",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:40.567276+00:00"
+          "checkedAt": "2026-10-31T06:38:41.600808+00:00"
         },
         {
           "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=04ee1c343777010&from=communitySearchSell",
           "listingKey": "04ee1c343777010",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:41.686158+00:00"
-        },
-        {
-          "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell",
-          "listingKey": "086ab026534665d",
-          "state": "active",
-          "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:44.238522+00:00"
+          "checkedAt": "2026-10-31T06:38:43.377944+00:00"
         },
         {
           "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0d5aa2357047449&from=communitySearchSell",
           "listingKey": "0d5aa2357047449",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:45.415231+00:00"
+          "checkedAt": "2026-10-31T06:38:45.278597+00:00"
         },
         {
-          "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08d32d300679720&from=communitySearchSell",
-          "listingKey": "08d32d300679720",
+          "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d&from=communitySearchSell",
+          "listingKey": "086ab026534665d",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:46.455508+00:00"
-        },
-        {
-          "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=01ec79344448989&from=communitySearchSell",
-          "listingKey": "01ec79344448989",
-          "state": "active",
-          "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:47.900296+00:00"
-        },
-        {
-          "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=089270299156338&from=communitySearchSell",
-          "listingKey": "089270299156338",
-          "state": "active",
-          "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:48.944645+00:00"
+          "checkedAt": "2026-10-31T06:38:46.323108+00:00"
         },
         {
           "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0c649f353592009&from=communitySearchSell",
           "listingKey": "0c649f353592009",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:49.950245+00:00"
+          "checkedAt": "2026-10-31T06:38:48.146508+00:00"
+        },
+        {
+          "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08d32d300679720&from=communitySearchSell",
+          "listingKey": "08d32d300679720",
+          "state": "active",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-31T06:38:50.024267+00:00"
+        },
+        {
+          "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=01ec79344448989&from=communitySearchSell",
+          "listingKey": "01ec79344448989",
+          "state": "active",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-31T06:38:51.136142+00:00"
+        },
+        {
+          "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=089270299156338&from=communitySearchSell",
+          "listingKey": "089270299156338",
+          "state": "active",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-31T06:38:52.274175+00:00"
         },
         {
           "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08949033888949f&from=communitySearchSell",
           "listingKey": "08949033888949f",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:49:50.970515+00:00"
+          "checkedAt": "2026-10-31T06:38:53.379099+00:00"
         }
       ],
       "directActiveCount": 12,
@@ -670,6 +670,76 @@
         },
         {
           "@type": "Product",
+          "name": "新埔捷運★新巨蛋美妝3房車★全國安琪",
+          "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0d5aa2357047449",
+          "image": "https://static.rakuya.com.tw/r2/n744/2d/80/35704744_19_c.jpeg?1791015242",
+          "description": "新巨蛋周邊社區大樓房屋出售、買房、買屋及實價登錄、房屋物件資訊。",
+          "offers": {
+            "@type": "Offer",
+            "price": 29500000,
+            "priceCurrency": "TWD",
+            "availability": "https://schema.org/InStock",
+            "itemOffered": {
+              "@type": "Apartment",
+              "numberOfBedrooms": 3,
+              "numberOfBathroomsTotal": 2,
+              "floorSize": {
+                "@type": "QuantitativeValue",
+                "value": 35.46,
+                "unitCode": "坪"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "新北市",
+                "addressRegion": "板橋區",
+                "addressCountry": "TWN",
+                "postalCode": "220"
+              }
+            }
+          }
+        },
+        {
+          "@type": "Offer",
+          "price": 29500000,
+          "priceCurrency": "TWD",
+          "availability": "https://schema.org/InStock",
+          "itemOffered": {
+            "@type": "Apartment",
+            "numberOfBedrooms": 3,
+            "numberOfBathroomsTotal": 2,
+            "floorSize": {
+              "@type": "QuantitativeValue",
+              "value": 35.46,
+              "unitCode": "坪"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "新北市",
+              "addressRegion": "板橋區",
+              "addressCountry": "TWN",
+              "postalCode": "220"
+            }
+          }
+        },
+        {
+          "@type": "Apartment",
+          "numberOfBedrooms": 3,
+          "numberOfBathroomsTotal": 2,
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": 35.46,
+            "unitCode": "坪"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "新北市",
+            "addressRegion": "板橋區",
+            "addressCountry": "TWN",
+            "postalCode": "220"
+          }
+        },
+        {
+          "@type": "Product",
           "name": "鋼骨地標新埔捷運四房車位",
           "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=086ab026534665d",
           "image": "https://static.rakuya.com.tw/r2/n665/76/d0/26534665_1_c.jpeg?1785934602",
@@ -740,22 +810,22 @@
         },
         {
           "@type": "Product",
-          "name": "新埔捷運★新巨蛋美妝3房車★全國安琪",
-          "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0d5aa2357047449",
-          "image": "https://static.rakuya.com.tw/r2/n744/2d/80/35704744_19_c.jpeg?1791015242",
+          "name": "新巨蛋精美裝潢",
+          "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0c649f353592009",
+          "image": "https://static.rakuya.com.tw/r1/n200/d0/bf/35359200_23_c.jpeg?1789251518",
           "description": "新巨蛋周邊社區大樓房屋出售、買房、買屋及實價登錄、房屋物件資訊。",
           "offers": {
             "@type": "Offer",
-            "price": 29500000,
+            "price": 39980000,
             "priceCurrency": "TWD",
             "availability": "https://schema.org/InStock",
             "itemOffered": {
               "@type": "Apartment",
-              "numberOfBedrooms": 3,
+              "numberOfBedrooms": 1,
               "numberOfBathroomsTotal": 2,
               "floorSize": {
                 "@type": "QuantitativeValue",
-                "value": 35.46,
+                "value": 45.99,
                 "unitCode": "坪"
               },
               "address": {
@@ -770,16 +840,16 @@
         },
         {
           "@type": "Offer",
-          "price": 29500000,
+          "price": 39980000,
           "priceCurrency": "TWD",
           "availability": "https://schema.org/InStock",
           "itemOffered": {
             "@type": "Apartment",
-            "numberOfBedrooms": 3,
+            "numberOfBedrooms": 1,
             "numberOfBathroomsTotal": 2,
             "floorSize": {
               "@type": "QuantitativeValue",
-              "value": 35.46,
+              "value": 45.99,
               "unitCode": "坪"
             },
             "address": {
@@ -793,11 +863,11 @@
         },
         {
           "@type": "Apartment",
-          "numberOfBedrooms": 3,
+          "numberOfBedrooms": 1,
           "numberOfBathroomsTotal": 2,
           "floorSize": {
             "@type": "QuantitativeValue",
-            "value": 35.46,
+            "value": 45.99,
             "unitCode": "坪"
           },
           "address": {
@@ -1020,76 +1090,6 @@
         },
         {
           "@type": "Product",
-          "name": "新巨蛋精美裝潢",
-          "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=0c649f353592009",
-          "image": "https://static.rakuya.com.tw/r1/n200/d0/bf/35359200_23_c.jpeg?1789251518",
-          "description": "新巨蛋周邊社區大樓房屋出售、買房、買屋及實價登錄、房屋物件資訊。",
-          "offers": {
-            "@type": "Offer",
-            "price": 39980000,
-            "priceCurrency": "TWD",
-            "availability": "https://schema.org/InStock",
-            "itemOffered": {
-              "@type": "Apartment",
-              "numberOfBedrooms": 1,
-              "numberOfBathroomsTotal": 2,
-              "floorSize": {
-                "@type": "QuantitativeValue",
-                "value": 45.99,
-                "unitCode": "坪"
-              },
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "新北市",
-                "addressRegion": "板橋區",
-                "addressCountry": "TWN",
-                "postalCode": "220"
-              }
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "price": 39980000,
-          "priceCurrency": "TWD",
-          "availability": "https://schema.org/InStock",
-          "itemOffered": {
-            "@type": "Apartment",
-            "numberOfBedrooms": 1,
-            "numberOfBathroomsTotal": 2,
-            "floorSize": {
-              "@type": "QuantitativeValue",
-              "value": 45.99,
-              "unitCode": "坪"
-            },
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "新北市",
-              "addressRegion": "板橋區",
-              "addressCountry": "TWN",
-              "postalCode": "220"
-            }
-          }
-        },
-        {
-          "@type": "Apartment",
-          "numberOfBedrooms": 1,
-          "numberOfBathroomsTotal": 2,
-          "floorSize": {
-            "@type": "QuantitativeValue",
-            "value": 45.99,
-            "unitCode": "坪"
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "新北市",
-            "addressRegion": "板橋區",
-            "addressCountry": "TWN",
-            "postalCode": "220"
-          }
-        },
-        {
-          "@type": "Product",
           "name": "新巨蛋●大戶四房車位",
           "url": "https://community.rakuya.com.tw/2276/sell/info?ehid=08949033888949f",
           "image": "https://static.rakuya.com.tw/r2/n949/c8/f8/33888949_22_c.jpeg?1782173614",
@@ -1166,7 +1166,7 @@
       "source": "中信",
       "community": "板橋新巨蛋",
       "indexUrl": "https://buy.cthouse.com.tw/area/%E6%96%B0%E5%8C%97%E5%B8%82-city/%E6%9D%BF%E6%A9%8B%E5%8D%80-town/%E6%96%B0%E5%B7%A8%E8%9B%8B-keyword/",
-      "checkedAt": "2026-10-30T06:49:50.970553+00:00",
+      "checkedAt": "2026-10-31T06:38:53.379147+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 4,
       "paginationDiscovered": 3,
@@ -1215,7 +1215,7 @@
       "source": "永慶",
       "community": "板橋新巨蛋",
       "indexUrl": "https://shop.yungching.com.tw/0233169908_0167/list?pg=1",
-      "checkedAt": "2026-10-30T06:50:00.603619+00:00",
+      "checkedAt": "2026-10-31T06:39:01.209014+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 2,
       "paginationDiscovered": 1,
@@ -1237,16 +1237,15 @@
         "https://buy.yungching.com.tw/house/7427743",
         "https://buy.yungching.com.tw/house/6730596",
         "https://buy.yungching.com.tw/house/6896565",
-        "https://buy.yungching.com.tw/house/6572663",
         "https://buy.yungching.com.tw/house/6999713",
+        "https://buy.yungching.com.tw/house/6572663",
         "https://buy.yungching.com.tw/house/7561468",
+        "https://buy.yungching.com.tw/house/7444431",
         "https://buy.yungching.com.tw/house/6666073",
-        "https://buy.yungching.com.tw/house/7461631",
         "https://buy.yungching.com.tw/house/7294619",
         "https://buy.yungching.com.tw/house/7504145",
         "https://buy.yungching.com.tw/house/5206071",
         "https://buy.yungching.com.tw/house/7362907",
-        "https://buy.yungching.com.tw/house/7482552",
         "https://buy.yungching.com.tw/house/7405147",
         "https://buy.yungching.com.tw/house/7555741",
         "https://buy.yungching.com.tw/house/7554290",
@@ -1256,12 +1255,13 @@
         "https://buy.yungching.com.tw/house/7217539",
         "https://buy.yungching.com.tw/house/6359408",
         "https://buy.yungching.com.tw/house/6364266",
-        "https://buy.yungching.com.tw/house/7444431",
+        "https://buy.yungching.com.tw/house/7461631",
         "https://buy.yungching.com.tw/house/7287861",
         "https://buy.yungching.com.tw/house/7522028",
         "https://buy.yungching.com.tw/house/7497909",
         "https://buy.yungching.com.tw/house/7251807",
         "https://buy.yungching.com.tw/house/7411002",
+        "https://buy.yungching.com.tw/house/7482552",
         "https://buy.yungching.com.tw/house/4800353",
         "https://buy.yungching.com.tw/house/7531666"
       ],
@@ -1281,224 +1281,224 @@
           "listingKey": "6892646",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:06.910735+00:00"
+          "checkedAt": "2026-10-31T06:39:07.618940+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/6961978",
           "listingKey": "6961978",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:07.219371+00:00"
+          "checkedAt": "2026-10-31T06:39:07.999760+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/7427743",
           "listingKey": "7427743",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:07.447025+00:00"
+          "checkedAt": "2026-10-31T06:39:08.324539+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/6730596",
           "listingKey": "6730596",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:07.716487+00:00"
+          "checkedAt": "2026-10-31T06:39:08.589465+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/6896565",
           "listingKey": "6896565",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:07.933086+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/6572663",
-          "listingKey": "6572663",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:08.148134+00:00"
+          "checkedAt": "2026-10-31T06:39:08.905642+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/6999713",
           "listingKey": "6999713",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:08.418109+00:00"
+          "checkedAt": "2026-10-31T06:39:09.215164+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/6572663",
+          "listingKey": "6572663",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:09.465646+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/7561468",
           "listingKey": "7561468",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:08.691882+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/6666073",
-          "listingKey": "6666073",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:08.907546+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/7461631",
-          "listingKey": "7461631",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:09.122397+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/7294619",
-          "listingKey": "7294619",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:09.458945+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/7504145",
-          "listingKey": "7504145",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:09.674156+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/5206071",
-          "listingKey": "5206071",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:09.890606+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/7362907",
-          "listingKey": "7362907",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:10.106066+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/7482552",
-          "listingKey": "7482552",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:10.321664+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/7405147",
-          "listingKey": "7405147",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:10.538665+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/7555741",
-          "listingKey": "7555741",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:10.825240+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/7554290",
-          "listingKey": "7554290",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:11.115492+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/7547313",
-          "listingKey": "7547313",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:11.330283+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/7386714",
-          "listingKey": "7386714",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:11.544389+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/7332422",
-          "listingKey": "7332422",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:11.780739+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/7217539",
-          "listingKey": "7217539",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:11.995962+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/6359408",
-          "listingKey": "6359408",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:12.211968+00:00"
-        },
-        {
-          "url": "https://buy.yungching.com.tw/house/6364266",
-          "listingKey": "6364266",
-          "state": "unknown",
-          "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:12.427076+00:00"
+          "checkedAt": "2026-10-31T06:39:09.769943+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/7444431",
           "listingKey": "7444431",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:12.642377+00:00"
+          "checkedAt": "2026-10-31T06:39:10.057575+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/6666073",
+          "listingKey": "6666073",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:10.359153+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/7294619",
+          "listingKey": "7294619",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:10.685931+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/7504145",
+          "listingKey": "7504145",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:10.935941+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/5206071",
+          "listingKey": "5206071",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:11.187523+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/7362907",
+          "listingKey": "7362907",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:11.474706+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/7405147",
+          "listingKey": "7405147",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:11.723678+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/7555741",
+          "listingKey": "7555741",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:12.003194+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/7554290",
+          "listingKey": "7554290",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:12.259558+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/7547313",
+          "listingKey": "7547313",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:12.511441+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/7386714",
+          "listingKey": "7386714",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:12.754268+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/7332422",
+          "listingKey": "7332422",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:13.039292+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/7217539",
+          "listingKey": "7217539",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:13.353573+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/6359408",
+          "listingKey": "6359408",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:13.604254+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/6364266",
+          "listingKey": "6364266",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:13.931312+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/7461631",
+          "listingKey": "7461631",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:14.218056+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/7287861",
           "listingKey": "7287861",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:12.857604+00:00"
+          "checkedAt": "2026-10-31T06:39:14.458840+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/7522028",
           "listingKey": "7522028",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:13.072394+00:00"
+          "checkedAt": "2026-10-31T06:39:14.720381+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/7497909",
           "listingKey": "7497909",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:13.318134+00:00"
+          "checkedAt": "2026-10-31T06:39:15.026797+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/7251807",
           "listingKey": "7251807",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:13.563856+00:00"
+          "checkedAt": "2026-10-31T06:39:15.295938+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/7411002",
           "listingKey": "7411002",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:13.778657+00:00"
+          "checkedAt": "2026-10-31T06:39:15.547659+00:00"
+        },
+        {
+          "url": "https://buy.yungching.com.tw/house/7482552",
+          "listingKey": "7482552",
+          "state": "unknown",
+          "httpStatus": 403,
+          "checkedAt": "2026-10-31T06:39:15.798272+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/4800353",
           "listingKey": "4800353",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:13.998520+00:00"
+          "checkedAt": "2026-10-31T06:39:16.042720+00:00"
         },
         {
           "url": "https://buy.yungching.com.tw/house/7531666",
           "listingKey": "7531666",
           "state": "unknown",
           "httpStatus": 403,
-          "checkedAt": "2026-10-30T06:50:14.289031+00:00"
+          "checkedAt": "2026-10-31T06:39:16.323097+00:00"
         }
       ],
       "directActiveCount": 0,
@@ -1512,7 +1512,7 @@
       "source": "住商",
       "community": "板橋新巨蛋",
       "indexUrl": "https://www.hbhousing.com.tw/web/A264/",
-      "checkedAt": "2026-10-30T06:50:14.289070+00:00",
+      "checkedAt": "2026-10-31T06:39:16.323141+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -1564,7 +1564,7 @@
         "https://www.hbhousing.com.tw/guest/compare/buy",
         "https://www.hbhousing.com.tw/service/buy-house?StoreID=A264",
         "https://www.hbhousing.com.tw/buyhouse/web/A264",
-        "https://www.hbhousing.com.tw/news/detail.aspx?num=6003",
+        "https://www.hbhousing.com.tw/news/detail.aspx?num=6004",
         "https://www.hbhousing.com.tw/recruit/job/?storeID=A264",
         "https://www.hbhousing.com.tw/franchise/broker/新北市/220/A264-store",
         "https://www.hbhousing.com.tw/franchise/scrivener/新北市/220",
@@ -1615,294 +1615,294 @@
           "listingKey": "www.hbhousing.com.tw",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:18.995018+00:00"
+          "checkedAt": "2026-10-31T06:39:20.702826+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse",
           "listingKey": "www.hbhousing.com.tw/buyhouse",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:20.795900+00:00"
+          "checkedAt": "2026-10-31T06:39:22.502104+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/map",
           "listingKey": "www.hbhousing.com.tw/buyhouse/map",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:22.758969+00:00"
+          "checkedAt": "2026-10-31T06:39:24.336651+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/mrt",
           "listingKey": "www.hbhousing.com.tw/buyhouse/mrt",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:24.050916+00:00"
+          "checkedAt": "2026-10-31T06:39:25.590006+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/school",
           "listingKey": "www.hbhousing.com.tw/buyhouse/school",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:25.599245+00:00"
+          "checkedAt": "2026-10-31T06:39:27.318701+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/hot_sale-theme",
           "listingKey": "www.hbhousing.com.tw/buyhouse/hot_sale-theme",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:27.807586+00:00"
+          "checkedAt": "2026-10-31T06:39:29.863580+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/safe/",
           "listingKey": "www.hbhousing.com.tw/safe",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:29.261738+00:00"
+          "checkedAt": "2026-10-31T06:39:31.424878+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/service/buy-house",
           "listingKey": "www.hbhousing.com.tw/service/buy-house",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:30.560072+00:00"
+          "checkedAt": "2026-10-31T06:39:33.242604+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/dealsearch",
           "listingKey": "www.hbhousing.com.tw/dealsearch",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:32.587649+00:00"
+          "checkedAt": "2026-10-31T06:39:34.910593+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/service/sale-house",
           "listingKey": "www.hbhousing.com.tw/service/sale-house",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:34.995523+00:00"
+          "checkedAt": "2026-10-31T06:39:36.178403+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/qa/sale-house/sale-house-valuate",
           "listingKey": "www.hbhousing.com.tw/qa/sale-house/sale-house-valuate",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:36.456339+00:00"
+          "checkedAt": "2026-10-31T06:39:37.415548+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/knowledge/deed-tax",
           "listingKey": "www.hbhousing.com.tw/knowledge/deed-tax",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:37.559449+00:00"
+          "checkedAt": "2026-10-31T06:39:38.481205+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/renthouse",
           "listingKey": "www.hbhousing.com.tw/renthouse",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:39.234063+00:00"
+          "checkedAt": "2026-10-31T06:39:39.751957+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/renthouse/map",
           "listingKey": "www.hbhousing.com.tw/renthouse/map",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:40.567902+00:00"
+          "checkedAt": "2026-10-31T06:39:41.198560+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/renthouse/mrt",
           "listingKey": "www.hbhousing.com.tw/renthouse/mrt",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:41.691945+00:00"
+          "checkedAt": "2026-10-31T06:39:42.620519+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/qa/rent-house/rent-house-guide",
           "listingKey": "www.hbhousing.com.tw/qa/rent-house/rent-house-guide",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:42.870308+00:00"
+          "checkedAt": "2026-10-31T06:39:43.703677+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/service/tenancy",
           "listingKey": "www.hbhousing.com.tw/service/tenancy",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:44.003389+00:00"
+          "checkedAt": "2026-10-31T06:39:44.785391+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/dealsearch/map",
           "listingKey": "www.hbhousing.com.tw/dealsearch/map",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:45.335611+00:00"
+          "checkedAt": "2026-10-31T06:39:49.104122+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/dealsearch/mrt",
           "listingKey": "www.hbhousing.com.tw/dealsearch/mrt",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:46.688708+00:00"
+          "checkedAt": "2026-10-31T06:39:50.397923+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/news",
           "listingKey": "www.hbhousing.com.tw/news",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:48.188474+00:00"
+          "checkedAt": "2026-10-31T06:39:52.192075+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/app",
           "listingKey": "www.hbhousing.com.tw/app",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:49.867652+00:00"
+          "checkedAt": "2026-10-31T06:39:53.592367+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/line",
           "listingKey": "www.hbhousing.com.tw/line",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:50.985527+00:00"
+          "checkedAt": "2026-10-31T06:39:54.658746+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/qa/buy-house/valuate",
           "listingKey": "www.hbhousing.com.tw/qa/buy-house/valuate",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:52.281335+00:00"
+          "checkedAt": "2026-10-31T06:39:55.890703+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/icango/buy-house",
           "listingKey": "www.hbhousing.com.tw/icango/buy-house",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:53.390206+00:00"
+          "checkedAt": "2026-10-31T06:39:56.951975+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/icango/loan",
           "listingKey": "www.hbhousing.com.tw/icango/loan",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:54.499366+00:00"
+          "checkedAt": "2026-10-31T06:39:58.009715+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/recruit/job",
           "listingKey": "www.hbhousing.com.tw/recruit/job",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:55.851388+00:00"
+          "checkedAt": "2026-10-31T06:39:59.177071+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/franchise",
           "listingKey": "www.hbhousing.com.tw/franchise",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:50:58.892904+00:00"
+          "checkedAt": "2026-10-31T06:40:02.261076+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/franchise/scrivener",
           "listingKey": "www.hbhousing.com.tw/franchise/scrivener",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:00.471857+00:00"
+          "checkedAt": "2026-10-31T06:40:03.372153+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/about/company",
           "listingKey": "www.hbhousing.com.tw/about/company",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:01.924474+00:00"
+          "checkedAt": "2026-10-31T06:40:04.437227+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/news2",
           "listingKey": "www.hbhousing.com.tw/news2",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:04.058235+00:00"
+          "checkedAt": "2026-10-31T06:40:06.231828+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/top",
           "listingKey": "www.hbhousing.com.tw/top",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:06.355229+00:00"
+          "checkedAt": "2026-10-31T06:40:08.370690+00:00"
         },
         {
           "url": "https://ihouse.hbhousing.com.tw/works/",
           "listingKey": "ihouse.hbhousing.com.tw/works",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:08.284065+00:00"
+          "checkedAt": "2026-10-31T06:40:09.650251+00:00"
         },
         {
           "url": "https://ihouse.hbhousing.com.tw/?module=contact&file=Reservation2",
           "listingKey": "ihouse.hbhousing.com.tw",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:09.735540+00:00"
+          "checkedAt": "2026-10-31T06:40:10.716561+00:00"
         },
         {
           "url": "https://ihouse.hbhousing.com.tw/services/?file=MovingAdvice2",
           "listingKey": "ihouse.hbhousing.com.tw/services",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:11.004140+00:00"
+          "checkedAt": "2026-10-31T06:40:11.783708+00:00"
         },
         {
           "url": "https://ihouse.hbhousing.com.tw/services/?file=CleaningAdvice2",
           "listingKey": "ihouse.hbhousing.com.tw/services",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:12.633489+00:00"
+          "checkedAt": "2026-10-31T06:40:13.018454+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/member/edit",
           "listingKey": "www.hbhousing.com.tw/member/edit",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:14.653486+00:00"
+          "checkedAt": "2026-10-31T06:40:14.809851+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/guest/favorite/buy",
           "listingKey": "www.hbhousing.com.tw/guest/favorite/buy",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:16.971899+00:00"
+          "checkedAt": "2026-10-31T06:40:15.909919+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/guest/compare/buy",
           "listingKey": "www.hbhousing.com.tw/guest/compare/buy",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:18.658808+00:00"
+          "checkedAt": "2026-10-31T06:40:17.177868+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/service/buy-house?StoreID=A264",
           "listingKey": "www.hbhousing.com.tw/service/buy-house",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:20.896386+00:00"
+          "checkedAt": "2026-10-31T06:40:18.567106+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/web/A264",
           "listingKey": "www.hbhousing.com.tw/buyhouse/web/a264",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:24.038202+00:00"
+          "checkedAt": "2026-10-31T06:40:20.075438+00:00"
         },
         {
-          "url": "https://www.hbhousing.com.tw/news/detail.aspx?num=6003",
+          "url": "https://www.hbhousing.com.tw/news/detail.aspx?num=6004",
           "listingKey": "www.hbhousing.com.tw/news/detail.aspx",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:26.297270+00:00"
+          "checkedAt": "2026-10-31T06:40:21.481120+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/recruit/job/?storeID=A264",
           "listingKey": "www.hbhousing.com.tw/recruit/job",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:27.978987+00:00"
+          "checkedAt": "2026-10-31T06:40:22.731070+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/franchise/broker/新北市/220/A264-store",
@@ -1910,7 +1910,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:28.179270+00:00"
+          "checkedAt": "2026-10-31T06:40:22.931421+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/franchise/scrivener/新北市/220",
@@ -1918,7 +1918,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:28.379526+00:00"
+          "checkedAt": "2026-10-31T06:40:23.131885+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/台北市",
@@ -1926,7 +1926,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:28.579787+00:00"
+          "checkedAt": "2026-10-31T06:40:23.332257+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/新北市",
@@ -1934,7 +1934,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:28.780058+00:00"
+          "checkedAt": "2026-10-31T06:40:23.532587+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/桃園市",
@@ -1942,7 +1942,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:28.980314+00:00"
+          "checkedAt": "2026-10-31T06:40:23.732937+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/台中市",
@@ -1950,7 +1950,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:29.180607+00:00"
+          "checkedAt": "2026-10-31T06:40:23.933295+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/台南市",
@@ -1958,7 +1958,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:29.380899+00:00"
+          "checkedAt": "2026-10-31T06:40:24.133627+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/高雄市",
@@ -1966,7 +1966,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:29.581186+00:00"
+          "checkedAt": "2026-10-31T06:40:24.334016+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/新竹縣",
@@ -1974,7 +1974,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:29.781478+00:00"
+          "checkedAt": "2026-10-31T06:40:24.534374+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/苗栗縣",
@@ -1982,7 +1982,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:29.981760+00:00"
+          "checkedAt": "2026-10-31T06:40:24.734667+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/彰化縣",
@@ -1990,7 +1990,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:30.182041+00:00"
+          "checkedAt": "2026-10-31T06:40:24.934973+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/南投縣",
@@ -1998,7 +1998,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:30.382323+00:00"
+          "checkedAt": "2026-10-31T06:40:25.135245+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/雲林縣",
@@ -2006,7 +2006,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:30.582631+00:00"
+          "checkedAt": "2026-10-31T06:40:25.335566+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/嘉義縣",
@@ -2014,7 +2014,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:30.782908+00:00"
+          "checkedAt": "2026-10-31T06:40:25.535898+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/屏東縣",
@@ -2022,7 +2022,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:30.983184+00:00"
+          "checkedAt": "2026-10-31T06:40:25.736263+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/宜蘭縣",
@@ -2030,7 +2030,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:31.183495+00:00"
+          "checkedAt": "2026-10-31T06:40:25.936621+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/花蓮縣",
@@ -2038,7 +2038,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:31.383748+00:00"
+          "checkedAt": "2026-10-31T06:40:26.137011+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/台東縣",
@@ -2046,7 +2046,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:31.584032+00:00"
+          "checkedAt": "2026-10-31T06:40:26.337359+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/澎湖縣",
@@ -2054,7 +2054,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:31.784313+00:00"
+          "checkedAt": "2026-10-31T06:40:26.537703+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/金門縣",
@@ -2062,7 +2062,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:31.984615+00:00"
+          "checkedAt": "2026-10-31T06:40:26.738025+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/連江縣",
@@ -2070,7 +2070,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:32.184898+00:00"
+          "checkedAt": "2026-10-31T06:40:26.938284+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/基隆市",
@@ -2078,7 +2078,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:32.385176+00:00"
+          "checkedAt": "2026-10-31T06:40:27.138667+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/新竹市",
@@ -2086,7 +2086,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:32.585477+00:00"
+          "checkedAt": "2026-10-31T06:40:27.339028+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/嘉義市",
@@ -2094,28 +2094,28 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:32.785760+00:00"
+          "checkedAt": "2026-10-31T06:40:27.539424+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/safe",
           "listingKey": "www.hbhousing.com.tw/safe",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:34.058487+00:00"
+          "checkedAt": "2026-10-31T06:40:28.596466+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/franchise/broker",
           "listingKey": "www.hbhousing.com.tw/franchise/broker",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:40.011715+00:00"
+          "checkedAt": "2026-10-31T06:40:31.141721+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/privacy",
           "listingKey": "www.hbhousing.com.tw/privacy",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:51:41.278436+00:00"
+          "checkedAt": "2026-10-31T06:40:32.498753+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/信義房屋",
@@ -2123,7 +2123,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:41.478704+00:00"
+          "checkedAt": "2026-10-31T06:40:32.699233+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/中信房屋",
@@ -2131,7 +2131,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:41.678979+00:00"
+          "checkedAt": "2026-10-31T06:40:32.899645+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/太平洋房屋",
@@ -2139,7 +2139,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:41.879254+00:00"
+          "checkedAt": "2026-10-31T06:40:33.100114+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/大家房屋",
@@ -2147,7 +2147,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:42.079532+00:00"
+          "checkedAt": "2026-10-31T06:40:33.300426+00:00"
         },
         {
           "url": "https://www.hbhousing.com.tw/buyhouse/安家地產",
@@ -2155,7 +2155,7 @@
           "state": "unknown",
           "httpStatus": null,
           "error": "UnicodeEncodeError",
-          "checkedAt": "2026-10-30T06:51:42.279810+00:00"
+          "checkedAt": "2026-10-31T06:40:33.500851+00:00"
         }
       ],
       "directActiveCount": 45,
@@ -2169,7 +2169,7 @@
       "source": "台灣房屋",
       "community": "板橋新巨蛋",
       "indexUrl": "https://www.twhg.com.tw/",
-      "checkedAt": "2026-10-30T06:51:42.279844+00:00",
+      "checkedAt": "2026-10-31T06:40:33.500895+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -2204,7 +2204,7 @@
       "source": "好房網",
       "community": "板橋新巨蛋",
       "indexUrl": "https://buy.housefun.com.tw/Building/building_map.aspx?bid=10240",
-      "checkedAt": "2026-10-30T06:51:43.315273+00:00",
+      "checkedAt": "2026-10-31T06:40:34.606832+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -2238,7 +2238,7 @@
       "source": "591",
       "community": "板橋文化勳章",
       "indexUrl": "https://market.591.com.tw/11622/sale",
-      "checkedAt": "2026-10-30T06:51:44.389797+00:00",
+      "checkedAt": "2026-10-31T06:40:35.809328+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -2278,7 +2278,7 @@
       "source": "樂居",
       "community": "板橋文化勳章",
       "indexUrl": "https://www.leju.com.tw/community/L9d81985383086?mode=buy",
-      "checkedAt": "2026-10-30T06:52:23.849037+00:00",
+      "checkedAt": "2026-10-31T06:41:15.759525+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -2313,7 +2313,7 @@
       "source": "樂屋",
       "community": "板橋文化勳章",
       "indexUrl": "https://community.rakuya.com.tw/24481/sell",
-      "checkedAt": "2026-10-30T06:52:24.874088+00:00",
+      "checkedAt": "2026-10-31T06:41:16.793511+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -2346,28 +2346,28 @@
           "listingKey": "0fc2b235993773f",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:52:28.645973+00:00"
+          "checkedAt": "2026-10-31T06:41:21.098703+00:00"
         },
         {
           "url": "https://community.rakuya.com.tw/24481/sell/info?ehid=09cce4340007388&from=communitySearchSell",
           "listingKey": "09cce4340007388",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:52:29.750882+00:00"
+          "checkedAt": "2026-10-31T06:41:22.925019+00:00"
         },
         {
           "url": "https://community.rakuya.com.tw/24481/sell/info?ehid=02bcb9339610050&from=communitySearchSell",
           "listingKey": "02bcb9339610050",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:52:30.795317+00:00"
+          "checkedAt": "2026-10-31T06:41:24.862734+00:00"
         },
         {
           "url": "https://community.rakuya.com.tw/24481/sell/info?ehid=064962355365885&from=communitySearchSell",
           "listingKey": "064962355365885",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:52:31.903710+00:00"
+          "checkedAt": "2026-10-31T06:41:26.007725+00:00"
         }
       ],
       "directActiveCount": 4,
@@ -2662,7 +2662,7 @@
       "source": "永慶",
       "community": "板橋文化勳章",
       "indexUrl": "https://community.yungching.com.tw/building/8804",
-      "checkedAt": "2026-10-30T06:52:31.903747+00:00",
+      "checkedAt": "2026-10-31T06:41:26.007804+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -2697,7 +2697,7 @@
       "source": "591",
       "community": "板橋公園世紀",
       "indexUrl": "https://market.591.com.tw/29120/sale",
-      "checkedAt": "2026-10-30T06:52:32.998476+00:00",
+      "checkedAt": "2026-10-31T06:41:27.170693+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -2737,7 +2737,7 @@
       "source": "591",
       "community": "板橋公園世紀",
       "indexUrl": "https://market.591.com.tw/29134/sale",
-      "checkedAt": "2026-10-30T06:53:12.249652+00:00",
+      "checkedAt": "2026-10-31T06:42:06.710370+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -2777,7 +2777,7 @@
       "source": "591",
       "community": "板橋公園世紀",
       "indexUrl": "https://market.591.com.tw/29121/sale",
-      "checkedAt": "2026-10-30T06:53:51.578424+00:00",
+      "checkedAt": "2026-10-31T06:42:46.415159+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -2817,7 +2817,7 @@
       "source": "信義",
       "community": "板橋公園世紀",
       "indexUrl": "https://www.sinyi.com.tw/communitylist/communityinfo/G0000031",
-      "checkedAt": "2026-10-30T06:54:31.024577+00:00",
+      "checkedAt": "2026-10-31T06:43:25.941210+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -2850,28 +2850,28 @@
           "listingKey": "2083gy",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:54:36.556324+00:00"
+          "checkedAt": "2026-10-31T06:43:37.284853+00:00"
         },
         {
           "url": "https://www.sinyi.com.tw/buy/house/6254VN",
           "listingKey": "6254vn",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:54:38.635091+00:00"
+          "checkedAt": "2026-10-31T06:43:39.434148+00:00"
         },
         {
           "url": "https://www.sinyi.com.tw/buy/house/4926RX",
           "listingKey": "4926rx",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:54:40.512374+00:00"
+          "checkedAt": "2026-10-31T06:43:41.288047+00:00"
         },
         {
           "url": "https://www.sinyi.com.tw/buy/house/0634GZ",
           "listingKey": "0634gz",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:54:42.475120+00:00"
+          "checkedAt": "2026-10-31T06:43:43.258236+00:00"
         }
       ],
       "directActiveCount": 4,
@@ -2897,7 +2897,7 @@
       "source": "永慶",
       "community": "板橋公園世紀",
       "indexUrl": "https://community.yungching.com.tw/building/90225",
-      "checkedAt": "2026-10-30T06:54:42.475158+00:00",
+      "checkedAt": "2026-10-31T06:43:43.258286+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -2932,7 +2932,7 @@
       "source": "591",
       "community": "欣璞綻",
       "indexUrl": "https://market.591.com.tw/101334/sale",
-      "checkedAt": "2026-10-30T06:54:43.565102+00:00",
+      "checkedAt": "2026-10-31T06:43:44.364767+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -2972,7 +2972,7 @@
       "source": "樂居",
       "community": "欣璞綻",
       "indexUrl": "https://www.leju.com.tw/community/Le2a110419dc202?mode=buy",
-      "checkedAt": "2026-10-30T06:55:22.814213+00:00",
+      "checkedAt": "2026-10-31T06:44:24.018160+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3007,7 +3007,7 @@
       "source": "樂屋",
       "community": "欣璞綻",
       "indexUrl": "https://community.rakuya.com.tw/38961/sell",
-      "checkedAt": "2026-10-30T06:55:24.227931+00:00",
+      "checkedAt": "2026-10-31T06:44:25.441860+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3038,14 +3038,14 @@
           "listingKey": "020b22353938924",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:55:28.269482+00:00"
+          "checkedAt": "2026-10-31T06:44:30.348973+00:00"
         },
         {
           "url": "https://community.rakuya.com.tw/38961/sell/info?ehid=0a2899335595419&from=communitySearchSell",
           "listingKey": "0a2899335595419",
           "state": "active",
           "httpStatus": 200,
-          "checkedAt": "2026-10-30T06:55:29.375639+00:00"
+          "checkedAt": "2026-10-31T06:44:31.423010+00:00"
         }
       ],
       "directActiveCount": 2,
@@ -3200,7 +3200,7 @@
       "source": "永慶",
       "community": "欣璞綻",
       "indexUrl": "https://community.yungching.com.tw/building/57470",
-      "checkedAt": "2026-10-30T06:55:29.375676+00:00",
+      "checkedAt": "2026-10-31T06:44:31.423056+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3235,7 +3235,7 @@
       "source": "591",
       "community": "綠如意",
       "indexUrl": "https://market.591.com.tw/29100/sale",
-      "checkedAt": "2026-10-30T06:55:30.464444+00:00",
+      "checkedAt": "2026-10-31T06:44:32.481575+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3275,7 +3275,7 @@
       "source": "樂居",
       "community": "綠如意",
       "indexUrl": "https://www.leju.com.tw/community/L9e0453146cfc1?mode=buy",
-      "checkedAt": "2026-10-30T06:56:09.896095+00:00",
+      "checkedAt": "2026-10-31T06:45:11.983014+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3310,7 +3310,7 @@
       "source": "永慶",
       "community": "綠如意",
       "indexUrl": "https://community.yungching.com.tw/building/9084",
-      "checkedAt": "2026-10-30T06:56:10.916646+00:00",
+      "checkedAt": "2026-10-31T06:45:13.008646+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3345,7 +3345,7 @@
       "source": "591",
       "community": "鑑築",
       "indexUrl": "https://market.591.com.tw/11778/sale",
-      "checkedAt": "2026-10-30T06:56:12.055193+00:00",
+      "checkedAt": "2026-10-31T06:45:14.088922+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3385,7 +3385,7 @@
       "source": "591",
       "community": "榮耀交響曲",
       "indexUrl": "https://market.591.com.tw/26730/sale",
-      "checkedAt": "2026-10-30T06:56:51.528172+00:00",
+      "checkedAt": "2026-10-31T06:45:53.657720+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3425,7 +3425,7 @@
       "source": "樂居",
       "community": "榮耀交響曲",
       "indexUrl": "https://www.leju.com.tw/community/La0d3353367903?mode=buy",
-      "checkedAt": "2026-10-30T06:57:30.965205+00:00",
+      "checkedAt": "2026-10-31T06:46:33.155007+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3460,7 +3460,7 @@
       "source": "永慶",
       "community": "榮耀交響曲",
       "indexUrl": "https://community.yungching.com.tw/building/10250",
-      "checkedAt": "2026-10-30T06:57:31.987651+00:00",
+      "checkedAt": "2026-10-31T06:46:34.206003+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3495,7 +3495,7 @@
       "source": "591",
       "community": "佳元植",
       "indexUrl": "https://newhouse.591.com.tw/131508",
-      "checkedAt": "2026-10-30T06:57:33.053670+00:00",
+      "checkedAt": "2026-10-31T06:46:35.306104+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3530,7 +3530,7 @@
       "source": "樂居",
       "community": "佳元植",
       "indexUrl": "https://www.leju.com.tw/community/La5a1360984769a?mode=buy",
-      "checkedAt": "2026-10-30T06:57:34.581118+00:00",
+      "checkedAt": "2026-10-31T06:46:36.844221+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3565,7 +3565,7 @@
       "source": "591",
       "community": "板橋千禧園",
       "indexUrl": "https://market.591.com.tw/29223/sale",
-      "checkedAt": "2026-10-30T06:57:35.603386+00:00",
+      "checkedAt": "2026-10-31T06:46:37.886066+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3605,7 +3605,7 @@
       "source": "樂居",
       "community": "板橋千禧園",
       "indexUrl": "https://www.leju.com.tw/community/Ldc7118222c2b2?mode=buy",
-      "checkedAt": "2026-10-30T06:58:15.097228+00:00",
+      "checkedAt": "2026-10-31T06:47:17.522111+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3640,7 +3640,7 @@
       "source": "永慶",
       "community": "板橋千禧園",
       "indexUrl": "https://community.yungching.com.tw/building/10113",
-      "checkedAt": "2026-10-30T06:58:16.115341+00:00",
+      "checkedAt": "2026-10-31T06:47:18.576465+00:00",
       "scanMode": "http-html-pagination",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3675,7 +3675,7 @@
       "source": "591",
       "community": "雙喜臨門",
       "indexUrl": "https://market.591.com.tw/11536/sale",
-      "checkedAt": "2026-10-30T06:58:17.138729+00:00",
+      "checkedAt": "2026-10-31T06:47:19.652715+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3715,7 +3715,7 @@
       "source": "591",
       "community": "板橋晴",
       "indexUrl": "https://market.591.com.tw/104765/sale",
-      "checkedAt": "2026-10-30T06:58:56.564208+00:00",
+      "checkedAt": "2026-10-31T06:47:59.164128+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
@@ -3755,7 +3755,7 @@
       "source": "591",
       "community": "永康芬揚",
       "indexUrl": "https://market.591.com.tw/5925232/sale",
-      "checkedAt": "2026-10-30T06:59:36.023365+00:00",
+      "checkedAt": "2026-10-31T06:48:38.758291+00:00",
       "scanMode": "browser-rendered-infinite-scroll",
       "pagesScanned": 1,
       "paginationDiscovered": 0,
