@@ -438,7 +438,7 @@
     "吉祥花園缺可確認社區來源頁。",
     "任何平台0筆或一次搜尋不到，均未推定售出。"
   ],
-  "websiteUpdate": "pending_verification",
+  "websiteUpdate": "success",
   "priorDayConfirmedPriceChange": {
     "community": "永康芬揚",
     "masterId": "ykf-1738-3f",
@@ -451,5 +451,25 @@
     "date": "2026-10-26",
     "url": "https://www.hbhousing.com.tw/detail?sn=WS76211",
     "note": "10/26已確認漲價；10/29直接Fetch仍為1,768萬元，今日沒有新增變價。"
+  },
+  "websiteVerification": {
+    "repositoryWrites": "success",
+    "pagesBuild": "success",
+    "publicHomepage": "success",
+    "dailyReport": "success",
+    "currentReportPointer": "success",
+    "displayedScanDate": "2026-10-31",
+    "displayedMasterRecords": 76,
+    "displayedActiveListings": 45,
+    "displayedNewToday": 0,
+    "displayedPriceDropsToday": 0,
+    "displayedPriceUpsToday": 0,
+    "displayedSoldOrDelistedToday": 0,
+    "partialLabel": true,
+    "checkedAt": "2026-10-31T11:55:06+08:00",
+    "pagesBuildRun": 41166335414,
+    "pagesBuildConclusion": "success",
+    "publicHomepageUrl": "https://bryanko1221.github.io/trackcase/",
+    "dailyReportUrl": "https://bryanko1221.github.io/trackcase/data/daily-scan-report-2026-10-31.json"
   }
 }
