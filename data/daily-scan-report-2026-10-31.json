@@ -17,7 +17,7 @@
   "masterRecordCount": 76,
   "uniqueAfterDedup": null,
   "changes": {
-    "newUniqueListingsConfirmed": 2,
+    "newUniqueListingsConfirmed": 0,
     "newUniqueListingsDiscovered": 2,
     "priceDropsConfirmedToday": 0,
     "priceUpsConfirmedToday": 0,
@@ -26,8 +26,8 @@
     "sourceStatusCorrections": 0,
     "activeListingRecordsAddedToMaster": 2,
     "candidateRecordsAddedToMaster": 7,
-    "existingCandidatePromotedToActive": 3,
-    "sourceLinksAddedToExisting": 11,
+    "existingCandidatePromotedToActive": 2,
+    "sourceLinksAddedToExisting": 8,
     "historicalPriceSignalsObserved": 1,
     "platformCountChangesObserved": 0
   },
