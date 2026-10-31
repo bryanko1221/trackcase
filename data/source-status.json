@@ -2644,7 +2644,14 @@
     "confirmedNewUnique": 2,
     "confirmedPriceDrops": 0,
     "confirmedPriceUps": 0,
-    "confirmedSoldOrDelisted": 0
+    "confirmedSoldOrDelisted": 0,
+    "changes": {
+      "newUniqueListingsConfirmed": 0,
+      "newUniqueListingsDiscovered": 2,
+      "priceDropsConfirmedToday": 0,
+      "priceUpsConfirmedToday": 0,
+      "soldOrDelistedConfirmed": 0
+    }
   },
   "latestAutomationWrite": {
     "date": "2026-10-28",
@@ -2652,7 +2659,7 @@
     "note": "GitHub Pages deployment run 40613169456 completed successfully; at 09:08 public homepage, daily report JSON and source-status JSON were fetched and checked. Homepage shows scan date 2026-10-28, 66 master records, 42 displayed for sale, 0/0/0/0 confirmed daily changes, and 🟡 partial status."
   },
   "websiteVerification": {
-    "repositoryWrites": "pending",
+    "repositoryWrites": "success",
     "publicHomepage": "pending",
     "dailyReport": "pending",
     "currentReportPointer": "pending",
