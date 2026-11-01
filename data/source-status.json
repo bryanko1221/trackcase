@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-11-01",
-  "lastUpdated": "2026-11-01 09:08",
+  "lastUpdated": "2026-11-01 09:09",
   "note": "2026-11-01掃描完成：13社區、34次Exa Search、73個不重複Fetch網址（46個目標個別案件頁、26個社區/列表頁；另排除1個無關個別頁）。整體🟡部分完成；Firecrawl額度0，Scrape未執行。",
   "communities": {
     "板橋新巨蛋": {
@@ -852,7 +852,7 @@
     "status": "partial",
     "label": "🟡 部分完成",
     "checkedAt": "2026-11-01T09:03:52+08:00",
-    "sourceCount": 73,
+    "sourceCount": 9,
     "communityCount": 13,
     "reasons": [
       "591各社區列表合計顯示93筆，本輪直接讀取26個591個別案件頁，仍有67筆顯示差額未逐案核實。",
@@ -863,12 +863,17 @@
       "Firecrawl剩餘額度0/1000，Scrape未執行；TinyFish未使用。"
     ],
     "countReconciliation": {
-      "matchedSources": 4,
-      "mismatchedSources": 9,
-      "unknownCountSources": 32,
+      "matchedSources": 0,
+      "mismatchedSources": 0,
+      "unknownCountSources": 13,
       "uniqueListingIdsDiscovered": 46,
-      "note": "以591社區列表顯示筆數與本輪直接讀取的591個別案件頁數做差額提示；個別頁核實數不等於唯一戶數，仍需逐案對帳。"
-    }
+      "displayCountTotal": 93,
+      "direct591PagesRead": 26,
+      "displayReadGap": 67,
+      "note": "13個社區均未完成全平台唯一戶數核對；591顯示93筆、本輪直接讀取26個591個別頁，差67僅代表尚未逐案核實，不等於漏抓、售出或唯一戶差額。"
+    },
+    "platformsWithDirectPageAccess": 9,
+    "uniqueFetchUrls": 73
   },
   "exaSecondPass": {
     "checkedAt": "2026-09-27T19:15:00+08:00",
@@ -1171,14 +1176,14 @@
       "sourceStatusCorrections": 4,
       "activeListingRecordsAddedToMaster": 1,
       "candidateRecordsAddedToMaster": 3,
-      "sourceLinksAddedToExisting": 4,
+      "sourceLinksAddedToExisting": 3,
       "historicalPriceSignalsObserved": 3,
       "platformCountChangesObserved": 0,
       "sourceAttributionCorrections": 1,
-      "buildingClassificationCorrections": 7,
       "masterActiveRecords": 44,
       "masterCandidateRecords": 23,
-      "masterGonePendingRecords": 13
+      "masterGonePendingRecords": 13,
+      "buildingClassificationReview": "新巨蛋43F案件重新檢查：中信2118541頁面明確C棟；未取得366/368門牌者標C/D待確認；S20999996的360號/43F矛盾仍待確認。"
     },
     "confirmedPriceChangesToday": [],
     "priceChangesSincePreviousSnapshot": [],
@@ -1729,7 +1734,7 @@
     },
     "websiteVerification": {
       "status": "success_live_verified",
-      "checkedAt": "2026-11-01T09:08:16+08:00",
+      "checkedAt": "2026-11-01T09:09:27+08:00",
       "repositoryWrites": "success",
       "pagesDeployment": "published",
       "publicHomepage": "success",
@@ -1755,7 +1760,17 @@
       "主檔active筆數是目前已確認的主案件資料筆數，不等於13社區全市場唯一戶數。",
       "平台顯示數、直接個別頁核實數及跨平台去重後唯一戶數分開呈現。",
       "一次搜尋不到或單一平台刊登到期，不直接判定房屋售出。"
-    ]
+    ],
+    "countReconciliation": {
+      "matchedSources": 0,
+      "mismatchedSources": 0,
+      "unknownCountSources": 13,
+      "uniqueListingIdsDiscovered": 46,
+      "displayCountTotal": 93,
+      "direct591PagesRead": 26,
+      "displayReadGap": 67,
+      "note": "13個社區均未完成全平台唯一戶數核對；591顯示93筆、本輪直接讀取26個591個別頁，差67僅代表尚未逐案核實，不等於漏抓、售出或唯一戶差額。"
+    }
   },
   "communityStatus": {
     "板橋新巨蛋": {
@@ -3024,14 +3039,14 @@
       "sourceStatusCorrections": 4,
       "activeListingRecordsAddedToMaster": 1,
       "candidateRecordsAddedToMaster": 3,
-      "sourceLinksAddedToExisting": 4,
+      "sourceLinksAddedToExisting": 3,
       "historicalPriceSignalsObserved": 3,
       "platformCountChangesObserved": 0,
       "sourceAttributionCorrections": 1,
-      "buildingClassificationCorrections": 7,
       "masterActiveRecords": 44,
       "masterCandidateRecords": 23,
-      "masterGonePendingRecords": 13
+      "masterGonePendingRecords": 13,
+      "buildingClassificationReview": "新巨蛋43F案件重新檢查：中信2118541頁面明確C棟；未取得366/368門牌者標C/D待確認；S20999996的360號/43F矛盾仍待確認。"
     },
     "confirmedPriceChangesToday": [],
     "priceChangesSincePreviousSnapshot": [],
@@ -3582,7 +3597,7 @@
     },
     "websiteVerification": {
       "status": "success_live_verified",
-      "checkedAt": "2026-11-01T09:08:16+08:00",
+      "checkedAt": "2026-11-01T09:09:27+08:00",
       "repositoryWrites": "success",
       "pagesDeployment": "published",
       "publicHomepage": "success",
@@ -3608,7 +3623,17 @@
       "主檔active筆數是目前已確認的主案件資料筆數，不等於13社區全市場唯一戶數。",
       "平台顯示數、直接個別頁核實數及跨平台去重後唯一戶數分開呈現。",
       "一次搜尋不到或單一平台刊登到期，不直接判定房屋售出。"
-    ]
+    ],
+    "countReconciliation": {
+      "matchedSources": 0,
+      "mismatchedSources": 0,
+      "unknownCountSources": 13,
+      "uniqueListingIdsDiscovered": 46,
+      "displayCountTotal": 93,
+      "direct591PagesRead": 26,
+      "displayReadGap": 67,
+      "note": "13個社區均未完成全平台唯一戶數核對；591顯示93筆、本輪直接讀取26個591個別頁，差67僅代表尚未逐案核實，不等於漏抓、售出或唯一戶差額。"
+    }
   },
   "latestAutomationWrite": {
     "date": "2026-10-28",
@@ -3617,7 +3642,7 @@
   },
   "websiteVerification": {
     "status": "success_live_verified",
-    "checkedAt": "2026-11-01T09:08:16+08:00",
+    "checkedAt": "2026-11-01T09:09:27+08:00",
     "repositoryWrites": "success",
     "pagesDeployment": "published",
     "publicHomepage": "success",
