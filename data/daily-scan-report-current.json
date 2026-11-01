@@ -45,14 +45,14 @@
     "sourceStatusCorrections": 4,
     "activeListingRecordsAddedToMaster": 1,
     "candidateRecordsAddedToMaster": 3,
-    "sourceLinksAddedToExisting": 4,
+    "sourceLinksAddedToExisting": 3,
     "historicalPriceSignalsObserved": 3,
     "platformCountChangesObserved": 0,
     "sourceAttributionCorrections": 1,
-    "buildingClassificationCorrections": 7,
     "masterActiveRecords": 44,
     "masterCandidateRecords": 23,
-    "masterGonePendingRecords": 13
+    "masterGonePendingRecords": 13,
+    "buildingClassificationReview": "新巨蛋43F案件重新檢查：中信2118541頁面明確C棟；未取得366/368門牌者標C/D待確認；S20999996的360號/43F矛盾仍待確認。"
   },
   "confirmedPriceChangesToday": [],
   "priceChangesSincePreviousSnapshot": [],
@@ -604,7 +604,7 @@
   },
   "websiteVerification": {
     "status": "success_live_verified",
-    "checkedAt": "2026-11-01T09:08:16+08:00",
+    "checkedAt": "2026-11-01T09:09:27+08:00",
     "repositoryWrites": "success",
     "pagesDeployment": "published",
     "publicHomepage": "success",
@@ -630,5 +630,15 @@
     "主檔active筆數是目前已確認的主案件資料筆數，不等於13社區全市場唯一戶數。",
     "平台顯示數、直接個別頁核實數及跨平台去重後唯一戶數分開呈現。",
     "一次搜尋不到或單一平台刊登到期，不直接判定房屋售出。"
-  ]
+  ],
+  "countReconciliation": {
+    "matchedSources": 0,
+    "mismatchedSources": 0,
+    "unknownCountSources": 13,
+    "uniqueListingIdsDiscovered": 46,
+    "displayCountTotal": 93,
+    "direct591PagesRead": 26,
+    "displayReadGap": 67,
+    "note": "13個社區均未完成全平台唯一戶數核對；591顯示93筆、本輪直接讀取26個591個別頁，差67僅代表尚未逐案核實，不等於漏抓、售出或唯一戶差額。"
+  }
 }
