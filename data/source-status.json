@@ -1,7 +1,7 @@
 {
   "lastVerified": "2026-11-02",
-  "lastUpdated": "2026-11-02 09:10",
-  "note": "2026-11-02監控完成並核實公開網站：13社區、40次Exa Search、63個不重複Fetch網址（42個個別案件頁、21個社區/列表頁）；公園世紀B區永慶6572663由4,888萬漲至5,198萬（+310萬/+6.34%）。網站已部署並核實成功，整體🟡部分完成。",
+  "lastUpdated": "2026-11-02 09:12",
+  "note": "2026-11-02監控完成並核實公開網站：13社區、40次Exa Search、63個不重複Fetch網址（42個個別案件頁、21個社區/列表頁）；公園世紀B區永慶6572663由4,888萬漲至5,198萬（+310萬/+6.34%）。網站已部署並核實成功，整體🟡部分完成。 另：本輪完成後已暫停每日自動排程。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
@@ -886,9 +886,11 @@
   "lastValidated": "2026-11-02",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
-    "enabled": true,
+    "enabled": false,
     "interval": "daily 09:00",
-    "timezone": "Asia/Taipei"
+    "timezone": "Asia/Taipei",
+    "pausedAt": "2026-11-02T09:12:12+08:00",
+    "pauseReason": "本輪監控已完成；依本次自動化執行規則暫停排程，重新啟用後才會恢復每日09:00監控。"
   },
   "scanCompleteness": {
     "status": "partial",
@@ -4623,8 +4625,8 @@
   "latestAutomationWrite": {
     "date": "2026-11-02",
     "status": "success_live_verified",
-    "checkedAt": "2026-11-02T09:10:02+08:00",
-    "note": "GitHub Pages首頁、每日報告、current pointer、listings及source-status公開頁面均已核對成功。"
+    "checkedAt": "2026-11-02T09:12:12+08:00",
+    "note": "本輪監控及GitHub Pages核對成功；每日09:00排程已暫停。"
   },
   "websiteVerification": {
     "status": "success_live_verified",
