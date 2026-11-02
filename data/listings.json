@@ -95,8 +95,9 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-11-01T15:19:56.315410+08:00",
-        "url": "https://buy.cthouse.com.tw/house/2118541.html"
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://buy.cthouse.com.tw/house/2118541.html",
+        "note": "中信直接頁仍可讀取：1,945萬、26.57坪、22F/43F。"
       },
       "信義": {
         "state": "gone",
@@ -123,8 +124,9 @@
     "parkingPrice": 250,
     "matchStatus": "已核實",
     "changeNote": "中信頁顯示1,968萬→1,945萬（-23萬，約-1.17%）；變價日期未標示，列歷史價格訊號，不計今日降價。",
-    "lastChecked": "2026-11-01T09:03:52+08:00",
-    "building": "C棟"
+    "lastChecked": "2026-11-02T09:01:58+08:00",
+    "building": "C棟",
+    "status": "active"
   },
   {
     "id": "ng-6800",
@@ -168,8 +170,9 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-11-01T15:19:56.315410+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/7680JW"
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/7680JW",
+        "note": "信義直接頁仍可讀取：76.74坪、13F/46F；本輪價格欄位未完整呈現。"
       },
       "樂屋": {
         "state": "active",
@@ -206,7 +209,8 @@
     "verificationNote": "中信直接頁現售核實；原591 S20576106有效期已過，已移除該過期來源。",
     "changeNote": "已清除舊快照中誤把B32的5,900萬套用到B13的錯誤歷史紀錄；B13目前6,800萬，本輪未確認今日變價。",
     "building": "B棟",
-    "lastChecked": "2026-11-01T09:03:52+08:00"
+    "lastChecked": "2026-11-02T09:01:58+08:00",
+    "status": "active"
   },
   {
     "id": "ng-6600",
@@ -244,8 +248,9 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-11-01T15:19:56.315410+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/9524XN"
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/9524XN",
+        "note": "信義直接頁仍可讀取：84.05坪、雙坡平車；本輪價格欄位未完整呈現。"
       },
       "樂屋": {
         "state": "active",
@@ -272,7 +277,8 @@
     ],
     "changeNote": "信義頁可見歷史價格6,800萬→6,600萬（-200萬，約-2.94%），實際變價日期未標示；本輪未確認今日降價。",
     "building": "B棟",
-    "lastChecked": "2026-11-01T09:03:52+08:00"
+    "lastChecked": "2026-11-02T09:01:58+08:00",
+    "status": "active"
   },
   {
     "id": "ng-1368",
@@ -309,8 +315,9 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-11-01T15:19:56.315410+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/4813PN"
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/4813PN",
+        "note": "信義直接頁仍可讀取：12.85坪、6F/40F、無車位。"
       },
       "樂屋": {
         "state": "active",
@@ -328,7 +335,9 @@
     "listingIds": [
       "ng-match-10"
     ],
-    "building": "A棟"
+    "building": "A棟",
+    "status": "active",
+    "lastChecked": "2026-11-02T09:01:58+08:00"
   },
   {
     "id": "ng-1728",
@@ -627,7 +636,9 @@
     "history": [],
     "links": {},
     "sourceValidation": {},
-    "building": "C/D待確認"
+    "building": "C/D待確認",
+    "status": "candidate",
+    "changeNote": "目前僅有搜尋候選、沒有個別案件直連；不列入已確認在售，等待取得原始案件頁。"
   },
   {
     "id": "pc-a-2588",
@@ -856,16 +867,16 @@
     "block": "B區",
     "floor": 7,
     "totalFloor": 12,
-    "area": 74.34,
+    "area": 74.33,
     "layout": "4房",
-    "price": 4888,
-    "unit": 65.75,
+    "price": 5198,
+    "unit": 65.76,
     "parking": true,
     "owner": false,
     "yq": true,
     "new": false,
-    "updated": "2026-11-01",
-    "sourceVerified": "2026-09-29：樂屋社區銷售頁＋永慶直接案件頁交叉核實。",
+    "updated": "2026-11-02",
+    "sourceVerified": "2026-11-02直接Fetch永慶6572663：現價5,198萬、建物74.33坪、7F/12F、4房2廳2衛、含車位11.52坪、管理費400元/月；與前次主檔4,888萬比較確認漲價310萬。樂屋仍顯示4,888萬版本，列來源價差。",
     "sources": {
       "591": false,
       "信義": false,
@@ -874,18 +885,28 @@
       "中信": false,
       "永慶": true
     },
-    "history": [],
+    "history": [
+      {
+        "date": "2026-11-01",
+        "price": 4888
+      },
+      {
+        "date": "2026-11-02",
+        "price": 5198
+      }
+    ],
     "links": {
       "永慶": "https://buy.yungching.com.tw/house/6572663",
       "樂屋社區銷售頁": "https://community.rakuya.com.tw/38979/sell?display=community"
     },
     "sourceValidation": {
       "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-11-01T15:19:56.315410+08:00",
-        "url": "https://buy.yungching.com.tw/house/6572663"
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://buy.yungching.com.tw/house/6572663",
+        "note": "直接頁現價5,198萬；前次快照4,888萬，確認漲價。"
       },
       "樂屋社區銷售頁": {
         "state": "active",
@@ -902,7 +923,12 @@
     "dedupNote": "同一戶：B區7F、74.33/74.34坪、4房、4,888萬；移除重複別名 ps-bc-4888。另有591新抓到8,884萬版本，因缺強識別未合併。",
     "listingIds": [
       "ps-bc-4888"
-    ]
+    ],
+    "status": "price_up",
+    "parkingArea": 11.52,
+    "managementFee": 400,
+    "lastChecked": "2026-11-02T09:01:58+08:00",
+    "changeNote": "🔺2026-11-02永慶房屋同一案件網址6572663直接頁由前次快照4,888萬更新為5,198萬，增加310萬元、約6.34%。永慶頁目前74.33坪、7F/12F、4房2廳2衛、車位11.52坪、管理費400元/月。樂屋社區列表仍見4,888萬元/74.34坪版本，保留來源差異，不覆蓋。"
   },
   {
     "id": "pc-b-2280",
@@ -1354,7 +1380,7 @@
     "layout": "4房2廳2衛",
     "price": 3480,
     "parking": true,
-    "status": "gone_pending",
+    "status": "active",
     "owner": false,
     "yq": null,
     "updated": "2026-11-01",
@@ -1379,14 +1405,15 @@
     "parkingArea": 10.422,
     "sourceValidation": {
       "台慶不動產": {
-        "state": "gone",
-        "httpStatus": 404,
-        "reason": "not-found",
-        "checkedAt": "2026-11-01T15:19:56.315410+08:00",
-        "url": "https://buy.taiching.com.tw/house/7306262"
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://buy.taiching.com.tw/house/7306262",
+        "note": "TC0169908本輪直接頁仍在售：3,480萬、55.23坪、18F/25F。"
       }
     },
-    "lastChecked": "2026-11-01T09:03:52+08:00",
+    "lastChecked": "2026-11-02T09:01:58+08:00",
     "matchStatus": "個別頁直接核實在售；原價3,750→現價3,480（-7.2%）日期未標示；新納入主檔但不計確認今日新增唯一戶。",
     "verificationNote": "2026-11-01直接Fetch台慶TC0169908，個別頁可讀且仍刊登；與15F/76.06坪案件不同戶。",
     "lastStatusChange": "2026-11-01",
@@ -2254,7 +2281,7 @@
     "owner": false,
     "yq": false,
     "new": false,
-    "status": "gone_pending",
+    "status": "active",
     "sources": {
       "信義": false
     },
@@ -2263,17 +2290,18 @@
     },
     "sourceValidation": {
       "信義": {
-        "state": "gone",
-        "httpStatus": 404,
-        "reason": "not-found",
-        "checkedAt": "2026-11-01T15:19:56.315410+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/7012JW"
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/7012JW",
+        "note": "信義7012JW本輪直接頁可讀取：43.76坪、16F/16F、坡道平面車位；總價欄位未完整顯示。"
       }
     },
     "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號7012JW。",
     "lastStatusChange": "2026-11-01",
     "updated": "2026-11-01",
-    "lastChecked": "2026-09-29T14:31:00+08:00"
+    "lastChecked": "2026-11-02T09:01:58+08:00"
   },
   {
     "id": "lry-3080-2f",
@@ -2431,7 +2459,7 @@
     "owner": false,
     "yq": false,
     "new": false,
-    "status": "gone_pending",
+    "status": "active",
     "sources": {
       "信義": false
     },
@@ -2445,16 +2473,17 @@
         "reason": "591 current community sale page has 2 listings; one is the 4,500萬 version"
       },
       "信義": {
-        "state": "gone",
-        "httpStatus": 404,
-        "reason": "not-found",
-        "checkedAt": "2026-11-01T15:19:56.315410+08:00",
-        "url": "https://www.sinyi.com.tw/buy/house/0939DZ"
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://www.sinyi.com.tw/buy/house/0939DZ",
+        "note": "信義0939DZ本輪直接頁可讀取：鑑築60.54坪；總價欄位未完整顯示。"
       }
     },
     "sourceVerified": "Exa二次掃描：信義直接案件頁，物件編號0939DZ。",
     "updated": "2026-11-01",
-    "lastChecked": "2026-09-29T14:31:00+08:00",
+    "lastChecked": "2026-11-02T09:01:58+08:00",
     "lastStatusChange": "2026-11-01"
   },
   {
@@ -3982,14 +4011,15 @@
       "永慶": null,
       "中信": false,
       "住商": false,
-      "台灣房屋": false,
+      "台灣房屋": true,
       "好房網": false
     },
     "links": {
-      "591": "https://sale.591.com.tw/home/house/detail/2/21151971.html"
+      "591": "https://sale.591.com.tw/home/house/detail/2/21151971.html",
+      "台灣房屋": "https://www.twhg.com.tw/buy/TF02372499"
     },
     "agent": "樂享家不動產有限公司",
-    "sourceVerified": "2026-10-31直接核實591 S21151971：唐璽欣璞綻22F/25F、31.75坪含車位、2房1廳1衛、2,880萬元，車位坪數13.88坪，頁面有效至2026-12-27。",
+    "sourceVerified": "2026-11-02重新Fetch：591 S21151971與台灣房屋TF02372499均指向欣璞綻22F/25F、31.75坪、2房、2,880萬，條件高度吻合，合併保留兩來源；車位坪數8.52/13.88差異待核。",
     "verificationNote": "2026-10-31直接核實591 S21151971：唐璽欣璞綻22F/25F、31.75坪含車位、2房1廳1衛、2,880萬元，車位坪數13.88坪，頁面有效至2026-12-27。",
     "parkingArea": 13.88,
     "sourceValidation": {
@@ -3999,8 +4029,18 @@
         "reason": "ok",
         "checkedAt": "2026-11-01T15:19:56.315410+08:00",
         "url": "https://sale.591.com.tw/home/house/detail/2/21151971.html"
+      },
+      "台灣房屋": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://www.twhg.com.tw/buy/TF02372499",
+        "note": "直接頁2,880萬、31.75坪、22F/25F、2房1廳1衛；車位坪數欄位與591版本不同。"
       }
-    }
+    },
+    "lastChecked": "2026-11-02T09:01:58+08:00",
+    "dedupNote": "同一戶高信心合併：社區、總價、總坪數、樓層、格局一致；車位坪數8.52/13.88差異保留待確認。"
   },
   {
     "id": "bq-candidate-s21152532",
@@ -4279,9 +4319,9 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "status": "gone_pending",
+    "status": "candidate",
     "updated": "2026-11-01",
-    "lastChecked": "2026-11-01T09:03:52+08:00",
+    "lastChecked": "2026-11-02T09:01:58+08:00",
     "sources": {
       "591": false
     },
@@ -4290,15 +4330,153 @@
     },
     "sourceValidation": {
       "591": {
-        "state": "gone",
-        "httpStatus": 404,
-        "reason": "not-found",
-        "checkedAt": "2026-11-01T15:19:56.315410+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/21145918.html"
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/21145918.html",
+        "note": "有效至2026-12-26；核心欄位遮蔽，列候選。"
       }
     },
-    "sourceVerified": "2026-11-01直接Fetch591 S21145918：有效至2026-12-26，標題明確指公園世紀A區；核心價格/坪數/樓層欄位遮蔽，與主案是否同戶待核。",
+    "sourceVerified": "2026-11-02重新Fetch：個別頁仍顯示有效至2026-12-26；價格/坪數/樓層欄位遮蔽，維持A區候選，不判定售出。",
     "matchStatus": "A區在售候選；未取得足夠強識別資料，不併入A區一樓主案。",
     "lastStatusChange": "2026-11-01"
+  },
+  {
+    "id": "ng-candidate-s20894684",
+    "groupId": "ng-candidate-s20894684",
+    "community": "板橋新巨蛋",
+    "block": "棟別待確認",
+    "floor": null,
+    "totalFloor": null,
+    "area": null,
+    "layout": "3房車（標題）",
+    "price": null,
+    "unit": null,
+    "parking": true,
+    "parkingArea": 8.75,
+    "parkingPrice": null,
+    "managementFee": 2607,
+    "owner": false,
+    "yq": null,
+    "new": false,
+    "updated": "2026-11-02",
+    "status": "candidate",
+    "agent": "鄭兆霖",
+    "brokerage": "台灣房屋-板橋特許加盟店",
+    "sources": {
+      "591": true,
+      "台灣房屋": true
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20894684.html"
+    },
+    "sourceVerified": "2026-11-02直接Fetch591 S20894684：有效至2026-11-11、三房車標題、管理費2,607元/月、平面車位8.75坪；價格、權狀坪數及樓層欄位遮蔽。",
+    "sourceValidation": {
+      "591": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20894684.html",
+        "note": "有效至2026-11-11；管理費2,607元/月、平面車位8.75坪；核心欄位遮蔽。"
+      }
+    },
+    "matchStatus": "待確認",
+    "possibleDuplicateWith": [
+      "ng-candidate-s21022469"
+    ],
+    "dedupNote": "同為新巨蛋三房車、管理費2,607元及8.75坪平面車位，與S21022469條件相近；缺樓層、坪數、價格及照片強識別，不合併。",
+    "lastChecked": "2026-11-02T09:01:58+08:00"
+  },
+  {
+    "id": "ng-candidate-s20840917",
+    "groupId": "ng-candidate-s20840917",
+    "community": "板橋新巨蛋",
+    "block": "棟別待確認",
+    "floor": null,
+    "totalFloor": null,
+    "area": null,
+    "layout": "套房（標題）",
+    "price": null,
+    "unit": null,
+    "parking": null,
+    "parkingArea": null,
+    "parkingPrice": null,
+    "managementFee": null,
+    "owner": false,
+    "yq": null,
+    "new": false,
+    "updated": "2026-11-02",
+    "status": "candidate",
+    "agent": "陳心妍",
+    "brokerage": "中信房屋-板橋新埔加盟店",
+    "sources": {
+      "591": true
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20840917.html"
+    },
+    "sourceVerified": "2026-11-02直接Fetch591 S20840917：標題為雙捷運景觀套房，刊登有效至2026-12-02；價格、坪數、樓層等核心欄位遮蔽。與同經紀人S20963768套房刊登可能重複，暫不合併。",
+    "sourceValidation": {
+      "591": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20840917.html",
+        "note": "有效至2026-12-02；套房標題，核心欄位遮蔽。"
+      }
+    },
+    "matchStatus": "待確認",
+    "possibleDuplicateWith": [
+      "ng-match-06"
+    ],
+    "dedupNote": "同為新巨蛋套房、同一仲介來源；缺門牌、戶別、樓層、坪數及照片，暫不合併。",
+    "lastChecked": "2026-11-02T09:01:58+08:00"
+  },
+  {
+    "id": "xpd-candidate-s20853407",
+    "groupId": "xpd-candidate-s20853407",
+    "community": "欣璞綻",
+    "block": "棟別待確認",
+    "floor": null,
+    "totalFloor": 25,
+    "area": null,
+    "layout": "高樓2房（標題）",
+    "price": null,
+    "unit": null,
+    "parking": null,
+    "parkingArea": null,
+    "parkingPrice": null,
+    "managementFee": null,
+    "owner": false,
+    "yq": null,
+    "new": false,
+    "updated": "2026-11-02",
+    "status": "candidate",
+    "agent": "林柏翰",
+    "brokerage": "中信房屋-板橋江翠重劃加盟店",
+    "sources": {
+      "591": true,
+      "中信": true
+    },
+    "links": {
+      "591": "https://sale.591.com.tw/home/house/detail/2/20853407.html"
+    },
+    "sourceVerified": "2026-11-02直接Fetch591 S20853407：標題為欣璞綻高樓兩房，刊登有效至2026-11-04；價格、坪數及樓層欄位遮蔽。未取得門牌/照片，與既有2房案件分開保留。",
+    "sourceValidation": {
+      "591": {
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20853407.html",
+        "note": "有效至2026-11-04；高樓兩房標題，核心欄位遮蔽。"
+      }
+    },
+    "matchStatus": "待確認",
+    "dedupNote": "欣璞綻高樓兩房候選；目前缺價格、坪數、樓層與照片，未達合併標準。",
+    "lastChecked": "2026-11-02T09:01:58+08:00"
   }
 ]
