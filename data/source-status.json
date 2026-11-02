@@ -890,7 +890,7 @@
     "interval": "daily 09:00",
     "timezone": "Asia/Taipei",
     "pausedAt": "2026-11-02T09:12:12+08:00",
-    "pauseReason": "本輪監控已完成；依本次自動化執行規則暫停排程，重新啟用後才會恢復每日09:00監控。"
+    "pauseReason": "本輪監控完成後，依本次自動化執行規則暫停每日09:00排程。"
   },
   "scanCompleteness": {
     "status": "partial",
@@ -1278,7 +1278,7 @@
     "primaryFieldsReadable": null,
     "partialFields": null,
     "communityAttributionUncertainPages": 1,
-    "unrelatedIndividualPagesExcluded": 1,
+    "unrelatedIndividualPagesExcluded": 0,
     "firecrawl": {
       "remainingCredits": 0,
       "planCredits": 1000,
@@ -1966,7 +1966,13 @@
       "永康芬揚：S21126291與主案2,115萬條件相近，缺門牌/照片，分開保留。",
       "板橋晴：S20865148與S21152532同為7F/12F、34.48坪，價格/照片不同，分開保留。",
       "鑑築：5,688萬大戶中信/永慶/591高度吻合，合併主案並保留各來源。"
-    ]
+    ],
+    "automationSchedule": {
+      "enabled": false,
+      "pausedAt": "2026-11-02T09:12:12+08:00",
+      "reason": "本輪監控完成後，依本次自動化執行規則暫停每日09:00排程。"
+    },
+    "fieldReadabilityNote": "本輪直接讀取42個個別案件頁；591多頁價格、坪數或樓層遭遮蔽，未統一量化所有欄位完整率，未知資料維持未核實。"
   },
   "parkCenturyUrlAudit": {
     "checkedAt": "2026-09-29T15:25:00+08:00",
@@ -2005,7 +2011,7 @@
     "primaryFieldsReadable": null,
     "partialFields": null,
     "communityAttributionUncertainPages": 1,
-    "unrelatedIndividualPagesExcluded": 1,
+    "unrelatedIndividualPagesExcluded": 0,
     "firecrawl": {
       "remainingCredits": 0,
       "planCredits": 1000,
@@ -2693,7 +2699,13 @@
       "永康芬揚：S21126291與主案2,115萬條件相近，缺門牌/照片，分開保留。",
       "板橋晴：S20865148與S21152532同為7F/12F、34.48坪，價格/照片不同，分開保留。",
       "鑑築：5,688萬大戶中信/永慶/591高度吻合，合併主案並保留各來源。"
-    ]
+    ],
+    "automationSchedule": {
+      "enabled": false,
+      "pausedAt": "2026-11-02T09:12:12+08:00",
+      "reason": "本輪監控完成後，依本次自動化執行規則暫停每日09:00排程。"
+    },
+    "fieldReadabilityNote": "本輪直接讀取42個個別案件頁；591多頁價格、坪數或樓層遭遮蔽，未統一量化所有欄位完整率，未知資料維持未核實。"
   },
   "communityStatus": {
     "板橋新巨蛋": {
@@ -3932,7 +3944,7 @@
     "primaryFieldsReadable": null,
     "partialFields": null,
     "communityAttributionUncertainPages": 1,
-    "unrelatedIndividualPagesExcluded": 1,
+    "unrelatedIndividualPagesExcluded": 0,
     "firecrawl": {
       "remainingCredits": 0,
       "planCredits": 1000,
@@ -4620,7 +4632,13 @@
       "永康芬揚：S21126291與主案2,115萬條件相近，缺門牌/照片，分開保留。",
       "板橋晴：S20865148與S21152532同為7F/12F、34.48坪，價格/照片不同，分開保留。",
       "鑑築：5,688萬大戶中信/永慶/591高度吻合，合併主案並保留各來源。"
-    ]
+    ],
+    "automationSchedule": {
+      "enabled": false,
+      "pausedAt": "2026-11-02T09:12:12+08:00",
+      "reason": "本輪監控完成後，依本次自動化執行規則暫停每日09:00排程。"
+    },
+    "fieldReadabilityNote": "本輪直接讀取42個個別案件頁；591多頁價格、坪數或樓層遭遮蔽，未統一量化所有欄位完整率，未知資料維持未核實。"
   },
   "latestAutomationWrite": {
     "date": "2026-11-02",
