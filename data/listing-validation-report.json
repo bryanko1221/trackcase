@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T15:19:56.315410+08:00",
+  "updatedAt": "2026-11-02T15:25:01.864055+08:00",
   "checked": [
     {
       "id": "ng-4998",
@@ -330,22 +330,6 @@
       "reason": "access-blocked-or-server-error"
     },
     {
-      "id": "jyz-2688",
-      "source": "住商",
-      "url": "https://www.hbhousing.com.tw/detail?sn=TS146339",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
-    },
-    {
-      "id": "jyz-2688",
-      "source": "591社區列表",
-      "url": "https://market.591.com.tw/5890269/sale",
-      "state": "active",
-      "httpStatus": 200,
-      "reason": "ok"
-    },
-    {
       "id": "lry-2540",
       "source": "591",
       "url": "https://market.591.com.tw/29100",
@@ -445,9 +429,9 @@
       "id": "ng-match-04",
       "source": "信義",
       "url": "https://sinyi.com.tw/buy/house/9465BS",
-      "state": "gone",
-      "httpStatus": 404,
-      "reason": "not-found"
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
     },
     {
       "id": "ng-match-04",
@@ -922,6 +906,14 @@
       "reason": "ok"
     },
     {
+      "id": "xpd-2880-22f-s21151971",
+      "source": "台灣房屋",
+      "url": "https://www.twhg.com.tw/buy/TF02372499",
+      "state": "unknown",
+      "httpStatus": 403,
+      "reason": "access-blocked-or-server-error"
+    },
+    {
       "id": "bq-candidate-s21152532",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/21152532.html",
@@ -973,106 +965,101 @@
       "id": "pc-candidate-s21145918",
       "source": "591",
       "url": "https://sale.591.com.tw/home/house/detail/2/21145918.html",
-      "state": "gone",
-      "httpStatus": 404,
-      "reason": "not-found"
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-candidate-s20894684",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20894684.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "ng-candidate-s20840917",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20840917.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
+    },
+    {
+      "id": "xpd-candidate-s20853407",
+      "source": "591",
+      "url": "https://sale.591.com.tw/home/house/detail/2/20853407.html",
+      "state": "active",
+      "httpStatus": 200,
+      "reason": "ok"
     }
   ],
   "changed": [
     {
       "id": "ng-1880",
       "change": "all-known-links-gone",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     },
     {
       "id": "ng-1315",
       "source": "591",
       "change": "link-invalid",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     },
     {
       "id": "ng-1315",
       "change": "all-known-links-gone",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     },
     {
       "id": "xpd-4535-18f",
       "change": "reactivated",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     },
     {
       "id": "lry-2540",
       "change": "reactivated",
-      "date": "2026-11-01"
-    },
-    {
-      "id": "wh-culture-3480-18",
-      "source": "台慶不動產",
-      "change": "link-invalid",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     },
     {
       "id": "wh-culture-3480-18",
       "change": "all-known-links-gone",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     },
     {
       "id": "ng-match-01",
       "change": "all-known-links-gone",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     },
     {
       "id": "ng-match-02",
       "change": "all-known-links-gone",
-      "date": "2026-11-01"
-    },
-    {
-      "id": "ng-match-04",
-      "source": "信義",
-      "change": "link-invalid",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     },
     {
       "id": "ng-match-08",
       "change": "all-known-links-gone",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     },
     {
       "id": "xpd-2980-6f",
       "change": "all-known-links-gone",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     },
     {
       "id": "lry-2850-16f",
       "change": "all-known-links-gone",
-      "date": "2026-11-01"
-    },
-    {
-      "id": "kz-4500-2f",
-      "source": "信義",
-      "change": "link-invalid",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     },
     {
       "id": "kz-4500-2f",
       "change": "all-known-links-gone",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     },
     {
       "id": "ng-candidate-s20808679",
       "change": "all-known-links-gone",
-      "date": "2026-11-01"
-    },
-    {
-      "id": "pc-candidate-s21145918",
-      "source": "591",
-      "change": "link-invalid",
-      "date": "2026-11-01"
-    },
-    {
-      "id": "pc-candidate-s21145918",
-      "change": "all-known-links-gone",
-      "date": "2026-11-01"
+      "date": "2026-11-02"
     }
   ]
 }

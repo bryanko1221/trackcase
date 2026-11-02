@@ -1,6 +1,6 @@
 {
   "lastVerified": "2026-11-02",
-  "lastUpdated": "2026-11-02 09:12",
+  "lastUpdated": "2026-11-02 15:27",
   "note": "2026-11-02監控完成並核實公開網站：13社區、40次Exa Search、63個不重複Fetch網址（42個個別案件頁、21個社區/列表頁）；公園世紀B區永慶6572663由4,888萬漲至5,198萬（+310萬/+6.34%）。網站已部署並核實成功，整體🟡部分完成。 另：本輪完成後已暫停每日自動排程。",
   "communities": {
     "板橋新巨蛋": {
@@ -881,21 +881,19 @@
       }
     }
   },
-  "lastScheduledCheck": "2026-11-02T09:01:58+08:00",
+  "lastScheduledCheck": "2026-11-02T15:27:57.828637+08:00",
   "batchScanReport": "data/batch-scan-report.json",
-  "lastValidated": "2026-11-02",
+  "lastValidated": "2026-11-02 15:27",
   "validationReport": "data/batch-scan-report.json",
   "automation": {
-    "enabled": false,
+    "enabled": true,
     "interval": "daily 09:00",
-    "timezone": "Asia/Taipei",
-    "pausedAt": "2026-11-02T09:12:12+08:00",
-    "pauseReason": "本輪監控完成後，依本次自動化執行規則暫停每日09:00排程。"
+    "timezone": "Asia/Taipei"
   },
   "scanCompleteness": {
     "status": "partial",
     "label": "🟡 部分完成",
-    "checkedAt": "2026-11-01T15:23:03.783769+08:00",
+    "checkedAt": "2026-11-02T15:27:57.796462+08:00",
     "sourceCount": 37,
     "communityCount": 13,
     "reasons": [
@@ -1043,16 +1041,11 @@
       "永康芬揚/591: 清單完整性=page-fetch-failed"
     ],
     "countReconciliation": {
-      "matchedSources": 4,
-      "mismatchedSources": 1,
-      "unknownCountSources": 13,
-      "uniqueListingIdsDiscovered": 42,
-      "displayCountTotal": 68,
-      "direct591PagesRead": 23,
-      "displayReadGap": 51,
-      "note": "68筆為本輪能取得明確數字的591顯示筆數子集合；公園世紀A區與綠如意總數未能可靠讀取。51為已知顯示數與對應591個別頁讀取數差額，不等於唯一戶數差額。"
-    },
-    "lastVerified": "2026-11-02"
+      "matchedSources": 3,
+      "mismatchedSources": 2,
+      "unknownCountSources": 32,
+      "uniqueListingIdsDiscovered": 127
+    }
   },
   "exaSecondPass": {
     "checkedAt": "2026-09-27T19:15:00+08:00",
