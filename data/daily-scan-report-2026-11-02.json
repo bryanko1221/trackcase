@@ -618,27 +618,33 @@
   ],
   "websiteUpdate": {
     "repository": "bryanko1221/trackcase",
-    "filesToWrite": [
-      "data/listings.json",
-      "data/source-status.json",
-      "index.html",
-      "data/daily-scan-report-current.json",
-      "data/daily-scan-report-2026-11-02.json"
-    ],
-    "repositoryWrites": "pending",
-    "pagesDeployment": "pending",
-    "publicVerification": "pending"
+    "repositoryWrites": "success",
+    "pagesDeployment": "success",
+    "publicVerification": "success_live_verified",
+    "checkedAt": "2026-11-02T09:10:02+08:00"
   },
   "websiteVerification": {
-    "status": "pending",
-    "checkedAt": null,
-    "repositoryWrites": "pending",
-    "pagesDeployment": "pending",
-    "publicHomepage": "pending",
-    "dailyReport": "pending",
-    "currentReportPointer": "pending",
-    "listingsData": "pending",
-    "sourceStatus": "pending"
+    "status": "success_live_verified",
+    "checkedAt": "2026-11-02T09:10:02+08:00",
+    "repositoryWrites": "success",
+    "pagesDeployment": "success",
+    "publicHomepage": "success",
+    "dailyReport": "success",
+    "currentReportPointer": "success",
+    "listingsData": "success",
+    "sourceStatus": "success",
+    "observedScanDate": "2026-11-02",
+    "observedMasterRecordCount": 83,
+    "observedActiveCount": 44,
+    "observedPriceUpCount": 1,
+    "observedNewCount": 0,
+    "observedPriceDropCount": 0,
+    "observedSoldOrDelistedCount": 0,
+    "partialLabelVisible": true,
+    "deploymentRunId": 41370907349,
+    "deploymentConclusion": "success",
+    "cacheBustVerification": true,
+    "note": "以公開GitHub Pages cache-busting網址直接Fetch核對：首頁日期/83筆主檔/44筆在售/今日漲價1；每日報告、current pointer、listings.json（pc-b-4888=5,198萬及3筆候選）與source-status.json均可讀取。"
   },
   "notes": [
     "所有uniqueAfterDedup均保留null/未完成，不以0代替。",
