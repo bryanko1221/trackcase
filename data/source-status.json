@@ -1,7 +1,7 @@
 {
   "lastVerified": "2026-11-02",
-  "lastUpdated": "2026-11-02 09:01",
-  "note": "2026-11-02監控完成：13社區、40次Exa Search、63個不重複Fetch網址（42個個別案件頁、21個社區/列表頁）。確認公園世紀B區永慶6572663由4,888萬漲至5,198萬（+310萬/+6.34%）；整體🟡部分完成。Firecrawl額度0/1000，Scrape未執行；TinyFish未使用。",
+  "lastUpdated": "2026-11-02 09:10",
+  "note": "2026-11-02監控完成並核實公開網站：13社區、40次Exa Search、63個不重複Fetch網址（42個個別案件頁、21個社區/列表頁）；公園世紀B區永慶6572663由4,888萬漲至5,198萬（+310萬/+6.34%）。網站已部署並核實成功，整體🟡部分完成。",
   "communities": {
     "板橋新巨蛋": {
       "591": {
@@ -1879,27 +1879,33 @@
     ],
     "websiteUpdate": {
       "repository": "bryanko1221/trackcase",
-      "filesToWrite": [
-        "data/listings.json",
-        "data/source-status.json",
-        "index.html",
-        "data/daily-scan-report-current.json",
-        "data/daily-scan-report-2026-11-02.json"
-      ],
-      "repositoryWrites": "pending",
-      "pagesDeployment": "pending",
-      "publicVerification": "pending"
+      "repositoryWrites": "success",
+      "pagesDeployment": "success",
+      "publicVerification": "success_live_verified",
+      "checkedAt": "2026-11-02T09:10:02+08:00"
     },
     "websiteVerification": {
-      "status": "pending",
-      "checkedAt": null,
-      "repositoryWrites": "pending",
-      "pagesDeployment": "pending",
-      "publicHomepage": "pending",
-      "dailyReport": "pending",
-      "currentReportPointer": "pending",
-      "listingsData": "pending",
-      "sourceStatus": "pending"
+      "status": "success_live_verified",
+      "checkedAt": "2026-11-02T09:10:02+08:00",
+      "repositoryWrites": "success",
+      "pagesDeployment": "success",
+      "publicHomepage": "success",
+      "dailyReport": "success",
+      "currentReportPointer": "success",
+      "listingsData": "success",
+      "sourceStatus": "success",
+      "observedScanDate": "2026-11-02",
+      "observedMasterRecordCount": 83,
+      "observedActiveCount": 44,
+      "observedPriceUpCount": 1,
+      "observedNewCount": 0,
+      "observedPriceDropCount": 0,
+      "observedSoldOrDelistedCount": 0,
+      "partialLabelVisible": true,
+      "deploymentRunId": 41370907349,
+      "deploymentConclusion": "success",
+      "cacheBustVerification": true,
+      "note": "以公開GitHub Pages cache-busting網址直接Fetch核對：首頁日期/83筆主檔/44筆在售/今日漲價1；每日報告、current pointer、listings.json（pc-b-4888=5,198萬及3筆候選）與source-status.json均可讀取。"
     },
     "notes": [
       "所有uniqueAfterDedup均保留null/未完成，不以0代替。",
@@ -2600,27 +2606,33 @@
     ],
     "websiteUpdate": {
       "repository": "bryanko1221/trackcase",
-      "filesToWrite": [
-        "data/listings.json",
-        "data/source-status.json",
-        "index.html",
-        "data/daily-scan-report-current.json",
-        "data/daily-scan-report-2026-11-02.json"
-      ],
-      "repositoryWrites": "pending",
-      "pagesDeployment": "pending",
-      "publicVerification": "pending"
+      "repositoryWrites": "success",
+      "pagesDeployment": "success",
+      "publicVerification": "success_live_verified",
+      "checkedAt": "2026-11-02T09:10:02+08:00"
     },
     "websiteVerification": {
-      "status": "pending",
-      "checkedAt": null,
-      "repositoryWrites": "pending",
-      "pagesDeployment": "pending",
-      "publicHomepage": "pending",
-      "dailyReport": "pending",
-      "currentReportPointer": "pending",
-      "listingsData": "pending",
-      "sourceStatus": "pending"
+      "status": "success_live_verified",
+      "checkedAt": "2026-11-02T09:10:02+08:00",
+      "repositoryWrites": "success",
+      "pagesDeployment": "success",
+      "publicHomepage": "success",
+      "dailyReport": "success",
+      "currentReportPointer": "success",
+      "listingsData": "success",
+      "sourceStatus": "success",
+      "observedScanDate": "2026-11-02",
+      "observedMasterRecordCount": 83,
+      "observedActiveCount": 44,
+      "observedPriceUpCount": 1,
+      "observedNewCount": 0,
+      "observedPriceDropCount": 0,
+      "observedSoldOrDelistedCount": 0,
+      "partialLabelVisible": true,
+      "deploymentRunId": 41370907349,
+      "deploymentConclusion": "success",
+      "cacheBustVerification": true,
+      "note": "以公開GitHub Pages cache-busting網址直接Fetch核對：首頁日期/83筆主檔/44筆在售/今日漲價1；每日報告、current pointer、listings.json（pc-b-4888=5,198萬及3筆候選）與source-status.json均可讀取。"
     },
     "notes": [
       "所有uniqueAfterDedup均保留null/未完成，不以0代替。",
@@ -4521,27 +4533,33 @@
     ],
     "websiteUpdate": {
       "repository": "bryanko1221/trackcase",
-      "filesToWrite": [
-        "data/listings.json",
-        "data/source-status.json",
-        "index.html",
-        "data/daily-scan-report-current.json",
-        "data/daily-scan-report-2026-11-02.json"
-      ],
-      "repositoryWrites": "pending",
-      "pagesDeployment": "pending",
-      "publicVerification": "pending"
+      "repositoryWrites": "success",
+      "pagesDeployment": "success",
+      "publicVerification": "success_live_verified",
+      "checkedAt": "2026-11-02T09:10:02+08:00"
     },
     "websiteVerification": {
-      "status": "pending",
-      "checkedAt": null,
-      "repositoryWrites": "pending",
-      "pagesDeployment": "pending",
-      "publicHomepage": "pending",
-      "dailyReport": "pending",
-      "currentReportPointer": "pending",
-      "listingsData": "pending",
-      "sourceStatus": "pending"
+      "status": "success_live_verified",
+      "checkedAt": "2026-11-02T09:10:02+08:00",
+      "repositoryWrites": "success",
+      "pagesDeployment": "success",
+      "publicHomepage": "success",
+      "dailyReport": "success",
+      "currentReportPointer": "success",
+      "listingsData": "success",
+      "sourceStatus": "success",
+      "observedScanDate": "2026-11-02",
+      "observedMasterRecordCount": 83,
+      "observedActiveCount": 44,
+      "observedPriceUpCount": 1,
+      "observedNewCount": 0,
+      "observedPriceDropCount": 0,
+      "observedSoldOrDelistedCount": 0,
+      "partialLabelVisible": true,
+      "deploymentRunId": 41370907349,
+      "deploymentConclusion": "success",
+      "cacheBustVerification": true,
+      "note": "以公開GitHub Pages cache-busting網址直接Fetch核對：首頁日期/83筆主檔/44筆在售/今日漲價1；每日報告、current pointer、listings.json（pc-b-4888=5,198萬及3筆候選）與source-status.json均可讀取。"
     },
     "notes": [
       "所有uniqueAfterDedup均保留null/未完成，不以0代替。",
@@ -4604,22 +4622,32 @@
   },
   "latestAutomationWrite": {
     "date": "2026-11-02",
-    "status": "pending",
-    "note": "本輪資料已提交GitHub，待Pages部署及公開頁面核對。"
+    "status": "success_live_verified",
+    "checkedAt": "2026-11-02T09:10:02+08:00",
+    "note": "GitHub Pages首頁、每日報告、current pointer、listings及source-status公開頁面均已核對成功。"
   },
   "websiteVerification": {
-    "status": "pending",
-    "checkedAt": null,
-    "repositoryWrites": "pending",
-    "pagesDeployment": "pending",
-    "publicHomepage": "pending",
-    "dailyReport": "pending",
-    "currentReportPointer": "pending",
-    "listingsData": "pending",
-    "sourceStatus": "pending",
+    "status": "success_live_verified",
+    "checkedAt": "2026-11-02T09:10:02+08:00",
+    "repositoryWrites": "success",
+    "pagesDeployment": "success",
+    "publicHomepage": "success",
+    "dailyReport": "success",
+    "currentReportPointer": "success",
+    "listingsData": "success",
+    "sourceStatus": "success",
     "observedScanDate": "2026-11-02",
     "observedMasterRecordCount": 83,
-    "partialLabelVisible": true
+    "observedActiveCount": 44,
+    "observedPriceUpCount": 1,
+    "observedNewCount": 0,
+    "observedPriceDropCount": 0,
+    "observedSoldOrDelistedCount": 0,
+    "partialLabelVisible": true,
+    "deploymentRunId": 41370907349,
+    "deploymentConclusion": "success",
+    "cacheBustVerification": true,
+    "note": "以公開GitHub Pages cache-busting網址直接Fetch核對：首頁日期/83筆主檔/44筆在售/今日漲價1；每日報告、current pointer、listings.json（pc-b-4888=5,198萬及3筆候選）與source-status.json均可讀取。"
   },
   "unverifiedPlatforms": [
     "591：多社區仍有顯示筆數與逐案核實差額；公園世紀A區、綠如意總數未能可靠讀取。",
@@ -4637,5 +4665,12 @@
     "公園世紀S20833065刊登有效期至2026-11-01，已到期；不判定售出。",
     "綠如意S20904980標題坡車但欄位顯示11.84坪平面式，車位型式待核。",
     "永康芬揚591由11筆增至12筆，僅平台顯示數增加，不等於新增唯一戶。"
-  ]
+  ],
+  "websiteUpdate": {
+    "repository": "bryanko1221/trackcase",
+    "repositoryWrites": "success",
+    "pagesDeployment": "success",
+    "publicVerification": "success_live_verified",
+    "checkedAt": "2026-11-02T09:10:02+08:00"
+  }
 }
