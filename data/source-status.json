@@ -1414,9 +1414,9 @@
         "community": "板橋新巨蛋",
         "platform": "591",
         "displayCount": 29,
-        "directIndividualPages": 7,
-        "difference": 22,
-        "note": "一般在售52筆為不同口徑，不納入本社區差額。"
+        "directIndividualPages": 9,
+        "difference": 20,
+        "note": "一般在售52筆為不同口徑；尚有20筆顯示差額未逐案核實。"
       },
       {
         "community": "板橋文化勳章",
@@ -1424,15 +1424,15 @@
         "displayCount": 1,
         "directIndividualPages": 1,
         "difference": 0,
-        "note": "另有台慶個別頁1筆。"
+        "note": "另直接讀取台慶TC0169908一頁。"
       },
       {
         "community": "板橋公園世紀A區",
         "platform": "591",
-        "displayCount": 21,
-        "directIndividualPages": 5,
-        "difference": 16,
-        "note": "B區另顯示1筆，個別頁0。"
+        "displayCount": null,
+        "directIndividualPages": 4,
+        "difference": null,
+        "note": "本輪可見11張候選卡片，但總數欄位未能可靠讀取。"
       },
       {
         "community": "板橋公園世紀B區",
@@ -1440,23 +1440,23 @@
         "displayCount": 1,
         "directIndividualPages": 0,
         "difference": 1,
-        "note": "樂屋B區可見至少4個刊登版本。"
+        "note": "591顯示1筆；本輪未取得該筆直接頁。"
       },
       {
         "community": "欣璞綻",
         "platform": "591",
         "displayCount": 9,
-        "directIndividualPages": 4,
-        "difference": 5,
-        "note": "標頭3筆與列表9筆口徑不同；另有信義個別頁1筆。"
+        "directIndividualPages": 2,
+        "difference": 7,
+        "note": "標頭3筆、列表9筆口徑不同；另讀取台灣房屋TF02372499。"
       },
       {
         "community": "綠如意",
         "platform": "591",
-        "displayCount": 4,
-        "directIndividualPages": 3,
-        "difference": 1,
-        "note": "樂屋符合目前篩選0筆。"
+        "displayCount": null,
+        "directIndividualPages": 2,
+        "difference": null,
+        "note": "本輪可見4張候選卡片，總數未能可靠讀取。"
       },
       {
         "community": "鑑築",
@@ -1464,7 +1464,7 @@
         "displayCount": 2,
         "directIndividualPages": 1,
         "difference": 1,
-        "note": "信義社區頁2筆、中信社區頁1筆，未逐一核實個別頁。"
+        "note": "另直接讀取信義、永慶、中信各1頁。"
       },
       {
         "community": "榮耀交響曲",
@@ -1480,7 +1480,7 @@
         "displayCount": 1,
         "directIndividualPages": 0,
         "difference": 1,
-        "note": "住商與21世紀各有個別頁；591候選未取得個別直連。"
+        "note": "住商TS146339直接頁1筆；591未取得個別直連。"
       },
       {
         "community": "板橋千禧園",
@@ -1488,23 +1488,23 @@
         "displayCount": 0,
         "directIndividualPages": 0,
         "difference": 0,
-        "note": "樂屋符合待售0；不推論全市場無案。"
+        "note": "列表頁未見符合待售房屋；不推論全市場無案。"
       },
       {
         "community": "板橋吉祥花園",
-        "platform": "591",
-        "displayCount": null,
-        "directIndividualPages": 0,
-        "difference": null,
-        "note": "尚未配置可確認對應目標社區的591社區頁。"
-      },
-      {
-        "community": "雙喜臨門",
-        "platform": "591",
+        "platform": "樂屋",
         "displayCount": 0,
         "directIndividualPages": 0,
         "difference": 0,
-        "note": "樂屋符合待售0；樂居僅社區/交易資料。"
+        "note": "吉祥花園廣場頁0筆，但社區別名/門牌待對齊。"
+      },
+      {
+        "community": "雙喜臨門",
+        "platform": "樂屋",
+        "displayCount": 0,
+        "directIndividualPages": 0,
+        "difference": 0,
+        "note": "莒光雙喜臨門頁0筆；591本輪未重抓。"
       },
       {
         "community": "板橋晴",
@@ -1512,15 +1512,15 @@
         "displayCount": 13,
         "directIndividualPages": 2,
         "difference": 11,
-        "note": "樂屋另有至少2個可見版本。"
+        "note": "樂居列表另可見1個版本，但未取得個別案件直連。"
       },
       {
         "community": "永康芬揚",
         "platform": "591",
-        "displayCount": 11,
-        "directIndividualPages": 3,
-        "difference": 8,
-        "note": "樂屋可見至少8個版本。"
+        "displayCount": 12,
+        "directIndividualPages": 2,
+        "difference": 10,
+        "note": "前次11筆，本輪12筆；仍有10筆顯示差額未逐案核實。"
       }
     ],
     "crossPlatformDuplicates": [
@@ -1603,10 +1603,9 @@
         "readable": 10,
         "partial": 7,
         "directPagesByPlatform": {
-          "591": 7,
+          "591": 9,
           "中信": 2,
-          "信義": 5,
-          "永慶": 3
+          "信義": 3
         },
         "masterActiveRecords": 21,
         "uniqueAfterDedup": null,
@@ -1641,16 +1640,19 @@
       {
         "name": "板橋公園世紀",
         "displayCounts": {
-          "591 A區列表": 21,
+          "591 A區總數": "未取得",
+          "591 A區可見卡片": 11,
           "591 B區列表": 1,
-          "樂屋A區可見版本": 2,
-          "樂屋B區可見版本": 4
+          "樂屋A區版本": 2,
+          "樂屋B區版本": 4
         },
         "directPagesRead": 7,
         "readable": 0,
         "partial": 5,
         "directPagesByPlatform": {
-          "591": 5
+          "591": 4,
+          "永慶": 2,
+          "信義": 1
         },
         "masterActiveRecords": 4,
         "uniqueAfterDedup": null,
@@ -1665,15 +1667,14 @@
         "name": "欣璞綻",
         "displayCounts": {
           "591本社區列表": 9,
-          "591標頭": 3,
-          "樂屋可見版本": 2
+          "591標頭": 3
         },
         "directPagesRead": 3,
         "readable": 3,
         "partial": 2,
         "directPagesByPlatform": {
-          "591": 4,
-          "信義": 1
+          "591": 2,
+          "台灣房屋": 1
         },
         "masterActiveRecords": 4,
         "uniqueAfterDedup": null,
@@ -1687,14 +1688,16 @@
       {
         "name": "綠如意",
         "displayCounts": {
-          "591本社區列表": 4,
+          "591可見卡片": 4,
+          "591總數": "未能可靠讀取",
           "樂屋符合待售": 0
         },
         "directPagesRead": 3,
         "readable": 0,
         "partial": 3,
         "directPagesByPlatform": {
-          "591": 3
+          "591": 2,
+          "信義": 1
         },
         "masterActiveRecords": 1,
         "uniqueAfterDedup": null,
@@ -1708,7 +1711,7 @@
         "name": "鑑築",
         "displayCounts": {
           "591本社區列表": 2,
-          "信義社區待售": 2,
+          "信義待售": 2,
           "中信社區頁": 1
         },
         "directPagesRead": 4,
@@ -1731,8 +1734,7 @@
       {
         "name": "榮耀交響曲",
         "displayCounts": {
-          "591本社區列表": 0,
-          "永慶個別頁": 1
+          "591本社區列表": 0
         },
         "directPagesRead": 1,
         "readable": 1,
@@ -1750,16 +1752,13 @@
       {
         "name": "佳元植",
         "displayCounts": {
-          "591本社區列表": 1,
-          "住商個別頁": 1,
-          "21世紀個別頁": 1
+          "591本社區列表": 1
         },
         "directPagesRead": 1,
         "readable": 2,
         "partial": 0,
         "directPagesByPlatform": {
-          "住商": 1,
-          "21世紀": 1
+          "住商": 1
         },
         "masterActiveRecords": 2,
         "uniqueAfterDedup": null,
@@ -1772,7 +1771,7 @@
       {
         "name": "板橋千禧園",
         "displayCounts": {
-          "591本社區列表": 0,
+          "591待售頁": 0,
           "樂屋符合待售": 0
         },
         "directPagesRead": 0,
@@ -1788,8 +1787,8 @@
       {
         "name": "板橋吉祥花園",
         "displayCounts": {
-          "591本社區列表": "未配置",
-          "樂屋相似社區符合待售": 0
+          "591社區映射": "未配置",
+          "樂屋相似社區": 0
         },
         "directPagesRead": 0,
         "readable": 0,
@@ -1804,9 +1803,8 @@
       {
         "name": "雙喜臨門",
         "displayCounts": {
-          "591本社區列表": 0,
-          "樂屋符合待售": 0,
-          "樂居": "僅社區/交易資料"
+          "591本輪未重抓": "未重抓",
+          "樂屋符合待售": 0
         },
         "directPagesRead": 0,
         "readable": 0,
@@ -1822,7 +1820,7 @@
         "name": "板橋晴",
         "displayCounts": {
           "591本社區列表": 13,
-          "樂屋可見版本": 2
+          "樂居可見版本": 1
         },
         "directPagesRead": 2,
         "readable": 0,
@@ -1841,16 +1839,16 @@
       {
         "name": "永康芬揚",
         "displayCounts": {
-          "591本社區列表": 11,
-          "樂屋可見版本": 8
+          "591本社區列表": 12,
+          "樂屋可見版本": "至少8"
         },
         "directPagesRead": 5,
         "readable": 2,
         "partial": 3,
         "directPagesByPlatform": {
-          "591": 3,
+          "591": 2,
           "中信": 1,
-          "住商": 1
+          "住商": 2
         },
         "masterActiveRecords": 6,
         "uniqueAfterDedup": null,
@@ -2147,9 +2145,9 @@
         "community": "板橋新巨蛋",
         "platform": "591",
         "displayCount": 29,
-        "directIndividualPages": 7,
-        "difference": 22,
-        "note": "一般在售52筆為不同口徑，不納入本社區差額。"
+        "directIndividualPages": 9,
+        "difference": 20,
+        "note": "一般在售52筆為不同口徑；尚有20筆顯示差額未逐案核實。"
       },
       {
         "community": "板橋文化勳章",
@@ -2157,15 +2155,15 @@
         "displayCount": 1,
         "directIndividualPages": 1,
         "difference": 0,
-        "note": "另有台慶個別頁1筆。"
+        "note": "另直接讀取台慶TC0169908一頁。"
       },
       {
         "community": "板橋公園世紀A區",
         "platform": "591",
-        "displayCount": 21,
-        "directIndividualPages": 5,
-        "difference": 16,
-        "note": "B區另顯示1筆，個別頁0。"
+        "displayCount": null,
+        "directIndividualPages": 4,
+        "difference": null,
+        "note": "本輪可見11張候選卡片，但總數欄位未能可靠讀取。"
       },
       {
         "community": "板橋公園世紀B區",
@@ -2173,23 +2171,23 @@
         "displayCount": 1,
         "directIndividualPages": 0,
         "difference": 1,
-        "note": "樂屋B區可見至少4個刊登版本。"
+        "note": "591顯示1筆；本輪未取得該筆直接頁。"
       },
       {
         "community": "欣璞綻",
         "platform": "591",
         "displayCount": 9,
-        "directIndividualPages": 4,
-        "difference": 5,
-        "note": "標頭3筆與列表9筆口徑不同；另有信義個別頁1筆。"
+        "directIndividualPages": 2,
+        "difference": 7,
+        "note": "標頭3筆、列表9筆口徑不同；另讀取台灣房屋TF02372499。"
       },
       {
         "community": "綠如意",
         "platform": "591",
-        "displayCount": 4,
-        "directIndividualPages": 3,
-        "difference": 1,
-        "note": "樂屋符合目前篩選0筆。"
+        "displayCount": null,
+        "directIndividualPages": 2,
+        "difference": null,
+        "note": "本輪可見4張候選卡片，總數未能可靠讀取。"
       },
       {
         "community": "鑑築",
@@ -2197,7 +2195,7 @@
         "displayCount": 2,
         "directIndividualPages": 1,
         "difference": 1,
-        "note": "信義社區頁2筆、中信社區頁1筆，未逐一核實個別頁。"
+        "note": "另直接讀取信義、永慶、中信各1頁。"
       },
       {
         "community": "榮耀交響曲",
@@ -2213,7 +2211,7 @@
         "displayCount": 1,
         "directIndividualPages": 0,
         "difference": 1,
-        "note": "住商與21世紀各有個別頁；591候選未取得個別直連。"
+        "note": "住商TS146339直接頁1筆；591未取得個別直連。"
       },
       {
         "community": "板橋千禧園",
@@ -2221,23 +2219,23 @@
         "displayCount": 0,
         "directIndividualPages": 0,
         "difference": 0,
-        "note": "樂屋符合待售0；不推論全市場無案。"
+        "note": "列表頁未見符合待售房屋；不推論全市場無案。"
       },
       {
         "community": "板橋吉祥花園",
-        "platform": "591",
-        "displayCount": null,
-        "directIndividualPages": 0,
-        "difference": null,
-        "note": "尚未配置可確認對應目標社區的591社區頁。"
-      },
-      {
-        "community": "雙喜臨門",
-        "platform": "591",
+        "platform": "樂屋",
         "displayCount": 0,
         "directIndividualPages": 0,
         "difference": 0,
-        "note": "樂屋符合待售0；樂居僅社區/交易資料。"
+        "note": "吉祥花園廣場頁0筆，但社區別名/門牌待對齊。"
+      },
+      {
+        "community": "雙喜臨門",
+        "platform": "樂屋",
+        "displayCount": 0,
+        "directIndividualPages": 0,
+        "difference": 0,
+        "note": "莒光雙喜臨門頁0筆；591本輪未重抓。"
       },
       {
         "community": "板橋晴",
@@ -2245,15 +2243,15 @@
         "displayCount": 13,
         "directIndividualPages": 2,
         "difference": 11,
-        "note": "樂屋另有至少2個可見版本。"
+        "note": "樂居列表另可見1個版本，但未取得個別案件直連。"
       },
       {
         "community": "永康芬揚",
         "platform": "591",
-        "displayCount": 11,
-        "directIndividualPages": 3,
-        "difference": 8,
-        "note": "樂屋可見至少8個版本。"
+        "displayCount": 12,
+        "directIndividualPages": 2,
+        "difference": 10,
+        "note": "前次11筆，本輪12筆；仍有10筆顯示差額未逐案核實。"
       }
     ],
     "crossPlatformDuplicates": [
@@ -2336,10 +2334,9 @@
         "readable": 10,
         "partial": 7,
         "directPagesByPlatform": {
-          "591": 7,
+          "591": 9,
           "中信": 2,
-          "信義": 5,
-          "永慶": 3
+          "信義": 3
         },
         "masterActiveRecords": 21,
         "uniqueAfterDedup": null,
@@ -2374,16 +2371,19 @@
       {
         "name": "板橋公園世紀",
         "displayCounts": {
-          "591 A區列表": 21,
+          "591 A區總數": "未取得",
+          "591 A區可見卡片": 11,
           "591 B區列表": 1,
-          "樂屋A區可見版本": 2,
-          "樂屋B區可見版本": 4
+          "樂屋A區版本": 2,
+          "樂屋B區版本": 4
         },
         "directPagesRead": 7,
         "readable": 0,
         "partial": 5,
         "directPagesByPlatform": {
-          "591": 5
+          "591": 4,
+          "永慶": 2,
+          "信義": 1
         },
         "masterActiveRecords": 4,
         "uniqueAfterDedup": null,
@@ -2398,15 +2398,14 @@
         "name": "欣璞綻",
         "displayCounts": {
           "591本社區列表": 9,
-          "591標頭": 3,
-          "樂屋可見版本": 2
+          "591標頭": 3
         },
         "directPagesRead": 3,
         "readable": 3,
         "partial": 2,
         "directPagesByPlatform": {
-          "591": 4,
-          "信義": 1
+          "591": 2,
+          "台灣房屋": 1
         },
         "masterActiveRecords": 4,
         "uniqueAfterDedup": null,
@@ -2420,14 +2419,16 @@
       {
         "name": "綠如意",
         "displayCounts": {
-          "591本社區列表": 4,
+          "591可見卡片": 4,
+          "591總數": "未能可靠讀取",
           "樂屋符合待售": 0
         },
         "directPagesRead": 3,
         "readable": 0,
         "partial": 3,
         "directPagesByPlatform": {
-          "591": 3
+          "591": 2,
+          "信義": 1
         },
         "masterActiveRecords": 1,
         "uniqueAfterDedup": null,
@@ -2441,7 +2442,7 @@
         "name": "鑑築",
         "displayCounts": {
           "591本社區列表": 2,
-          "信義社區待售": 2,
+          "信義待售": 2,
           "中信社區頁": 1
         },
         "directPagesRead": 4,
@@ -2464,8 +2465,7 @@
       {
         "name": "榮耀交響曲",
         "displayCounts": {
-          "591本社區列表": 0,
-          "永慶個別頁": 1
+          "591本社區列表": 0
         },
         "directPagesRead": 1,
         "readable": 1,
@@ -2483,16 +2483,13 @@
       {
         "name": "佳元植",
         "displayCounts": {
-          "591本社區列表": 1,
-          "住商個別頁": 1,
-          "21世紀個別頁": 1
+          "591本社區列表": 1
         },
         "directPagesRead": 1,
         "readable": 2,
         "partial": 0,
         "directPagesByPlatform": {
-          "住商": 1,
-          "21世紀": 1
+          "住商": 1
         },
         "masterActiveRecords": 2,
         "uniqueAfterDedup": null,
@@ -2505,7 +2502,7 @@
       {
         "name": "板橋千禧園",
         "displayCounts": {
-          "591本社區列表": 0,
+          "591待售頁": 0,
           "樂屋符合待售": 0
         },
         "directPagesRead": 0,
@@ -2521,8 +2518,8 @@
       {
         "name": "板橋吉祥花園",
         "displayCounts": {
-          "591本社區列表": "未配置",
-          "樂屋相似社區符合待售": 0
+          "591社區映射": "未配置",
+          "樂屋相似社區": 0
         },
         "directPagesRead": 0,
         "readable": 0,
@@ -2537,9 +2534,8 @@
       {
         "name": "雙喜臨門",
         "displayCounts": {
-          "591本社區列表": 0,
-          "樂屋符合待售": 0,
-          "樂居": "僅社區/交易資料"
+          "591本輪未重抓": "未重抓",
+          "樂屋符合待售": 0
         },
         "directPagesRead": 0,
         "readable": 0,
@@ -2555,7 +2551,7 @@
         "name": "板橋晴",
         "displayCounts": {
           "591本社區列表": 13,
-          "樂屋可見版本": 2
+          "樂居可見版本": 1
         },
         "directPagesRead": 2,
         "readable": 0,
@@ -2574,16 +2570,16 @@
       {
         "name": "永康芬揚",
         "displayCounts": {
-          "591本社區列表": 11,
-          "樂屋可見版本": 8
+          "591本社區列表": 12,
+          "樂屋可見版本": "至少8"
         },
         "directPagesRead": 5,
         "readable": 2,
         "partial": 3,
         "directPagesByPlatform": {
-          "591": 3,
+          "591": 2,
           "中信": 1,
-          "住商": 1
+          "住商": 2
         },
         "masterActiveRecords": 6,
         "uniqueAfterDedup": null,
@@ -4080,9 +4076,9 @@
         "community": "板橋新巨蛋",
         "platform": "591",
         "displayCount": 29,
-        "directIndividualPages": 7,
-        "difference": 22,
-        "note": "一般在售52筆為不同口徑，不納入本社區差額。"
+        "directIndividualPages": 9,
+        "difference": 20,
+        "note": "一般在售52筆為不同口徑；尚有20筆顯示差額未逐案核實。"
       },
       {
         "community": "板橋文化勳章",
@@ -4090,15 +4086,15 @@
         "displayCount": 1,
         "directIndividualPages": 1,
         "difference": 0,
-        "note": "另有台慶個別頁1筆。"
+        "note": "另直接讀取台慶TC0169908一頁。"
       },
       {
         "community": "板橋公園世紀A區",
         "platform": "591",
-        "displayCount": 21,
-        "directIndividualPages": 5,
-        "difference": 16,
-        "note": "B區另顯示1筆，個別頁0。"
+        "displayCount": null,
+        "directIndividualPages": 4,
+        "difference": null,
+        "note": "本輪可見11張候選卡片，但總數欄位未能可靠讀取。"
       },
       {
         "community": "板橋公園世紀B區",
@@ -4106,23 +4102,23 @@
         "displayCount": 1,
         "directIndividualPages": 0,
         "difference": 1,
-        "note": "樂屋B區可見至少4個刊登版本。"
+        "note": "591顯示1筆；本輪未取得該筆直接頁。"
       },
       {
         "community": "欣璞綻",
         "platform": "591",
         "displayCount": 9,
-        "directIndividualPages": 4,
-        "difference": 5,
-        "note": "標頭3筆與列表9筆口徑不同；另有信義個別頁1筆。"
+        "directIndividualPages": 2,
+        "difference": 7,
+        "note": "標頭3筆、列表9筆口徑不同；另讀取台灣房屋TF02372499。"
       },
       {
         "community": "綠如意",
         "platform": "591",
-        "displayCount": 4,
-        "directIndividualPages": 3,
-        "difference": 1,
-        "note": "樂屋符合目前篩選0筆。"
+        "displayCount": null,
+        "directIndividualPages": 2,
+        "difference": null,
+        "note": "本輪可見4張候選卡片，總數未能可靠讀取。"
       },
       {
         "community": "鑑築",
@@ -4130,7 +4126,7 @@
         "displayCount": 2,
         "directIndividualPages": 1,
         "difference": 1,
-        "note": "信義社區頁2筆、中信社區頁1筆，未逐一核實個別頁。"
+        "note": "另直接讀取信義、永慶、中信各1頁。"
       },
       {
         "community": "榮耀交響曲",
@@ -4146,7 +4142,7 @@
         "displayCount": 1,
         "directIndividualPages": 0,
         "difference": 1,
-        "note": "住商與21世紀各有個別頁；591候選未取得個別直連。"
+        "note": "住商TS146339直接頁1筆；591未取得個別直連。"
       },
       {
         "community": "板橋千禧園",
@@ -4154,23 +4150,23 @@
         "displayCount": 0,
         "directIndividualPages": 0,
         "difference": 0,
-        "note": "樂屋符合待售0；不推論全市場無案。"
+        "note": "列表頁未見符合待售房屋；不推論全市場無案。"
       },
       {
         "community": "板橋吉祥花園",
-        "platform": "591",
-        "displayCount": null,
-        "directIndividualPages": 0,
-        "difference": null,
-        "note": "尚未配置可確認對應目標社區的591社區頁。"
-      },
-      {
-        "community": "雙喜臨門",
-        "platform": "591",
+        "platform": "樂屋",
         "displayCount": 0,
         "directIndividualPages": 0,
         "difference": 0,
-        "note": "樂屋符合待售0；樂居僅社區/交易資料。"
+        "note": "吉祥花園廣場頁0筆，但社區別名/門牌待對齊。"
+      },
+      {
+        "community": "雙喜臨門",
+        "platform": "樂屋",
+        "displayCount": 0,
+        "directIndividualPages": 0,
+        "difference": 0,
+        "note": "莒光雙喜臨門頁0筆；591本輪未重抓。"
       },
       {
         "community": "板橋晴",
@@ -4178,15 +4174,15 @@
         "displayCount": 13,
         "directIndividualPages": 2,
         "difference": 11,
-        "note": "樂屋另有至少2個可見版本。"
+        "note": "樂居列表另可見1個版本，但未取得個別案件直連。"
       },
       {
         "community": "永康芬揚",
         "platform": "591",
-        "displayCount": 11,
-        "directIndividualPages": 3,
-        "difference": 8,
-        "note": "樂屋可見至少8個版本。"
+        "displayCount": 12,
+        "directIndividualPages": 2,
+        "difference": 10,
+        "note": "前次11筆，本輪12筆；仍有10筆顯示差額未逐案核實。"
       }
     ],
     "crossPlatformDuplicates": [
@@ -4269,10 +4265,9 @@
         "readable": 10,
         "partial": 7,
         "directPagesByPlatform": {
-          "591": 7,
+          "591": 9,
           "中信": 2,
-          "信義": 5,
-          "永慶": 3
+          "信義": 3
         },
         "masterActiveRecords": 21,
         "uniqueAfterDedup": null,
@@ -4307,16 +4302,19 @@
       {
         "name": "板橋公園世紀",
         "displayCounts": {
-          "591 A區列表": 21,
+          "591 A區總數": "未取得",
+          "591 A區可見卡片": 11,
           "591 B區列表": 1,
-          "樂屋A區可見版本": 2,
-          "樂屋B區可見版本": 4
+          "樂屋A區版本": 2,
+          "樂屋B區版本": 4
         },
         "directPagesRead": 7,
         "readable": 0,
         "partial": 5,
         "directPagesByPlatform": {
-          "591": 5
+          "591": 4,
+          "永慶": 2,
+          "信義": 1
         },
         "masterActiveRecords": 4,
         "uniqueAfterDedup": null,
@@ -4331,15 +4329,14 @@
         "name": "欣璞綻",
         "displayCounts": {
           "591本社區列表": 9,
-          "591標頭": 3,
-          "樂屋可見版本": 2
+          "591標頭": 3
         },
         "directPagesRead": 3,
         "readable": 3,
         "partial": 2,
         "directPagesByPlatform": {
-          "591": 4,
-          "信義": 1
+          "591": 2,
+          "台灣房屋": 1
         },
         "masterActiveRecords": 4,
         "uniqueAfterDedup": null,
@@ -4353,14 +4350,16 @@
       {
         "name": "綠如意",
         "displayCounts": {
-          "591本社區列表": 4,
+          "591可見卡片": 4,
+          "591總數": "未能可靠讀取",
           "樂屋符合待售": 0
         },
         "directPagesRead": 3,
         "readable": 0,
         "partial": 3,
         "directPagesByPlatform": {
-          "591": 3
+          "591": 2,
+          "信義": 1
         },
         "masterActiveRecords": 1,
         "uniqueAfterDedup": null,
@@ -4374,7 +4373,7 @@
         "name": "鑑築",
         "displayCounts": {
           "591本社區列表": 2,
-          "信義社區待售": 2,
+          "信義待售": 2,
           "中信社區頁": 1
         },
         "directPagesRead": 4,
@@ -4397,8 +4396,7 @@
       {
         "name": "榮耀交響曲",
         "displayCounts": {
-          "591本社區列表": 0,
-          "永慶個別頁": 1
+          "591本社區列表": 0
         },
         "directPagesRead": 1,
         "readable": 1,
@@ -4416,16 +4414,13 @@
       {
         "name": "佳元植",
         "displayCounts": {
-          "591本社區列表": 1,
-          "住商個別頁": 1,
-          "21世紀個別頁": 1
+          "591本社區列表": 1
         },
         "directPagesRead": 1,
         "readable": 2,
         "partial": 0,
         "directPagesByPlatform": {
-          "住商": 1,
-          "21世紀": 1
+          "住商": 1
         },
         "masterActiveRecords": 2,
         "uniqueAfterDedup": null,
@@ -4438,7 +4433,7 @@
       {
         "name": "板橋千禧園",
         "displayCounts": {
-          "591本社區列表": 0,
+          "591待售頁": 0,
           "樂屋符合待售": 0
         },
         "directPagesRead": 0,
@@ -4454,8 +4449,8 @@
       {
         "name": "板橋吉祥花園",
         "displayCounts": {
-          "591本社區列表": "未配置",
-          "樂屋相似社區符合待售": 0
+          "591社區映射": "未配置",
+          "樂屋相似社區": 0
         },
         "directPagesRead": 0,
         "readable": 0,
@@ -4470,9 +4465,8 @@
       {
         "name": "雙喜臨門",
         "displayCounts": {
-          "591本社區列表": 0,
-          "樂屋符合待售": 0,
-          "樂居": "僅社區/交易資料"
+          "591本輪未重抓": "未重抓",
+          "樂屋符合待售": 0
         },
         "directPagesRead": 0,
         "readable": 0,
@@ -4488,7 +4482,7 @@
         "name": "板橋晴",
         "displayCounts": {
           "591本社區列表": 13,
-          "樂屋可見版本": 2
+          "樂居可見版本": 1
         },
         "directPagesRead": 2,
         "readable": 0,
@@ -4507,16 +4501,16 @@
       {
         "name": "永康芬揚",
         "displayCounts": {
-          "591本社區列表": 11,
-          "樂屋可見版本": 8
+          "591本社區列表": 12,
+          "樂屋可見版本": "至少8"
         },
         "directPagesRead": 5,
         "readable": 2,
         "partial": 3,
         "directPagesByPlatform": {
-          "591": 3,
+          "591": 2,
           "中信": 1,
-          "住商": 1
+          "住商": 2
         },
         "masterActiveRecords": 6,
         "uniqueAfterDedup": null,
