@@ -1111,7 +1111,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "status": "active",
+    "status": "gone_pending",
     "updated": "2026-09-04",
     "sourceVerified": "2026-09-04：永慶社區頁與樂屋網交叉核實",
     "sources": {
@@ -1142,8 +1142,8 @@
       }
     },
     "lastStatusChange": "2026-11-01",
-    "changeNote": "2026-11-01重新核對欣璞綻樂屋社區銷售列表，未見原案件；591亦未取得有效個別直連。標記消失待確認，不判定售出。",
-    "lastChecked": "2026-11-01T09:03:52+08:00",
+    "changeNote": "⚠️ 2026-11-02沿用前次列表核對：原刊登未能在目前社區待售清單中重新識別；僅標消失待確認，不判定售出。",
+    "lastChecked": "2026-11-02T09:01:58+08:00",
     "competitorStatus": "永慶同戶刊登狀態未核實；待確認前不列競業開發名單"
   },
   {
@@ -1163,7 +1163,7 @@
     "owner": false,
     "yq": true,
     "new": false,
-    "status": "active",
+    "status": "gone_pending",
     "updated": "2026-09-04",
     "sourceVerified": "2026-09-04：永慶社區頁核實",
     "sources": {
@@ -1202,8 +1202,8 @@
       }
     },
     "lastStatusChange": "2026-11-01",
-    "changeNote": "2026-11-01重新核對欣璞綻樂屋社區銷售列表，未見原案件；591亦未取得有效個別直連。標記消失待確認，不判定售出。",
-    "lastChecked": "2026-11-01T09:03:52+08:00",
+    "changeNote": "⚠️ 2026-11-02沿用前次列表核對：原刊登未能在目前社區待售清單中重新識別；僅標消失待確認，不判定售出。",
+    "lastChecked": "2026-11-02T09:01:58+08:00",
     "competitorStatus": "永慶同戶刊登狀態未核實；待確認前不列競業開發名單"
   },
   {
@@ -1235,16 +1235,17 @@
     "history": [],
     "sourceValidation": {
       "永慶": {
-        "state": "unknown",
-        "httpStatus": 403,
-        "reason": "access-blocked-or-server-error",
-        "checkedAt": "2026-11-01T15:19:56.315410+08:00",
-        "url": "https://buy.yungching.com.tw/house/7217539"
+        "state": "active",
+        "httpStatus": 200,
+        "reason": "ok",
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://buy.yungching.com.tw/house/7217539",
+        "note": "YC1255301仍在售：5,068萬、75.76坪、2F/15F、4房雙車；🟦永慶有刊登。"
       }
     },
     "lastStatusChange": "2026-11-01",
     "changeNote": "2026-11-01重新直接核實永慶個別頁仍在售；本輪無價格變動。",
-    "lastChecked": "2026-11-01T09:03:52+08:00",
+    "lastChecked": "2026-11-02T09:01:58+08:00",
     "verificationNote": "2026-11-01重新直接Fetch永慶YC1255301：仍在售，5,068萬、75.76坪、2F/15F、4房2廳2衛、雙車位24.64坪，車位價合計600萬。",
     "competitorStatus": "🟦永慶有刊登；排除競業開發名單"
   },
@@ -1297,8 +1298,9 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-11-01T15:19:56.315410+08:00",
-        "url": "https://www.hbhousing.com.tw/detail?sn=TS146339"
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://www.hbhousing.com.tw/detail?sn=TS146339",
+        "note": "TS146339仍在售：2,688萬、29.27坪、16F/22F、2房、坡道機械車位6.23坪。"
       },
       "591直接頁": {
         "state": "active",
@@ -1317,7 +1319,7 @@
     },
     "lastStatusChange": "2026-10-04",
     "changeNote": "2026-10-04重新核對佳元植：樂居待售頁目前顯示2688萬入口但未提供可確認的有效目前案件，591社區待售顯示0筆；移出目前在售，列為下架待確認。",
-    "lastChecked": "2026-11-01T09:03:52+08:00",
+    "lastChecked": "2026-11-02T09:01:58+08:00",
     "parkingType": "坡道機械",
     "matchStatus": "與21世紀2,358萬/32.96坪/2F案件為不同戶；591社區列表高樓景觀2房車疑似同戶但無個別直連，暫不強制合併。",
     "verificationNote": "2026-11-01直接Fetch住商TS146339：2,688萬、29.27坪、16F/22F、2房2廳2衛、公共設施14.29坪含車位6.23坪、坡道機械車位、座南朝北。",
@@ -1346,7 +1348,7 @@
     "owner": false,
     "yq": null,
     "new": false,
-    "status": "active",
+    "status": "gone_pending",
     "updated": "2026-09-04",
     "sourceVerified": "2026-09-04：591社區頁目前可見在售案例；戶別/樓層待直接案件頁確認",
     "sources": {
@@ -1366,8 +1368,8 @@
       }
     },
     "lastStatusChange": "2026-11-01",
-    "changeNote": "2026-11-01重新核對綠如意591在售列表，未能識別原2,540萬元案件；標記消失待確認，不判定售出。",
-    "lastChecked": "2026-11-01T09:03:52+08:00"
+    "changeNote": "⚠️ 2026-11-02沿用前次列表核對：原刊登未能在目前社區待售清單中重新識別；僅標消失待確認，不判定售出。",
+    "lastChecked": "2026-11-02T09:01:58+08:00"
   },
   {
     "id": "wh-culture-3480-18",
@@ -2331,8 +2333,9 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-10-26T13:58:28.158910+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20904980.html"
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/21150491.html",
+        "note": "S21150491有效至2026-12-27；個別頁欄位遮蔽，591社區列表仍列為綠如意候選。"
       },
       "591社區列表": {
         "state": "active",
@@ -2357,7 +2360,7 @@
     ],
     "listingCountOn591": 4,
     "sourceVerified": "2026-10-31直接核實591 S21150491：綠如意2F/16F、50.5坪含車位、3房2廳1衛、3,080萬元，頁面有效至2026-12-27。",
-    "lastChecked": "2026-10-12T12:00:00+08:00",
+    "lastChecked": "2026-11-02T09:01:58+08:00",
     "matchStatus": "社區列表候選待直連：主檔3,080萬/50.5坪與591列表61.0萬/坪卡片吻合；原直連S20904980對應另一張73.2萬/坪卡片，已拆開不強制合併。",
     "yq": null,
     "verificationNote": "2026-10-27更正來源關聯：S20904980標題與73.2萬/坪卡片對應，主檔3,080萬/50.5坪約61.0萬/坪，不能合併；本案暫列候選，待找到正確直連。",
@@ -3368,8 +3371,9 @@
         "state": "active",
         "httpStatus": 200,
         "reason": "ok",
-        "checkedAt": "2026-11-01T15:19:56.315410+08:00",
-        "url": "https://sale.591.com.tw/home/house/detail/2/20904980.html"
+        "checkedAt": "2026-11-02T09:01:58+08:00",
+        "url": "https://sale.591.com.tw/home/house/detail/2/20904980.html",
+        "note": "有效至2026-11-13；車位欄位11.84坪且標平面式，標題寫坡車，待核。"
       }
     },
     "matchStatus": "待確認；591社區列表另有約73.2萬/坪候選，個別頁價格/坪數/樓層遮蔽；車位型式文字矛盾，未與3,080萬/50.5坪主案合併",
@@ -3378,7 +3382,7 @@
     ],
     "expiryDate": "2026-11-13",
     "verificationNote": "2026-10-29直接Fetch591 S20904980：有效至2026-11-13，車位欄位顯示11.84坪、平面式；標題稱坡車，兩者矛盾。價格、權狀坪數、樓層欄位遮蔽.",
-    "lastChecked": "2026-10-29T09:04:06+08:00",
+    "lastChecked": "2026-11-02T09:01:58+08:00",
     "agent": "張哲瑋／住商不動產板橋江翠北側領航店",
     "sourceVerified": "2026-10-29直接Fetch591 S20904980：有效至2026-11-13，車位欄位顯示11.84坪、平面式；標題稱坡車，兩者矛盾。價格、權狀坪數、樓層欄位遮蔽."
   },
